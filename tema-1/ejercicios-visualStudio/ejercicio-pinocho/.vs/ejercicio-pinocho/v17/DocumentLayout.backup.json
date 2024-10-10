@@ -30,9 +30,9 @@
               "Title": "Operaciones.cs",
               "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicio-pinocho\\ejercicio-pinocho\\Operaciones.cs",
               "RelativeDocumentMoniker": "ejercicio-pinocho\\Operaciones.cs",
-              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicio-pinocho\\ejercicio-pinocho\\Operaciones.cs",
-              "RelativeToolTip": "ejercicio-pinocho\\Operaciones.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAfAAAAAAAAAA==",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicio-pinocho\\ejercicio-pinocho\\Operaciones.cs*",
+              "RelativeToolTip": "ejercicio-pinocho\\Operaciones.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T08:23:46.434Z",
               "EditorCaption": ""
@@ -45,9 +45,10 @@
               "RelativeDocumentMoniker": "ejercicio-pinocho\\Jugador.cs",
               "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicio-pinocho\\ejercicio-pinocho\\Jugador.cs",
               "RelativeToolTip": "ejercicio-pinocho\\Jugador.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAmwBsAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T08:22:52.711Z"
+              "WhenOpened": "2024-10-09T08:22:52.711Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -57,9 +58,10 @@
               "RelativeDocumentMoniker": "ejercicio-pinocho\\Program.cs",
               "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicio-pinocho\\ejercicio-pinocho\\Program.cs",
               "RelativeToolTip": "ejercicio-pinocho\\Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAuwBkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T08:21:47.374Z"
+              "WhenOpened": "2024-10-09T08:21:47.374Z",
+              "EditorCaption": ""
             }
           ]
         }

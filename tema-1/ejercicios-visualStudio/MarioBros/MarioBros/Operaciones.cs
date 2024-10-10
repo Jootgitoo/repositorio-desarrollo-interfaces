@@ -85,7 +85,7 @@ namespace MarioBros
                         //Como vamos hacia arriba la nueva posicion de i es la posicion de i - 1
                         posI = posI - 1;
 
-                        //Comprovamos que no se salga de nuestra matriz (Si es menor q 0 es que se ha salido por arriba)
+                        //Comprobamos que no se salga de nuestra matriz (Si es menor q 0 es que se ha salido por arriba)
                         if (posI < 0)
                         {
                             //Mensaje de traza para informacion del usuario

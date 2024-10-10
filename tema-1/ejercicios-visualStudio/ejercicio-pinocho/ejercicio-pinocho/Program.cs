@@ -21,6 +21,8 @@ namespace ejercicio_pinocho
             Operaciones.pintarMatriz(matriz);
 
             Operaciones.menu();
+
+
         }
     }
 
