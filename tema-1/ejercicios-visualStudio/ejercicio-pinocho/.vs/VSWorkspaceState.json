@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ejercicio-pinocho"
+    "\\ejercicio-pinocho",
+    "\\ejercicio-pinocho\\enunciado"
   ],
-  "SelectedNode": "\\ejercicio-pinocho\\Operaciones.cs",
+  "SelectedNode": "\\ejercicio-pinocho\\Jugador.cs",
   "PreviewInSolutionExplorer": false
 }

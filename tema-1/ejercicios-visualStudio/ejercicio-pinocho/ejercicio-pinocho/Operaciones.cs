@@ -12,7 +12,7 @@ namespace ejercicio_pinocho
         /*
          * Rellenamos la matriz con números aleatorios random entre el 0 y el 2
          */
-        public static void rellenarMatriz(string[,] matriz)
+        public static void rellenarMatriz(string[,] matriz, string letraInicial)
         {
             //Creamos la variable random
             Random random = new Random();
@@ -24,8 +24,7 @@ namespace ejercicio_pinocho
                     matriz[i, j] = random.Next(4).ToString();
                 }
             }
-            matriz[0, 0] = "P";
-            matriz[1, 0] = "G";
+            matriz[0, 0] = letraInicial;
 
             Console.ReadKey();
 
@@ -41,7 +40,7 @@ namespace ejercicio_pinocho
             {
                 for (int j = 0; j < matriz.GetLength(1); j++)
                 {
-                    Console.Write(matriz[i, j] + " ");
+                    Console.Write("= ");
                 }
                 Console.WriteLine();
             }
@@ -64,16 +63,30 @@ namespace ejercicio_pinocho
         }
 
 
-        public void eleccion(Jugador jugador, string[,] matriz, int posI, int posJ, int peces, int saltos) {
+        public void sale(Jugador jugador, string[,] matriz, int peces)
+        {
+            if (matriz[7,7] == "P" || matriz[7,7] == "G" && peces >= 5)
+            {
+                Console.Write("Enhorabuena! Has conseguido salir del río");
+                break;
+            }
+        }
+
+        //public void movimiento
+
+        /*public void eleccion(Jugador jugador1, Jugador jugador2, string[,] matriz)
+        {
+            //Aqui vemos a quien le toca, si a pinocho o a gepeto
+            Boolean turno = false;
 
             //Creamos la variable para guardar la opcion
             int opcion;
 
-            //Preguntamos donde quiere moverse el usuario y lo guardamos en la variable creada
-            Console.WriteLine("¿Hacia donde quieres moverte?");
-            opcion = Console.ReadLine();
+            //Generamos el numero random para movernos
+            Random random = new Random();
+            opcion = random.Next(4);
 
-            //Comprovamos que tenga vidas para poder jugar
+            //Comprobamos que tenga vidas para poder jugar
             if (saltos > 0)
             {
                 //Según la opcion hacemos un movimiento u otro
@@ -104,6 +117,7 @@ namespace ejercicio_pinocho
                         else //Si entra por aquí es que el movimiento es válido
                         {
                             //Comprobamos que valor tiene la posicion en la que nos movemos
+
                         }
 
 
@@ -113,17 +127,19 @@ namespace ejercicio_pinocho
                     case 4:
                     case 5:
                     default:
-                        
+
 
 
                 }
 
 
-            } else //Si no tiene vidas...
+            }
+            else //Si no tiene vidas...
             {
                 Console.WriteLine(jugador.getNombre + " se ha ahogado!!");
                 break;
             }
+        }*/
     }
 
 }
