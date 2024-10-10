@@ -91,7 +91,7 @@ namespace ejercicio_pinocho
 
                             //Quitamos un salto
                             saltos = saltos - 1;
-                            
+
                             //Deshacemos el cambio puesto que es invalido
                             posI = posI + 1;
 
@@ -101,6 +101,11 @@ namespace ejercicio_pinocho
                             Operaciones.eleccion(jugador, matriz, posI, posJ, peces, saltos);
 
                         }
+                        else //Si entra por aquí es que el movimiento es válido
+                        {
+                            //Comprobamos que valor tiene la posicion en la que nos movemos
+                        }
+
 
 
                     case 2:

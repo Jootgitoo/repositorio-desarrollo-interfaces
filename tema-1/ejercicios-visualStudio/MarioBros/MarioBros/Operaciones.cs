@@ -104,7 +104,7 @@ namespace MarioBros
                         }
                         else //Si entra por aqui es que el movimiento es válido
                         {
-                            //Comprovamos que valor tiene la posicion en la que nos movemos
+                            //Comprobamos que valor tiene la posicion en la que nos movemos
                             if (matriz[posI, posJ] == "0")
                             {
                                 //Restamos 1 vida
