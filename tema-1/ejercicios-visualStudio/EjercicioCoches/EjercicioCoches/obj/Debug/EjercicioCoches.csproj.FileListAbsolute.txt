@@ -1,0 +1,9 @@
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\EjercicioCoches\EjercicioCoches\obj\Debug\EjercicioCoches.csproj.AssemblyReference.cache
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\EjercicioCoches\EjercicioCoches\obj\Debug\EjercicioCoches.Properties.Resources.resources
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\EjercicioCoches\EjercicioCoches\obj\Debug\EjercicioCoches.csproj.GenerateResource.cache
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\EjercicioCoches\EjercicioCoches\obj\Debug\EjercicioCoches.csproj.CoreCompileInputs.cache
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\EjercicioCoches\EjercicioCoches\bin\Debug\EjercicioCoches.exe.config
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\EjercicioCoches\EjercicioCoches\bin\Debug\EjercicioCoches.exe
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\EjercicioCoches\EjercicioCoches\bin\Debug\EjercicioCoches.pdb
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\EjercicioCoches\EjercicioCoches\obj\Debug\EjercicioCoches.exe
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\EjercicioCoches\EjercicioCoches\obj\Debug\EjercicioCoches.pdb

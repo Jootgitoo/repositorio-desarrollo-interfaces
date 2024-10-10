@@ -1,0 +1,14 @@
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\ejercicio-tablero\TableroV2\TableroV2\bin\Debug\TableroV2.exe.config
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\ejercicio-tablero\TableroV2\TableroV2\bin\Debug\TableroV2.exe
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\ejercicio-tablero\TableroV2\TableroV2\bin\Debug\TableroV2.pdb
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\ejercicio-tablero\TableroV2\TableroV2\obj\Debug\TableroV2.csproj.AssemblyReference.cache
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\ejercicio-tablero\TableroV2\TableroV2\obj\Debug\TableroV2.csproj.CoreCompileInputs.cache
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\ejercicio-tablero\TableroV2\TableroV2\obj\Debug\TableroV2.exe
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\ejercicio-tablero\TableroV2\TableroV2\obj\Debug\TableroV2.pdb
+D:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\ejercicio-tablero\TableroV2\TableroV2\obj\Debug\TableroV2.csproj.AssemblyReference.cache
+D:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\ejercicio-tablero\TableroV2\TableroV2\obj\Debug\TableroV2.csproj.CoreCompileInputs.cache
+D:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\ejercicio-tablero\TableroV2\TableroV2\obj\Debug\TableroV2.exe
+D:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\ejercicio-tablero\TableroV2\TableroV2\obj\Debug\TableroV2.pdb
+D:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\ejercicio-tablero\TableroV2\TableroV2\bin\Debug\TableroV2.exe.config
+D:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\ejercicio-tablero\TableroV2\TableroV2\bin\Debug\TableroV2.exe
+D:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\ejercicio-tablero\TableroV2\TableroV2\bin\Debug\TableroV2.pdb

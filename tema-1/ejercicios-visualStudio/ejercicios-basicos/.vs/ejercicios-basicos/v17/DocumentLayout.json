@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dam-2\\desarrollo-de-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicios-basicos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA48AB42-CF75-40DF-9042-727F9030579B}|ejercicios-basicos\\ejercicios-basicos.csproj|c:\\dam-2\\desarrollo-de-interfaces\\tema-1\\ejercicios-visualstudio\\ejercicios-basicos\\ejercicios-basicos\\operaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA48AB42-CF75-40DF-9042-727F9030579B}|ejercicios-basicos\\ejercicios-basicos.csproj|solutionrelative:ejercicios-basicos\\operaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA48AB42-CF75-40DF-9042-727F9030579B}|ejercicios-basicos\\ejercicios-basicos.csproj|C:\\dam-2\\desarrollo-de-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicios-basicos\\ejercicios-basicos\\Ejecutable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA48AB42-CF75-40DF-9042-727F9030579B}|ejercicios-basicos\\ejercicios-basicos.csproj|solutionrelative:ejercicios-basicos\\Ejecutable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ejecutable.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicios-basicos\\ejercicios-basicos\\Ejecutable.cs",
+              "RelativeDocumentMoniker": "ejercicios-basicos\\Ejecutable.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicios-basicos\\ejercicios-basicos\\Ejecutable.cs",
+              "RelativeToolTip": "ejercicios-basicos\\Ejecutable.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAgwEYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T10:40:45.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Operaciones.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicios-basicos\\ejercicios-basicos\\Operaciones.cs",
+              "RelativeDocumentMoniker": "ejercicios-basicos\\Operaciones.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicios-basicos\\ejercicios-basicos\\Operaciones.cs",
+              "RelativeToolTip": "ejercicios-basicos\\Operaciones.cs",
+              "ViewState": "AgIAAOkAAAAAAAAAAAAiwFABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T09:18:22.586Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

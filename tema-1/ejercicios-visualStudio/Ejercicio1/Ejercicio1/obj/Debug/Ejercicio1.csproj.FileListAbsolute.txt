@@ -1,0 +1,7 @@
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.exe.config
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.exe
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.pdb
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.csproj.AssemblyReference.cache
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.csproj.CoreCompileInputs.cache
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.exe
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.pdb

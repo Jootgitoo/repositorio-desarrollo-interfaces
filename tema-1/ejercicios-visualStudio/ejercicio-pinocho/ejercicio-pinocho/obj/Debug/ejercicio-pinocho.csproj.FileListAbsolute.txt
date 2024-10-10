@@ -1,0 +1,7 @@
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\ejercicio-pinocho\ejercicio-pinocho\bin\Debug\ejercicio-pinocho.exe.config
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\ejercicio-pinocho\ejercicio-pinocho\bin\Debug\ejercicio-pinocho.exe
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\ejercicio-pinocho\ejercicio-pinocho\bin\Debug\ejercicio-pinocho.pdb
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\ejercicio-pinocho\ejercicio-pinocho\obj\Debug\ejercicio-pinocho.csproj.AssemblyReference.cache
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\ejercicio-pinocho\ejercicio-pinocho\obj\Debug\ejercicio-pinocho.csproj.CoreCompileInputs.cache
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\ejercicio-pinocho\ejercicio-pinocho\obj\Debug\ejercicio-pinocho.exe
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\ejercicio-pinocho\ejercicio-pinocho\obj\Debug\ejercicio-pinocho.pdb
