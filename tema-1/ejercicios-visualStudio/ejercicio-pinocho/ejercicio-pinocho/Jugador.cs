@@ -11,6 +11,7 @@ namespace ejercicio_pinocho
         private string nombre;
         private int peces = 0;
         private int saltos = 18;
+        private int vidas = 3;
 
         private int posI = 0;
         private int posJ = 0;
@@ -34,6 +35,12 @@ namespace ejercicio_pinocho
             return saltos;
         }
 
+        public int getVidas()
+        {
+            return vidas;
+        }
+        
+
         public void setPeces(int peces)
         {
             this.peces = peces;
@@ -41,6 +48,10 @@ namespace ejercicio_pinocho
         public void setSaltos(int saltos)
         {
             this.saltos = saltos;
+        }
+        public void setVidas(int vidas)
+        {
+            this.vidas = vidas;
         }
     }
 }

@@ -11,16 +11,14 @@ namespace ejercicio_pinocho
         static void Main(string[] args)
         {
 
-            Jugador pinocho = new Jugador("pinocho");
+            Jugador pinocho = new Jugador("Pinocho");
             Jugador gepeto = new Jugador("Gepeto");
 
             string[,] matriz = new string[8, 8];
 
-            Operaciones.rellenarMatriz(matriz);
-
-            Operaciones.pintarMatriz(matriz);
-
+            Operaciones.rellenarMatriz(matriz, "P");
             Operaciones.menu();
+            Operaciones.eleccion();
 
 
         }

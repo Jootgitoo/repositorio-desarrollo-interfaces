@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -59,32 +60,54 @@ namespace ejercicio_pinocho
 
             Console.ReadKey();
 
-
         }
 
-
-        public void sale(Jugador jugador, string[,] matriz, int peces)
+        
+        /*
+         * Este método te genera un número aleatorio del 1 al 4.
+         * Cada uno de estos numeros será un número distinto
+         */
+        private int movimientoARealizar()
         {
-            if (matriz[7,7] == "P" || matriz[7,7] == "G" && peces >= 5)
-            {
-                Console.Write("Enhorabuena! Has conseguido salir del río");
-                break;
-            }
-        }
-
-        //public void movimiento
-
-        /*public void eleccion(Jugador jugador1, Jugador jugador2, string[,] matriz)
-        {
-            //Aqui vemos a quien le toca, si a pinocho o a gepeto
-            Boolean turno = false;
-
-            //Creamos la variable para guardar la opcion
+            //Creamos la variable para guardar la opcion del movimiento
             int opcion;
 
             //Generamos el numero random para movernos
             Random random = new Random();
             opcion = random.Next(4);
+
+            //Devolvemos la opcion
+            return opcion;
+        }
+
+        private Boolean podemosJugar(Jugador jugador)
+        {
+            Boolean jugamos = false;
+
+            if (jugador.getSaltos <= 0 || jugador.getVidas < 0)
+            {
+                jugamos = false;
+            } else
+            {
+                jugamos = true;
+            }
+            return jugamos;
+        }
+
+
+        public void movimiento(Jugador jugador, string[,] matriz)
+        {
+            //Llamamos al metodo movimientoARealizar para que nos diga que movimiento tenemos que hacer
+            int opcion = movimientoARealizar();
+
+            //Comprobamos que podamos jugar
+            Boolean jugamos = podemosJugar(jugador);
+            
+            if (jugamos == false)
+            {
+                Console.WriteLine("Game Over");
+            }
+           
 
             //Comprobamos que tenga vidas para poder jugar
             if (saltos > 0)
@@ -139,7 +162,7 @@ namespace ejercicio_pinocho
                 Console.WriteLine(jugador.getNombre + " se ha ahogado!!");
                 break;
             }
-        }*/
+        }
     }
 
 }
