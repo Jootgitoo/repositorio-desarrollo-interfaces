@@ -39,6 +39,14 @@ namespace ejercicio_pinocho
         {
             return vidas;
         }
+        public int getPosI()
+        {
+            return posI;
+        }
+        public int getPosJ()
+        {
+            return posJ;
+        }
         
 
         public void setPeces(int peces)
@@ -52,6 +60,14 @@ namespace ejercicio_pinocho
         public void setVidas(int vidas)
         {
             this.vidas = vidas;
+        }
+        public void setPosI(int posI)
+        {
+            this.posI = posI;
+        }
+        public void setPosJ(int posJ)
+        {
+            this.posJ = posJ;
         }
     }
 }

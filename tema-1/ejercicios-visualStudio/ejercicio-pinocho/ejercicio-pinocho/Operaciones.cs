@@ -49,25 +49,12 @@ namespace ejercicio_pinocho
 
         }
 
-
-        public static void menu()
-        {
-            Console.WriteLine("1. Arriba");
-            Console.WriteLine("2. Abajo");
-            Console.WriteLine("3. Izquierda");
-            Console.WriteLine("4. Derecha");
-            Console.WriteLine("5. Salir");
-
-            Console.ReadKey();
-
-        }
-
         
         /*
          * Este método te genera un número aleatorio del 1 al 4.
          * Cada uno de estos numeros será un número distinto
          */
-        private int movimientoARealizar()
+        private static int movimientoARealizar()
         {
             //Creamos la variable para guardar la opcion del movimiento
             int opcion;
@@ -80,11 +67,14 @@ namespace ejercicio_pinocho
             return opcion;
         }
 
-        private Boolean podemosJugar(Jugador jugador)
+        /*
+         * Este método devuelve true si puedo jugar o false si no puedo jugar
+         */
+        private static bool podemosJugar(Jugador jugador)
         {
-            Boolean jugamos = false;
+            bool jugamos = false;
 
-            if (jugador.getSaltos <= 0 || jugador.getVidas < 0)
+            if (jugador.getSaltos() <= 0 || jugador.getVidas() < 0)
             {
                 jugamos = false;
             } else
@@ -94,74 +84,201 @@ namespace ejercicio_pinocho
             return jugamos;
         }
 
+        /*
+         * Con este método sabremos si el movimiento realizado es válido o no
+         */
+        private static bool movimientoValido(int posicion)
+        {
+            bool esValido = false;
 
-        public void movimiento(Jugador jugador, string[,] matriz)
+            if (posicion < 0 || posicion > 7)
+            {
+                esValido = false;
+                
+            } else
+            {
+                esValido = true;
+            }
+            return esValido;
+            
+        }
+
+       
+        /*
+         * Este es un método que te comprueba que valor tiene la matriz y realiza la opción oportuna
+         */
+        private  static void valorPosicionMatriz(int posI, int posJ, string[,] matriz, Jugador jugador) 
+        {
+            if (matriz[posI, posJ] == "0") //Si el valor de la posicion es 0 pierde una vida
+            {
+                Console.WriteLine( jugador.getNombre() + " se ha encontrado una piraña. Pierde 1 vida" );
+                jugador.setVidas(jugador.getVidas() - 1 );
+
+            } else if (matriz[posI, posJ] == "1") //Si el valor es 1 toca agua y no pasa nada
+            {
+                Console.WriteLine( jugador.getNombre() + " ha tocado agua. No pasa nada" );
+                
+            } else if (matriz[posI, posJ] == "2") //Si el valor es 2 se choca con una piedra pierde un pez
+            {
+                Console.WriteLine( jugador.getNombre() + " se ha chocado con una piedra. Pierde 1 pez");
+                jugador.setPeces(jugador.getPeces() - 1 );
+
+            } else if (matriz[posI, posJ] == "3") //Si el valor es 3 se encuentra un pez y suma un pez
+            {
+                Console.WriteLine(jugador.getNombre() + " ha encontrado un pez. Gana 1 pez");
+                jugador.setPeces(jugador.getPeces() + 1 );
+            }
+            
+        }
+
+
+        public static void movimiento(Jugador jugador, string[,] matriz)
         {
             //Llamamos al metodo movimientoARealizar para que nos diga que movimiento tenemos que hacer
             int opcion = movimientoARealizar();
 
             //Comprobamos que podamos jugar
-            Boolean jugamos = podemosJugar(jugador);
+            bool jugamos = podemosJugar(jugador);
+
+            //Variables
+            bool resultado = false;
             
             if (jugamos == false)
             {
                 Console.WriteLine("Game Over");
+                Environment.Exit(0);
             }
-           
-
-            //Comprobamos que tenga vidas para poder jugar
-            if (saltos > 0)
+            else //Si sale por aquí es que podemos jugar
             {
                 //Según la opcion hacemos un movimiento u otro
                 switch (opcion)
                 {
-                    //ELEGIMOS LA OPCION 1 --> ARRIBA
-                    case "1":
+                    //Sale la opcion 1 --> arriba
+                    case 1:
+
                         //Como vamos hacia arriba I se reduce en 1
-                        posI = posI - 1;
+                        jugador.setPosI(jugador.getPosI() - 1);
 
                         //Comprobamos que no se salga de la matriz
-                        if (posI < 0)
+                        resultado = movimientoValido(jugador.getPosI());
+
+                        if (resultado == false) //Si el resultado es false es q no es válido
                         {
-                            Console.WriteLine("No puedes subir por que te sales de la matriz");
+                            Console.WriteLine("Movimiento invalido");
 
-                            //Quitamos un salto
-                            saltos = saltos - 1;
+                            //Vuelvo a poner la posición inicial puesto que el cambio es invalido
+                            jugador.setPosI(jugador.getPosI() + 1);
 
-                            //Deshacemos el cambio puesto que es invalido
-                            posI = posI + 1;
+                            //Volvemos a llamar al método para que haga otro movimiento
+                            movimiento(jugador, matriz);
 
-                            //Volvemos a llamar a los métodos
-                            Operaciones.pintarMatriz(matriz);
-                            Operaciones.menu();
-                            Operaciones.eleccion(jugador, matriz, posI, posJ, peces, saltos);
-
-                        }
-                        else //Si entra por aquí es que el movimiento es válido
+                        } else //Si llega aquí es que puede seguir jugando
                         {
-                            //Comprobamos que valor tiene la posicion en la que nos movemos
 
+                            //Una vez que hemos hecho el movimiento compruebo que valor tiene la matriz
+                            valorPosicionMatriz( jugador.getPosI(), jugador.getPosJ(), matriz, jugador );
+
+                            //Llamamos al método para que vuelva a realizar una tirada 
+                            movimiento(jugador, matriz);
                         }
+                    break;
 
-
-
+                    //Sale la opcion 2 --> abajo
                     case 2:
+
+                        //Como vamos hacia abajo I aumenta en 1
+                        jugador.setPosI(jugador.getPosI() + 1);
+
+                        //Comprobamos que no se salga de la matriz
+                        resultado = movimientoValido(jugador.getPosI());
+
+                        if (resultado == false) //Si el resultado es false es q no es válido
+                        {
+                            Console.WriteLine("Movimiento invalido");
+
+                            //Vuelvo a poner la posición inicial puesto que el cambio es invalido
+                            jugador.setPosI(jugador.getPosI() - 1);
+
+                            //Volvemos a llamar al método para que haga otro movimiento
+                            movimiento(jugador, matriz);
+
+                        }
+                        else //Si llega aquí es que puede seguir jugando
+                        {
+
+                            //Una vez que hemos hecho el movimiento compruebo que valor tiene la matriz
+                            valorPosicionMatriz(jugador.getPosI(), jugador.getPosJ(), matriz, jugador);
+
+                            //Llamamos al método para que vuelva a realizar una tirada 
+                            movimiento(jugador, matriz);
+                        }
+                    break;
+
+                    //Sale la opcion 3 --> Izquierda
                     case 3:
+
+                        //Como vamos hacia la izquierda J disminuye en 1
+                        jugador.setPosJ(jugador.getPosJ() - 1);
+
+                        //Comprobamos que no se salga de la matriz
+                        resultado = movimientoValido(jugador.getPosJ());
+
+                        if (resultado == false) //Si el resultado es false es q no es válido
+                        {
+                            Console.WriteLine("Movimiento invalido");
+
+                            //Vuelvo a poner la posición inicial puesto que el cambio es invalido
+                            jugador.setPosJ(jugador.getPosJ() + 1);
+
+                            //Volvemos a llamar al método para que haga otro movimiento
+                            movimiento(jugador, matriz);
+
+                        }
+                        else //Si llega aquí es que puede seguir jugando
+                        {
+
+                            //Una vez que hemos hecho el movimiento compruebo que valor tiene la matriz
+                            valorPosicionMatriz(jugador.getPosI(), jugador.getPosJ(), matriz, jugador);
+
+                            //Llamamos al método para que vuelva a realizar una tirada 
+                            movimiento(jugador, matriz);
+                        }
+                    break;
+
+                    //Si sale la opcion 4 --> Derecha
                     case 4:
-                    case 5:
-                    default:
 
+                        //Como vamos hacia la derecha J aumenta en 1
+                        jugador.setPosJ(jugador.getPosJ() + 1);
 
+                        //Comprobamos que no se salga de la matriz
+                        resultado = movimientoValido(jugador.getPosJ());
 
+                        if (resultado == false) //Si el resultado es false es q no es válido
+                        {
+                            Console.WriteLine("Movimiento invalido");
+
+                            //Vuelvo a poner la posición inicial puesto que el cambio es invalido
+                            jugador.setPosJ(jugador.getPosJ() - 1);
+
+                            //Volvemos a llamar al método para que haga otro movimiento
+                            movimiento(jugador, matriz);
+
+                        }
+                        else //Si llega aquí es que puede seguir jugando
+                        {
+
+                            //Una vez que hemos hecho el movimiento compruebo que valor tiene la matriz
+                            valorPosicionMatriz(jugador.getPosI(), jugador.getPosJ(), matriz, jugador);
+
+                            //Llamamos al método para que vuelva a realizar una tirada 
+                            movimiento(jugador, matriz);
+                        }
+                    break;
                 }
 
-
             }
-            else //Si no tiene vidas...
-            {
-                Console.WriteLine(jugador.getNombre + " se ha ahogado!!");
-                break;
-            }
+            
         }
     }
 
