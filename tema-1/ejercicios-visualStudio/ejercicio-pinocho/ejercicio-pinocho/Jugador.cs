@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,12 @@ namespace ejercicio_pinocho
 
         private int posI = 0;
         private int posJ = 0;
+
+
+        //Para mostrar todos los movimientos que ha hecho el jugador
+        private LinkedList<string> listaMovimientos = new LinkedList<string>();
+
+        
 
         public Jugador(string nombre)
         {
@@ -47,6 +54,10 @@ namespace ejercicio_pinocho
         {
             return posJ;
         }
+        public LinkedList<string> getListaMovimientos()
+        {
+            return listaMovimientos;
+        } 
         
 
         public void setPeces(int peces)
@@ -68,6 +79,10 @@ namespace ejercicio_pinocho
         public void setPosJ(int posJ)
         {
             this.posJ = posJ;
+        }
+        public void setListaMovimientos(string cadena)
+        {
+            listaMovimientos.AddLast(cadena);
         }
     }
 }

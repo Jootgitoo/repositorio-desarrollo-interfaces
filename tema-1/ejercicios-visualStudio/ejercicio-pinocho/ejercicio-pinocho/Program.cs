@@ -19,9 +19,11 @@ namespace ejercicio_pinocho
 
             //Primero juega pinocho
             Operaciones.rellenarMatriz(matriz, "P");
-            Operaciones.pintarMatriz(matriz);
             Operaciones.movimiento(pinocho, matriz);
-            Console.ReadKey();
+
+            
+            
+
 
 
             //Segundo juega gepeto

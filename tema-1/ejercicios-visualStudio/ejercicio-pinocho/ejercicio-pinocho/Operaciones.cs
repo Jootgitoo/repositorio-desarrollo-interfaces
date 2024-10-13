@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.Runtime.Remoting.Metadata.W3cXsd2001;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -25,29 +26,12 @@ namespace ejercicio_pinocho
                     matriz[i, j] = random.Next(4).ToString();
                 }
             }
-            matriz[0, 0] = letraInicial;
+            matriz[4, 4] = letraInicial;
 
             Console.ReadKey();
 
         }
 
-        /*
-         * Mostramos la matriz por pantalla
-         */
-        public static void pintarMatriz(string[,] matriz)
-        {
-
-            for (int i = 0; i < matriz.GetLength(0); i++)
-            {
-                for (int j = 0; j < matriz.GetLength(1); j++)
-                {
-                    Console.Write("= ");
-                }
-                Console.WriteLine();
-            }
-            Console.ReadKey();
-
-        }
 
         
         /*
@@ -61,7 +45,7 @@ namespace ejercicio_pinocho
 
             //Generamos el numero random para movernos
             Random random = new Random();
-            opcion = random.Next(4);
+            opcion = (random.Next(4) + 1);
 
             //Devolvemos la opcion
             return opcion;
@@ -91,7 +75,7 @@ namespace ejercicio_pinocho
         {
             bool esValido = false;
 
-            if (posicion < 0 || posicion > 7)
+            if (posicion < 0 || posicion > 7 )
             {
                 esValido = false;
                 
@@ -132,6 +116,20 @@ namespace ejercicio_pinocho
         }
 
 
+        private static void guardarMovimiento(Jugador jugador)
+        {
+            jugador.setListaMovimientos("[" +jugador.getPosI()+"," + jugador.getPosJ()+"]");
+        }
+
+        private static void escribirMovimientos(Jugador jugador)
+        {
+            foreach(string movimiento in jugador.getListaMovimientos() )
+            {
+                Console.Write(movimiento + " , ");
+            }
+        }
+
+
         public static void movimiento(Jugador jugador, string[,] matriz)
         {
             //Llamamos al metodo movimientoARealizar para que nos diga que movimiento tenemos que hacer
@@ -142,7 +140,10 @@ namespace ejercicio_pinocho
 
             //Variables
             bool resultado = false;
+
             
+
+
             if (jugamos == false)
             {
                 Console.WriteLine("Game Over");
@@ -153,6 +154,7 @@ namespace ejercicio_pinocho
                 //Según la opcion hacemos un movimiento u otro
                 switch (opcion)
                 {
+
                     //Sale la opcion 1 --> arriba
                     case 1:
 
@@ -178,10 +180,15 @@ namespace ejercicio_pinocho
                             //Una vez que hemos hecho el movimiento compruebo que valor tiene la matriz
                             valorPosicionMatriz( jugador.getPosI(), jugador.getPosJ(), matriz, jugador );
 
+                            //Guardamos el movimiento para escribirlo al final
+                            guardarMovimiento(jugador);
+
                             //Llamamos al método para que vuelva a realizar una tirada 
                             movimiento(jugador, matriz);
                         }
+                    Console.ReadKey();
                     break;
+
 
                     //Sale la opcion 2 --> abajo
                     case 2:
@@ -209,9 +216,13 @@ namespace ejercicio_pinocho
                             //Una vez que hemos hecho el movimiento compruebo que valor tiene la matriz
                             valorPosicionMatriz(jugador.getPosI(), jugador.getPosJ(), matriz, jugador);
 
+                            //Guardamos el movimiento para escribirlo al final
+                            guardarMovimiento(jugador);
+
                             //Llamamos al método para que vuelva a realizar una tirada 
                             movimiento(jugador, matriz);
                         }
+                    Console.ReadKey();
                     break;
 
                     //Sale la opcion 3 --> Izquierda
@@ -240,9 +251,13 @@ namespace ejercicio_pinocho
                             //Una vez que hemos hecho el movimiento compruebo que valor tiene la matriz
                             valorPosicionMatriz(jugador.getPosI(), jugador.getPosJ(), matriz, jugador);
 
+                            //Guardamos el movimiento para escribirlo al final
+                            guardarMovimiento(jugador);
+
                             //Llamamos al método para que vuelva a realizar una tirada 
                             movimiento(jugador, matriz);
                         }
+                    Console.ReadKey();
                     break;
 
                     //Si sale la opcion 4 --> Derecha
@@ -271,13 +286,21 @@ namespace ejercicio_pinocho
                             //Una vez que hemos hecho el movimiento compruebo que valor tiene la matriz
                             valorPosicionMatriz(jugador.getPosI(), jugador.getPosJ(), matriz, jugador);
 
+                            //Guardamos el movimiento para escribirlo al final
+                            guardarMovimiento(jugador);
+
                             //Llamamos al método para que vuelva a realizar una tirada 
                             movimiento(jugador, matriz);
                         }
+                    Console.ReadKey();
                     break;
+
+                    
                 }
 
             }
+            escribirMovimientos(jugador);
+            
             
         }
     }

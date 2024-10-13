@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicio-pinocho\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82A70FEC-7AE8-4D6B-8532-4173F9D31D10}|ejercicio-pinocho\\ejercicio-pinocho.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-1\\ejercicios-visualstudio\\ejercicio-pinocho\\ejercicio-pinocho\\operaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{82A70FEC-7AE8-4D6B-8532-4173F9D31D10}|ejercicio-pinocho\\ejercicio-pinocho.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicio-pinocho\\ejercicio-pinocho\\operaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82A70FEC-7AE8-4D6B-8532-4173F9D31D10}|ejercicio-pinocho\\ejercicio-pinocho.csproj|solutionrelative:ejercicio-pinocho\\operaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{82A70FEC-7AE8-4D6B-8532-4173F9D31D10}|ejercicio-pinocho\\ejercicio-pinocho.csproj|solutionrelative:ejercicio-pinocho\\Jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82A70FEC-7AE8-4D6B-8532-4173F9D31D10}|ejercicio-pinocho\\ejercicio-pinocho.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicio-pinocho\\ejercicio-pinocho\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{82A70FEC-7AE8-4D6B-8532-4173F9D31D10}|ejercicio-pinocho\\ejercicio-pinocho.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-1\\ejercicios-visualstudio\\ejercicio-pinocho\\ejercicio-pinocho\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82A70FEC-7AE8-4D6B-8532-4173F9D31D10}|ejercicio-pinocho\\ejercicio-pinocho.csproj|solutionrelative:ejercicio-pinocho\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "ejercicio-pinocho\\Operaciones.cs",
               "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicio-pinocho\\ejercicio-pinocho\\Operaciones.cs",
               "RelativeToolTip": "ejercicio-pinocho\\Operaciones.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAlwIkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABEBAAAAAAAAAAAAAL0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T08:23:46.434Z",
               "EditorCaption": ""
@@ -49,7 +49,7 @@
               "RelativeDocumentMoniker": "ejercicio-pinocho\\Jugador.cs",
               "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicio-pinocho\\ejercicio-pinocho\\Jugador.cs",
               "RelativeToolTip": "ejercicio-pinocho\\Jugador.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAnwEIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAuwDoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T08:22:52.711Z",
               "EditorCaption": ""
@@ -62,7 +62,7 @@
               "RelativeDocumentMoniker": "ejercicio-pinocho\\Program.cs",
               "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicio-pinocho\\ejercicio-pinocho\\Program.cs",
               "RelativeToolTip": "ejercicio-pinocho\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T08:21:47.374Z",
               "EditorCaption": ""
