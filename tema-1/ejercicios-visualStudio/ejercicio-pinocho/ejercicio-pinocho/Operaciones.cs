@@ -119,6 +119,9 @@ namespace ejercicio_pinocho
             jugador.setListaMovimientos("[ " +jugador.getPosI()+"," + jugador.getPosJ()+" ]");
         }
 
+        /*
+         * Escribimos los movimientos
+         */
         public static void escribirMovimientos(Jugador jugador)
         {
             Console.WriteLine("Recorrido de " + jugador.getNombre());

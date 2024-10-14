@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicio-pinocho\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82A70FEC-7AE8-4D6B-8532-4173F9D31D10}|ejercicio-pinocho\\ejercicio-pinocho.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicio-pinocho\\ejercicio-pinocho\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82A70FEC-7AE8-4D6B-8532-4173F9D31D10}|ejercicio-pinocho\\ejercicio-pinocho.csproj|solutionrelative:ejercicio-pinocho\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82A70FEC-7AE8-4D6B-8532-4173F9D31D10}|ejercicio-pinocho\\ejercicio-pinocho.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-1\\ejercicios-visualstudio\\ejercicio-pinocho\\ejercicio-pinocho\\operaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82A70FEC-7AE8-4D6B-8532-4173F9D31D10}|ejercicio-pinocho\\ejercicio-pinocho.csproj|solutionrelative:ejercicio-pinocho\\operaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82A70FEC-7AE8-4D6B-8532-4173F9D31D10}|ejercicio-pinocho\\ejercicio-pinocho.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-1\\ejercicios-visualstudio\\ejercicio-pinocho\\ejercicio-pinocho\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82A70FEC-7AE8-4D6B-8532-4173F9D31D10}|ejercicio-pinocho\\ejercicio-pinocho.csproj|solutionrelative:ejercicio-pinocho\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82A70FEC-7AE8-4D6B-8532-4173F9D31D10}|ejercicio-pinocho\\ejercicio-pinocho.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicio-pinocho\\ejercicio-pinocho\\Jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,13 +30,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Operaciones.cs",
               "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicio-pinocho\\ejercicio-pinocho\\Operaciones.cs",
               "RelativeDocumentMoniker": "ejercicio-pinocho\\Operaciones.cs",
               "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicio-pinocho\\ejercicio-pinocho\\Operaciones.cs",
               "RelativeToolTip": "ejercicio-pinocho\\Operaciones.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAjwIEAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAlwHoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T08:23:46.434Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "ejercicio-pinocho\\Jugador.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T08:22:52.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T08:22:52.711Z"
             }
           ]
         }
@@ -77,13 +76,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicio-pinocho\\ejercicio-pinocho\\Program.cs",
               "RelativeDocumentMoniker": "ejercicio-pinocho\\Program.cs",
               "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicio-pinocho\\ejercicio-pinocho\\Program.cs",
               "RelativeToolTip": "ejercicio-pinocho\\Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAUwCYAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwCYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T08:21:47.374Z",
               "EditorCaption": ""
