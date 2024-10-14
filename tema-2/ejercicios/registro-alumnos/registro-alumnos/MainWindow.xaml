@@ -1,0 +1,28 @@
+﻿<Window x:Class="registro_alumnos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:registro_alumnos"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Nombre completo" HorizontalAlignment="Left" Margin="58,84,0,0" VerticalAlignment="Top" Height="23" Width="116"/>
+        <TextBox HorizontalAlignment="Left" Margin="255,84,0,0" TextWrapping="Wrap" Text="Escribir Nombre" VerticalAlignment="Top" Width="259" Height="23" TextChanged="TextBox_TextChanged" Name="RegistroNombre"/>
+        <Label Content="Edad" HorizontalAlignment="Left" Margin="58,127,0,0" VerticalAlignment="Top" Height="23" Width="116"/>
+        <TextBox HorizontalAlignment="Left" Margin="255,127,0,0" TextWrapping="Wrap" Text="Escribir Edad" VerticalAlignment="Top" Width="259" Height="23" TextChanged="TextBox_TextChanged" x:Name="RegistroNombre_Copiar"/>
+        <Label Content="Sexo" HorizontalAlignment="Left" Margin="58,174,0,0" VerticalAlignment="Top" Height="23" Width="116"/>
+        <Label Content="Curso" HorizontalAlignment="Left" Margin="58,229,0,0" VerticalAlignment="Top" Height="23" Width="116"/>
+        <CheckBox Content="Masculino" HorizontalAlignment="Left" Margin="255,180,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Femenino" HorizontalAlignment="Left" Margin="442,182,0,0" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="251,235,0,0" VerticalAlignment="Top" Width="263" Height="17"/>
+        <Label Content="Horario" HorizontalAlignment="Left" Margin="58,284,0,0" VerticalAlignment="Top" Height="23" Width="116"/>
+        <ComboBox HorizontalAlignment="Left" Margin="251,290,0,0" VerticalAlignment="Top" Width="263" Height="17"/>
+        <CheckBox Content="T.I" HorizontalAlignment="Left" Margin="58,339,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Otro documento" HorizontalAlignment="Left" Margin="133,339,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,335,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="260" Height="23" TextChanged="TextBox_TextChanged" x:Name="escribirOtroDocumento"/>
+        <Button Content="Registrar" HorizontalAlignment="Left" Margin="45,378,0,0" VerticalAlignment="Top" Height="32" Width="218"/>
+        <Button Content="Salir" HorizontalAlignment="Left" Margin="400,373,0,0" VerticalAlignment="Top" Height="32" Width="218"/>
+
+    </Grid>
+</Window>
