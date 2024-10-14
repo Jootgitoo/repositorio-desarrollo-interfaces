@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "ejercicio-pinocho\\Operaciones.cs",
               "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicio-pinocho\\ejercicio-pinocho\\Operaciones.cs",
               "RelativeToolTip": "ejercicio-pinocho\\Operaciones.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAlwHoAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAANcAAAAAAAAAAIAywDIBAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T08:23:46.434Z",
               "EditorCaption": ""
@@ -51,29 +51,9 @@
               "RelativeToolTip": "ejercicio-pinocho\\Jugador.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T08:22:52.711Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "85c67f53-8efb-4b7b-aae0-f7cf26b8df9a",
-        "Display": 0,
-        "X": 454,
-        "Y": 0,
-        "Width": 778,
-        "Height": 821,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+              "WhenOpened": "2024-10-09T08:22:52.711Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -82,7 +62,7 @@
               "RelativeDocumentMoniker": "ejercicio-pinocho\\Program.cs",
               "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-1\\ejercicios-visualStudio\\ejercicio-pinocho\\ejercicio-pinocho\\Program.cs",
               "RelativeToolTip": "ejercicio-pinocho\\Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAYwCYAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwCoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T08:21:47.374Z",
               "EditorCaption": ""
