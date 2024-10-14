@@ -1,0 +1,15 @@
+﻿<Window x:Class="Hello_Word.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hello_Word"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Hello" HorizontalAlignment="Left" Margin="243,236,0,0" VerticalAlignment="Top" Height="95" Width="240" Click="Button_Hello"/>
+        <Label Content="Your text there" HorizontalAlignment="Left" Margin="122,65,0,0" VerticalAlignment="Top" Height="55" Width="482" Name="texto"/>
+        <Button Content="Bye" HorizontalAlignment="Left" Margin="604,217,0,0" VerticalAlignment="Top" Height="154" Width="105" Click="Button_Bye"/>
+
+    </Grid>
+</Window>

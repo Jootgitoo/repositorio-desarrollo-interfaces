@@ -28,8 +28,6 @@ namespace ejercicio_pinocho
             }
             matriz[4, 4] = letraInicial;
 
-            Console.ReadKey();
-
         }
 
 
@@ -44,7 +42,7 @@ namespace ejercicio_pinocho
             int opcion;
 
             //Generamos el numero random para movernos
-            Random random = new Random();
+            Random random = new Random(DateTime.Now.Millisecond);
             opcion = (random.Next(4) + 1);
 
             //Devolvemos la opcion
@@ -118,15 +116,18 @@ namespace ejercicio_pinocho
 
         private static void guardarMovimiento(Jugador jugador)
         {
-            jugador.setListaMovimientos("[" +jugador.getPosI()+"," + jugador.getPosJ()+"]");
+            jugador.setListaMovimientos("[ " +jugador.getPosI()+"," + jugador.getPosJ()+" ]");
         }
 
-        private static void escribirMovimientos(Jugador jugador)
+        public static void escribirMovimientos(Jugador jugador)
         {
-            foreach(string movimiento in jugador.getListaMovimientos() )
+            Console.WriteLine("Recorrido de " + jugador.getNombre());
+
+            foreach (string movimiento in jugador.getListaMovimientos() )
             {
                 Console.Write(movimiento + " , ");
             }
+            Console.WriteLine("");
         }
 
 
@@ -147,7 +148,8 @@ namespace ejercicio_pinocho
             if (jugamos == false)
             {
                 Console.WriteLine("Game Over");
-                Environment.Exit(0);
+                
+                
             }
             else //Si sale por aquí es que podemos jugar
             {
@@ -186,7 +188,6 @@ namespace ejercicio_pinocho
                             //Llamamos al método para que vuelva a realizar una tirada 
                             movimiento(jugador, matriz);
                         }
-                    Console.ReadKey();
                     break;
 
 
@@ -222,7 +223,6 @@ namespace ejercicio_pinocho
                             //Llamamos al método para que vuelva a realizar una tirada 
                             movimiento(jugador, matriz);
                         }
-                    Console.ReadKey();
                     break;
 
                     //Sale la opcion 3 --> Izquierda
@@ -257,7 +257,6 @@ namespace ejercicio_pinocho
                             //Llamamos al método para que vuelva a realizar una tirada 
                             movimiento(jugador, matriz);
                         }
-                    Console.ReadKey();
                     break;
 
                     //Si sale la opcion 4 --> Derecha
@@ -292,17 +291,54 @@ namespace ejercicio_pinocho
                             //Llamamos al método para que vuelva a realizar una tirada 
                             movimiento(jugador, matriz);
                         }
-                    Console.ReadKey();
                     break;
 
                     
                 }
 
             }
-            escribirMovimientos(jugador);
-            
             
         }
+
+
+        public static void comprobarGanador(Jugador jugador1, Jugador jugador2)
+        {
+            if (jugador1.getVidas() > jugador2.getVidas() )
+            {
+                Console.WriteLine("Gana " + jugador1.getNombre());
+
+            } else if (jugador1.getVidas() < jugador2.getVidas())
+            {
+                Console.WriteLine("Gana " + jugador2.getNombre());
+
+            }
+            else 
+            {
+                if (jugador1.getPeces() > jugador2.getPeces())
+                {
+                    Console.WriteLine("Gana " + jugador1.getNombre());
+
+                } else if (jugador1.getPeces() < jugador2.getPeces())
+                {
+                    Console.WriteLine("Gana " + jugador2.getNombre());
+
+                } else
+                {
+                    if (jugador1.getSaltos() < jugador2.getSaltos())
+                    {
+
+                        Console.WriteLine("Gana " + jugador1.getSaltos());
+
+                    } else
+                    {
+                        Console.WriteLine("Gana " + jugador2.getNombre());
+                    }
+
+
+                }
+            }
+        }
+        
     }
 
 }

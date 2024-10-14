@@ -16,3 +16,6 @@ C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-1\ejerc
 D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-1\ejercicios-visualStudio\ejercicio-pinocho\ejercicio-pinocho\bin\Debug\ejercicio-pinocho.exe.config
 D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-1\ejercicios-visualStudio\ejercicio-pinocho\ejercicio-pinocho\bin\Debug\ejercicio-pinocho.exe
 D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-1\ejercicios-visualStudio\ejercicio-pinocho\ejercicio-pinocho\bin\Debug\ejercicio-pinocho.pdb
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-1\ejercicios-visualStudio\ejercicio-pinocho\ejercicio-pinocho\bin\Debug\ejercicio-pinocho.exe.config
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-1\ejercicios-visualStudio\ejercicio-pinocho\ejercicio-pinocho\bin\Debug\ejercicio-pinocho.exe
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-1\ejercicios-visualStudio\ejercicio-pinocho\ejercicio-pinocho\bin\Debug\ejercicio-pinocho.pdb
