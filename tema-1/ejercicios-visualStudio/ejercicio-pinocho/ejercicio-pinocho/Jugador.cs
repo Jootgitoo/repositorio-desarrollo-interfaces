@@ -9,6 +9,7 @@ namespace ejercicio_pinocho
 {
     internal class Jugador
     {
+        //ATRIBUTOS
         private string nombre;
         private int peces = 0;
         private int saltos = 18;
@@ -22,13 +23,14 @@ namespace ejercicio_pinocho
         private LinkedList<string> listaMovimientos = new LinkedList<string>();
 
         
-
+        //CONSTRUCTOR
         public Jugador(string nombre)
         {
             this.nombre = nombre;
         }
 
 
+        //GETTERS
         public string getNombre()
         {
             return nombre;
@@ -59,7 +61,7 @@ namespace ejercicio_pinocho
             return listaMovimientos;
         } 
         
-
+        //SETTERS
         public void setPeces(int peces)
         {
             this.peces = peces;

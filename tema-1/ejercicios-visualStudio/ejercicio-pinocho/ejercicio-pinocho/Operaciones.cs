@@ -113,7 +113,9 @@ namespace ejercicio_pinocho
             
         }
 
-
+        /*
+         * Guardamos el movimiento del juador en un array que tiene como atributo
+         */
         private static void guardarMovimiento(Jugador jugador)
         {
             jugador.setListaMovimientos("[ " +jugador.getPosI()+"," + jugador.getPosJ()+" ]");
@@ -134,6 +136,9 @@ namespace ejercicio_pinocho
         }
 
 
+        /*
+         * Este metodo es el principal, va a ir llamando a los anteriores según necesite
+         */
         public static void movimiento(Jugador jugador, string[,] matriz)
         {
             //Llamamos al metodo movimientoARealizar para que nos diga que movimiento tenemos que hacer
@@ -148,7 +153,7 @@ namespace ejercicio_pinocho
             
 
 
-            if (jugamos == false)
+            if (jugamos == false) //Si entra aquí es q no podemos jugar
             {
                 Console.WriteLine("Game Over");
                 
@@ -303,9 +308,12 @@ namespace ejercicio_pinocho
             
         }
 
-
+        /*
+         * Compruebo quien de los dos jugadores es el ganador
+         */
         public static void comprobarGanador(Jugador jugador1, Jugador jugador2)
         {
+            //Gana quien tenga mas vidas
             if (jugador1.getVidas() > jugador2.getVidas() )
             {
                 Console.WriteLine("Gana " + jugador1.getNombre());
@@ -315,8 +323,9 @@ namespace ejercicio_pinocho
                 Console.WriteLine("Gana " + jugador2.getNombre());
 
             }
-            else 
+            else //Si estan empate de vidas
             {
+                //Gana quien tenga mas peces
                 if (jugador1.getPeces() > jugador2.getPeces())
                 {
                     Console.WriteLine("Gana " + jugador1.getNombre());
@@ -325,8 +334,9 @@ namespace ejercicio_pinocho
                 {
                     Console.WriteLine("Gana " + jugador2.getNombre());
 
-                } else
+                } else //Si hay empate de peces
                 {
+                    //Gana quien haya hecho menos saltos
                     if (jugador1.getSaltos() < jugador2.getSaltos())
                     {
 

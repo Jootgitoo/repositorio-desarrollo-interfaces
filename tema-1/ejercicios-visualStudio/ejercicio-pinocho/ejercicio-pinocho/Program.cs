@@ -26,8 +26,6 @@ namespace ejercicio_pinocho
             Operaciones.movimiento(pinocho, matriz);
             Console.ReadKey();
 
-            
-
 
             //Segundo juega gepeto
             Operaciones.movimiento(gepeto, matriz);
