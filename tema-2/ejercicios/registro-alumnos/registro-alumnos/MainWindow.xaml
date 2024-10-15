@@ -8,9 +8,9 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Label Content="Nombre completo" HorizontalAlignment="Left" Margin="58,84,0,0" VerticalAlignment="Top" Height="23" Width="116"/>
-        <TextBox HorizontalAlignment="Left" Margin="255,84,0,0" TextWrapping="Wrap" Text="Escribir Nombre" VerticalAlignment="Top" Width="259" Height="23" TextChanged="TextBox_TextChanged" Name="RegistroNombre"/>
+        <TextBox HorizontalAlignment="Left" Margin="255,84,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="259" Height="23"  Name="tbNombre"/>
         <Label Content="Edad" HorizontalAlignment="Left" Margin="58,127,0,0" VerticalAlignment="Top" Height="23" Width="116"/>
-        <TextBox HorizontalAlignment="Left" Margin="255,127,0,0" TextWrapping="Wrap" Text="Escribir Edad" VerticalAlignment="Top" Width="259" Height="23" TextChanged="TextBox_TextChanged" x:Name="RegistroNombre_Copiar"/>
+        <TextBox HorizontalAlignment="Left" Margin="255,127,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="259" Height="23"  Name="RegistroEdad"/>
         <Label Content="Sexo" HorizontalAlignment="Left" Margin="58,174,0,0" VerticalAlignment="Top" Height="23" Width="116"/>
         <Label Content="Curso" HorizontalAlignment="Left" Margin="58,229,0,0" VerticalAlignment="Top" Height="23" Width="116"/>
         <CheckBox Content="Masculino" HorizontalAlignment="Left" Margin="255,180,0,0" VerticalAlignment="Top"/>
@@ -20,9 +20,9 @@
         <ComboBox HorizontalAlignment="Left" Margin="251,290,0,0" VerticalAlignment="Top" Width="263" Height="17"/>
         <CheckBox Content="T.I" HorizontalAlignment="Left" Margin="58,339,0,0" VerticalAlignment="Top"/>
         <CheckBox Content="Otro documento" HorizontalAlignment="Left" Margin="133,339,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Center" Margin="0,335,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="260" Height="23" TextChanged="TextBox_TextChanged" x:Name="escribirOtroDocumento"/>
-        <Button Content="Registrar" HorizontalAlignment="Left" Margin="45,378,0,0" VerticalAlignment="Top" Height="32" Width="218"/>
-        <Button Content="Salir" HorizontalAlignment="Left" Margin="400,373,0,0" VerticalAlignment="Top" Height="32" Width="218"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,335,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="260" Height="23" Name="EscribirOtroDocumento"/>
+        <Button Content="Registrar" HorizontalAlignment="Left" Margin="45,378,0,0" VerticalAlignment="Top" Height="32" Width="218" Name="botonRegistrar" Click="botonRegistrar_Click" />
+        <Button Content="Salir" HorizontalAlignment="Left" Margin="400,373,0,0" VerticalAlignment="Top" Height="32" Width="218" Name="botonSalir" Click="botonSalir_Click"/>
 
     </Grid>
 </Window>

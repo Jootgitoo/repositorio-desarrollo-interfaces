@@ -21,9 +21,16 @@ namespace registro_alumnos
             InitializeComponent();
         }
 
-        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        private void botonRegistrar_Click(object sender, RoutedEventArgs e)
         {
+            //Crea una nueva ventana que enseña el contenido que tiene tbNombre
+            MessageBox.Show(tbNombre.Text + " se ha registrado correctamente");
+        }
 
+        private void botonSalir_Click(object sender, RoutedEventArgs e)
+        {
+            //Se cierra del programa
+            App.Current.Shutdown();
         }
     }
 }
