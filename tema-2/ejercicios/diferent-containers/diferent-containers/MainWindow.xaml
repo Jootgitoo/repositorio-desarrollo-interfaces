@@ -8,40 +8,49 @@
         Title="MainWindow" Height="450" Width="800">
     <UniformGrid Rows="2" Columns="2">
 
-        <WrapPanel>
+        <WrapPanel Margin="0,0,266,-70">
 
-            <Label Content="WRAP PANEL CONTAINER"/>
-            <Button Content="Wrap Panel Container"/>
-            <RadioButton Content="Wrap Panel Container"/>
+            <Label Content="Top left label" Height="66" Width="134"/>
+            <CheckBox Content="Top left checkBox"/>
+            <Button Content="Top left button"/>
+            <Button Content="Button" VerticalAlignment="Center" Height="43" Width="83"/>
+            <ComboBox Width="120" Height="70"/>
+
 
         </WrapPanel>
 
 
-        <StackPanel>
+        <StackPanel Margin="-266,0,0,5">
 
-            <Label Content="STACK PANEL CONTAINER"/>
-            <Button Content="Stack Panel Container"/>
-            <RadioButton Content="Stack Panel Container"/>
+            <Label Content="Top right panel"/>
+            <RadioButton Content="Top Right radio button" Width="172" HorizontalAlignment="Left"/>
+            <RadioButton Content="Top radio button2"/>
+            <Label Content="Label bottom" Height="71"/>
+            <Button Content="Top right button" Width="382"/>
+            <ListBox Height="100" d:ItemsSource="{d:SampleData ItemCount=3}"/>
 
         </StackPanel>
 
 
-        <DockPanel>
+        <DockPanel Margin="0,70,82,0">
 
-            <Label Content="DOCK PANEL CONTAINER"/>
-            <Button Content="Dock Panel Container"/>
-            <RadioButton Content="Dock Panel Container"/>
+            <Label Content="Left panel" Height="145"/>
+            <Button Content="Left black panel" Height="147" Click="Button_Click"/>
+            <RadioButton Content="Left panel&#xD;&#xA;" Height="149" Width="167"/>
+
 
         </DockPanel>
 
 
-        <Canvas>
+        <Canvas Margin="-82,0,0,0">
 
-            <Label Canvas.Top="0">CANVAS CONTAINER</Label>
-            <Button Canvas.Left="10" Canvas.Bottom="10">Canvas Container</Button>
-            <RadioButton Canvas.Right="10" Canvas.Bottom="10">Canvas Container</RadioButton>
+            <Label Canvas.Top="0" HorizontalAlignment="Left" Canvas.Left="346" VerticalAlignment="Center" Width="140" Height="35">Label de canva</Label>
+            <Button Canvas.Bottom="10" Canvas.Top="94">Left button</Button>
+            <RadioButton Canvas.Right="10" Canvas.Bottom="10" Canvas.Left="0" Canvas.Top="0">Right radio button</RadioButton>
+            <Label Content="Right label" Canvas.Left="145" Canvas.Top="189" Height="29" Width="172"/>
 
         </Canvas>
+
 
     </UniformGrid>
 
