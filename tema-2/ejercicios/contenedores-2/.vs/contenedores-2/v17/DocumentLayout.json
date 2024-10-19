@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\contenedores-2\\",
+  "WorkspaceRootPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\contenedores-2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC98F814-2F5A-4499-89F3-35DFC2FA2383}|contenedores-2\\contenedores-2.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\contenedores-2\\contenedores-2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC98F814-2F5A-4499-89F3-35DFC2FA2383}|contenedores-2\\contenedores-2.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\contenedores-2\\contenedores-2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC98F814-2F5A-4499-89F3-35DFC2FA2383}|contenedores-2\\contenedores-2.csproj|solutionrelative:contenedores-2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC98F814-2F5A-4499-89F3-35DFC2FA2383}|contenedores-2\\contenedores-2.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\contenedores-2\\contenedores-2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{AC98F814-2F5A-4499-89F3-35DFC2FA2383}|contenedores-2\\contenedores-2.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\contenedores-2\\contenedores-2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AC98F814-2F5A-4499-89F3-35DFC2FA2383}|contenedores-2\\contenedores-2.csproj|solutionrelative:contenedores-2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -28,23 +28,22 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\contenedores-2\\contenedores-2\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\contenedores-2\\contenedores-2\\MainWindow.xaml",
               "RelativeDocumentMoniker": "contenedores-2\\MainWindow.xaml",
-              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\contenedores-2\\contenedores-2\\MainWindow.xaml",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\contenedores-2\\contenedores-2\\MainWindow.xaml",
               "RelativeToolTip": "contenedores-2\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-15T11:31:56.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T11:31:56.493Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\contenedores-2\\contenedores-2\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\contenedores-2\\contenedores-2\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "contenedores-2\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\contenedores-2\\contenedores-2\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\contenedores-2\\contenedores-2\\MainWindow.xaml.cs",
               "RelativeToolTip": "contenedores-2\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAqwBYAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T11:31:55.169Z",
               "EditorCaption": ""
