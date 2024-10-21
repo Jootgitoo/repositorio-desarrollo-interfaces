@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ejercicio-dataBinnding2/1.0.0": {
+        "runtime": {
+          "ejercicio-dataBinnding2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ejercicio-dataBinnding2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
