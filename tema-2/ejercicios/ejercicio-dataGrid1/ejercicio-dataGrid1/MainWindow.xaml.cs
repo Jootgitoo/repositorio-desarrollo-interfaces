@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Diagnostics.Eventing.Reader;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -47,10 +48,39 @@ namespace ejercicio_dataGrid1
 
         private void btnModificar_Click(object sender, RoutedEventArgs e)
         {
-            Persona persElegida = (Persona)dgvPersonas.SelectedItem;
-            txtNombre.Text = persElegida.Nombre;
-            txtApellidos.Text = persElegida.Apellidos;
-            txtEdad.Text = persElegida.Edad.ToString();
+            if (listaPersonas.Where(p => p.Nombre == txtNombre.Text && p.Apellidos == txtApellidos.Text).ToList().Any() )
+            {
+                listaPersonas.Where(p => p.Nombre.Equals(txtNombre.Text) && p.Apellidos.Equals(txtApellidos.Text)).ToList().ForEach(p =>
+                {
+                    p.Nombre = txtNombre.Text;
+                    p.Apellidos = txtApellidos.Text;
+                    p.Edad = int.Parse(txtEdad.Text);
+                });
+
+                dgvPersonas.Items.Refresh();
+                txtEdad.Clear();
+                txtApellidos.Clear();
+
+                btnModificar.IsEnabled = true;
+                btnEliminar.IsEnabled = true;
+
+            } else
+            {
+                if (listaPersonas.Where(p => p.Nombre.Equals(txtNombre.Text) && p.Apellidos.Equals(txtApellidos.Text)).ToList().Any() == false) {
+
+                    listaPersonas.Add(new Persona(txtNombre.Text, txtApellidos.Text, int.Parse(txtEdad.Text)));
+
+                } else
+                {
+                    MessageBox.Show("La persona ya existe en la lista de personas. No se añade de nuevo");
+                    dgvPersonas.Items.Refresh();
+                    txtEdad.Clear();
+                    txtNombre.Clear();
+                    txtApellidos.Clear();
+
+                }
+
+            } 
         }
 
         private void btnEliminar_Click(object sender, RoutedEventArgs e)
