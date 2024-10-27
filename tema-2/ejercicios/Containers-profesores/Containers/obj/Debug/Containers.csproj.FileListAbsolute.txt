@@ -1,0 +1,16 @@
+C:\Users\Informatica\source\repos\Containers\Containers\bin\Debug\Containers.exe.config
+C:\Users\Informatica\source\repos\Containers\Containers\bin\Debug\Containers.exe
+C:\Users\Informatica\source\repos\Containers\Containers\bin\Debug\Containers.pdb
+C:\Users\Informatica\source\repos\Containers\Containers\obj\Debug\Containers.csproj.AssemblyReference.cache
+C:\Users\Informatica\source\repos\Containers\Containers\obj\Debug\Containers.csproj.SuggestedBindingRedirects.cache
+C:\Users\Informatica\source\repos\Containers\Containers\obj\Debug\App.g.cs
+C:\Users\Informatica\source\repos\Containers\Containers\obj\Debug\Containers_MarkupCompile.cache
+C:\Users\Informatica\source\repos\Containers\Containers\obj\Debug\Containers_MarkupCompile.lref
+C:\Users\Informatica\source\repos\Containers\Containers\obj\Debug\Containers.g.resources
+C:\Users\Informatica\source\repos\Containers\Containers\obj\Debug\Containers.Properties.Resources.resources
+C:\Users\Informatica\source\repos\Containers\Containers\obj\Debug\Containers.csproj.GenerateResource.cache
+C:\Users\Informatica\source\repos\Containers\Containers\obj\Debug\Containers.csproj.CoreCompileInputs.cache
+C:\Users\Informatica\source\repos\Containers\Containers\obj\Debug\Containers.exe
+C:\Users\Informatica\source\repos\Containers\Containers\obj\Debug\Containers.pdb
+C:\Users\Informatica\source\repos\Containers\Containers\obj\Debug\view\Main.g.cs
+C:\Users\Informatica\source\repos\Containers\Containers\obj\Debug\view\Main.baml

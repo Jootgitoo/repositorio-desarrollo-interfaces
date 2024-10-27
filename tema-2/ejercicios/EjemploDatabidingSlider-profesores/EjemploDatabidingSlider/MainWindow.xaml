@@ -1,0 +1,30 @@
+﻿<Window x:Class="EjemploDatabidingSlider.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EjemploDatabidingSlider"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="27*"/>
+            <RowDefinition Height="27*"/>
+            <RowDefinition Height="27*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="51*"/>
+            <ColumnDefinition Width="105*"/>
+            <ColumnDefinition Width="64*"/>
+        </Grid.ColumnDefinitions>
+        <Slider x:Name="sldTamano"  Grid.Row="0" Grid.Column="1"  HorizontalAlignment="Left"  VerticalAlignment="Top" Width="120" Margin="116,33,0,0" SizeChanged="sldTamano_SizeChanged"/>
+        <TextBlock Grid.Column="1" x:Name="LblEjemploTexto" FontSize="{Binding ElementName=sldTamano,Path=Value,Mode=TwoWay}" HorizontalAlignment="Center" Margin="0,65,0,0" TextWrapping="Wrap" Text="Esto es un ejemplo de Binding" VerticalAlignment="Top" Width="362" FontWeight="Bold"  Grid.RowSpan="2"/>
+        <Button x:Name="BntPequeño" Grid.Row="2" Grid.Column="1" Content="Pequeño" HorizontalAlignment="Left" Margin="14,40,0,0" VerticalAlignment="Top" Height="20" Width="90" Click="BntPequeño_Click"/>
+        <Button x:Name="bntNormal" Grid.Row="2" Grid.Column="1" Content="Normal" HorizontalAlignment="Left" Margin="131,40,0,0" VerticalAlignment="Top" Height="20" Width="90" Click="bntNormal_Click"/>
+        <Button x:Name="bntGrande"  Grid.Row="2" Grid.Column="1" Content="Grande" HorizontalAlignment="Left" Margin="262,40,0,0" VerticalAlignment="Top" Height="20" Width="90" Click="bntGrande_Click"/>
+        <Label x:Name="lblTamano" Grid.Row="3" Grid.Column="1" Content="tamaño Exacto" HorizontalAlignment="Left" Margin="10,38,0,35" Width="188" />
+        <TextBox x:Name="txtTamano" Text="{Binding ElementName=LblEjemploTexto,Path=FontSize,Mode=TwoWay}" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" Margin="232,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="120"/>
+
+    </Grid>
+</Window>

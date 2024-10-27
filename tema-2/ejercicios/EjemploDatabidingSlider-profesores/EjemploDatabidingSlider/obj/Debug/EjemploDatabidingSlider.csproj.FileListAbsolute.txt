@@ -1,0 +1,15 @@
+C:\Users\rmzc01\source\repos\EjemploDatabidingSlider\EjemploDatabidingSlider\bin\Debug\EjemploDatabidingSlider.exe.config
+C:\Users\rmzc01\source\repos\EjemploDatabidingSlider\EjemploDatabidingSlider\bin\Debug\EjemploDatabidingSlider.exe
+C:\Users\rmzc01\source\repos\EjemploDatabidingSlider\EjemploDatabidingSlider\bin\Debug\EjemploDatabidingSlider.pdb
+C:\Users\rmzc01\source\repos\EjemploDatabidingSlider\EjemploDatabidingSlider\obj\Debug\EjemploDatabidingSlider.csproj.AssemblyReference.cache
+C:\Users\rmzc01\source\repos\EjemploDatabidingSlider\EjemploDatabidingSlider\obj\Debug\MainWindow.g.cs
+C:\Users\rmzc01\source\repos\EjemploDatabidingSlider\EjemploDatabidingSlider\obj\Debug\App.g.cs
+C:\Users\rmzc01\source\repos\EjemploDatabidingSlider\EjemploDatabidingSlider\obj\Debug\EjemploDatabidingSlider_MarkupCompile.cache
+C:\Users\rmzc01\source\repos\EjemploDatabidingSlider\EjemploDatabidingSlider\obj\Debug\EjemploDatabidingSlider_MarkupCompile.lref
+C:\Users\rmzc01\source\repos\EjemploDatabidingSlider\EjemploDatabidingSlider\obj\Debug\MainWindow.baml
+C:\Users\rmzc01\source\repos\EjemploDatabidingSlider\EjemploDatabidingSlider\obj\Debug\EjemploDatabidingSlider.g.resources
+C:\Users\rmzc01\source\repos\EjemploDatabidingSlider\EjemploDatabidingSlider\obj\Debug\EjemploDatabidingSlider.Properties.Resources.resources
+C:\Users\rmzc01\source\repos\EjemploDatabidingSlider\EjemploDatabidingSlider\obj\Debug\EjemploDatabidingSlider.csproj.GenerateResource.cache
+C:\Users\rmzc01\source\repos\EjemploDatabidingSlider\EjemploDatabidingSlider\obj\Debug\EjemploDatabidingSlider.csproj.CoreCompileInputs.cache
+C:\Users\rmzc01\source\repos\EjemploDatabidingSlider\EjemploDatabidingSlider\obj\Debug\EjemploDatabidingSlider.exe
+C:\Users\rmzc01\source\repos\EjemploDatabidingSlider\EjemploDatabidingSlider\obj\Debug\EjemploDatabidingSlider.pdb
