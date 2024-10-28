@@ -32,7 +32,8 @@ namespace ejercicio_dataGrid1
 
         private void btnAgregar_Click(object sender, RoutedEventArgs e)
         {
-            listaPersonas.Add(new Persona(txtNombre.Text, txtApellidos.Text,int.Parse(txtEdad.Text)));
+
+            listaPersonas.Add(new Persona(txtNombre.Text, txtApellidos.Text, int.Parse(txtEdad.Text)));
             dgvPersonas.Items.Refresh();
         }
 
