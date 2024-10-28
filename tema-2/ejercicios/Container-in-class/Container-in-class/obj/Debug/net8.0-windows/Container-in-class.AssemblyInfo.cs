@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Container-in-class")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b7503ad66de93757a906dfca3089d689992a17d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8d45150ebe030a92d682fb8fe2c92a42d7671f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Container-in-class")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Container-in-class")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

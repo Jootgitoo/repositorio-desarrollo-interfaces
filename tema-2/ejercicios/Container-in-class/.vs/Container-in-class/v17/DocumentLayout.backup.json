@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\Container-in-class\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CA9F659-CD8F-4B9A-AF34-E9B5056553C0}|Container-in-class\\Container-in-class.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\container-in-class\\container-in-class\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CA9F659-CD8F-4B9A-AF34-E9B5056553C0}|Container-in-class\\Container-in-class.csproj|solutionrelative:container-in-class\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CA9F659-CD8F-4B9A-AF34-E9B5056553C0}|Container-in-class\\Container-in-class.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\container-in-class\\container-in-class\\container-in-class.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8CA9F659-CD8F-4B9A-AF34-E9B5056553C0}|Container-in-class\\Container-in-class.csproj|solutionrelative:container-in-class\\container-in-class.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CA9F659-CD8F-4B9A-AF34-E9B5056553C0}|Container-in-class\\Container-in-class.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\container-in-class\\container-in-class\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8CA9F659-CD8F-4B9A-AF34-E9B5056553C0}|Container-in-class\\Container-in-class.csproj|solutionrelative:container-in-class\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{8CA9F659-CD8F-4B9A-AF34-E9B5056553C0}|Container-in-class\\Container-in-class.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\container-in-class\\container-in-class\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8CA9F659-CD8F-4B9A-AF34-E9B5056553C0}|Container-in-class\\Container-in-class.csproj|solutionrelative:container-in-class\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA9F659-CD8F-4B9A-AF34-E9B5056553C0}|Container-in-class\\Container-in-class.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\container-in-class\\container-in-class\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8CA9F659-CD8F-4B9A-AF34-E9B5056553C0}|Container-in-class\\Container-in-class.csproj|solutionrelative:container-in-class\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA9F659-CD8F-4B9A-AF34-E9B5056553C0}|Container-in-class\\Container-in-class.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\container-in-class\\container-in-class\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CA9F659-CD8F-4B9A-AF34-E9B5056553C0}|Container-in-class\\Container-in-class.csproj|solutionrelative:container-in-class\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +34,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Container-in-class",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\Container-in-class\\Container-in-class\\Container-in-class.csproj",
+              "RelativeDocumentMoniker": "Container-in-class\\Container-in-class.csproj",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\Container-in-class\\Container-in-class\\Container-in-class.csproj",
+              "RelativeToolTip": "Container-in-class\\Container-in-class.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-28T11:44:38.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\Container-in-class\\Container-in-class\\App.xaml",
+              "RelativeDocumentMoniker": "Container-in-class\\App.xaml",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\Container-in-class\\Container-in-class\\App.xaml",
+              "RelativeToolTip": "Container-in-class\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-28T11:22:52.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\Container-in-class\\Container-in-class\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Container-in-class\\MainWindow.xaml",
-              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\Container-in-class\\Container-in-class\\MainWindow.xaml*",
-              "RelativeToolTip": "Container-in-class\\MainWindow.xaml*",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\Container-in-class\\Container-in-class\\view\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Container-in-class\\view\\MainWindow.xaml",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\Container-in-class\\Container-in-class\\view\\MainWindow.xaml",
+              "RelativeToolTip": "Container-in-class\\view\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-24T08:04:45.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\Container-in-class\\Container-in-class\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Container-in-class\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\Container-in-class\\Container-in-class\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Container-in-class\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAApwB8AAAAJAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\Container-in-class\\Container-in-class\\view\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Container-in-class\\view\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\Container-in-class\\Container-in-class\\view\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Container-in-class\\view\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T08:04:45.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T08:04:45.446Z"
             }
           ]
         }

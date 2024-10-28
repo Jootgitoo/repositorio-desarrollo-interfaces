@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ejercicio-dataGrid1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7aa1a5f6a6e04511eefa871646e7b263c674f20")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8d45150ebe030a92d682fb8fe2c92a42d7671f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("ejercicio-dataGrid1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ejercicio-dataGrid1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
