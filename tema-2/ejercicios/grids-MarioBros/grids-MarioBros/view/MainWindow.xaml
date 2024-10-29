@@ -1,0 +1,53 @@
+﻿<Window x:Class="grids_MarioBros.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:grids_MarioBros"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl TabStripPlacement="Left">
+
+            <TabItem Header="START">
+                <Grid Background="#FFE5E5E5">
+                    <TextBox x:Name="tboxLives" HorizontalAlignment="Left" Margin="276,58,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="176" Height="25"/>
+                    <TextBlock x:Name="tblockLives" HorizontalAlignment="Left" Margin="198,62,0,0" TextWrapping="Wrap" Text="Nº Lives" VerticalAlignment="Top" Height="21" Width="73" TextAlignment="Center"/>
+                    <TextBox x:Name="tboxPoints" HorizontalAlignment="Left" Margin="276,154,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="176" Height="25"/>
+                    <TextBlock x:Name="tblockPoints" HorizontalAlignment="Left" Margin="198,158,0,0" TextWrapping="Wrap" Text="Nº Points" VerticalAlignment="Top" Height="21" Width="73" TextAlignment="Center"/>
+
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="GAME">
+                <Grid Background="#FFE5E5E5" ShowGridLines="True">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+    </Grid>
+
+
+</Window>

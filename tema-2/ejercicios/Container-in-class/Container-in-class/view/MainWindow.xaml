@@ -8,81 +8,147 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <TabControl TabStripPlacement="Left">
+
             <TabItem Header="STORE">
+
                 <Grid Background="#FFE5E5E5">
+
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"></RowDefinition>
                         <RowDefinition Height="1.5*"></RowDefinition>
                         <RowDefinition Height="5.5*"></RowDefinition>
                     </Grid.RowDefinitions>
+
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="2*"></ColumnDefinition>
                         <ColumnDefinition Width="*"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
 
                     <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.ColumnSpan="2">
-                        <Label Content="Select Player: " HorizontalAlignment="Left" Margin="71,0,0,0" VerticalAlignment="Center"/>
-                        <ComboBox x:Name="cboPlayer" Width="230" Margin="15" SelectionChanged="cboPlayer_SelectionChanged"/>
-                        <Label Name="lblAvaible" Content="Avaiable Points: " Margin="5" Height="28"/>
+
+                        <Label Content="Select Player" HorizontalAlignment="Left" Margin="71,0,0,0" VerticalAlignment="Center"/>
+                        <ComboBox x:Name="cboPlayer" Width="230" Margin="15" />
+                        <Label x:Name="lblAvailable" Content="Available Points: " Margin="5" Height="28"/>
+
                     </StackPanel>
 
                     <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="0">
-                        <Button x:Name="btnNew" Content="New" Grid.Row="0" Grid.Column="0" Width="100" HorizontalAlignment="Left" Margin="20"/>
-                        <Button x:Name="btnDelete" Content="Delete" Grid.Row="0" Grid.Column="0" Width="100" HorizontalAlignment="Left" Margin="20"/>
+
+                        <Button x:Name="btnNew" Content="New" Width="100" 
+                                HorizontalAlignment="Left" Margin="20" Click="btnNew_Click"/>
+
+                        <Button x:Name="btnDelete" Content="Delete" Width="100" 
+                                HorizontalAlignment="Left" Margin="20"/>
+
                     </StackPanel>
+
 
                     <StackPanel Orientation="Vertical" Grid.Row="2" Grid.Column="0" Margin="10">
+
                         <Label Content="Purchased Products"/>
+
                         <DataGrid x:Name="dgvStore" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True">
+
                             <DataGrid.Columns>
-                                <DataGridTextColumn Binding="{Binding id}" Header="id"></DataGridTextColumn>
-                                <DataGridTextColumn Binding="{Binding name}" Header="Ability"></DataGridTextColumn>
-                                <DataGridTextColumn Binding="{Binding points}" Header="Points"></DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding id}" Header="id"/>
+                                <DataGridTextColumn Binding="{Binding id}" Header="Ability"/>
+                                <DataGridTextColumn Binding="{Binding id}" Header="Points"/>
                             </DataGrid.Columns>
+
                         </DataGrid>
+
                     </StackPanel>
 
-                    <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.RowSpan="3">
+
+                    <StackPanel Orientation="Vertical" Grid.RowSpan="3" Grid.Column="1">
+
                         <Separator Visibility="Hidden" Grid.Column="1" Grid.RowSpan="3"/>
 
-                        <Border BorderBrush="Gray">
-                            <StackPanel Orientation="Vertical">
-                                <Image x:Name="imgWand" Tag="Wand" Source="../images/wand.jpg" Margin="10" IsEnabled="True" Height="27" Width="37" />
-                                <Label Content="100 pt" />
-                            </StackPanel>
-                        </Border>
-                        
-                        <Border BorderBrush="Gray">
-                            <StackPanel Orientation="Vertical">
-                                <Image x:Name="imgBrain" Tag="Wand" Source="../images/brain.jpg" IsEnabled="True" Height="28" Width="32" />
-                                <Label Content="100 pt" />
-                            </StackPanel>
-                        </Border>
-                                             
-                        <Border BorderBrush="Gray">
-                            <StackPanel Orientation="Vertical">
-                                <Image x:Name="imgBolt" Tag="Wand" Source="../images/bolt.jpg" Margin="10" IsEnabled="True" Height="53" Width="37" />
-                                <Label Content="100 pt" />
-                            </StackPanel>
-                        </Border>
-                        
-                        <Button x:Name="btnSave" Content="SAVE" Margin="50" Width="42"/>
+                        <StackPanel Orientation="Horizontal">
+
+                            <Border BorderBrush="Gray">
+
+                                <StackPanel Orientation="Vertical">
+
+                                    <Image x:Name="imgWand" Tag="Wand" Source="../images/wand.jpg" 
+                                        Margin="10" IsEnabled="True" 
+                                       Height="50" Width="50"></Image>
+                                    <Label Content="100pt"/>
+
+                                </StackPanel>
+
+                            </Border>
+
+
+                            <Border BorderBrush="Gray">
+
+                                <StackPanel Orientation="Vertical">
+
+                                    <Image x:Name="imgBrain" Tag="Wand" Source="../images/brain.jpg" 
+                                        Margin="10" IsEnabled="True" 
+                                        Height="50" Width="50"></Image>
+                                    <Label Content="50pt"/>
+
+                                </StackPanel>
+
+                            </Border>
+
+
+
+                            <Border BorderBrush="Gray">
+
+                                <StackPanel Orientation="Vertical">
+
+                                    <Image x:Name="imgRay" Tag="Wand" Source="../images/bolt.jpg" 
+                                        Margin="10" IsEnabled="True" 
+                                        Height="50" Width="50"></Image>
+                                    <Label Content="50pt"/>
+
+                                </StackPanel>
+
+                            </Border>
+
+                        </StackPanel>
+
+                        <Button x:Name="btnSave" Content="SAVE" Margin="50"/>
+
                     </StackPanel>
 
                 </Grid>
-            </TabItem >
 
-            <TabItem Header="GAME">
-                <Grid Background="#FFE5E5E5" Width="736"/>
             </TabItem>
 
 
+            <TabItem Header="GAME">
+                <Grid Background="LightGray" ShowGridLines="True">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
 
-
-
-
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        
+                    </Grid.ColumnDefinitions>
+                </Grid>
+            </TabItem>
         </TabControl>
-
-
     </Grid>
 </Window>

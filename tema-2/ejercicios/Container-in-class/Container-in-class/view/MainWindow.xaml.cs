@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using Container_in_class.domain;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -21,14 +22,15 @@ namespace Container_in_class
             InitializeComponent();
         }
 
-        private void cboPlayer_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void btnNew_Click(object sender, RoutedEventArgs e)
         {
-            //btnNew.IsEnabled = true;
-            //switch (cboPlayer.SelectedIndex) 
-            //{
-            //    case 0:
-            //        lblAvaible.Content = "Avaiable Points: " +
-            //}
+            Character c1 = new Character("Jorge");
+            Character c2 = new Character("Mateo");
+            Character c3 = new Character("Ivan");
+
+            cboPlayer.Items.Add(c1);
+            cboPlayer.Items.Add(c2);
+            cboPlayer.Items.Add(c3);
         }
     }
 }

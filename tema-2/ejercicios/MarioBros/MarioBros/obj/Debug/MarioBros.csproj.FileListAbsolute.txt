@@ -1,0 +1,14 @@
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\MarioBros\MarioBros\bin\Debug\MarioBros.exe.config
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\MarioBros\MarioBros\bin\Debug\MarioBros.exe
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\MarioBros\MarioBros\bin\Debug\MarioBros.pdb
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\MarioBros\MarioBros\obj\Debug\MarioBros.csproj.AssemblyReference.cache
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\MarioBros\MarioBros\obj\Debug\MarioBros.csproj.CoreCompileInputs.cache
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\MarioBros\MarioBros\obj\Debug\MarioBros.exe
+C:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\MarioBros\MarioBros\obj\Debug\MarioBros.pdb
+D:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\MarioBros\MarioBros\obj\Debug\MarioBros.csproj.AssemblyReference.cache
+D:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\MarioBros\MarioBros\obj\Debug\MarioBros.csproj.CoreCompileInputs.cache
+D:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\MarioBros\MarioBros\obj\Debug\MarioBros.exe
+D:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\MarioBros\MarioBros\obj\Debug\MarioBros.pdb
+D:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\MarioBros\MarioBros\bin\Debug\MarioBros.exe.config
+D:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\MarioBros\MarioBros\bin\Debug\MarioBros.exe
+D:\dam-2\desarrollo-de-interfaces\tema-1\ejercicios-visualStudio\MarioBros\MarioBros\bin\Debug\MarioBros.pdb
