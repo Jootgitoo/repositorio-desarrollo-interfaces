@@ -30,6 +30,12 @@ namespace grids_MarioBros
                     label.Content = random.Next(3).ToString();
                     label.HorizontalAlignment = HorizontalAlignment.Center;
                     label.VerticalAlignment = VerticalAlignment.Center;
+
+                    //Establecemos la posicion en la i y j
+                    Grid.SetRow(label, i);
+                    Grid.SetColumn(label, j);
+
+                    gridGame.Children.Add(label);
                 }
             }
 

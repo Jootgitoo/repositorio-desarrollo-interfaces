@@ -20,7 +20,7 @@
             </TabItem>
 
             <TabItem Header="GAME">
-                <Grid Background="#FFE5E5E5" ShowGridLines="True">
+                <Grid x:Name="gridGame" Background="#FFE5E5E5" ShowGridLines="True">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"></RowDefinition>
                         <RowDefinition Height="*"></RowDefinition>
