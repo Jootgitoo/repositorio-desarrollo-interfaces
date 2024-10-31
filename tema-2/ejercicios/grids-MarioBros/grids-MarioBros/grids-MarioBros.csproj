@@ -11,7 +11,6 @@
 
   <ItemGroup>
     <Folder Include="domain\" />
-    <Folder Include="images\" />
   </ItemGroup>
 
 </Project>
