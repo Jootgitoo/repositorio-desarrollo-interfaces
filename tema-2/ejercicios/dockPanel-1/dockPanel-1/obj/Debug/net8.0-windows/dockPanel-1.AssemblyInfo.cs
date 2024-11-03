@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dockPanel-1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a0af5b18ee2827a81ca3917c6a8116c5ec6282f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9acb528a8835e2dc12595624b8ccf614c8b5bde8")]
 [assembly: System.Reflection.AssemblyProductAttribute("dockPanel-1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dockPanel-1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

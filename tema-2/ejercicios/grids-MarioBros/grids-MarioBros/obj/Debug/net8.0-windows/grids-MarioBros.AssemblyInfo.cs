@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("grids-MarioBros")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7958e2c41e4900e25b570346fa8aec3653ba1500")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9acb528a8835e2dc12595624b8ccf614c8b5bde8")]
 [assembly: System.Reflection.AssemblyProductAttribute("grids-MarioBros")]
 [assembly: System.Reflection.AssemblyTitleAttribute("grids-MarioBros")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
