@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Navigation;
 
 namespace ejercicio_dataGrid1
 {
@@ -10,7 +11,7 @@ namespace ejercicio_dataGrid1
     {
 
         private String nombre;
-        private String apellidos;   
+        private String apellidos;
         private int edad;
 
         public Persona(string Nombre, string Apellidos, int Edad)
@@ -18,7 +19,7 @@ namespace ejercicio_dataGrid1
             nombre = Nombre;
             apellidos = Apellidos;
             edad = Edad;
-            
+
         }
 
         public string Nombre { get => nombre; set => nombre = value; }
@@ -27,4 +28,6 @@ namespace ejercicio_dataGrid1
 
 
     }
+
+    
 }
