@@ -8,18 +8,26 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 
-        <Menu Name="menu1" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top">
+        <Menu Name="menu1" Width="37" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35">
+            
             <MenuItem Header="_File">
-                <MenuItem Header="A_brir" IsCheckable="True"></MenuItem>
-                <MenuItem Header="_Cerrar" IsCheckable="True"></MenuItem>
-                <MenuItem Header="_Guardar">
+                <MenuItem Header="Abrir" IsCheckable="True"></MenuItem>
+                <MenuItem Header="Cerrar" IsCheckable="True"></MenuItem>
+                <MenuItem Header="Guardar">
                     <MenuItem.Icon>
                         <Image Source="setup.ico" Width="16" Height="16"></Image>
                     </MenuItem.Icon>
                 </MenuItem>
+                
                 <Separator/>
                 <MenuItem Header="A_gregar">
-                    <MenuItem Header="Proyecto"></MenuItem>
+                    <MenuItem Header="Proyecto">
+                        <MenuItem Header="proyecto 1"></MenuItem>
+                        <MenuItem Header="proyecto 2">
+                            <MenuItem Header="proyecto 2.1"></MenuItem>
+                            <MenuItem Header="proyecto 2.2"></MenuItem>
+                        </MenuItem>
+                    </MenuItem>
                     <MenuItem Header="Archivo"></MenuItem>
                 </MenuItem>
             </MenuItem>
@@ -32,7 +40,7 @@
             </MenuItem>
         </Menu>
 
-        
+
 
 
 
