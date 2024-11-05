@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\JORGE\\.nuget\\packages\\": {}
+    "C:\\Users\\b15-18m\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\canvas-1\\canvas-1\\canvas-1.csproj",
+      "projectUniqueName": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\canvas-1\\canvas-1\\canvas-1.csproj",
       "projectName": "canvas-1",
-      "projectPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\canvas-1\\canvas-1\\canvas-1.csproj",
-      "packagesPath": "C:\\Users\\JORGE\\.nuget\\packages\\",
-      "outputPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\canvas-1\\canvas-1\\obj\\",
+      "projectPath": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\canvas-1\\canvas-1\\canvas-1.csproj",
+      "packagesPath": "C:\\Users\\b15-18m\\.nuget\\packages\\",
+      "outputPath": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\canvas-1\\canvas-1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\JORGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\b15-18m\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

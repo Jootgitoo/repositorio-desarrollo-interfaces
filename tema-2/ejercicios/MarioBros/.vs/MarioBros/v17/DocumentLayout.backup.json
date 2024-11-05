@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\dam-2\\desarrollo-de-interfaces\\tema-1\\ejercicios-visualStudio\\MarioBros\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\MarioBros\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6E56B7-BDD4-45CF-BED0-385C2B65B940}|MarioBros\\MarioBros.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mariobros\\mariobros\\operaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6E56B7-BDD4-45CF-BED0-385C2B65B940}|MarioBros\\MarioBros.csproj|solutionrelative:mariobros\\operaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6E56B7-BDD4-45CF-BED0-385C2B65B940}|MarioBros\\MarioBros.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mariobros\\mariobros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6E56B7-BDD4-45CF-BED0-385C2B65B940}|MarioBros\\MarioBros.csproj|solutionrelative:mariobros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Operaciones.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\MarioBros\\MarioBros\\Operaciones.cs",
+              "RelativeDocumentMoniker": "MarioBros\\Operaciones.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\MarioBros\\MarioBros\\Operaciones.cs",
+              "RelativeToolTip": "MarioBros\\Operaciones.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T13:24:49.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\MarioBros\\MarioBros\\Program.cs",
+              "RelativeDocumentMoniker": "MarioBros\\Program.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\MarioBros\\MarioBros\\Program.cs",
+              "RelativeToolTip": "MarioBros\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T13:24:46.398Z",
+              "EditorCaption": ""
             }
           ]
         }

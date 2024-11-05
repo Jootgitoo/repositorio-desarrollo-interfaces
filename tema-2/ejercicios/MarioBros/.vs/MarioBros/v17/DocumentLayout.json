@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{9A6E56B7-BDD4-45CF-BED0-385C2B65B940}|MarioBros\\MarioBros.csproj|solutionrelative:mariobros\\operaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A6E56B7-BDD4-45CF-BED0-385C2B65B940}|MarioBros\\MarioBros.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mariobros\\mariobros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A6E56B7-BDD4-45CF-BED0-385C2B65B940}|MarioBros\\MarioBros.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\MarioBros\\mariobros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A6E56B7-BDD4-45CF-BED0-385C2B65B940}|MarioBros\\MarioBros.csproj|solutionrelative:mariobros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "MarioBros\\Operaciones.cs",
               "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\MarioBros\\MarioBros\\Operaciones.cs",
               "RelativeToolTip": "MarioBros\\Operaciones.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA8AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T13:24:49.641Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "MarioBros\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T13:24:46.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T13:24:46.398Z"
             }
           ]
         }
