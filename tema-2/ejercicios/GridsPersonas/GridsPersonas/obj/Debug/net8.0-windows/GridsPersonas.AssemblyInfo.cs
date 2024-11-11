@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GridsPersonas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34dc385c970d4cfc71a30b4196b6208fbf745d1e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f1951c4384c160500e3e906d05a45fd6a7fa9bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("GridsPersonas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GridsPersonas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

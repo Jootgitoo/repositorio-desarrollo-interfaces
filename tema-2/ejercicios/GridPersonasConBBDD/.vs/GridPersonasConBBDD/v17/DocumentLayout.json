@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GridPersonasConBBDD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF661059-61C1-4C26-A731-FDDABBCD7709}|DataGridPersonas\\DataGridPersonas.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\gridpersonasconbbdd\\datagridpersonas\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF661059-61C1-4C26-A731-FDDABBCD7709}|DataGridPersonas\\DataGridPersonas.csproj|solutionrelative:datagridpersonas\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF661059-61C1-4C26-A731-FDDABBCD7709}|DataGridPersonas\\DataGridPersonasConBBDD.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\gridpersonasconbbdd\\datagridpersonas\\persistence\\manages\\personaspersistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF661059-61C1-4C26-A731-FDDABBCD7709}|DataGridPersonas\\DataGridPersonasConBBDD.csproj|solutionrelative:datagridpersonas\\persistence\\manages\\personaspersistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF661059-61C1-4C26-A731-FDDABBCD7709}|DataGridPersonas\\DataGridPersonasConBBDD.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\gridpersonasconbbdd\\datagridpersonas\\persistence\\manages\\peoplemanaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF661059-61C1-4C26-A731-FDDABBCD7709}|DataGridPersonas\\DataGridPersonasConBBDD.csproj|solutionrelative:datagridpersonas\\persistence\\manages\\peoplemanaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF661059-61C1-4C26-A731-FDDABBCD7709}|DataGridPersonas\\DataGridPersonasConBBDD.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\gridpersonasconbbdd\\datagridpersonas\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF661059-61C1-4C26-A731-FDDABBCD7709}|DataGridPersonas\\DataGridPersonasConBBDD.csproj|solutionrelative:datagridpersonas\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF661059-61C1-4C26-A731-FDDABBCD7709}|DataGridPersonas\\DataGridPersonasConBBDD.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\gridpersonasconbbdd\\datagridpersonas\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF661059-61C1-4C26-A731-FDDABBCD7709}|DataGridPersonas\\DataGridPersonasConBBDD.csproj|solutionrelative:datagridpersonas\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,6 +35,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PersonasPersistance.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GridPersonasConBBDD\\DataGridPersonas\\persistence\\manages\\PersonasPersistance.cs",
+              "RelativeDocumentMoniker": "DataGridPersonas\\persistence\\manages\\PersonasPersistance.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GridPersonasConBBDD\\DataGridPersonas\\persistence\\manages\\PersonasPersistance.cs",
+              "RelativeToolTip": "DataGridPersonas\\persistence\\manages\\PersonasPersistance.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAzwBsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T11:48:18.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PeopleManaje.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GridPersonasConBBDD\\DataGridPersonas\\persistence\\manages\\PeopleManaje.cs",
+              "RelativeDocumentMoniker": "DataGridPersonas\\persistence\\manages\\PeopleManaje.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GridPersonasConBBDD\\DataGridPersonas\\persistence\\manages\\PeopleManaje.cs",
+              "RelativeToolTip": "DataGridPersonas\\persistence\\manages\\PeopleManaje.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T11:47:14.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DBBroker.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GridPersonasConBBDD\\DataGridPersonas\\persistence\\DBBroker.cs",
+              "RelativeDocumentMoniker": "DataGridPersonas\\persistence\\DBBroker.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GridPersonasConBBDD\\DataGridPersonas\\persistence\\DBBroker.cs",
+              "RelativeToolTip": "DataGridPersonas\\persistence\\DBBroker.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwFkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T11:03:48.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GridPersonasConBBDD\\DataGridPersonas\\domain\\Persona.cs",
               "RelativeDocumentMoniker": "DataGridPersonas\\domain\\Persona.cs",
