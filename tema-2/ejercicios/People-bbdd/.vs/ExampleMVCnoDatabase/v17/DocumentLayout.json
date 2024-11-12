@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\",
+  "WorkspaceRootPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA2D3EDC-470A-4841-9B32-311A1BEAB340}|ExampleMVCnoDatabase\\ExampleMVCnoDatabase.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\examplemvcnodatabase\\persistence\\manages\\peoplemanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA2D3EDC-470A-4841-9B32-311A1BEAB340}|ExampleMVCnoDatabase\\ExampleMVCnoDatabase.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\people-bbdd\\examplemvcnodatabase\\persistence\\manages\\peoplemanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA2D3EDC-470A-4841-9B32-311A1BEAB340}|ExampleMVCnoDatabase\\ExampleMVCnoDatabase.csproj|solutionrelative:examplemvcnodatabase\\persistence\\manages\\peoplemanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA2D3EDC-470A-4841-9B32-311A1BEAB340}|ExampleMVCnoDatabase\\ExampleMVCnoDatabase.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\examplemvcnodatabase\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA2D3EDC-470A-4841-9B32-311A1BEAB340}|ExampleMVCnoDatabase\\ExampleMVCnoDatabase.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\examplemvcnodatabase\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA2D3EDC-470A-4841-9B32-311A1BEAB340}|ExampleMVCnoDatabase\\ExampleMVCnoDatabase.csproj|solutionrelative:examplemvcnodatabase\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA2D3EDC-470A-4841-9B32-311A1BEAB340}|ExampleMVCnoDatabase\\ExampleMVCnoDatabase.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\people-bbdd\\examplemvcnodatabase\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{BA2D3EDC-470A-4841-9B32-311A1BEAB340}|ExampleMVCnoDatabase\\ExampleMVCnoDatabase.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\examplemvcnodatabase\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BA2D3EDC-470A-4841-9B32-311A1BEAB340}|ExampleMVCnoDatabase\\ExampleMVCnoDatabase.csproj|solutionrelative:examplemvcnodatabase\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA2D3EDC-470A-4841-9B32-311A1BEAB340}|ExampleMVCnoDatabase\\ExampleMVCnoDatabase.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\examplemvcnodatabase\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{BA2D3EDC-470A-4841-9B32-311A1BEAB340}|ExampleMVCnoDatabase\\ExampleMVCnoDatabase.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\examplemvcnodatabase\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{BA2D3EDC-470A-4841-9B32-311A1BEAB340}|ExampleMVCnoDatabase\\ExampleMVCnoDatabase.csproj|solutionrelative:examplemvcnodatabase\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -36,9 +36,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\ExampleMVCnoDatabase\\View\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\ExampleMVCnoDatabase\\View\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ExampleMVCnoDatabase\\View\\MainWindow.xaml",
-              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\ExampleMVCnoDatabase\\View\\MainWindow.xaml",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\ExampleMVCnoDatabase\\View\\MainWindow.xaml",
               "RelativeToolTip": "ExampleMVCnoDatabase\\View\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-12T12:30:53.041Z",
@@ -48,23 +48,24 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "App.config",
-              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\ExampleMVCnoDatabase\\App.config",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\ExampleMVCnoDatabase\\App.config",
               "RelativeDocumentMoniker": "ExampleMVCnoDatabase\\App.config",
-              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\ExampleMVCnoDatabase\\App.config",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\ExampleMVCnoDatabase\\App.config",
               "RelativeToolTip": "ExampleMVCnoDatabase\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-12T12:30:52.162Z"
+              "WhenOpened": "2024-11-12T12:30:52.162Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PeopleManage.cs",
-              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\ExampleMVCnoDatabase\\Persistence\\Manages\\PeopleManage.cs",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\ExampleMVCnoDatabase\\Persistence\\Manages\\PeopleManage.cs",
               "RelativeDocumentMoniker": "ExampleMVCnoDatabase\\Persistence\\Manages\\PeopleManage.cs",
-              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\ExampleMVCnoDatabase\\Persistence\\Manages\\PeopleManage.cs",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\ExampleMVCnoDatabase\\Persistence\\Manages\\PeopleManage.cs",
               "RelativeToolTip": "ExampleMVCnoDatabase\\Persistence\\Manages\\PeopleManage.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwEcAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T12:25:58.303Z",
               "EditorCaption": ""
@@ -73,9 +74,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "DBBroker.cs",
-              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\ExampleMVCnoDatabase\\Persistence\\DBBroker.cs",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\ExampleMVCnoDatabase\\Persistence\\DBBroker.cs",
               "RelativeDocumentMoniker": "ExampleMVCnoDatabase\\Persistence\\DBBroker.cs",
-              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\ExampleMVCnoDatabase\\Persistence\\DBBroker.cs",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\People-bbdd\\ExampleMVCnoDatabase\\Persistence\\DBBroker.cs",
               "RelativeToolTip": "ExampleMVCnoDatabase\\Persistence\\DBBroker.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAADwvz8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
