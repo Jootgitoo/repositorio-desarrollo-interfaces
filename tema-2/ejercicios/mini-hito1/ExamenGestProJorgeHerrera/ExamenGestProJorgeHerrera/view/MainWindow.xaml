@@ -19,7 +19,7 @@
 
                 <Grid Background="#FFF1EBBD">
 
-                    <Button Background="Pink" Content="Proyectos" Margin="36,54,525,276"></Button>
+                    <Button Background="Pink" Content="Proyectos" Margin="36,25,525,284"></Button>
                     <Button Background="Pink" Content="Empleados" Margin="36,117,525,183"></Button>
                     <Button Background="Pink" Content="Estadisticas" Margin="198,54,363,255"/>
                     <Button Background="Pink" Content="Usuarios" Margin="207,151,355,141"/>
