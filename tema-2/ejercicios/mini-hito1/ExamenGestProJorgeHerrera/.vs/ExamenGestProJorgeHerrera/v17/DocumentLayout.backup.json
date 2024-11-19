@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mini-hito1\\ExamenGestProJorgeHerrera\\",
+  "WorkspaceRootPath": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mini-hito1\\ExamenGestProJorgeHerrera\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{430E0126-46E7-430F-B531-7CF82FDEF640}|ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mini-hito1\\examengestprojorgeherrera\\examengestprojorgeherrera\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{430E0126-46E7-430F-B531-7CF82FDEF640}|ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera.csproj|solutionrelative:examengestprojorgeherrera\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{430E0126-46E7-430F-B531-7CF82FDEF640}|ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mini-hito1\\examengestprojorgeherrera\\examengestprojorgeherrera\\manages\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{430E0126-46E7-430F-B531-7CF82FDEF640}|ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera.csproj|solutionrelative:examengestprojorgeherrera\\manages\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{430E0126-46E7-430F-B531-7CF82FDEF640}|ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mini-hito1\\ExamenGestProJorgeHerrera\\examengestprojorgeherrera\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{430E0126-46E7-430F-B531-7CF82FDEF640}|ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera.csproj|solutionrelative:examengestprojorgeherrera\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{430E0126-46E7-430F-B531-7CF82FDEF640}|ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mini-hito1\\examengestprojorgeherrera\\examengestprojorgeherrera\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{430E0126-46E7-430F-B531-7CF82FDEF640}|ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera.csproj|solutionrelative:examengestprojorgeherrera\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{430E0126-46E7-430F-B531-7CF82FDEF640}|ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mini-hito1\\examengestprojorgeherrera\\examengestprojorgeherrera\\manejoproyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{430E0126-46E7-430F-B531-7CF82FDEF640}|ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera.csproj|solutionrelative:examengestprojorgeherrera\\manejoproyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{430E0126-46E7-430F-B531-7CF82FDEF640}|ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mini-hito1\\examengestprojorgeherrera\\examengestprojorgeherrera\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{430E0126-46E7-430F-B531-7CF82FDEF640}|ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera.csproj|solutionrelative:examengestprojorgeherrera\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,27 +34,75 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Proyecto.cs",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mini-hito1\\ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera\\Proyecto.cs",
-              "RelativeDocumentMoniker": "ExamenGestProJorgeHerrera\\Proyecto.cs",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mini-hito1\\ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera\\Proyecto.cs",
-              "RelativeToolTip": "ExamenGestProJorgeHerrera\\Proyecto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ManejoProyecto.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mini-hito1\\ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera\\ManejoProyecto.cs",
+              "RelativeDocumentMoniker": "ExamenGestProJorgeHerrera\\ManejoProyecto.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mini-hito1\\ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera\\ManejoProyecto.cs",
+              "RelativeToolTip": "ExamenGestProJorgeHerrera\\ManejoProyecto.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwBUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T13:30:07.86Z",
+              "WhenOpened": "2024-11-19T12:54:11.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mini-hito1\\ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera\\view\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ExamenGestProJorgeHerrera\\view\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mini-hito1\\ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera\\view\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ExamenGestProJorgeHerrera\\view\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T12:23:54.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mini-hito1\\ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera\\view\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "ExamenGestProJorgeHerrera\\view\\MainWindow.xaml",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mini-hito1\\ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera\\view\\MainWindow.xaml",
-              "RelativeToolTip": "ExamenGestProJorgeHerrera\\view\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-05T13:21:51.978Z",
+              "Title": "Proyecto.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mini-hito1\\ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera\\manages\\Proyecto.cs",
+              "RelativeDocumentMoniker": "ExamenGestProJorgeHerrera\\manages\\Proyecto.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mini-hito1\\ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera\\manages\\Proyecto.cs",
+              "RelativeToolTip": "ExamenGestProJorgeHerrera\\manages\\Proyecto.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T12:23:23.919Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "9ae33102-5768-4967-8fca-097b07f7a76d",
+        "Display": 0,
+        "X": 865,
+        "Y": 286,
+        "Width": 1603,
+        "Height": 761,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DBBroker.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mini-hito1\\ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera\\DBBroker.cs",
+              "RelativeDocumentMoniker": "ExamenGestProJorgeHerrera\\DBBroker.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\mini-hito1\\ExamenGestProJorgeHerrera\\ExamenGestProJorgeHerrera\\DBBroker.cs",
+              "RelativeToolTip": "ExamenGestProJorgeHerrera\\DBBroker.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T12:39:52.592Z",
               "EditorCaption": ""
             }
           ]

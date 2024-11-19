@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ExamenGestProJorgeHerrera.manages;
+using Org.BouncyCastle.Asn1.X509.SigI;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,13 +23,18 @@ namespace ExamenGestProJorgeHerrera
     public partial class MainWindow : Window
     {
 
-        private List<Proyecto> lstProyecto;
+        Proyecto p = new Proyecto(); 
+
 
         public MainWindow()
         {
             InitializeComponent();
-            lstProyecto = new List<Proyecto>();
-            dgvProyectos.ItemsSource = lstProyecto;
+            
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            p.insertarProyecto();
         }
 
         /*        private void Button_Add_Click(object sender, RoutedEventArgs e)

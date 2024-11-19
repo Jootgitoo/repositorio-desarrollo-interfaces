@@ -43,16 +43,15 @@
                         <Label x:Name="lblNombre" Content="Nombre"/>
                         <TextBox x:Name="txtNombre" TextWrapping="Wrap" Width="120"/>
 
-                        <Label x:Name="lblFechaInicio" Content="Fecha inicio"/>
+                        <Label x:Name="lblDescripcion" Content="Descripcion"/>
                         <TextBox x:Name="txtFechaIniocio" TextWrapping="Wrap" Width="120"/>
 
-                        <Label x:Name="lblFechaFin" Content="Fecha fin"/>
+                        <Label x:Name="lblPresupuesto" Content="Presupuesto"/>
                         <TextBox x:Name="txtFechaFin" TextWrapping="Wrap" Width="120"/>
 
                     </StackPanel>
 
                     <Image x:Name="imgMaestre2" Tag="Wand" Source="/view/logotipo-ies-maestredecalatrava-1-Copia.png" Margin="10,271,496,5" IsEnabled="True"/>
-                    <Image x:Name="imgHoja2" Tag="Wand" Source="/view/palm_3086199-Copia.png" Margin="602,-10,38,259" IsEnabled="True"/>
 
 
                     <Grid Background="#FFF1EBBD" Margin="244,266,0,0">
@@ -67,6 +66,7 @@
                         </DataGrid.Columns>
                     </DataGrid>
                     <TextBox HorizontalAlignment="Left" Margin="173,36,0,0" TextWrapping="Wrap" Text="Buscar" VerticalAlignment="Top" Width="247" Height="29"/>
+                    <Button Content="Cargar datos" HorizontalAlignment="Left" Margin="560,14,0,0" VerticalAlignment="Top" Height="44" Width="118" Click="Button_Click"/>
 
 
                 </Grid>
