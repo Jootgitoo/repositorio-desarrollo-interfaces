@@ -115,9 +115,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DBBroker.cs" />
-    <Compile Include="manages\Proyecto.cs" />
-    <Compile Include="ManejoProyecto.cs" />
+    <Compile Include="persistance\DBBroker.cs" />
+    <Compile Include="domain\Proyecto.cs" />
     <Compile Include="view\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -141,7 +140,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="bbdd\bbddProyectoFinal.mwb" />
+    <None Include="bbdd\gestpro.mwb" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -151,6 +150,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="view\hoja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="persistance\manages\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -2,6 +2,8 @@
 using Org.BouncyCastle.Asn1.X509.SigI;
 using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -32,10 +34,46 @@ namespace ExamenGestProJorgeHerrera
             
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void addProyect(object sender, RoutedEventArgs e)
+        {
+            string format = "dd/MM/YYYY";
+
+            string nombreProyecto = txtProyectName.Text;
+
+            string fechaComienzo = txtfechaInicio.Text;
+            DateTime dtFechaComienzo = DateTime.ParseExact(fechaComienzo, format, CultureInfo.InvariantCulture);
+
+            string fechaFinal = txtFechaFin.Text;
+            DateTime dtFechaFin = DateTime.ParseExact(fechaFinal, format, CultureInfo.InvariantCulture);
+
+            string fechaCreacion = txtCreationTime.Text;
+            DateTime dtFechaCreacion = DateTime.ParseExact(fechaCreacion, format, CultureInfo.InvariantCulture);
+
+            Proyecto proyecto = new Proyecto(nombreProyecto, dtFechaComienzo, dtFechaFin, dtFechaCreacion);
+            proyecto.insert(proyecto);
+        }
+
+        private void modifyProyect(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void deleteProyect(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+
+        /*private void addPredefinedProyect(object sender, RoutedEventArgs e)
         {
             p.insertarProyecto();
         }
+        */
+
+
+
+
+
 
         /*        private void Button_Add_Click(object sender, RoutedEventArgs e)
                 {

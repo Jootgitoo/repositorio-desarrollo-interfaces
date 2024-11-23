@@ -18,16 +18,22 @@
             <TabItem Header="Inicio">
 
                 <Grid Background="#FFF1EBBD">
+                    <Ellipse Fill="Pink" Margin="33,34,499,249"></Ellipse>
+                    <Button Background="Pink" Content="Proyectos" Margin="53,52,519,266" BorderBrush="Pink"></Button>
 
-                    <Button Background="Pink" Content="Proyectos" Margin="36,25,525,284"></Button>
-                    <Button Background="Pink" Content="Empleados" Margin="36,117,525,183"></Button>
-                    <Button Background="Pink" Content="Estadisticas" Margin="198,54,363,255"/>
-                    <Button Background="Pink" Content="Usuarios" Margin="207,151,355,141"/>
-                    <Button Background="Pink" Content="G. Economica" Margin="36,242,525,59"/>
+                    <Ellipse Fill="Pink" Margin="33,137,525,160"></Ellipse>
+                    <Button Background="Pink" Content="Empleados" Margin="50,150,543,175" BorderBrush="Pink"></Button>
 
-                    <Image x:Name="imgHoja" Tag="Wand" Source="/view/palm_3086199.png" Margin="437,101,150,70" IsEnabled="True"/>
+                    <Ellipse Fill="Pink" Margin="374,42,152,231"></Ellipse>
+                    <Button Background="Pink" Content="Estadisticas" Margin="393,62,170,249" BorderBrush="Pink"/>
 
-                    <Image x:Name="imgMaestre" Tag="Wand" Source="/view/logotipo-ies-maestredecalatrava-1.png" Margin="438,284,-18,0" IsEnabled="True"/>
+                    <Ellipse Fill="Pink" Margin="364,184,158,82"></Ellipse>
+                    <Button Background="Pink" Content="Usuarios" Margin="374,212,170,110" BorderBrush="Pink"/>
+
+                    <Ellipse Fill="Pink" Margin="36,257,522,40"></Ellipse>
+                    <Button Background="Pink" Content="G. Economica" Margin="55,270,543,53" BorderBrush="Pink"/>
+
+                    <Image x:Name="imgMaestre" Tag="Wand" Source="/view/hoja.jpg" Margin="617,285,10,-1" IsEnabled="True"/>
 
                 </Grid>
 
@@ -37,36 +43,36 @@
                 <Grid Background="#FFF1EBBD">
 
                     <StackPanel Margin="538,63,0,80">
-                        <Label x:Name="lblCodigoProyecto" Content="Codigo proyecto" Height="35" Width="146" RenderTransformOrigin="0.245,0.43"/>
-                        <TextBox x:Name="txtCodigoProyecto" TextWrapping="Wrap" Width="120"/>
+                        <Label x:Name="lblProyectName" Content="Proyect Name" Height="35" Width="146" RenderTransformOrigin="0.245,0.43"/>
+                        <TextBox x:Name="txtProyectName" TextWrapping="Wrap" Width="120"/>
 
-                        <Label x:Name="lblNombre" Content="Nombre"/>
-                        <TextBox x:Name="txtNombre" TextWrapping="Wrap" Width="120"/>
+                        <Label x:Name="lblfechaInicio" Content="Start Date"/>
+                        <TextBox x:Name="txtfechaInicio" TextWrapping="Wrap" Width="120"/>
 
-                        <Label x:Name="lblDescripcion" Content="Descripcion"/>
-                        <TextBox x:Name="txtFechaIniocio" TextWrapping="Wrap" Width="120"/>
-
-                        <Label x:Name="lblPresupuesto" Content="Presupuesto"/>
+                        <Label x:Name="lblEndDate" Content="End date"/>
                         <TextBox x:Name="txtFechaFin" TextWrapping="Wrap" Width="120"/>
+
+                        <Label x:Name="lblCreationTime" Content="Creation time"/>
+                        <TextBox x:Name="txtCreationTime" TextWrapping="Wrap" Width="120"/>
 
                     </StackPanel>
 
-                    <Image x:Name="imgMaestre2" Tag="Wand" Source="/view/logotipo-ies-maestredecalatrava-1-Copia.png" Margin="10,271,496,5" IsEnabled="True"/>
+                    <Image x:Name="imgMaestre2" Tag="Wand" Source="/view/maestre" Margin="10,271,496,5" IsEnabled="True"/>
 
 
-                    <Grid Background="#FFF1EBBD" Margin="244,266,0,0">
-                        <Button Content="Añadir" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Width="127" Height="34" />
-                        <Button Content="Modificar" HorizontalAlignment="Center" VerticalAlignment="Center" Width="127" Height="34"/>
-                        <Button Content="Eliminar" HorizontalAlignment="Left" Margin="304,0,0,0" VerticalAlignment="Center" Width="127" Height="34"/>
+                    <Grid Background="#FFF1EBBD" Margin="32,308,124,0">
+                        <Button Content="Añadir" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Width="127" Height="34" Click="addProyect" />
+                        <Button Content="Modificar" HorizontalAlignment="Center" VerticalAlignment="Center" Width="127" Height="34" Click="modifyProyect"/>
+                        <Button Content="Eliminar" HorizontalAlignment="Left" Margin="416,0,0,0" VerticalAlignment="Center" Width="127" Height="34" Click="deleteProyect"/>
                     </Grid>
 
-                    <DataGrid x:Name="dgvProyectos" Margin="72,80,241,80">
+                    <DataGrid x:Name="dgvProyectos" Margin="99,80,215,80">
                         <DataGrid.Columns>
 
                         </DataGrid.Columns>
                     </DataGrid>
                     <TextBox HorizontalAlignment="Left" Margin="173,36,0,0" TextWrapping="Wrap" Text="Buscar" VerticalAlignment="Top" Width="247" Height="29"/>
-                    <Button Content="Cargar datos" HorizontalAlignment="Left" Margin="560,14,0,0" VerticalAlignment="Top" Height="44" Width="118" Click="Button_Click"/>
+                    <Button Content="Cargar datos" HorizontalAlignment="Left" Margin="560,14,0,0" VerticalAlignment="Top" Height="44" Width="118" />
 
 
                 </Grid>

@@ -48,6 +48,8 @@ namespace ManejoExcepciones
             finally
             {
                 Console.WriteLine("Programa finalizado");
+                Console.ReadKey();
+                
             }
         }
     }
