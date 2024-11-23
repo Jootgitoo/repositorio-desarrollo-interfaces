@@ -17,6 +17,7 @@ namespace ManejoExcepciones
         public static void Divisiones()
         {
             int[] arrayResultados = new int[10];
+
             try
             {
                 for (int i = 0; i < 10; i++)
@@ -30,23 +31,24 @@ namespace ManejoExcepciones
                     int resultado = num1 / num2;
 
                     arrayResultados[i] = resultado;
-
                 }
-
             }
             catch (DivideByZeroException ex)
             {
                 Console.WriteLine("No se puede dividir entre 0");
             }
-            catch (IndexOutOfRangeException ex) 
+            catch (IndexOutOfRangeException ex)
             {
-                Console.WriteLine("El array es más pequeña del valor seleccionado");
+                Console.WriteLine("El array es más pequeño del valor seleccionado");
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine("Por favor, introduce un número válido");
             }
             finally
             {
                 Console.WriteLine("Programa finalizado");
             }
-
-        }    
+        }
     }
 }

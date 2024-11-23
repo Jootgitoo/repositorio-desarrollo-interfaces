@@ -5,3 +5,10 @@ C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejerc
 C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ManejoExcepciones\ManejoExcepciones\obj\Debug\ManejoExcepciones.csproj.CoreCompileInputs.cache
 C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ManejoExcepciones\ManejoExcepciones\obj\Debug\ManejoExcepciones.exe
 C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ManejoExcepciones\ManejoExcepciones\obj\Debug\ManejoExcepciones.pdb
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ManejoExcepciones\ManejoExcepciones\bin\Debug\ManejoExcepciones.exe.config
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ManejoExcepciones\ManejoExcepciones\bin\Debug\ManejoExcepciones.exe
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ManejoExcepciones\ManejoExcepciones\bin\Debug\ManejoExcepciones.pdb
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ManejoExcepciones\ManejoExcepciones\obj\Debug\ManejoExcepciones.csproj.AssemblyReference.cache
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ManejoExcepciones\ManejoExcepciones\obj\Debug\ManejoExcepciones.csproj.CoreCompileInputs.cache
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ManejoExcepciones\ManejoExcepciones\obj\Debug\ManejoExcepciones.exe
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ManejoExcepciones\ManejoExcepciones\obj\Debug\ManejoExcepciones.pdb
