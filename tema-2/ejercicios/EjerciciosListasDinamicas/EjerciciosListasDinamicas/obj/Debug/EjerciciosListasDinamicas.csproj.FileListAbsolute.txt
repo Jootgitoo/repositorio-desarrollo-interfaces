@@ -1,0 +1,7 @@
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\EjerciciosListasDinamicas\EjerciciosListasDinamicas\obj\Debug\EjerciciosListasDinamicas.csproj.AssemblyReference.cache
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\EjerciciosListasDinamicas\EjerciciosListasDinamicas\obj\Debug\EjerciciosListasDinamicas.csproj.CoreCompileInputs.cache
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\EjerciciosListasDinamicas\EjerciciosListasDinamicas\bin\Debug\EjerciciosListasDinamicas.exe.config
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\EjerciciosListasDinamicas\EjerciciosListasDinamicas\bin\Debug\EjerciciosListasDinamicas.exe
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\EjerciciosListasDinamicas\EjerciciosListasDinamicas\bin\Debug\EjerciciosListasDinamicas.pdb
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\EjerciciosListasDinamicas\EjerciciosListasDinamicas\obj\Debug\EjerciciosListasDinamicas.exe
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\EjerciciosListasDinamicas\EjerciciosListasDinamicas\obj\Debug\EjerciciosListasDinamicas.pdb

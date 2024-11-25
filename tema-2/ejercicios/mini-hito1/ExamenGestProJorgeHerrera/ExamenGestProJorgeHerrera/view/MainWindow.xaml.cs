@@ -36,20 +36,7 @@ namespace ExamenGestProJorgeHerrera
 
         private void addProyect(object sender, RoutedEventArgs e)
         {
-            string format = "dd/MM/YYYY";
-
-            string nombreProyecto = txtProyectName.Text;
-
-            string fechaComienzo = txtfechaInicio.Text;
-            DateTime dtFechaComienzo = DateTime.ParseExact(fechaComienzo, format, CultureInfo.InvariantCulture);
-
-            string fechaFinal = txtFechaFin.Text;
-            DateTime dtFechaFin = DateTime.ParseExact(fechaFinal, format, CultureInfo.InvariantCulture);
-
-            string fechaCreacion = txtCreationTime.Text;
-            DateTime dtFechaCreacion = DateTime.ParseExact(fechaCreacion, format, CultureInfo.InvariantCulture);
-
-            Proyecto proyecto = new Proyecto(nombreProyecto, dtFechaComienzo, dtFechaFin, dtFechaCreacion);
+            Proyecto proyecto = new Proyecto(txtProyectName.Text, txtfechaInicio.Text, txtFechaFin.Text, txtCreationTime.Text);
             proyecto.insert(proyecto);
         }
 

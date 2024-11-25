@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s0wyBssGdMY=",
+  "dgSpecHash": "sxSgGz3uVY4=",
   "success": true,
-  "projectFilePath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectoPersonasBBdd\\proyectoPersonas\\proyectoPersonas.csproj",
+  "projectFilePath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectoPersonasBBDD\\proyectoPersonas\\proyectoPersonas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JORGE\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\JORGE\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",

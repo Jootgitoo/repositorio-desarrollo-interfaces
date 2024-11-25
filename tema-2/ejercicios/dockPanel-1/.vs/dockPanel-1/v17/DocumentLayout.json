@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\dockPanel-1\\",
+  "WorkspaceRootPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\dockPanel-1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D51B8C5-86CD-4F00-984F-99B6B385CA1D}|dockPanel-1\\dockPanel-1.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\dockpanel-1\\dockpanel-1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7D51B8C5-86CD-4F00-984F-99B6B385CA1D}|dockPanel-1\\dockPanel-1.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\dockpanel-1\\dockpanel-1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7D51B8C5-86CD-4F00-984F-99B6B385CA1D}|dockPanel-1\\dockPanel-1.csproj|solutionrelative:dockpanel-1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D51B8C5-86CD-4F00-984F-99B6B385CA1D}|dockPanel-1\\dockPanel-1.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\dockpanel-1\\dockpanel-1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7D51B8C5-86CD-4F00-984F-99B6B385CA1D}|dockPanel-1\\dockPanel-1.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\dockpanel-1\\dockpanel-1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D51B8C5-86CD-4F00-984F-99B6B385CA1D}|dockPanel-1\\dockPanel-1.csproj|solutionrelative:dockpanel-1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,9 +28,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\dockPanel-1\\dockPanel-1\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\dockPanel-1\\dockPanel-1\\MainWindow.xaml",
               "RelativeDocumentMoniker": "dockPanel-1\\MainWindow.xaml",
-              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\dockPanel-1\\dockPanel-1\\MainWindow.xaml",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\dockPanel-1\\dockPanel-1\\MainWindow.xaml",
               "RelativeToolTip": "dockPanel-1\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-17T07:23:51.215Z",
@@ -40,9 +40,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\dockPanel-1\\dockPanel-1\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\dockPanel-1\\dockPanel-1\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "dockPanel-1\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\dockPanel-1\\dockPanel-1\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\dockPanel-1\\dockPanel-1\\MainWindow.xaml.cs",
               "RelativeToolTip": "dockPanel-1\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

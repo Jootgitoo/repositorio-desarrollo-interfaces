@@ -14,20 +14,17 @@ namespace ExamenGestProJorgeHerrera.manages
 
         //ATRIBUTOS
         private string proyectName;
-        private DateTime startDate;
-        private DateTime endDate;
-        private DateTime creationTime;
+        private string startDate;
+        private string endDate;
+        private string creationTime;
 
         public DBBroker dbbroker;
-
-        private string[] listaEmpresas;
-        private int numeroAleatorio;
 
 
 //----------------------------------------------------------------------------------------------------------------------------------------------
         //CONSTRUCTOR
 
-        public Proyecto(string nombreProyecto, DateTime fechaComienzo, DateTime fechaFinal, DateTime fechaCreacion)
+        public Proyecto(string nombreProyecto, string fechaComienzo, string fechaFinal, string fechaCreacion)
         {
             dbbroker = DBBroker.obtenerAgente();
             this.proyectName = nombreProyecto;
@@ -62,7 +59,7 @@ namespace ExamenGestProJorgeHerrera.manages
             foreach (List<Object> aux in listaObject)
             {
                 Proyecto p = new Proyecto();
-                p = new Proyecto(aux[0].ToString(), Convert.ToDateTime(aux[1]), Convert.ToDateTime(aux[2]), Convert.ToDateTime(aux[3]) );
+                p = new Proyecto(aux[0].ToString(), aux[1].ToString(), aux[2].ToString(), aux[3].ToString() );
                 listaProyecto.Add(p);
             }
 
@@ -76,7 +73,7 @@ namespace ExamenGestProJorgeHerrera.manages
         /// <param name="proyecto"></param>
         public void insert(Proyecto proyecto)
         {
-            string sentenciaSQL = "Insert into gestpro.Proyect (ProyectName, StartDate, EndDate, CreationTime) values ('"+proyecto.proyectName+"', "+proyecto.startDate+", "+proyecto.endDate+", "+proyecto.creationTime+")";
+            string sentenciaSQL = "Insert into proyect values (999, '"+proyecto.ProyectName+"', '"+proyecto.StartDate+"', '"+proyecto.EndDate+"', '"+proyecto.CreationTime+"')";
             
             dbbroker.modificar(sentenciaSQL);
         }
@@ -103,9 +100,9 @@ namespace ExamenGestProJorgeHerrera.manages
 
 
         public string ProyectName { get => proyectName; set => proyectName = value; }
-        public DateTime StartDate { get => startDate; set => startDate = value; }
-        public DateTime EndDate { get => endDate; set => endDate = value; }
-        public DateTime CreationTime { get => creationTime; set => creationTime = value; }
+        public string StartDate { get => startDate; set => startDate = value; }
+        public string EndDate { get => endDate; set => endDate = value; }
+        public string CreationTime { get => creationTime; set => creationTime = value; }
 
         //public Proyecto()
         //{

@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GridsPersonas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AED52D28-FC53-457C-B958-F193A8E8B1F6}|GridsPersonas\\GridsPersonas.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\gridspersonas\\gridspersonas\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AED52D28-FC53-457C-B958-F193A8E8B1F6}|GridsPersonas\\GridsPersonas.csproj|solutionrelative:gridspersonas\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AED52D28-FC53-457C-B958-F193A8E8B1F6}|GridsPersonas\\GridsPersonas.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\gridspersonas\\gridspersonas\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AED52D28-FC53-457C-B958-F193A8E8B1F6}|GridsPersonas\\GridsPersonas.csproj|solutionrelative:gridspersonas\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,19 +35,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DBBroker.cs",
-              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GridsPersonas\\GridsPersonas\\persistence\\DBBroker.cs",
-              "RelativeDocumentMoniker": "GridsPersonas\\persistence\\DBBroker.cs",
-              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GridsPersonas\\GridsPersonas\\persistence\\DBBroker.cs",
-              "RelativeToolTip": "GridsPersonas\\persistence\\DBBroker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T10:20:49.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GridsPersonas\\GridsPersonas\\domain\\Persona.cs",
               "RelativeDocumentMoniker": "GridsPersonas\\domain\\Persona.cs",
@@ -64,7 +47,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "PersonasPersistance.cs",
               "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GridsPersonas\\GridsPersonas\\persistence\\manages\\PersonasPersistance.cs",
               "RelativeDocumentMoniker": "GridsPersonas\\persistence\\manages\\PersonasPersistance.cs",
@@ -76,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GridsPersonas\\GridsPersonas\\view\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "GridsPersonas\\view\\MainWindow.xaml.cs",
@@ -88,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GridsPersonas\\GridsPersonas\\view\\MainWindow.xaml",
               "RelativeDocumentMoniker": "GridsPersonas\\view\\MainWindow.xaml",

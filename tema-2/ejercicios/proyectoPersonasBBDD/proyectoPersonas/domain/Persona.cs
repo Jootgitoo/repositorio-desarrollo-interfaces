@@ -23,12 +23,12 @@ namespace proyectoPersonas.domain
     // constructores =>
     public Persona() => mp = new ManejoPersonas();
 
-        public Persona(string nombre, int edadad) 
+        public Persona(string nombre, int edad) 
         {
             mp = new ManejoPersonas();
             this.id = mp.getLastId(this);
             this.nombre = nombre; 
-            this.edad = edadad;
+            this.edad = edad;
             
         }
 

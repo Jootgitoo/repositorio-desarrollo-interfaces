@@ -153,8 +153,6 @@
   <ItemGroup>
     <Resource Include="view\hoja.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="persistance\manages\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
