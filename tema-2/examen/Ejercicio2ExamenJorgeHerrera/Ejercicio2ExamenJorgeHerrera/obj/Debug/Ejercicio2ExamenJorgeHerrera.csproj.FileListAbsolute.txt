@@ -1,0 +1,15 @@
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio2ExamenJorgeHerrera\Ejercicio2ExamenJorgeHerrera\bin\Debug\Ejercicio2ExamenJorgeHerrera.exe.config
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio2ExamenJorgeHerrera\Ejercicio2ExamenJorgeHerrera\bin\Debug\Ejercicio2ExamenJorgeHerrera.exe
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio2ExamenJorgeHerrera\Ejercicio2ExamenJorgeHerrera\bin\Debug\Ejercicio2ExamenJorgeHerrera.pdb
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio2ExamenJorgeHerrera\Ejercicio2ExamenJorgeHerrera\obj\Debug\Ejercicio2ExamenJorgeHerrera.csproj.AssemblyReference.cache
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio2ExamenJorgeHerrera\Ejercicio2ExamenJorgeHerrera\obj\Debug\MainWindow.g.cs
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio2ExamenJorgeHerrera\Ejercicio2ExamenJorgeHerrera\obj\Debug\App.g.cs
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio2ExamenJorgeHerrera\Ejercicio2ExamenJorgeHerrera\obj\Debug\Ejercicio2ExamenJorgeHerrera_MarkupCompile.cache
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio2ExamenJorgeHerrera\Ejercicio2ExamenJorgeHerrera\obj\Debug\Ejercicio2ExamenJorgeHerrera_MarkupCompile.lref
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio2ExamenJorgeHerrera\Ejercicio2ExamenJorgeHerrera\obj\Debug\MainWindow.baml
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio2ExamenJorgeHerrera\Ejercicio2ExamenJorgeHerrera\obj\Debug\Ejercicio2ExamenJorgeHerrera.g.resources
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio2ExamenJorgeHerrera\Ejercicio2ExamenJorgeHerrera\obj\Debug\Ejercicio2ExamenJorgeHerrera.Properties.Resources.resources
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio2ExamenJorgeHerrera\Ejercicio2ExamenJorgeHerrera\obj\Debug\Ejercicio2ExamenJorgeHerrera.csproj.GenerateResource.cache
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio2ExamenJorgeHerrera\Ejercicio2ExamenJorgeHerrera\obj\Debug\Ejercicio2ExamenJorgeHerrera.csproj.CoreCompileInputs.cache
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio2ExamenJorgeHerrera\Ejercicio2ExamenJorgeHerrera\obj\Debug\Ejercicio2ExamenJorgeHerrera.exe
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio2ExamenJorgeHerrera\Ejercicio2ExamenJorgeHerrera\obj\Debug\Ejercicio2ExamenJorgeHerrera.pdb

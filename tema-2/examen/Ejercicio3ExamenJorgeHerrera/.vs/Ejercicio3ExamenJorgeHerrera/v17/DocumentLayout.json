@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\examen\\Ejercicio3ExamenJorgeHerrera\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E33FC6A-7178-4688-AD79-D0DC8838D752}|Ejercicio3ExamenJorgeHerrera\\Ejercicio3ExamenJorgeHerrera.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\examen\\Ejercicio3ExamenJorgeHerrera\\ejercicio3examenjorgeherrera\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E33FC6A-7178-4688-AD79-D0DC8838D752}|Ejercicio3ExamenJorgeHerrera\\Ejercicio3ExamenJorgeHerrera.csproj|solutionrelative:ejercicio3examenjorgeherrera\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E33FC6A-7178-4688-AD79-D0DC8838D752}|Ejercicio3ExamenJorgeHerrera\\Ejercicio3ExamenJorgeHerrera.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\examen\\ejercicio3examenjorgeherrera\\ejercicio3examenjorgeherrera\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E33FC6A-7178-4688-AD79-D0DC8838D752}|Ejercicio3ExamenJorgeHerrera\\Ejercicio3ExamenJorgeHerrera.csproj|solutionrelative:ejercicio3examenjorgeherrera\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E33FC6A-7178-4688-AD79-D0DC8838D752}|Ejercicio3ExamenJorgeHerrera\\Ejercicio3ExamenJorgeHerrera.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\examen\\ejercicio3examenjorgeherrera\\ejercicio3examenjorgeherrera\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E33FC6A-7178-4688-AD79-D0DC8838D752}|Ejercicio3ExamenJorgeHerrera\\Ejercicio3ExamenJorgeHerrera.csproj|solutionrelative:ejercicio3examenjorgeherrera\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E33FC6A-7178-4688-AD79-D0DC8838D752}|Ejercicio3ExamenJorgeHerrera\\Ejercicio3ExamenJorgeHerrera.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\examen\\ejercicio3examenjorgeherrera\\ejercicio3examenjorgeherrera\\persistence\\manajes\\manejotripulantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E33FC6A-7178-4688-AD79-D0DC8838D752}|Ejercicio3ExamenJorgeHerrera\\Ejercicio3ExamenJorgeHerrera.csproj|solutionrelative:ejercicio3examenjorgeherrera\\persistence\\manajes\\manejotripulantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E33FC6A-7178-4688-AD79-D0DC8838D752}|Ejercicio3ExamenJorgeHerrera\\Ejercicio3ExamenJorgeHerrera.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\examen\\ejercicio3examenjorgeherrera\\ejercicio3examenjorgeherrera\\domain\\tripulante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E33FC6A-7178-4688-AD79-D0DC8838D752}|Ejercicio3ExamenJorgeHerrera\\Ejercicio3ExamenJorgeHerrera.csproj|solutionrelative:ejercicio3examenjorgeherrera\\domain\\tripulante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\examen\\Ejercicio3ExamenJorgeHerrera\\Ejercicio3ExamenJorgeHerrera\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Ejercicio3ExamenJorgeHerrera\\MainWindow.xaml",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\examen\\Ejercicio3ExamenJorgeHerrera\\Ejercicio3ExamenJorgeHerrera\\MainWindow.xaml",
+              "RelativeToolTip": "Ejercicio3ExamenJorgeHerrera\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-26T11:50:00.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\examen\\Ejercicio3ExamenJorgeHerrera\\Ejercicio3ExamenJorgeHerrera\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Ejercicio3ExamenJorgeHerrera\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\examen\\Ejercicio3ExamenJorgeHerrera\\Ejercicio3ExamenJorgeHerrera\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Ejercicio3ExamenJorgeHerrera\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAIAwwCEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T11:49:59.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DBBroker.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\examen\\Ejercicio3ExamenJorgeHerrera\\Ejercicio3ExamenJorgeHerrera\\persistence\\DBBroker.cs",
+              "RelativeDocumentMoniker": "Ejercicio3ExamenJorgeHerrera\\persistence\\DBBroker.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\examen\\Ejercicio3ExamenJorgeHerrera\\Ejercicio3ExamenJorgeHerrera\\persistence\\DBBroker.cs",
+              "RelativeToolTip": "Ejercicio3ExamenJorgeHerrera\\persistence\\DBBroker.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvzYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:17:26.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tripulante.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\examen\\Ejercicio3ExamenJorgeHerrera\\Ejercicio3ExamenJorgeHerrera\\domain\\Tripulante.cs",
+              "RelativeDocumentMoniker": "Ejercicio3ExamenJorgeHerrera\\domain\\Tripulante.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\examen\\Ejercicio3ExamenJorgeHerrera\\Ejercicio3ExamenJorgeHerrera\\domain\\Tripulante.cs",
+              "RelativeToolTip": "Ejercicio3ExamenJorgeHerrera\\domain\\Tripulante.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwEAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T12:56:24.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManejoTripulantes.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\examen\\Ejercicio3ExamenJorgeHerrera\\Ejercicio3ExamenJorgeHerrera\\persistence\\Manajes\\ManejoTripulantes.cs",
+              "RelativeDocumentMoniker": "Ejercicio3ExamenJorgeHerrera\\persistence\\Manajes\\ManejoTripulantes.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\examen\\Ejercicio3ExamenJorgeHerrera\\Ejercicio3ExamenJorgeHerrera\\persistence\\Manajes\\ManejoTripulantes.cs",
+              "RelativeToolTip": "Ejercicio3ExamenJorgeHerrera\\persistence\\Manajes\\ManejoTripulantes.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:17:42.321Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
