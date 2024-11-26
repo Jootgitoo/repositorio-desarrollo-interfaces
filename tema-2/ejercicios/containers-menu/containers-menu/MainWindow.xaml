@@ -10,7 +10,7 @@
 
         <Menu Name="menu1" Width="37" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35">
             
-            <MenuItem Header="_File">
+            <MenuItem Header="File">
                 <MenuItem Header="Abrir" IsCheckable="True"></MenuItem>
                 <MenuItem Header="Cerrar" IsCheckable="True"></MenuItem>
                 <MenuItem Header="Guardar">
@@ -20,9 +20,12 @@
                 </MenuItem>
                 
                 <Separator/>
-                <MenuItem Header="A_gregar">
+                <MenuItem Header="Agregar">
                     <MenuItem Header="Proyecto">
-                        <MenuItem Header="proyecto 1"></MenuItem>
+                        <MenuItem Header="proyecto 1">
+                            <MenuItem Header="Proyecto Indra"></MenuItem>
+                            <MenuItem Header="Proyecto NTTData"></MenuItem>
+                        </MenuItem>
                         <MenuItem Header="proyecto 2">
                             <MenuItem Header="proyecto 2.1"></MenuItem>
                             <MenuItem Header="proyecto 2.2"></MenuItem>

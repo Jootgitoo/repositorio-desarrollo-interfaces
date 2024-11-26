@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\diferent-containers\\diferent-containers\\diferent-containers.csproj": {}
+    "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\diferent-containers\\diferent-containers\\diferent-containers.csproj": {}
   },
   "projects": {
-    "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\diferent-containers\\diferent-containers\\diferent-containers.csproj": {
+    "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\diferent-containers\\diferent-containers\\diferent-containers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\diferent-containers\\diferent-containers\\diferent-containers.csproj",
+        "projectUniqueName": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\diferent-containers\\diferent-containers\\diferent-containers.csproj",
         "projectName": "diferent-containers",
-        "projectPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\diferent-containers\\diferent-containers\\diferent-containers.csproj",
-        "packagesPath": "C:\\Users\\JORGE\\.nuget\\packages\\",
-        "outputPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\diferent-containers\\diferent-containers\\obj\\",
+        "projectPath": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\diferent-containers\\diferent-containers\\diferent-containers.csproj",
+        "packagesPath": "C:\\Users\\b15-18m\\.nuget\\packages\\",
+        "outputPath": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\diferent-containers\\diferent-containers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\JORGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\b15-18m\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

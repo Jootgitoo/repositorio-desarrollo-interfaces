@@ -8,14 +8,14 @@
         Title="Containers" Height="654" Width="775">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="3.5*"></RowDefinition>
+            <RowDefinition Height="32*"></RowDefinition>
+            <RowDefinition Height="287*"></RowDefinition>
         </Grid.RowDefinitions>
-        <TabControl x:Name="tblMain" Grid.Row="1" TabStripPlacement="Left">
+        <TabControl x:Name="tblMain" Grid.Row="1" TabStripPlacement="Left" Margin="0,19,0,0">
             <TabItem Header="STORE" FontSize="25">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="1*"></RowDefinition>
                         <RowDefinition Height="1.5*"></RowDefinition>
                         <RowDefinition Height="5*"></RowDefinition>
                     </Grid.RowDefinitions>
@@ -26,7 +26,7 @@
                     <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.ColumnSpan="2">
                         <Label Content="Select Player:" Margin="5"></Label>
                         <ComboBox x:Name="cboPlayer" Width="230" Margin="15" SelectionChanged="cboPlayer_SelectionChanged">
-                           
+
                         </ComboBox>
                         <Label x:Name="lblAvaible" Content="Avaible Points:" Margin="5"></Label>
                     </StackPanel>
@@ -36,19 +36,19 @@
                     </StackPanel>
                     <StackPanel Orientation="Vertical" Grid.Row="2" Grid.Column="0" Margin="10">
                         <Label Content="Purchased products"></Label>
-                    <DataGrid x:Name="dgvStore" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True">
-                        <DataGrid.Columns >
+                        <DataGrid x:Name="dgvStore" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True">
+                            <DataGrid.Columns >
                                 <DataGridTextColumn Binding="{Binding id}" Header="id"></DataGridTextColumn>
                                 <DataGridTextColumn Binding="{Binding name}" Header="Ability"></DataGridTextColumn>
                                 <DataGridTextColumn Binding="{Binding points}" Header="Points"></DataGridTextColumn>
                             </DataGrid.Columns>
-                    </DataGrid>
+                        </DataGrid>
                     </StackPanel>
                     <StackPanel Orientation="Vertical" Grid.Column="1" Grid.RowSpan="3">
                         <Separator Visibility="Hidden" Height="100"></Separator>
                         <StackPanel Orientation="Horizontal">
                             <Border BorderBrush="Gray">
-                                <StackPanel Orientation="Vertical">                                    
+                                <StackPanel Orientation="Vertical">
                                     <Image x:Name="imgWand" Source="../images/wand.jpg" Margin="10" ></Image>
                                     <Label Content="100 pt"></Label>
 
@@ -73,7 +73,7 @@
                         <RowDefinition Height="4*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    
+
 
                     <Grid Margin="10" ShowGridLines="True" Grid.Row="0">
                         <Grid.RowDefinitions>
@@ -122,7 +122,7 @@
                     <StackPanel  Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center">
                         <Button Content="Step by Step" Margin="10"/>
                         <Button Content="Run" Margin="10"/>
-                        
+
                     </StackPanel>
                 </Grid>
             </TabItem>

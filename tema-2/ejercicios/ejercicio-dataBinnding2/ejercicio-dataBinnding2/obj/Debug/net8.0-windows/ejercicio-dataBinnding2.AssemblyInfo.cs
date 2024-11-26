@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ejercicio-dataBinnding2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+385625c344488e0d030ba8613dfff25332f662e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cca9205bac9e5426f0796f329c4e41087e7131b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("ejercicio-dataBinnding2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ejercicio-dataBinnding2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
