@@ -1,0 +1,15 @@
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-tpv\tpvCamisetasFutbol\tpvCamisetasFutbol\bin\Debug\tpvCamisetasFutbol.exe.config
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-tpv\tpvCamisetasFutbol\tpvCamisetasFutbol\bin\Debug\tpvCamisetasFutbol.exe
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-tpv\tpvCamisetasFutbol\tpvCamisetasFutbol\bin\Debug\tpvCamisetasFutbol.pdb
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-tpv\tpvCamisetasFutbol\tpvCamisetasFutbol\obj\Debug\tpvCamisetasFutbol.csproj.AssemblyReference.cache
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-tpv\tpvCamisetasFutbol\tpvCamisetasFutbol\obj\Debug\MainWindow.g.cs
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-tpv\tpvCamisetasFutbol\tpvCamisetasFutbol\obj\Debug\App.g.cs
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-tpv\tpvCamisetasFutbol\tpvCamisetasFutbol\obj\Debug\tpvCamisetasFutbol_MarkupCompile.cache
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-tpv\tpvCamisetasFutbol\tpvCamisetasFutbol\obj\Debug\tpvCamisetasFutbol_MarkupCompile.lref
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-tpv\tpvCamisetasFutbol\tpvCamisetasFutbol\obj\Debug\MainWindow.baml
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-tpv\tpvCamisetasFutbol\tpvCamisetasFutbol\obj\Debug\tpvCamisetasFutbol.g.resources
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-tpv\tpvCamisetasFutbol\tpvCamisetasFutbol\obj\Debug\tpvCamisetasFutbol.Properties.Resources.resources
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-tpv\tpvCamisetasFutbol\tpvCamisetasFutbol\obj\Debug\tpvCamisetasFutbol.csproj.GenerateResource.cache
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-tpv\tpvCamisetasFutbol\tpvCamisetasFutbol\obj\Debug\tpvCamisetasFutbol.csproj.CoreCompileInputs.cache
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-tpv\tpvCamisetasFutbol\tpvCamisetasFutbol\obj\Debug\tpvCamisetasFutbol.exe
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-tpv\tpvCamisetasFutbol\tpvCamisetasFutbol\obj\Debug\tpvCamisetasFutbol.pdb

@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GridsPersonas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AED52D28-FC53-457C-B958-F193A8E8B1F6}|GridsPersonas\\GridsPersonas.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\gridspersonas\\gridspersonas\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AED52D28-FC53-457C-B958-F193A8E8B1F6}|GridsPersonas\\GridsPersonas.csproj|solutionrelative:gridspersonas\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AED52D28-FC53-457C-B958-F193A8E8B1F6}|GridsPersonas\\GridsPersonas.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\gridspersonas\\gridspersonas\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AED52D28-FC53-457C-B958-F193A8E8B1F6}|GridsPersonas\\GridsPersonas.csproj|solutionrelative:gridspersonas\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AED52D28-FC53-457C-B958-F193A8E8B1F6}|GridsPersonas\\GridsPersonas.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\gridspersonas\\gridspersonas\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{AED52D28-FC53-457C-B958-F193A8E8B1F6}|GridsPersonas\\GridsPersonas.csproj|solutionrelative:gridspersonas\\persistence\\manages\\personaspersistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AED52D28-FC53-457C-B958-F193A8E8B1F6}|GridsPersonas\\GridsPersonas.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\gridspersonas\\gridspersonas\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AED52D28-FC53-457C-B958-F193A8E8B1F6}|GridsPersonas\\GridsPersonas.csproj|solutionrelative:gridspersonas\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AED52D28-FC53-457C-B958-F193A8E8B1F6}|GridsPersonas\\GridsPersonas.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\gridspersonas\\gridspersonas\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED52D28-FC53-457C-B958-F193A8E8B1F6}|GridsPersonas\\GridsPersonas.csproj|solutionrelative:gridspersonas\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,16 +34,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GridsPersonas\\GridsPersonas\\domain\\Persona.cs",
               "RelativeDocumentMoniker": "GridsPersonas\\domain\\Persona.cs",
               "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GridsPersonas\\GridsPersonas\\domain\\Persona.cs",
               "RelativeToolTip": "GridsPersonas\\domain\\Persona.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAhwAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T18:53:30.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T18:53:30.417Z"
             },
             {
               "$type": "Document",
@@ -53,7 +52,7 @@
               "RelativeDocumentMoniker": "GridsPersonas\\persistence\\manages\\PersonasPersistance.cs",
               "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GridsPersonas\\GridsPersonas\\persistence\\manages\\PersonasPersistance.cs",
               "RelativeToolTip": "GridsPersonas\\persistence\\manages\\PersonasPersistance.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T18:53:19.791Z"
             },
@@ -65,20 +64,21 @@
               "RelativeDocumentMoniker": "GridsPersonas\\view\\MainWindow.xaml.cs",
               "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GridsPersonas\\GridsPersonas\\view\\MainWindow.xaml.cs",
               "RelativeToolTip": "GridsPersonas\\view\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAASwCUAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAIAxwCUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T18:41:56.364Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GridsPersonas\\GridsPersonas\\view\\MainWindow.xaml",
               "RelativeDocumentMoniker": "GridsPersonas\\view\\MainWindow.xaml",
               "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GridsPersonas\\GridsPersonas\\view\\MainWindow.xaml",
               "RelativeToolTip": "GridsPersonas\\view\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-04T18:41:56.82Z"
+              "WhenOpened": "2024-11-04T18:41:56.82Z",
+              "EditorCaption": ""
             }
           ]
         }
