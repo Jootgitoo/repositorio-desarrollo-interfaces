@@ -10,7 +10,7 @@ namespace tpvCamisetasFutbol.persistence
 {
     internal class ManejoProducto
     {
-        //ATRIBUTOS
+        //ATRIBUTOS 
         private DataTable dataTable;
         private List<Producto> listaProductos;
         DBBroker dbbroker;
@@ -44,22 +44,39 @@ namespace tpvCamisetasFutbol.persistence
         }
 
 
+        /// <summary>
+        ///     Inserta un producto en la bbdd
+        /// </summary>
+        /// <param name="producto">
+        ///     Producto que se va ha insertar
+        /// </param>
         public void insertarProducto(Producto producto)
         {
-            dbbroker.modificar("INSERT INTO bbddTPV.Producto (idProducto, Precio, Descripcion, idTipoProducto) values (" + producto.IdProducto + ", " + producto.Precio + ", '" + producto.Descripcion + "', " + producto.IdTipoProducto + ")");
+            dbbroker.modificar("INSERT INTO bbddTPV.Producto (idProducto, Precio, Descripcion, idTipoProducto) VALUES (" + producto.IdProducto + ", " + producto.Precio + ", '" + producto.Descripcion + "', " + producto.IdTipoProducto + ")");
         }
 
 
+        /// <summary>
+        ///     Borra un producto en la bbdd
+        /// </summary>
+        /// <param name="producto">
+        ///     Producto que vas a borrar de la bbdd
+        /// </param>
         public void borrarProducto(Producto producto)
         {
             dbbroker.modificar("DELETE FROM bbddTPV.Producto WHERE idProducto = " + producto.IdProducto + ";");
         }
 
+
+        /// <summary>
+        ///     Modifica un producto de la bbdd
+        /// </summary>
+        /// <param name="producto">
+        ///     Producto que se va a modificar en la bbdd
+        /// </param>
         public void modificarProducto(Producto producto)
         {
             dbbroker.modificar("UPDATE bbddTPV.Producto set idProducto = "+producto.IdProducto+ ", Precio = " +producto.Precio+ ", Descripcion = '" +producto.Descripcion+"';");
         }
-
-
     }
 }

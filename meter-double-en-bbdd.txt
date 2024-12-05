@@ -1,0 +1,1 @@
+double precio = Convert.ToDouble(boxPrecio.Text, CultureInfo.InvariantCulture);

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using tpvCamisetasFutbol.persistence;
 
 namespace tpvCamisetasFutbol.domain
 {
@@ -13,12 +14,14 @@ namespace tpvCamisetasFutbol.domain
         private double precio;
         private string descripcion;
         private int idTipoProducto;
+        public ManejoProducto mp;
 
 //------------------------------------------------------------------------------------------------------------------
         //CONSTRUCTORES
 
         public Producto(int p_idProducto, double p_precio, string p_descripcion, int p_idTipoProdcuto)
         {
+            mp = new ManejoProducto();
             this.idProducto = p_idProducto;
             this.precio = p_precio;
             this.descripcion = p_descripcion;
@@ -26,11 +29,38 @@ namespace tpvCamisetasFutbol.domain
         }
 
         public Producto() 
-        { 
+        {
+            mp = new ManejoProducto();
+        }
 
+//-------------------------------------------------------------------------------------------------------------------
+        //MÉTODOS
+
+        /// <summary>
+        ///     Insertas un producto en la bbdd
+        /// </summary>
+        public void insertar()
+        {
+            mp.insertarProducto(this);
         }
 
 
+        /// <summary>
+        ///     Modifica un producto en la bbdd
+        /// </summary>
+        public void modificar()
+        {
+            mp.modificarProducto(this);
+        }
+
+
+        /// <summary>
+        ///     Elimina un producto en la bbdd
+        /// </summary>
+        public void eliminar()
+        {
+            mp.borrarProducto(this);
+        }
 
 //-----------------------------------------------------------------------------------------------------------------------
         //MÉTODOS EXTRA
