@@ -14,23 +14,36 @@
 
         <!-- BOTONES DONDE VAN A APARECER LAS CAMISETAS QUE VAMOS A VENDER -->
 
-        <!--Image x:Name="imgWand" Tag="Wand" Source="../images/wand.jpg" 
-    Margin="10" IsEnabled="True" 
-   Height="50" Width="50"></Image-->
-
-
-
         <Button  HorizontalAlignment="Left" Margin="514,22,0,0" VerticalAlignment="Top" Height="70" Width="80">
             <Image x:Name="primeraEquipacionFCB2425" Source="../images/equipacion-FCB-24-25.jpg" Width="45" ></Image>
         </Button>
-        <Button Content="Img2" HorizontalAlignment="Left" Margin="674,22,0,0" VerticalAlignment="Top" Height="70" Width="80"/>
-        <Button Content="Img3" HorizontalAlignment="Left" Margin="514,115,0,0" VerticalAlignment="Top" Height="70" Width="80"/>
-        <Button Content="Img4" HorizontalAlignment="Left" Margin="674,115,0,0" VerticalAlignment="Top" Height="70" Width="80"/>
-        <Button Content="Img5" HorizontalAlignment="Left" Margin="514,217,0,0" VerticalAlignment="Top" Height="70" Width="80"/>
-        <Button Content="Img6" HorizontalAlignment="Left" Margin="674,217,0,0" VerticalAlignment="Top" Height="70" Width="80"/>
-        <Button Content="Img7" HorizontalAlignment="Left" Margin="514,319,0,0" VerticalAlignment="Top" Height="70" Width="80"/>
-        <Button Content="" SourceUpdated="" HorizontalAlignment="Left" Margin="674,319,0,0" VerticalAlignment="Top" Height="69" Width="78">
-            
+        
+        <Button HorizontalAlignment="Left" Margin="674,22,0,0" VerticalAlignment="Top" Height="70" Width="80">
+            <Image x:Name="primeraEquipacionMadrid24" Source="../images/equipacionRM24-25.jpg"></Image>
+        </Button>
+        
+        <Button  HorizontalAlignment="Left" Margin="514,115,0,0" VerticalAlignment="Top" Height="70" Width="80">
+            <Image x:Name="edicionLimitadaRM" Source="../images/edicion-limitada-rm.jpg"></Image>
+        </Button>
+        
+        <Button  HorizontalAlignment="Left" Margin="674,115,0,0" VerticalAlignment="Top" Height="70" Width="80">
+            <Image x:Name="edicionLimitadaFCB" Source="../images/edicion-limitada-fcb.jpg"></Image>
+        </Button>
+        
+        <Button  HorizontalAlignment="Left" Margin="514,217,0,0" VerticalAlignment="Top" Height="70" Width="80">
+            <Image x:Name="primeraEquipacionATM" Source="../images/camiseta-atletico-madrid-primera-equipacion-2024-2025.jpg"></Image>
+        </Button>
+        
+        <Button  HorizontalAlignment="Left" Margin="674,217,0,0" VerticalAlignment="Top" Height="70" Width="80">
+            <Image x:Name="primeraEquipacionAlba" Source="../images/Primera-equipacion-Albacete-24-25.jpg"></Image>
+        </Button>
+        
+        <Button  HorizontalAlignment="Left" Margin="514,319,0,0" VerticalAlignment="Top" Height="70" Width="80">
+            <Image x:Name="segundaEquipacionAlaves" Source="../images/Segunda-equipacion-Alavés-24-25.jpg"></Image>
+        </Button>
+        
+        <Button  HorizontalAlignment="Left" Margin="674,319,0,0" VerticalAlignment="Top" Height="69" Width="78">
+            <Image x:Name="primeraEquipacionBetis" Source="../images/Primera-equpacion-Betis 24-25.jpg"></Image>
         </Button>
 
         <!-- SEPARADORES -->
