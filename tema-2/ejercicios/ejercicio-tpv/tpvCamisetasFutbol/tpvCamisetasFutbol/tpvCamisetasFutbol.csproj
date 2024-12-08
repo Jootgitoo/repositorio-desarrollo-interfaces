@@ -152,5 +152,29 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Resource Include="images\camiseta-atletico-madrid-primera-equipacion-2024-2025.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\edicion-limitada-fcb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\edicion-limitada-rm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\equipacion-FCB-24-25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\equipacionRM24-25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\Primera-equipacion-Albacete-24-25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\Primera-equpacion-Betis 24-25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\Segunda-equipacion-Alavés-24-25.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

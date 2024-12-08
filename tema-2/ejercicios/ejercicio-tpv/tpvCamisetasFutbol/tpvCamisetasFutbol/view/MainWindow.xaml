@@ -13,14 +13,25 @@
         <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,10,322,217"/>
 
         <!-- BOTONES DONDE VAN A APARECER LAS CAMISETAS QUE VAMOS A VENDER -->
-        <Button Content="Img1" HorizontalAlignment="Left" Margin="514,22,0,0" VerticalAlignment="Top" Height="69" Width="78"/>
-        <Button Content="Img2" HorizontalAlignment="Left" Margin="674,22,0,0" VerticalAlignment="Top" Height="69" Width="78"/>
-        <Button Content="Img3" HorizontalAlignment="Left" Margin="514,115,0,0" VerticalAlignment="Top" Height="69" Width="78"/>
-        <Button Content="Img4" HorizontalAlignment="Left" Margin="674,115,0,0" VerticalAlignment="Top" Height="69" Width="78"/>
-        <Button Content="Img5" HorizontalAlignment="Left" Margin="514,217,0,0" VerticalAlignment="Top" Height="69" Width="78"/>
-        <Button Content="Img6" HorizontalAlignment="Left" Margin="674,217,0,0" VerticalAlignment="Top" Height="69" Width="78"/>
-        <Button Content="Img7" HorizontalAlignment="Left" Margin="514,319,0,0" VerticalAlignment="Top" Height="69" Width="78"/>
-        <Button Content="Img8" HorizontalAlignment="Left" Margin="674,319,0,0" VerticalAlignment="Top" Height="69" Width="78"/>
+
+        <!--Image x:Name="imgWand" Tag="Wand" Source="../images/wand.jpg" 
+    Margin="10" IsEnabled="True" 
+   Height="50" Width="50"></Image-->
+
+
+
+        <Button  HorizontalAlignment="Left" Margin="514,22,0,0" VerticalAlignment="Top" Height="70" Width="80">
+            <Image x:Name="primeraEquipacionFCB2425" Source="../images/equipacion-FCB-24-25.jpg" Width="45" ></Image>
+        </Button>
+        <Button Content="Img2" HorizontalAlignment="Left" Margin="674,22,0,0" VerticalAlignment="Top" Height="70" Width="80"/>
+        <Button Content="Img3" HorizontalAlignment="Left" Margin="514,115,0,0" VerticalAlignment="Top" Height="70" Width="80"/>
+        <Button Content="Img4" HorizontalAlignment="Left" Margin="674,115,0,0" VerticalAlignment="Top" Height="70" Width="80"/>
+        <Button Content="Img5" HorizontalAlignment="Left" Margin="514,217,0,0" VerticalAlignment="Top" Height="70" Width="80"/>
+        <Button Content="Img6" HorizontalAlignment="Left" Margin="674,217,0,0" VerticalAlignment="Top" Height="70" Width="80"/>
+        <Button Content="Img7" HorizontalAlignment="Left" Margin="514,319,0,0" VerticalAlignment="Top" Height="70" Width="80"/>
+        <Button Content="" SourceUpdated="" HorizontalAlignment="Left" Margin="674,319,0,0" VerticalAlignment="Top" Height="69" Width="78">
+            
+        </Button>
 
         <!-- SEPARADORES -->
         <Separator HorizontalAlignment="Left" Margin="0,222,0,0" VerticalAlignment="Top" Height="3" Width="496"/>
