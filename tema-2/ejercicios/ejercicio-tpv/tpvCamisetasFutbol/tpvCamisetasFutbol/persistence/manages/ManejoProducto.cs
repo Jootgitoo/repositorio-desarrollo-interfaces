@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -37,8 +38,8 @@ namespace tpvCamisetasFutbol.persistence
                 
                 Producto producto = new Producto(Convert.ToInt32(aux[0]), Convert.ToDouble(aux[1]), aux[2].ToString(), Convert.ToInt32(aux[3]) );
                 listaProductos.Add(producto);
-            }
 
+            }
 
             return listaProductos;
         }
@@ -52,7 +53,9 @@ namespace tpvCamisetasFutbol.persistence
         /// </param>
         public void insertarProducto(Producto producto)
         {
-            dbbroker.modificar("INSERT INTO bbddTPV.Producto (idProducto, Precio, Descripcion, idTipoProducto) VALUES (" + producto.IdProducto + ", " + producto.Precio + ", '" + producto.Descripcion + "', " + producto.IdTipoProducto + ")");
+            double precio = Convert.ToDouble(producto.Precio, CultureInfo.InvariantCulture);
+
+            dbbroker.modificar("INSERT INTO bbddTPV.Producto (idProducto, Precio, Descripcion, idTipoProducto) VALUES (" + producto.IdProducto + ", " + precio + ", '" + producto.Descripcion + "', " + producto.IdTipoProducto + ")");
         }
 
 
@@ -77,6 +80,11 @@ namespace tpvCamisetasFutbol.persistence
         public void modificarProducto(Producto producto)
         {
             dbbroker.modificar("UPDATE bbddTPV.Producto set idProducto = "+producto.IdProducto+ ", Precio = " +producto.Precio+ ", Descripcion = '" +producto.Descripcion+"';");
+        }
+
+       public void encontrarProducto(Producto producto)
+        {
+            dbbroker.leer("SELECT * FROM bbddTPV.Producto where idProdcuto = " +producto.IdProducto);
         }
     }
 }

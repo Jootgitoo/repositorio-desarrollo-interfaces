@@ -21,12 +21,15 @@ namespace tpvCamisetasFutbol
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        
+
         public MainWindow()
         {
             InitializeComponent();
 
             //Producto producto = new Producto(1, 30.00, "Primera quipacion FCB 24-25", 1);
-            Producto producto1 = new Producto(2, 25.50, "Primera equipacion RM 24-25", 1);
+            Producto producto1 = new Producto(2, 25, "Primera equipacion RM 24-25", 1);
             Producto producto2 = new Producto(3, 70.99, "Edicion limitada RM", 1);
             Producto producto3 = new Producto(4, 150.99, "Edicion limitada FCB", 1);
             Producto producto4 = new Producto(5, 25.99, "Primera equipacion ATM 24-25", 1);
@@ -35,7 +38,7 @@ namespace tpvCamisetasFutbol
             Producto producto7 = new Producto(8, 30.00, "Primera equpacion Betis 24-25", 1);
 
 
-           //producto.insertar();
+            //producto.insertar();
             producto1.insertar();
             producto2.insertar();   
             producto3.insertar();
@@ -43,6 +46,27 @@ namespace tpvCamisetasFutbol
             producto5.insertar();
             producto6.insertar();
             producto7.insertar();
+            
+        }
+
+        /// <summary>
+        ///     Boton para añadir la equipacion en el data grid
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Producto p = new Producto(1);
+
+            List<Producto> listaProducto = p.encontrar();
+
+            foreach (Producto pAux in listaProducto)
+            {
+                dgCamisetas.Items.Add(pAux);
+            }
+
+            
+
         }
     }
 }

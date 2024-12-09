@@ -15,6 +15,7 @@ namespace tpvCamisetasFutbol.domain
         private string descripcion;
         private int idTipoProducto;
         public ManejoProducto mp;
+        private List<Producto> listaProducto;
 
 //------------------------------------------------------------------------------------------------------------------
         //CONSTRUCTORES
@@ -26,6 +27,12 @@ namespace tpvCamisetasFutbol.domain
             this.precio = p_precio;
             this.descripcion = p_descripcion;
             this.idTipoProducto = p_idTipoProdcuto;
+        }
+
+        public Producto(int p_idProducto)
+        {
+            mp = new ManejoProducto();
+            this.idProducto = p_idProducto;
         }
 
         public Producto() 
@@ -60,6 +67,12 @@ namespace tpvCamisetasFutbol.domain
         public void eliminar()
         {
             mp.borrarProducto(this);
+        }
+
+        public List<Producto> encontrar()
+        {
+            listaProducto = mp.leerProducto();
+            return listaProducto;
         }
 
 //-----------------------------------------------------------------------------------------------------------------------

@@ -10,38 +10,43 @@
     <Grid>
 
         <!-- DATAGRID DE LOS PRODUCTOS SELECCIONADOS -->
-        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,10,322,217"/>
+        <!--DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,10,322,217"/-->
+        <DataGrid x:Name="dgCamisetas" Margin="10,10,322,229">
+            <DataGrid.Columns>
+
+            </DataGrid.Columns>
+        </DataGrid>
 
         <!-- BOTONES DONDE VAN A APARECER LAS CAMISETAS QUE VAMOS A VENDER -->
 
-        <Button  HorizontalAlignment="Left" Margin="514,22,0,0" VerticalAlignment="Top" Height="70" Width="80">
-            <Image x:Name="primeraEquipacionFCB2425" Source="../images/equipacion-FCB-24-25.jpg" Width="45" ></Image>
+        <Button  HorizontalAlignment="Left" Margin="514,22,0,0" VerticalAlignment="Top" Height="70" Width="80" Click="Button_Click">
+            <Image x:Name="primeraEquipacionFCB2425" Source="../images/equipacion-FCB-24-25.jpg" Width="57" ></Image>
         </Button>
-        
+
         <Button HorizontalAlignment="Left" Margin="674,22,0,0" VerticalAlignment="Top" Height="70" Width="80">
-            <Image x:Name="primeraEquipacionMadrid24" Source="../images/equipacionRM24-25.jpg"></Image>
+            <Image x:Name="primeraEquipacionMadrid24" Source="../images/equipacionRM24-25.jpg" Width="77"></Image>
         </Button>
-        
+
         <Button  HorizontalAlignment="Left" Margin="514,115,0,0" VerticalAlignment="Top" Height="70" Width="80">
             <Image x:Name="edicionLimitadaRM" Source="../images/edicion-limitada-rm.jpg"></Image>
         </Button>
-        
+
         <Button  HorizontalAlignment="Left" Margin="674,115,0,0" VerticalAlignment="Top" Height="70" Width="80">
             <Image x:Name="edicionLimitadaFCB" Source="../images/edicion-limitada-fcb.jpg"></Image>
         </Button>
-        
+
         <Button  HorizontalAlignment="Left" Margin="514,217,0,0" VerticalAlignment="Top" Height="70" Width="80">
             <Image x:Name="primeraEquipacionATM" Source="../images/camiseta-atletico-madrid-primera-equipacion-2024-2025.jpg"></Image>
         </Button>
-        
+
         <Button  HorizontalAlignment="Left" Margin="674,217,0,0" VerticalAlignment="Top" Height="70" Width="80">
             <Image x:Name="primeraEquipacionAlba" Source="../images/Primera-equipacion-Albacete-24-25.jpg"></Image>
         </Button>
-        
+
         <Button  HorizontalAlignment="Left" Margin="514,319,0,0" VerticalAlignment="Top" Height="70" Width="80">
             <Image x:Name="segundaEquipacionAlaves" Source="../images/Segunda-equipacion-Alavés-24-25.jpg"></Image>
         </Button>
-        
+
         <Button  HorizontalAlignment="Left" Margin="674,319,0,0" VerticalAlignment="Top" Height="69" Width="78">
             <Image x:Name="primeraEquipacionBetis" Source="../images/Primera-equpacion-Betis 24-25.jpg"></Image>
         </Button>
@@ -61,20 +66,20 @@
 
 
         <!-- SUBTOTAL, DESCUENTO, PRECIO TOTAL-->
-        <Grid Margin="10,230,322,112" Background="LightGray">
+        <Grid Margin="10,230,322,112" Background="#CADEE6">
 
         </Grid>
         <TextBox HorizontalAlignment="Left" Margin="28,279,0,0" TextWrapping="Wrap" Text="subtotal" VerticalAlignment="Top" Width="100" Height="19"/>
-        <TextBlock HorizontalAlignment="Left" Margin="28,244,0,0" TextWrapping="Wrap" Text="Subtotal" VerticalAlignment="Top" Background="White" Height="19" Width="60" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="171,244,0,0" TextWrapping="Wrap" Text="Descuento" VerticalAlignment="Top" Background="White" Height="19" Width="60" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="28,244,0,0" TextWrapping="Wrap" Text="Subtotal" VerticalAlignment="Top" Background="#CADEE6" Height="19" Width="60" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="171,244,0,0" TextWrapping="Wrap" Text="Descuento" VerticalAlignment="Top" Background="#CADEE6" Height="19" Width="60" TextAlignment="Center"/>
         <TextBox HorizontalAlignment="Left" Margin="171,279,0,0" TextWrapping="Wrap" Text="descuento" VerticalAlignment="Top" Width="100" Height="19"/>
-        <TextBlock HorizontalAlignment="Left" Margin="327,244,0,0" TextWrapping="Wrap" Text="Precio total " VerticalAlignment="Top" Background="White" Height="19" Width="73" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="327,244,0,0" TextWrapping="Wrap" Text="Precio total " VerticalAlignment="Top" Background="#CADEE6" Height="19" Width="73" TextAlignment="Center"/>
         <TextBox HorizontalAlignment="Left" Margin="327,279,0,0" TextWrapping="Wrap" Text="descuento" VerticalAlignment="Top" Width="129" Height="19"/>
 
         <!-- BOTON PAGART, ABRIR CAJÓN, ELIMINAR ARTICULO-->
-        <Button Content="Pagar" HorizontalAlignment="Left" Margin="18,358,0,0" VerticalAlignment="Top" Height="50" Width="120"/>
-        <Button Content="Abrir cajón" HorizontalAlignment="Left" Margin="184,358,0,0" VerticalAlignment="Top" Height="50" Width="120"/>
-        <Button Content="Eliminar articulo" HorizontalAlignment="Center" Margin="0,354,0,0" VerticalAlignment="Top" Height="50" Width="120"/>
+        <Button Content="Pagar" HorizontalAlignment="Left" Margin="28,358,0,0" VerticalAlignment="Top" Height="50" Width="120" Background="#9ADB9A"/>
+        <Button Content="Abrir cajón" HorizontalAlignment="Left" Margin="195,359,0,0" VerticalAlignment="Top" Height="50" Width="120" Background="#DBC392"/>
+        <Button Content="Eliminar articulo" HorizontalAlignment="Left" Margin="352,358,0,0" VerticalAlignment="Top" Height="50" Width="120" Background="#DB7672"/>
         <Separator HorizontalAlignment="Left" Margin="0,339,0,0" VerticalAlignment="Top" Height="3" Width="496"/>
 
     </Grid>
