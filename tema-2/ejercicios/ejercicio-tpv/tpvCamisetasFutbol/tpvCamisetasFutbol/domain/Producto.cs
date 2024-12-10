@@ -69,9 +69,20 @@ namespace tpvCamisetasFutbol.domain
             mp.borrarProducto(this);
         }
 
-        public List<Producto> encontrar()
+        public List<Producto> encontrar(int idProducto)
         {
-            listaProducto = mp.leerProducto();
+            List<Producto> listaProductoAux = mp.leerProducto();
+
+            listaProducto = new List<Producto> ();
+
+            foreach (Producto p in listaProductoAux)
+            {
+                if (p.idProducto == idProducto)
+                {
+                    listaProducto.Add(p);
+                }
+            }
+
             return listaProducto;
         }
 

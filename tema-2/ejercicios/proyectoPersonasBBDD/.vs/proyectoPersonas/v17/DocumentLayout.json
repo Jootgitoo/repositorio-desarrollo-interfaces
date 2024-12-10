@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectoPersonasBBDD\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectopersonasbbdd\\proyectopersonas\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|solutionrelative:proyectopersonas\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectopersonasbbdd\\proyectopersonas\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|solutionrelative:proyectopersonas\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectopersonasbbdd\\proyectopersonas\\persistence\\manages\\manejopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|solutionrelative:proyectopersonas\\persistence\\manages\\manejopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectopersonasbbdd\\proyectopersonas\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectopersonasbbdd\\proyectopersonas\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|solutionrelative:proyectopersonas\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectopersonasbbdd\\proyectopersonas\\persistence\\manages\\manejopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|solutionrelative:proyectopersonas\\persistence\\manages\\manejopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,31 +39,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectoPersonasBBDD\\proyectoPersonas\\view\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "proyectoPersonas\\view\\MainWindow.xaml",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectoPersonasBBDD\\proyectoPersonas\\view\\MainWindow.xaml",
+              "RelativeToolTip": "proyectoPersonas\\view\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T12:57:24.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectoPersonasBBDD\\proyectoPersonas\\view\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "proyectoPersonas\\view\\MainWindow.xaml.cs",
               "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectoPersonasBBDD\\proyectoPersonas\\view\\MainWindow.xaml.cs",
               "RelativeToolTip": "proyectoPersonas\\view\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAABwAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAwwDEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T17:38:10.384Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Persona.cs",
               "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectoPersonasBBDD\\proyectoPersonas\\domain\\Persona.cs",
               "RelativeDocumentMoniker": "proyectoPersonas\\domain\\Persona.cs",
               "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectoPersonasBBDD\\proyectoPersonas\\domain\\Persona.cs",
               "RelativeToolTip": "proyectoPersonas\\domain\\Persona.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwC8AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwDoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T17:33:54.609Z"
+              "WhenOpened": "2024-11-25T17:33:54.609Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "DBBroker.cs",
               "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectoPersonasBBDD\\proyectoPersonas\\persistence\\DBBroker.cs",
               "RelativeDocumentMoniker": "proyectoPersonas\\persistence\\DBBroker.cs",
@@ -71,15 +88,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ManejoPersonas.cs",
               "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectoPersonasBBDD\\proyectoPersonas\\persistence\\manages\\ManejoPersonas.cs",
               "RelativeDocumentMoniker": "proyectoPersonas\\persistence\\manages\\ManejoPersonas.cs",
               "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectoPersonasBBDD\\proyectoPersonas\\persistence\\manages\\ManejoPersonas.cs",
               "RelativeToolTip": "proyectoPersonas\\persistence\\manages\\ManejoPersonas.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAowB0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAkwCwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T13:17:15.081Z"
+              "WhenOpened": "2024-11-26T13:17:15.081Z",
+              "EditorCaption": ""
             }
           ]
         }

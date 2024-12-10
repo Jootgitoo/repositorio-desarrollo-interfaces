@@ -53,7 +53,7 @@ namespace tpvCamisetasFutbol.persistence
         /// </param>
         public void insertarProducto(Producto producto)
         {
-            double precio = Convert.ToDouble(producto.Precio, CultureInfo.InvariantCulture);
+            string precio = Convert.ToString(producto.Precio, CultureInfo.InvariantCulture);
 
             dbbroker.modificar("INSERT INTO bbddTPV.Producto (idProducto, Precio, Descripcion, idTipoProducto) VALUES (" + producto.IdProducto + ", " + precio + ", '" + producto.Descripcion + "', " + producto.IdTipoProducto + ")");
         }
