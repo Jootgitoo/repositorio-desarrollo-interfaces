@@ -265,7 +265,33 @@ namespace tpvCamisetasFutbol
                 MessageBox.Show("Producto no eliminado", "Confirmación", MessageBoxButton.OK);
             }
             */
+            
         }
 
+        private void botonPagar(object sender, RoutedEventArgs e)
+        {
+            Ticket ticket = new Ticket();
+
+            //Saco la fecha actual
+            DateTime fechaActual = DateTime.Now;
+            ticket.Fecha = fechaActual.Date;
+
+            ticket.Total = Double.Parse(tbPrecioTotal.Text);
+
+            ticket.insertar();
+            MessageBox.Show("Ticket creado correctamente", "Confirmación", MessageBoxButton.OK);
+
+            limpiarCampos();
+        }
+
+        private void limpiarCampos()
+        {
+            tbSubtotal.Text = "";
+            tbDescuento.Text = "";
+            tbPrecioTotal.Text = "";
+
+            listaProducto.Clear();
+            dgCamisetas.Items.Clear();
+        }
     }
 }

@@ -81,9 +81,9 @@
         <TextBox Name="tbPrecioTotal" HorizontalAlignment="Left" Margin="327,279,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="129" Height="19"/>
 
         <!-- BOTON PAGART, ABRIR CAJÓN, ELIMINAR ARTICULO-->
-        <Button Content="Pagar" HorizontalAlignment="Left" Margin="10,358,0,0" VerticalAlignment="Top" Height="50" Width="120" Background="#9ADB9A"/>
+        <Button Content="Pagar" HorizontalAlignment="Left" Margin="10,358,0,0" VerticalAlignment="Top" Height="50" Width="120" Background="#9ADB9A" Click="botonPagar"/>
         <Button Content="Abrir cajón" HorizontalAlignment="Left" Margin="188,359,0,0" VerticalAlignment="Top" Height="50" Width="120" Background="#DBC392" Click="Button_Click"/>
-        <Button Content="Eliminar articulo" HorizontalAlignment="Left" Margin="366,359,0,0" VerticalAlignment="Top" Height="50" Width="120" Background="#DB7672" Click="botonEliminar"/>
+        <Button IsEnabled="False" Content="Eliminar articulo" HorizontalAlignment="Left" Margin="366,359,0,0" VerticalAlignment="Top" Height="50" Width="120" Background="#DB7672" Click="botonEliminar"/>
         <Separator HorizontalAlignment="Left" Margin="0,339,0,0" VerticalAlignment="Top" Height="3" Width="496"/>
 
     </Grid>
