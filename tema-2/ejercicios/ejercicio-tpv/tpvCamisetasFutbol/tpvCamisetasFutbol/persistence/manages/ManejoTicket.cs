@@ -24,6 +24,13 @@ namespace tpvCamisetasFutbol.persistence.manages
 //-------------------------------------------------------------------------------------------------------------------------------------------
         //MÉTODOS
 
+
+        /// <summary>
+        ///     Inserta un ticket en la bbdd
+        /// </summary>
+        /// <param name="ticket">
+        ///     Objeto ticket que se va ha insertar
+        /// </param>
         public void insertarTicket(Ticket ticket)
         {
             string total = Convert.ToString(ticket.Total, CultureInfo.InvariantCulture);
@@ -32,6 +39,16 @@ namespace tpvCamisetasFutbol.persistence.manages
         }
 
 
+        /// <summary>
+        ///     Obtiene el ultimo id y le añade uno para ponerselo al ticket nuevo
+        ///     El de la bbdd es autoincremental
+        /// </summary>
+        /// <param name="ticket">
+        ///     El ticket que se va ha añadir en la bbdd
+        /// </param>
+        /// <returns>
+        ///     Devuelve el id del ultimo ticket + 1 que será el que se le añada al nuevo ticket
+        /// </returns>
         public int getLastId(Ticket ticket)
         {
             List<Object> listaAux;

@@ -9,16 +9,27 @@ namespace tpvCamisetasFutbol.persistence
 {
     public class DBBroker
     {
+        //ATRIBUTOS
+
         private static DBBroker _instancia;
         private static MySql.Data.MySqlClient.MySqlConnection conexion;
         private const String cadenaConexion = "server=localhost;database=bbddTPV;uid=root;pwd=mysql";
 
+//-------------------------------------------------------------------------------------------------------------
+        //CONSTRUCTOR
 
         private DBBroker()
         {
             DBBroker.conexion = new MySql.Data.MySqlClient.MySqlConnection(DBBroker.cadenaConexion);
         }
 
+//-------------------------------------------------------------------------------------------------------------
+        //MÉTODOS
+
+        /// <summary>
+        ///     Obetenemos la instancia del DBBrocker
+        /// </summary>
+        /// <returns></returns>
         public static DBBroker obtenerAgente()
         {
             if (DBBroker._instancia == null)
@@ -28,6 +39,14 @@ namespace tpvCamisetasFutbol.persistence
             return DBBroker._instancia;
         }
 
+
+        /// <summary>
+        ///     Lee un producto de la bbdd
+        /// </summary>
+        /// <param name="sql">
+        ///     Sentencia sql de tipo select
+        /// </param>
+        /// <returns></returns>
         public List<Object> leer(String sql)
         {
             List<Object> resultado = new List<object>();
@@ -52,6 +71,16 @@ namespace tpvCamisetasFutbol.persistence
             return resultado;
         }
 
+
+        /// <summary>
+        ///     Cualquier modificacion en la bbdd insert y delete
+        /// </summary>
+        /// <param name="sql">
+        ///     Sentencia sql que se va ha llevar a cabo
+        /// </param>
+        /// <returns>
+        ///     Devuelve el numero de filas que se han modificado
+        /// </returns>
         public int modificar(String sql)
         {
             MySql.Data.MySqlClient.MySqlCommand com = new MySql.Data.MySqlClient.MySqlCommand(sql, DBBroker.conexion);
@@ -62,6 +91,10 @@ namespace tpvCamisetasFutbol.persistence
             return resultado;
         }
 
+
+        /// <summary>
+        ///     Conectar a la bbdd
+        /// </summary>
         private void conectar()
         {
 
@@ -73,6 +106,9 @@ namespace tpvCamisetasFutbol.persistence
         }
 
 
+        /// <summary>
+        ///     Desconectar de la bbdd
+        /// </summary>
         private void desconectar()
         {
             if (DBBroker.conexion.State == System.Data.ConnectionState.Open)

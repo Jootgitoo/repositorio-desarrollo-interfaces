@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvcamisetasfutbol\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|solutionrelative:tpvcamisetasfutbol\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvcamisetasfutbol\\tpvcamisetasfutbol\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|solutionrelative:tpvcamisetasfutbol\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvcamisetasfutbol\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|solutionrelative:tpvcamisetasfutbol\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvcamisetasfutbol\\persistence\\manages\\manejoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|solutionrelative:tpvcamisetasfutbol\\persistence\\manages\\manejoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvcamisetasfutbol\\tpvcamisetasfutbol\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|solutionrelative:tpvcamisetasfutbol\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvcamisetasfutbol\\domain\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|solutionrelative:tpvcamisetasfutbol\\domain\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvcamisetasfutbol\\persistence\\manages\\manejoticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|solutionrelative:tpvcamisetasfutbol\\persistence\\manages\\manejoticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvcamisetasfutbol\\tpvcamisetasfutbol\\domain\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|solutionrelative:tpvcamisetasfutbol\\domain\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,15 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ManejoProducto.cs",
-              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\persistence\\manages\\ManejoProducto.cs",
-              "RelativeDocumentMoniker": "tpvCamisetasFutbol\\persistence\\manages\\ManejoProducto.cs",
-              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\persistence\\manages\\ManejoProducto.cs",
-              "RelativeToolTip": "tpvCamisetasFutbol\\persistence\\manages\\ManejoProducto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\view\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "tpvCamisetasFutbol\\view\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\view\\MainWindow.xaml.cs",
+              "RelativeToolTip": "tpvCamisetasFutbol\\view\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCMAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T10:50:04.401Z",
+              "WhenOpened": "2024-12-12T09:16:56.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\domain\\Producto.cs",
+              "RelativeDocumentMoniker": "tpvCamisetasFutbol\\domain\\Producto.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\domain\\Producto.cs",
+              "RelativeToolTip": "tpvCamisetasFutbol\\domain\\Producto.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwDIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T08:52:17.873Z",
               "EditorCaption": ""
             },
             {
@@ -63,56 +64,6 @@
               "RelativeToolTip": "tpvCamisetasFutbol\\view\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-11T10:41:41.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\view\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "tpvCamisetasFutbol\\view\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\view\\MainWindow.xaml.cs",
-              "RelativeToolTip": "tpvCamisetasFutbol\\view\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsBAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T11:11:13.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\domain\\Ticket.cs",
-              "RelativeDocumentMoniker": "tpvCamisetasFutbol\\domain\\Ticket.cs",
-              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\domain\\Ticket.cs",
-              "RelativeToolTip": "tpvCamisetasFutbol\\domain\\Ticket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T10:14:18.441Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ManejoTicket.cs",
-              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\persistence\\manages\\ManejoTicket.cs",
-              "RelativeDocumentMoniker": "tpvCamisetasFutbol\\persistence\\manages\\ManejoTicket.cs",
-              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\persistence\\manages\\ManejoTicket.cs",
-              "RelativeToolTip": "tpvCamisetasFutbol\\persistence\\manages\\ManejoTicket.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAnwB4AAAClAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T10:18:06.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DBBroker.cs",
-              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\persistence\\DBBroker.cs",
-              "RelativeDocumentMoniker": "tpvCamisetasFutbol\\persistence\\DBBroker.cs",
-              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\persistence\\DBBroker.cs",
-              "RelativeToolTip": "tpvCamisetasFutbol\\persistence\\DBBroker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T10:45:10.966Z",
               "EditorCaption": ""
             }
           ]

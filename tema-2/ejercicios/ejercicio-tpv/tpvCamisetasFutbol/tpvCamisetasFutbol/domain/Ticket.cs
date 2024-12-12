@@ -36,6 +36,9 @@ namespace tpvCamisetasFutbol.domain
 //-------------------------------------------------------------------------------------------------------------------------------------------
         //MÉTODOS
 
+        /// <summary>
+        ///     Inserta un ticket en la bbdd
+        /// </summary>
         public void insertar()
         {
             mt.insertarTicket(this);

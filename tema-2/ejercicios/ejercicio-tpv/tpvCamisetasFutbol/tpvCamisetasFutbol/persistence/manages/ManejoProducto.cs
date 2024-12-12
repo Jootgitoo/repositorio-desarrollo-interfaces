@@ -82,6 +82,13 @@ namespace tpvCamisetasFutbol.persistence
             dbbroker.modificar("UPDATE bbddTPV.Producto set idProducto = "+producto.IdProducto+ ", Precio = " +producto.Precio+ ", Descripcion = '" +producto.Descripcion+"';");
         }
 
+
+        /// <summary>
+        ///     Te busca el producto en la bbdd 
+        /// </summary>
+        /// <param name="producto">
+        ///     Producto del que va ha coger el id para buscarlo
+        /// </param>
        public void encontrarProducto(Producto producto)
         {
             dbbroker.leer("SELECT * FROM bbddTPV.Producto where idProdcuto = " +producto.IdProducto);

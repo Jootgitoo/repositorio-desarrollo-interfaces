@@ -69,6 +69,14 @@ namespace tpvCamisetasFutbol.domain
             mp.borrarProducto(this);
         }
 
+
+        /// <summary>
+        ///     Encuentra 1 producto en la bbdd
+        /// </summary>
+        /// <param name="idProducto">
+        ///     Id del producto que va ha buscar en la bbdd
+        /// </param>
+        /// <returns></returns>
         public List<Producto> encontrar(int idProducto)
         {
             List<Producto> listaProductoAux = mp.leerProducto();
