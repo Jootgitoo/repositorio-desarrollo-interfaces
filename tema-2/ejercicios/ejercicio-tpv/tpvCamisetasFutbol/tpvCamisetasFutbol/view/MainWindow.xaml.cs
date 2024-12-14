@@ -248,10 +248,10 @@ namespace tpvCamisetasFutbol
                     listaProducto.Remove(prod);
 
                     // Actualizar el DataGrid
-                    dgCamisetas.ItemsSource = null;
                     dgCamisetas.ItemsSource = listaProducto;
 
-                    dgCamisetas.SelectedItems.Clear();
+                    dgCamisetas.Items.Refresh();
+                   
 
                     MessageBox.Show("Producto eliminado correctamente", "Confirmación", MessageBoxButton.OK);
                 }
