@@ -1,0 +1,80 @@
+-- MySQL Workbench Forward Engineering
+
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
+
+-- -----------------------------------------------------
+-- Schema bbddTPV
+-- -----------------------------------------------------
+
+-- -----------------------------------------------------
+-- Schema bbddTPV
+-- -----------------------------------------------------
+CREATE SCHEMA IF NOT EXISTS `bbddTPV` DEFAULT CHARACTER SET utf8 ;
+USE `bbddTPV` ;
+
+-- -----------------------------------------------------
+-- Table `bbddTPV`.`Ticket`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `bbddTPV`.`Ticket` (
+  `idTicket` INT NOT NULL AUTO_INCREMENT,
+  `Fecha` DATE NOT NULL,
+  `Cliente` VARCHAR(45) NULL,
+  `Total` DOUBLE NOT NULL,
+  PRIMARY KEY (`idTicket`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `bbddTPV`.`Categoria`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `bbddTPV`.`Categoria` (
+  `idTipoProducto` INT NOT NULL,
+  PRIMARY KEY (`idTipoProducto`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `bbddTPV`.`Producto`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `bbddTPV`.`Producto` (
+  `idProducto` INT NOT NULL,
+  `Precio` DOUBLE NOT NULL,
+  `Descripcion` VARCHAR(100) NULL,
+  `idTipoProducto` INT NOT NULL,
+  PRIMARY KEY (`idProducto`),
+  INDEX `fk_Producto_Categoria1_idx` (`idTipoProducto` ASC) VISIBLE,
+  CONSTRAINT `fk_Producto_Categoria1`
+    FOREIGN KEY (`idTipoProducto`)
+    REFERENCES `bbddTPV`.`Categoria` (`idTipoProducto`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `bbddTPV`.`Ticket_Producto`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `bbddTPV`.`Ticket_Producto` (
+  `Ticket_idTicket` INT NOT NULL,
+  `Producto_idProducto` INT NOT NULL,
+  PRIMARY KEY (`Ticket_idTicket`, `Producto_idProducto`),
+  INDEX `fk_Ticket_has_Producto_Producto1_idx` (`Producto_idProducto` ASC) VISIBLE,
+  INDEX `fk_Ticket_has_Producto_Ticket1_idx` (`Ticket_idTicket` ASC) VISIBLE,
+  CONSTRAINT `fk_Ticket_has_Producto_Ticket1`
+    FOREIGN KEY (`Ticket_idTicket`)
+    REFERENCES `bbddTPV`.`Ticket` (`idTicket`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_Ticket_has_Producto_Producto1`
+    FOREIGN KEY (`Producto_idProducto`)
+    REFERENCES `bbddTPV`.`Producto` (`idProducto`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
