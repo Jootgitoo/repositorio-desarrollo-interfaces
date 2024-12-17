@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,11 +23,16 @@ namespace tpvCamisetasFutbol
     public partial class MainWindow : Window
     {
 
-        private List<Producto> listaProducto = new List<Producto>();
+        private List<Producto> listaProducto; 
+        private List<Producto> newList;
 
         public MainWindow()
         {
             InitializeComponent();
+            listaProducto = new List<Producto>();
+            newList = new List<Producto>();
+
+
 
 
             //PRODUCTOS QUE HE AÑADIDO EN LA BBDD
@@ -239,33 +245,23 @@ namespace tpvCamisetasFutbol
         private void botonEliminar(object sender, RoutedEventArgs e)
         {
             /*
-            if (MessageBox.Show("¿Quiere eliminar esta elección?", "Confirmación", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+            if (MessageBox.Show("¿ Quiere eliminar esta camiseta?", "Confirmación", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
-                Producto prod = (Producto)dgCamisetas.SelectedItem;
 
-                if (prod != null)
-                {
-                    listaProducto.Remove(prod);
+                ObservableCollection<Producto> productos = new ObservableCollection<Producto>();
+                dgCamisetas.ItemsSource = productos;
 
-                    // Actualizar el DataGrid
-                    dgCamisetas.ItemsSource = listaProducto;
+                Producto producto = (Producto)dgCamisetas.SelectedItem;
+                
 
-                    dgCamisetas.Items.Refresh();
-                   
+                newList = (List<Producto>)dgCamisetas.ItemsSource;
 
-                    MessageBox.Show("Producto eliminado correctamente", "Confirmación", MessageBoxButton.OK);
-                }
-                else
-                {
-                    MessageBox.Show("Seleccione un producto para eliminar.", "Error", MessageBoxButton.OK);
-                }
-            }
-            else
-            {
-                MessageBox.Show("Producto no eliminado", "Confirmación", MessageBoxButton.OK);
+                newList.Remove(producto);
+                dgCamisetas.Items.Refresh();
+                dgCamisetas.ItemsSource = newList;
+                limpiarCampos();
             }
             */
-            
         }
 
         private void botonPagar(object sender, RoutedEventArgs e)
