@@ -221,7 +221,8 @@ namespace tpvCamisetasFutbol
             List<Producto> list = prod.encontrar(prod.IdProducto);
 
             foreach (Producto pAux in list)
-            {
+            { 
+
 
                 listaProducto.Add(pAux);
                 dgCamisetas.Items.Add(pAux);
@@ -236,33 +237,41 @@ namespace tpvCamisetasFutbol
             }
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void boton_Cajon(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Abriendo cajón para el cambio en efectivo", "Cajon abierto", MessageBoxButton.OK);
         }
 
-
+        
         private void botonEliminar(object sender, RoutedEventArgs e)
         {
-            /*
-            if (MessageBox.Show("¿ Quiere eliminar esta camiseta?", "Confirmación", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+
+            if (MessageBox.Show("¿ Quiere eliminar esta persona?", "Confirmación", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
-
-                ObservableCollection<Producto> productos = new ObservableCollection<Producto>();
-                dgCamisetas.ItemsSource = productos;
-
                 Producto producto = (Producto)dgCamisetas.SelectedItem;
-                
 
-                newList = (List<Producto>)dgCamisetas.ItemsSource;
+                listaProducto.Remove(producto);
 
-                newList.Remove(producto);
+                //Vacio la lista
+                dgCamisetas.Items.Clear();
+
+                //Le asigno una lista al data grid
+                dgCamisetas.ItemsSource = listaProducto;
+
+                //Refresco para que salgan los items
                 dgCamisetas.Items.Refresh();
-                dgCamisetas.ItemsSource = newList;
-                limpiarCampos();
+
+                //Sumamos los precios de los productos en la lista sin el producto eliminado
+                double precioTotal = listaProducto.Sum(p => p.Precio);
+
+                //Mostramos el total en el TextBox
+                tbSubtotal.Text = precioTotal.ToString("0.00");
+                tbPrecioTotal.Text = precioTotal.ToString("0.00");
+
             }
-            */
+
         }
+        
 
         private void botonPagar(object sender, RoutedEventArgs e)
         {
