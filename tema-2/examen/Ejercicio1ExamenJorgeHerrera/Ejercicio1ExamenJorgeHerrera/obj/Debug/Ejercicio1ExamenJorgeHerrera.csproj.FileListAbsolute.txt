@@ -5,3 +5,10 @@ C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\exame
 C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio1ExamenJorgeHerrera\Ejercicio1ExamenJorgeHerrera\obj\Debug\Ejercicio1ExamenJorgeHerrera.csproj.CoreCompileInputs.cache
 C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio1ExamenJorgeHerrera\Ejercicio1ExamenJorgeHerrera\obj\Debug\Ejercicio1ExamenJorgeHerrera.exe
 C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio1ExamenJorgeHerrera\Ejercicio1ExamenJorgeHerrera\obj\Debug\Ejercicio1ExamenJorgeHerrera.pdb
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio1ExamenJorgeHerrera\Ejercicio1ExamenJorgeHerrera\bin\Debug\Ejercicio1ExamenJorgeHerrera.exe.config
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio1ExamenJorgeHerrera\Ejercicio1ExamenJorgeHerrera\bin\Debug\Ejercicio1ExamenJorgeHerrera.exe
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio1ExamenJorgeHerrera\Ejercicio1ExamenJorgeHerrera\bin\Debug\Ejercicio1ExamenJorgeHerrera.pdb
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio1ExamenJorgeHerrera\Ejercicio1ExamenJorgeHerrera\obj\Debug\Ejercicio1ExamenJorgeHerrera.csproj.AssemblyReference.cache
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio1ExamenJorgeHerrera\Ejercicio1ExamenJorgeHerrera\obj\Debug\Ejercicio1ExamenJorgeHerrera.csproj.CoreCompileInputs.cache
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio1ExamenJorgeHerrera\Ejercicio1ExamenJorgeHerrera\obj\Debug\Ejercicio1ExamenJorgeHerrera.exe
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\examen\Ejercicio1ExamenJorgeHerrera\Ejercicio1ExamenJorgeHerrera\obj\Debug\Ejercicio1ExamenJorgeHerrera.pdb

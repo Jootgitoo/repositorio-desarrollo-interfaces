@@ -52,6 +52,9 @@ namespace tpvCamisetasFutbol.persistence.manages
         public int getLastId(Ticket ticket)
         {
             List<Object> listaAux;
+
+            //Obtenemos el valor mas alto de la columna id.
+            //Si no hay valores devolveria null, pero para evitar errores le decimos que devuelva 0
             listaAux = DBBroker.obtenerAgente().leer("select COALESCE(MAX(id), 0) FROM bbddtpv.Ticket");
 
             foreach (List<Object> aux in listaAux)

@@ -40,11 +40,19 @@ namespace Ejercicio1ExamenJorgeHerrera
         {
             for(int i = 0;i < matriz.GetLength(0); i++)
             {
-                Random random = new Random();
-                int numeroRandom = random.Next(maxSize) + 1;
-                matriz[i] = numeroRandom;
+               
+                matriz[i] = numeroRandom(maxSize);
+
+                Console.Write(matriz[i] + ", ");
             }
             Console.WriteLine("Array de barcos rrellenado con exito");
+        }
+
+        private static int numeroRandom(int maxSize)
+        {
+            Random random = new Random();
+            int numeroRandom = random.Next(maxSize) + 1;
+            return numeroRandom;
         }
 
         /// <summary>

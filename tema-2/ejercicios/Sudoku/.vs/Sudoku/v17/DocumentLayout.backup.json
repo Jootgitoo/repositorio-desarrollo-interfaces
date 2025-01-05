@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\Sudoku\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11AD8168-DA81-433B-979E-601047EB1593}|Sudoku\\Sudoku.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\sudoku\\sudoku\\operaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11AD8168-DA81-433B-979E-601047EB1593}|Sudoku\\Sudoku.csproj|solutionrelative:sudoku\\operaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11AD8168-DA81-433B-979E-601047EB1593}|Sudoku\\Sudoku.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\sudoku\\sudoku\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11AD8168-DA81-433B-979E-601047EB1593}|Sudoku\\Sudoku.csproj|solutionrelative:sudoku\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Operaciones.cs",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\Sudoku\\Sudoku\\Operaciones.cs",
+              "RelativeDocumentMoniker": "Sudoku\\Operaciones.cs",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\Sudoku\\Sudoku\\Operaciones.cs*",
+              "RelativeToolTip": "Sudoku\\Operaciones.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T10:19:07.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\Sudoku\\Sudoku\\Program.cs",
+              "RelativeDocumentMoniker": "Sudoku\\Program.cs",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\Sudoku\\Sudoku\\Program.cs",
+              "RelativeToolTip": "Sudoku\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T10:18:29.096Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -18,6 +18,7 @@
             <ColumnDefinition Width="105*"/>
             <ColumnDefinition Width="64*"/>
         </Grid.ColumnDefinitions>
+        
         <Slider x:Name="sldTamano"  Grid.Row="0" Grid.Column="1"  HorizontalAlignment="Left"  VerticalAlignment="Top" Width="120" Margin="116,33,0,0" SizeChanged="sldTamano_SizeChanged"/>
         <TextBlock Grid.Column="1" x:Name="LblEjemploTexto" FontSize="{Binding ElementName=sldTamano,Path=Value,Mode=TwoWay}" HorizontalAlignment="Center" Margin="0,65,0,0" TextWrapping="Wrap" Text="Esto es un ejemplo de Binding" VerticalAlignment="Top" Width="362" FontWeight="Bold"  Grid.RowSpan="2"/>
         <Button x:Name="BntPequeño" Grid.Row="2" Grid.Column="1" Content="Pequeño" HorizontalAlignment="Left" Margin="14,40,0,0" VerticalAlignment="Top" Height="20" Width="90" Click="BntPequeño_Click"/>

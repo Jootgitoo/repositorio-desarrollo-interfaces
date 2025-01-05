@@ -1,0 +1,7 @@
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\JuegoDeLaVida\JuegoDeLaVida\bin\Debug\JuegoDeLaVida.exe.config
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\JuegoDeLaVida\JuegoDeLaVida\bin\Debug\JuegoDeLaVida.exe
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\JuegoDeLaVida\JuegoDeLaVida\bin\Debug\JuegoDeLaVida.pdb
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\JuegoDeLaVida\JuegoDeLaVida\obj\Debug\JuegoDeLaVida.csproj.AssemblyReference.cache
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\JuegoDeLaVida\JuegoDeLaVida\obj\Debug\JuegoDeLaVida.csproj.CoreCompileInputs.cache
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\JuegoDeLaVida\JuegoDeLaVida\obj\Debug\JuegoDeLaVida.exe
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\JuegoDeLaVida\JuegoDeLaVida\obj\Debug\JuegoDeLaVida.pdb
