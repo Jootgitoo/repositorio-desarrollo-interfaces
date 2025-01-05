@@ -24,19 +24,32 @@ namespace ConversorUnidades.persistence.manages
 
 //--------------------------------------------------------------------------------------------------------
         //MÉTODOS
+
+        /// <summary>
+        ///     Obtienes todos los valores y escribes la sentencia sql para pasarla al método modificar (clase = DBBrocker) para hacer la insercion
+        /// </summary>
+        /// <param name="conversion">
+        ///     Conversion con todos los valores necesaros para insertarla en la bbdd
+        /// </param>
         public void insertarConversion(Conversiones conversion)
         {
             //Para meter doubles en la bbdd los tienes que mandar como string
             string resultadoInicial = Convert.ToString(conversion.ResultadoInicial, CultureInfo.InvariantCulture);
             string resultadoFinal = Convert.ToString(conversion.ResultadoFinal, CultureInfo.InvariantCulture);
 
-            dbbroker.modificar("INSERT INTO bbddconversorunidades.Conversion (idConverison, resultadoInicial, unidadPrincipal, resultadoFinal, unidadFinal) VALUES (" +conversion.IdConversion+", "+resultadoInicial+", '"+conversion.UnidadPrincipal+"', "+resultadoFinal+", '"+conversion.UnidadFinal+"'  )");
+            dbbroker.modificar("INSERT INTO bbddconversorunidades.Conversion (idConversion, resultadoInicial, unidadPrincipal, resultadoFinal, unidadFinal) VALUES (" + conversion.IdConversion+", "+resultadoInicial+", '"+conversion.UnidadPrincipal+"', "+resultadoFinal+", '"+conversion.UnidadFinal+"'  )");
         }
 
+
+        /// <summary>
+        ///     Obtiene el ultimo id que haya en la bbdd y le suma 1 para poder insertar la siguiente conversion
+        /// </summary>
+        /// <param name="conversiones"></param>
+        /// <returns></returns>
         public int getLastId(Conversiones conversiones)
         {
             List<Object> listaAux;
-            listaAux = DBBroker.obtenerAgente().leer("select COALESCE(MAX(ID),0) FROM  bbddconversorunidades.conversion");
+            listaAux = DBBroker.obtenerAgente().leer("select COALESCE(MAX(idConversion),0) FROM  bbddconversorunidades.conversion");
 
             foreach(List<Object> aux in listaAux)
             {

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvcamisetasfutbol\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|solutionrelative:tpvcamisetasfutbol\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvcamisetasfutbol\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|solutionrelative:tpvcamisetasfutbol\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvcamisetasfutbol\\tpvcamisetasfutbol\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|solutionrelative:tpvcamisetasfutbol\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvcamisetasfutbol\\tpvcamisetasfutbol\\domain\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|solutionrelative:tpvcamisetasfutbol\\domain\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvcamisetasfutbol\\tpvcamisetasfutbol\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|solutionrelative:tpvcamisetasfutbol\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,20 +29,25 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\App.xaml",
-              "RelativeDocumentMoniker": "tpvCamisetasFutbol\\App.xaml",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\App.xaml",
-              "RelativeToolTip": "tpvCamisetasFutbol\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-04T09:27:29.398Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\domain\\Ticket.cs",
+              "RelativeDocumentMoniker": "tpvCamisetasFutbol\\domain\\Ticket.cs",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\domain\\Ticket.cs",
+              "RelativeToolTip": "tpvCamisetasFutbol\\domain\\Ticket.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T10:36:04.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\view\\MainWindow.xaml",
               "RelativeDocumentMoniker": "tpvCamisetasFutbol\\view\\MainWindow.xaml",
@@ -54,15 +59,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\view\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "tpvCamisetasFutbol\\view\\MainWindow.xaml.cs",
               "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\view\\MainWindow.xaml.cs",
               "RelativeToolTip": "tpvCamisetasFutbol\\view\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAANcAAAAAAAAAAAAwwOoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T11:39:40.088Z",
+              "WhenOpened": "2025-01-05T09:48:43.683Z",
               "EditorCaption": ""
             }
           ]

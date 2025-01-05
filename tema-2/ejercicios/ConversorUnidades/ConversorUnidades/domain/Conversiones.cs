@@ -37,6 +37,10 @@ namespace ConversorUnidades.domain
 
 //----------------------------------------------------------------------------------------------------------------------------
         //MÉTODOS
+
+        /// <summary>
+        ///     Llama al metodo insertarConversion (clase = ManejoConversiones) para realizar el insert en la bbdd
+        /// </summary>
         public void insertar()
         {
             mc.insertarConversion(this);

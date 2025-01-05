@@ -22,6 +22,11 @@ namespace ConversorUnidades.persistence
 
 //------------------------------------------------------------------------------------------------------------------
         //MÉTODOS
+
+        /// <summary>
+        ///     Corresponde al patron singleton para obtener la instancia
+        /// </summary>
+        /// <returns></returns>
         public static DBBroker obtenerAgente()
         {
             if (DBBroker._instancia == null)
@@ -31,6 +36,16 @@ namespace ConversorUnidades.persistence
             return DBBroker._instancia;
         }
 
+
+        /// <summary>
+        ///     Te guarda el resultado de hacer una select pasada por parametro
+        /// </summary>
+        /// <param name="sql">
+        ///     Sentencia select que va ha ejecutar
+        /// </param>
+        /// <returns>
+        ///     Devuelve una lista con los objetos que ha obtenido de la bbdd
+        /// </returns>
         public List<Object> leer(String sql)
         {
             List<Object> resultado = new List<object>();
@@ -55,6 +70,16 @@ namespace ConversorUnidades.persistence
             return resultado;
         }
 
+
+        /// <summary>
+        ///     Cualquier modificacion en la bbdd insert y delete
+        /// </summary>
+        /// <param name="sql">
+        ///     Sentencia sql que se va ha llevar a cabo
+        /// </param>
+        /// <returns>
+        ///     Devuelve el numero de filas que se han modificado
+        /// </returns>
         public int modificar(String sql)
         {
             MySql.Data.MySqlClient.MySqlCommand com = new MySql.Data.MySqlClient.MySqlCommand(sql, DBBroker.conexion);
@@ -65,6 +90,10 @@ namespace ConversorUnidades.persistence
             return resultado;
         }
 
+
+        /// <summary>
+        ///     Conectar a la bbdd
+        /// </summary>
         private void conectar()
         {
 
@@ -75,6 +104,10 @@ namespace ConversorUnidades.persistence
 
         }
 
+
+        /// <summary>
+        ///     Desconectar de la bbdd
+        /// </summary>
         private void desconectar()
         {
             if (DBBroker.conexion.State == System.Data.ConnectionState.Open)

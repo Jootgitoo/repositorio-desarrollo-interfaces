@@ -26,12 +26,14 @@ namespace ConversorUnidades
         {
 
             double resultadoInicial = double.Parse(tboxNumero.Text);
-            string unidadPrincipal = cb1.SelectedItem.ToString();
-            string unidadFinal = cb2.SelectedItem.ToString();
+
+            string unidadPrincipal = ((ComboBoxItem)cb1.SelectedItem).Content.ToString();
+            string unidadFinal = ((ComboBoxItem)cb2.SelectedItem).Content.ToString();
+
 
             double resultadoFinal = 0;
 
-            if(unidadPrincipal.Equals("Metros") && unidadFinal.Equals("Kilometros"))
+            if(unidadPrincipal == "Metros" && unidadFinal == "Kilometros")
             {
                 resultadoFinal = conversioncambioMetrosKilometros(resultadoInicial);
 
