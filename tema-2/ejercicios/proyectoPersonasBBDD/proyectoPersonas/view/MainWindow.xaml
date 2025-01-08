@@ -33,7 +33,7 @@
             <Label Name="lblNombre" Content="Nombre"/>
             <TextBox Name="txtNombre" TextWrapping="Wrap" Width="120"/>
             <Label Name="lblApellido" Content="Apellido"/>
-            <TextBox Name="txtApellido" TextWrapping="Wrap" Width="120"/>
+            <TextBox  IsEnabled="False" Name="txtApellido" TextWrapping="Wrap" Width="120"/>
             <Label Name="lblEdad" Content="Edad"/>
             <TextBox Name="txtEdad" TextWrapping="Wrap" Width="120"/>
           </StackPanel>
