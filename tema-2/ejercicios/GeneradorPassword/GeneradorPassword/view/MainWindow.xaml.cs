@@ -18,13 +18,11 @@ namespace GeneradorPassword
     public partial class MainWindow : Window
     {
 
-        private List<string> _arrayPasswords;
-
         public MainWindow()
         {
             InitializeComponent();
 
-            _arrayPasswords = new List<string>();
+            
 
         }
 
@@ -34,19 +32,19 @@ namespace GeneradorPassword
             int longitudPassword = int.Parse(tbLongitudPassword.Text);
             int numeroPasswords = int.Parse(tboxNumeroPassword.Text);
 
-            string[] aux = new string[numeroPasswords];
+            Password[] passwords = new Password[numeroPasswords];
 
-            aux = Operaciones.generarPassword(longitudPassword, numeroPasswords);
-
-            foreach(string s in aux)
-            {
-                _arrayPasswords.Add(s);
-            }
+            passwords = Password.generarPassword(longitudPassword, numeroPasswords);
 
             dgPassword.ItemsSource = null;
-            dgPassword.ItemsSource = _arrayPasswords;
+            dgPassword.ItemsSource = passwords;
+            
             
         }
 
+        private void btnCancelar_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Generar contraseñas seguras ayuda a que no te hacken las cuentas :)", "Advertencia", MessageBoxButton.OK);
+        }
     }
 }

@@ -25,17 +25,23 @@
         </TextBlock>
         <TextBox x:Name="tboxNumeroPassword" HorizontalAlignment="Left" Margin="89,164,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
 
+        <!-- Ejemplo que genera las columnas solas
+        <DataGrid x:Name="dgPassword" AutoGenerateColumns="True"  Margin="424,41,39,24">
+            
+        </DataGrid>
+        -->
 
         <DataGrid x:Name="dgPassword" AutoGenerateColumns="False"  Margin="424,41,39,24">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Contaseña"></DataGridTextColumn>
+                <DataGridTextColumn Header="Contraseña" Binding="{Binding Caracteres}"></DataGridTextColumn>
             </DataGrid.Columns>
         </DataGrid>
 
 
         <Button x:Name="btnGenerarPassword" Content="Generar contraseñas" Background="LightGreen" HorizontalAlignment="Left" Margin="51,260,0,0" VerticalAlignment="Top" Height="46" Width="121" Click="btnGenerarPassword_Click"/>
-        <Button x:Name="btnCancelar" Content="Cancelar" Background="#F98175" HorizontalAlignment="Left" Margin="214,260,0,0" VerticalAlignment="Top" Height="46" Width="121"/>
+        <Button x:Name="btnCancelar" Content="Cancelar" Background="#F98175" HorizontalAlignment="Left" Margin="214,260,0,0" VerticalAlignment="Top" Height="46" Width="121" Click="btnCancelar_Click"/>
 
+        <Image x:Name="imgCandado" Source="../images/candado.png" Margin="106,320,471,0"/>
 
 
     </Grid>
