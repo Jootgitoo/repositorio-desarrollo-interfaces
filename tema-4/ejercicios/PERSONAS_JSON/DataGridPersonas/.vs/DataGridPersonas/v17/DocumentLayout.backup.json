@@ -1,0 +1,112 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\PERSONAS_JSON\\DataGridPersonas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF661059-61C1-4C26-A731-FDDABBCD7709}|DataGridPersonas\\DataGridPersonas.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\personas_json\\datagridpersonas\\datagridpersonas\\persistence\\manages\\personaspersistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF661059-61C1-4C26-A731-FDDABBCD7709}|DataGridPersonas\\DataGridPersonas.csproj|solutionrelative:datagridpersonas\\persistence\\manages\\personaspersistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\PERSONAS_JSON\\DataGridPersonas\\DataGridPersonas\\bin\\Debug\\example.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataGridPersonas\\bin\\Debug\\example.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF661059-61C1-4C26-A731-FDDABBCD7709}|DataGridPersonas\\DataGridPersonas.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\PERSONAS_JSON\\DataGridPersonas\\datagridpersonas\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF661059-61C1-4C26-A731-FDDABBCD7709}|DataGridPersonas\\DataGridPersonas.csproj|solutionrelative:datagridpersonas\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF661059-61C1-4C26-A731-FDDABBCD7709}|DataGridPersonas\\DataGridPersonas.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\PERSONAS_JSON\\DataGridPersonas\\datagridpersonas\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF661059-61C1-4C26-A731-FDDABBCD7709}|DataGridPersonas\\DataGridPersonas.csproj|solutionrelative:datagridpersonas\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF661059-61C1-4C26-A731-FDDABBCD7709}|DataGridPersonas\\DataGridPersonas.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\PERSONAS_JSON\\DataGridPersonas\\datagridpersonas\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AF661059-61C1-4C26-A731-FDDABBCD7709}|DataGridPersonas\\DataGridPersonas.csproj|solutionrelative:datagridpersonas\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "example.json",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\PERSONAS_JSON\\DataGridPersonas\\DataGridPersonas\\bin\\Debug\\example.json",
+              "RelativeDocumentMoniker": "DataGridPersonas\\bin\\Debug\\example.json",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\PERSONAS_JSON\\DataGridPersonas\\DataGridPersonas\\bin\\Debug\\example.json",
+              "RelativeToolTip": "DataGridPersonas\\bin\\Debug\\example.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-13T11:14:04.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonasPersistance.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\PERSONAS_JSON\\DataGridPersonas\\DataGridPersonas\\persistence\\manages\\PersonasPersistance.cs",
+              "RelativeDocumentMoniker": "DataGridPersonas\\persistence\\manages\\PersonasPersistance.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\PERSONAS_JSON\\DataGridPersonas\\DataGridPersonas\\persistence\\manages\\PersonasPersistance.cs",
+              "RelativeToolTip": "DataGridPersonas\\persistence\\manages\\PersonasPersistance.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAywDsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T11:45:33.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\PERSONAS_JSON\\DataGridPersonas\\DataGridPersonas\\domain\\Persona.cs",
+              "RelativeDocumentMoniker": "DataGridPersonas\\domain\\Persona.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\PERSONAS_JSON\\DataGridPersonas\\DataGridPersonas\\domain\\Persona.cs",
+              "RelativeToolTip": "DataGridPersonas\\domain\\Persona.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAD4vyAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:22:27.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\PERSONAS_JSON\\DataGridPersonas\\DataGridPersonas\\view\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DataGridPersonas\\view\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\PERSONAS_JSON\\DataGridPersonas\\DataGridPersonas\\view\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DataGridPersonas\\view\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAIwFsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:22:27.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\PERSONAS_JSON\\DataGridPersonas\\DataGridPersonas\\view\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DataGridPersonas\\view\\MainWindow.xaml",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\PERSONAS_JSON\\DataGridPersonas\\DataGridPersonas\\view\\MainWindow.xaml",
+              "RelativeToolTip": "DataGridPersonas\\view\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-23T08:22:27.697Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
