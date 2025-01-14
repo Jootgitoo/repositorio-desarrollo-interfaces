@@ -8,8 +8,8 @@
         Title="MainWindow" Height="450" Width="740">
     <Grid>
         <Button x:Name="botonCargar" Content="CARGAR DATOS" HorizontalAlignment="Left" Margin="77,22,0,0" VerticalAlignment="Top" Height="45" Width="125" Click="botonCargar_Click"/>
-        <Button Content="AÑADIR OBJETOS" HorizontalAlignment="Left" Margin="455,22,0,0" VerticalAlignment="Top" Height="45" Width="125"/>
-        <Button Content="BORRAR OBJETOS" HorizontalAlignment="Left" Margin="255,22,0,0" VerticalAlignment="Top" Height="45" Width="125"/>
+        <Button x:Name="addObjetos" Content="AÑADIR OBJETOS" HorizontalAlignment="Left" Margin="455,22,0,0" VerticalAlignment="Top" Height="45" Width="125" Click="addObjetos_Click"/>
+        <Button x:Name="borrarObjetos" Content="BORRAR OBJETOS" HorizontalAlignment="Left" Margin="255,22,0,0" VerticalAlignment="Top" Height="45" Width="125" Click="borrarObjetos_Click"/>
         <ListBox x:Name="ResultListBox" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,60,0,0" Height="315" Width="676"></ListBox>
 
     </Grid>
