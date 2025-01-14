@@ -50,8 +50,7 @@
               "RelativeToolTip": "DataGridPersonas\\bin\\Debug\\example.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-13T11:14:04.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T11:14:04.457Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "DataGridPersonas\\domain\\Persona.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAD4vyAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T08:22:27.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T08:22:27.696Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "DataGridPersonas\\view\\MainWindow.xaml.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAIwFsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T08:22:27.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T08:22:27.77Z"
             },
             {
               "$type": "Document",
@@ -101,8 +98,7 @@
               "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\PERSONAS_JSON\\DataGridPersonas\\DataGridPersonas\\view\\MainWindow.xaml",
               "RelativeToolTip": "DataGridPersonas\\view\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-23T08:22:27.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T08:22:27.697Z"
             }
           ]
         }
