@@ -1,0 +1,7 @@
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\EjerciciosMatrices\EjerciciosMatrices\bin\Debug\EjerciciosMatrices.exe.config
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\EjerciciosMatrices\EjerciciosMatrices\bin\Debug\EjerciciosMatrices.exe
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\EjerciciosMatrices\EjerciciosMatrices\bin\Debug\EjerciciosMatrices.pdb
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\EjerciciosMatrices\EjerciciosMatrices\obj\Debug\EjerciciosMatrices.csproj.AssemblyReference.cache
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\EjerciciosMatrices\EjerciciosMatrices\obj\Debug\EjerciciosMatrices.csproj.CoreCompileInputs.cache
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\EjerciciosMatrices\EjerciciosMatrices\obj\Debug\EjerciciosMatrices.exe
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\EjerciciosMatrices\EjerciciosMatrices\obj\Debug\EjerciciosMatrices.pdb

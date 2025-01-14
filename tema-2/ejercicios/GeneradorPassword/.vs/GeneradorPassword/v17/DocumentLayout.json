@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "GeneradorPassword\\domain\\Password.cs",
               "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GeneradorPassword\\GeneradorPassword\\domain\\Password.cs",
               "RelativeToolTip": "GeneradorPassword\\domain\\Password.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAowCsAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-09T18:00:17.277Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "GeneradorPassword\\view\\MainWindow.xaml.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAwwBIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T09:25:38.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T09:25:38.327Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\GeneradorPassword\\GeneradorPassword\\view\\MainWindow.xaml",
               "RelativeToolTip": "GeneradorPassword\\view\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-04T09:27:52.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T09:27:52.788Z"
             }
           ]
         }
