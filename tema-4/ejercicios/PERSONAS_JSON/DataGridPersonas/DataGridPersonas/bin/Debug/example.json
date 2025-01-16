@@ -1,9 +1,3 @@
 {
-  "people":[
-    {
-      "ID": 1,
-      "nombre": "Pepe",
-      "edad": 22
-    }
-  ]
+  "people": []
 }

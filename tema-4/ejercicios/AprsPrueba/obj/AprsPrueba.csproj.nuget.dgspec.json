@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\AprsPrueba\\AprsPrueba.csproj": {}
+    "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\AprsPrueba\\AprsPrueba.csproj": {}
   },
   "projects": {
-    "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\AprsPrueba\\AprsPrueba.csproj": {
+    "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\AprsPrueba\\AprsPrueba.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\AprsPrueba\\AprsPrueba.csproj",
+        "projectUniqueName": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\AprsPrueba\\AprsPrueba.csproj",
         "projectName": "AprsPrueba",
-        "projectPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\AprsPrueba\\AprsPrueba.csproj",
-        "packagesPath": "C:\\Users\\JORGE\\.nuget\\packages\\",
-        "outputPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\AprsPrueba\\obj\\",
+        "projectPath": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\AprsPrueba\\AprsPrueba.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\AprsPrueba\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\JORGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

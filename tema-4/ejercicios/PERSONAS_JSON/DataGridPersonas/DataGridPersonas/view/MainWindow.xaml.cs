@@ -89,6 +89,7 @@ namespace DataGridPersonas
                 if (MessageBox.Show("Do you want to add this person?", "Confirmtion", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
                 {
                     Persona p = new Persona(txtNombre.Text, Int32.Parse(txtEdad.Text));
+                    p.readP();
                     p.insert();
                     p.last();
                     ((List<Persona>)dgvPersonas.ItemsSource).Add(p);

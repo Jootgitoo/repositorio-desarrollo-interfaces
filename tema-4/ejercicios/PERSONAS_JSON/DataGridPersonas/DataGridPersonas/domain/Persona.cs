@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,8 +12,11 @@ namespace DataGridPersonas
     {
         public int id { get; set; }
         public String nombre { get; set; }
-        public int edad {  get; set; } 
+        public int edad {  get; set; }
+
+        [JsonIgnore]
         public PersonasPersistance PM { get; set; }
+
         public Persona() { 
             PM = new PersonasPersistance();
         }

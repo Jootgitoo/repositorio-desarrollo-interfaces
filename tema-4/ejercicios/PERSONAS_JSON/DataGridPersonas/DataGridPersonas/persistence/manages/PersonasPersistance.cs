@@ -79,12 +79,19 @@ internal class PersonasPersistance
     public void deletePeople(Persona p) {
         //DBBroker broker = DBBroker.obtenerAgente();
        // broker.modifier("Delete from people where idPeople = " + p.id);
+
+        PersonaList.Remove(p);
+        RootObject rootObject = new RootObject { PersonaList = PersonaList };
+        string updatedJsonContent = JsonConvert.SerializeObject(rootObject, Formatting.Indented);
+        File.WriteAllText(path, updatedJsonContent);
     }
 
     public void modifyPeople(Persona p)
     {
         //DBBroker broker = DBBroker.obtenerAgente();
         //broker.modifier("Update people set age = " + p.edad + ", name= '" + p.nombre + "' where idPeople = " + p.id);
+
+
     }
 
     class RootObject
