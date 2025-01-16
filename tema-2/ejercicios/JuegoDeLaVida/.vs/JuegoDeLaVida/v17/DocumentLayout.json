@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{A465ABF3-6C77-4316-B470-048A2283941E}|JuegoDeLaVida\\JuegoDeLaVida.csproj|solutionrelative:juegodelavida\\operaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A465ABF3-6C77-4316-B470-048A2283941E}|JuegoDeLaVida\\JuegoDeLaVida.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\juegodelavida\\juegodelavida\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A465ABF3-6C77-4316-B470-048A2283941E}|JuegoDeLaVida\\JuegoDeLaVida.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\JuegoDeLaVida\\juegodelavida\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A465ABF3-6C77-4316-B470-048A2283941E}|JuegoDeLaVida\\JuegoDeLaVida.csproj|solutionrelative:juegodelavida\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,11 +18,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
@@ -47,8 +51,7 @@
               "RelativeToolTip": "JuegoDeLaVida\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T11:03:34.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-03T11:03:34.699Z"
             }
           ]
         }

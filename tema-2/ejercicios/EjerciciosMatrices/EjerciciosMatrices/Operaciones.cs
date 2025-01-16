@@ -133,5 +133,55 @@ namespace EjerciciosMatrices
             Console.ReadKey();
 
         }
+
+        public static void restarMatrices()
+        {
+            Console.WriteLine("EJERCICIO 4");
+
+            Console.Write("Dime el numero de cuanto quieres que sea la matriz: ");
+            int sizeMatriz = Int32.Parse( Console.ReadLine() );
+
+            int[,] matriz1 = new int[sizeMatriz, sizeMatriz];
+            int[,] matriz2 = new int[sizeMatriz, sizeMatriz];
+
+            Random random = new Random();
+
+            Console.WriteLine("-----Matriz 1-----");
+            //Relleno la primera matriz
+            for (int i = 0; i < matriz1.GetLength(0); i++)
+            {
+                for (int j = 0; j < matriz1.GetLength(1); j++)
+                {
+                    matriz1[i, j] = random.Next(9);
+                    Console.Write(matriz1[i,j] + " ");
+                }
+                Console.WriteLine();
+            }
+
+            //Relleno la segunda matriz
+            Console.WriteLine("-----Matriz2-----");
+            for (int i=0; i< matriz2.GetLength(0); i++)
+            {
+                for( int j = 0;j < matriz2.GetLength(1); j++)
+                {
+                    matriz2[i, j] = random.Next(9);
+                    Console.Write(matriz2[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+
+            Console.WriteLine("-----Matriz final-----");
+
+            for (int i = 0; i < matriz1.GetLength(0); i++)
+            {
+                for ( int j = 0; j< matriz1.GetLength(1); j++)
+                {
+                    int solucion = matriz1[i,j] - matriz2[i,j];
+                    Console.Write(solucion.ToString() + " ");
+                }
+                Console.WriteLine();
+            }
+            Console.ReadKey();
+        }
     }
 }

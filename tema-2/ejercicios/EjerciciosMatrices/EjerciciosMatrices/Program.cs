@@ -11,15 +11,19 @@ namespace EjerciciosMatrices
         static void Main(string[] args)
         {
 
-            Operaciones.imprimirMatriz();
+            //Operaciones.imprimirMatriz();
             Console.WriteLine("-------------------------------------------------------------");
             Console.WriteLine("-------------------------------------------------------------");
-            Operaciones.imprimirCuadrados();
+
+           // Operaciones.imprimirCuadrados();
             Console.WriteLine("-------------------------------------------------------------");
             Console.WriteLine("-------------------------------------------------------------");
-            Operaciones.sumaDosMatrices();
+
+            //Operaciones.sumaDosMatrices();
             Console.WriteLine("-------------------------------------------------------------");
             Console.WriteLine("-------------------------------------------------------------");
+
+            Operaciones.restarMatrices();
         }
     }
 }
