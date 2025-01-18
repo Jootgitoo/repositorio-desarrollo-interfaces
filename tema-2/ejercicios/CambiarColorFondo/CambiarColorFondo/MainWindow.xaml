@@ -1,0 +1,17 @@
+﻿<Window x:Class="CambiarColorFondo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CambiarColorFondo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="gridPrincipal">
+        <TextBlock HorizontalAlignment="Left" Margin="234,55,0,0" TextWrapping="Wrap" Text="Esto es un programa que cambia el color del fondo según el botón que pulses" VerticalAlignment="Top" Height="32" Width="284" TextAlignment="Center"/>
+        
+        <Button x:Name="btnAmarillo" Content="Button" HorizontalAlignment="Left" Margin="100,354,0,0" VerticalAlignment="Top" Height="46" Width="121" Background="Yellow" Click="btnAmarillo_Click"/>
+        <Button x:Name="btnVerde" Content="Button" HorizontalAlignment="Left" Margin="316,354,0,0" VerticalAlignment="Top" Height="46" Width="120" Background="Green" Click="btnVerde_Click"/>
+        <Button x:Name="btnVeige" Content="Button" HorizontalAlignment="Left" Margin="580,354,0,0" VerticalAlignment="Top" Height="46" Width="120" Background="Beige" Click="btnVeige_Click"/>
+
+    </Grid>
+</Window>

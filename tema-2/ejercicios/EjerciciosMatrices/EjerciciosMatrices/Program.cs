@@ -23,7 +23,24 @@ namespace EjerciciosMatrices
             Console.WriteLine("-------------------------------------------------------------");
             Console.WriteLine("-------------------------------------------------------------");
 
-            Operaciones.restarMatrices();
+            //Operaciones.restarMatrices();
+            Console.WriteLine("-------------------------------------------------------------");
+            Console.WriteLine("-------------------------------------------------------------");
+
+            //Operaciones.matrizTraspuesta();
+            Console.WriteLine("-------------------------------------------------------------");
+            Console.WriteLine("-------------------------------------------------------------");
+
+            //Operaciones.sumarDiagonales();
+            Console.WriteLine("-------------------------------------------------------------");
+            Console.WriteLine("-------------------------------------------------------------");
+
+            Operaciones.sumaFilasColumnas();
+            Console.WriteLine("-------------------------------------------------------------");
+            Console.WriteLine("-------------------------------------------------------------");
+
+
+
         }
     }
 }
