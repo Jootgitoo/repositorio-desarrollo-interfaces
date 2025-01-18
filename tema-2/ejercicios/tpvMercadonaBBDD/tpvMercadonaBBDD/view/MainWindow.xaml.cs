@@ -25,14 +25,14 @@ namespace tpvMercadonaBBDD
             InitializeComponent();
 
             listaProductos = new List<Producto>();
-
+/*
             //Productos que he añadido a la bddd
                 //Comida
             Producto p1 = new Producto("Carne", 50.00);
             Producto p2 = new Producto("Cereales", 9.78);
             Producto p3 = new Producto("Pan", 15.70);
             Producto p4 = new Producto("Chuches", 7.77);
-            //Cosmeticos
+                //Cosmeticos
             Producto p5 = new Producto("Colonia", 100.00);
             Producto p6 = new Producto("Desodorante", 50.00);
             Producto p7 = new Producto("Jabon", 16.99);
@@ -46,95 +46,119 @@ namespace tpvMercadonaBBDD
             p6.insertarProducto();
             p7.insertarProducto();
             p8.insertarProducto();
+*/
 
         }
-
         private void btnCarne_Click(object sender, RoutedEventArgs e)
         {
             Producto p = new Producto();
-            Producto pAux = new Producto();
 
-            pAux = p.encontrar("Carne");
+            List<Producto> lp = p.encontrar("Carne");
 
-            listaProductos.Add(pAux);
-            dgListaProductos.Items.Add(p);
+            foreach(Producto pAux in lp)
+            {
+
+                listaProductos.Add(pAux);
+                dgListaProductos.Items.Add(pAux);
+
+            }
         }
 
         private void btnCereales_Click(object sender, RoutedEventArgs e)
         {
             Producto p = new Producto();
-            Producto pAux = new Producto();
 
-            pAux = p.encontrar("Cereales");
+            List<Producto> lp = p.encontrar("Cereales");
 
-            listaProductos.Add(pAux);
-            dgListaProductos.Items.Add(pAux);
+            foreach(Producto pAux in lp){
+
+                listaProductos.Add(pAux);
+                dgListaProductos.Items.Add(pAux);
+            }
+
         }
 
         private void btnPan_Click(object sender, RoutedEventArgs e)
         {
             Producto p = new Producto();
-            Producto pAux = new Producto();
 
-            pAux = p.encontrar("Pan");
+            List<Producto> lp = p.encontrar("Pan");
 
-            listaProductos.Add(pAux);
-            dgListaProductos.Items.Add(pAux);
+            foreach (Producto pAux in lp)
+            {
+                listaProductos.Add(pAux);
+                dgListaProductos.Items.Add(pAux);
+            }
+            
         }
 
         private void btnChuches_Click(object sender, RoutedEventArgs e)
         {
             Producto p = new Producto();
-            Producto pAux = new Producto();
 
-            pAux = p.encontrar("Chuches");
-            
-            listaProductos.Add(pAux);
-            dgListaProductos.Items.Add(pAux);
+            List<Producto> lp = p.encontrar("Chuches");
+
+            foreach (Producto pAux in lp)
+            {
+                listaProductos.Add(pAux);
+                dgListaProductos.Items.Add(pAux);
+            }
         }
 
         private void btnColonia_Click(object sender, RoutedEventArgs e)
         {
             Producto p = new Producto();
-            Producto pAux = new Producto();
 
-            pAux = p.encontrar("Colonia");
+            List<Producto> lp = p.encontrar("Colonia");
 
-            listaProductos.Add(pAux);
-            dgListaProductos.Items.Add(pAux);
+            foreach (Producto pAux in lp)
+            {
+                listaProductos.Add(pAux);
+                dgListaProductos.Items.Add(pAux);
+            }
+            
         }
 
         private void btnDesodorante_Click(object sender, RoutedEventArgs e)
         {
             Producto p = new Producto();
-            Producto pAux = new Producto();
 
-            pAux = p.encontrar("Desodorante");
+            List<Producto> lp = p.encontrar("Desodorante");
 
-            listaProductos.Add(pAux);
-            dgListaProductos.Items.Add(pAux);
+            foreach(Producto pAux in lp)
+            {
+                listaProductos.Add(pAux);
+                dgListaProductos.Items.Add(pAux);
+            }
+
         }
 
         private void btnJabon_Click(object sender, RoutedEventArgs e)
         {
             Producto p = new Producto();
-            Producto pAux = new Producto();
 
-            pAux = p.encontrar("Jabon");
+            List<Producto> lp = p.encontrar("Jabon");
 
-            listaProductos.Add(pAux);
-            dgListaProductos.Items.Add(pAux);
+            foreach(Producto pAux in lp)
+            {
+                listaProductos.Add(pAux);
+                dgListaProductos.Items.Add(pAux);
+            }
+
         }
 
         private void btnPastaDientes_Click(object sender, RoutedEventArgs e)
         {
             Producto p = new Producto();
-            Producto pAux = new Producto();
 
-            pAux = p.encontrar("PastaDientes");
+            List<Producto> lp = p.encontrar("PastaDientes");
 
-            listaProductos.Add(pAux);
-            dgListaProductos.Items.Add(pAux);
+
+            foreach (Producto pAux in lp)
+            {
+                listaProductos.Add(pAux);
+                dgListaProductos.Items.Add(pAux);
+            }
         }
     }
 }

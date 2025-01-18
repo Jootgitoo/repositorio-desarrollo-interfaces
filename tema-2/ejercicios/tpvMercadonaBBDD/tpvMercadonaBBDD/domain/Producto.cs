@@ -12,6 +12,7 @@ namespace tpvMercadonaBBDD.domain
         //ATRIBUTOS
         private string nombre;
         private double precio;
+        private List<Producto> listaProductos;
         public ManejoProducto mp;
 
 //-------------------------------------------------------------------------------------------
@@ -19,6 +20,7 @@ namespace tpvMercadonaBBDD.domain
         public Producto(string nombre, double precio)
         {
             mp = new ManejoProducto();
+            listaProductos = new List<Producto>();
             this.nombre = nombre;
             this.precio = precio;
         }
@@ -26,27 +28,37 @@ namespace tpvMercadonaBBDD.domain
         public Producto()
         {
             mp = new ManejoProducto();
+            listaProductos = new List<Producto>();
+
         }
 
-//-------------------------------------------------------------------------------------------
+        //-------------------------------------------------------------------------------------------
         //MÉTODOS
         public void insertarProducto()
         {
             mp.insertar(this);
         }
 
-        public void encontrar(String nombreProducto)
+        public List<Producto>encontrar(String nombreProducto)
         {
             //Obtenemos todos los productos
-            List<Producto> listaProductos = mp.leerProductos();
+            List<Producto> lp = mp.leerProductos();
 
-            //Por aqui
+            foreach(Producto p in lp)
+            {
+                if( p.nombre == nombreProducto)
+                {
+                    listaProductos.Add(p);
+                }
+            }
+
+            return listaProductos;
         }
 
 //-------------------------------------------------------------------------------------------
         //GETTERS Y SETTERS
-        public string Nombre { get; set; }
-        public double Precio { get; set; }
+        public string Nombre { get=> nombre; set=>nombre = value; }
+        public double Precio { get=> precio; set=>precio = value; }
 
     }
 }

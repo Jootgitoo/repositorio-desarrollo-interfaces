@@ -9,11 +9,56 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="images\carne.jpg" />
+    <None Remove="images\cereales.jpg" />
+    <None Remove="images\chuches.jpg" />
+    <None Remove="images\colonia.jpg" />
+    <None Remove="images\desodorante.jpg" />
+    <None Remove="images\jabon.jpg" />
+    <None Remove="images\mercadona.png" />
+    <None Remove="images\pan.jpg" />
+    <None Remove="images\pastaDientes.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\colonia.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="database\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="MySql.Data" Version="9.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\carne.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\cereales.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\chuches.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\desodorante.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\jabon.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\mercadona.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\pan.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\pastaDientes.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tpvMercadonaBBDD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a017cd9d1e06a708cdf837e9d0ff053f0f7d965a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a7b1b03ddf89da829e1b1d3d0c561c13e4c185e")]
 [assembly: System.Reflection.AssemblyProductAttribute("tpvMercadonaBBDD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tpvMercadonaBBDD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

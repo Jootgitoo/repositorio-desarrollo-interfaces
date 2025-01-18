@@ -125,7 +125,7 @@ namespace tpvMercadonaBBDD {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/tpvMercadonaBBDD;V1.0.0.0;component/view/mainwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/tpvMercadonaBBDD;component/view/mainwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\view\MainWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -33,8 +33,6 @@ namespace tpvCamisetasFutbol
             newList = new List<Producto>();
 
 
-
-
             //PRODUCTOS QUE HE AÑADIDO EN LA BBDD
             /*
             Producto producto = new Producto(1, 30.75, "Primera quipacion FCB 24-25", 1);
@@ -45,6 +43,7 @@ namespace tpvCamisetasFutbol
             Producto producto5 = new Producto(6, 15.00, "Primera equipacion Albacete 24-25", 1);
             Producto producto6 = new Producto(7, 22.00, "Segunda equipacion Alavés 24-25", 1);
             Producto producto7 = new Producto(8, 30.00, "Primera equpacion Betis 24-25", 1);
+            
 
 
             producto.insertar();
@@ -56,7 +55,9 @@ namespace tpvCamisetasFutbol
             producto6.insertar();
             producto7.insertar();
             */
-            
+
+            Producto producto8 = new Producto(9, 200.00, "Edicion Limitada España", 1);
+            producto8.insertar();            
         }
 
         /// <summary>

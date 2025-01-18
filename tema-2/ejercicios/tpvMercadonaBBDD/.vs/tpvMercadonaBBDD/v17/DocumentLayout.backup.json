@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\tpvMercadonaBBDD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72DADF0D-1500-40C4-94BF-052B3C19B800}|tpvMercadonaBBDD\\tpvMercadonaBBDD.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\tpvmercadonabbdd\\tpvmercadonabbdd\\domain\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72DADF0D-1500-40C4-94BF-052B3C19B800}|tpvMercadonaBBDD\\tpvMercadonaBBDD.csproj|solutionrelative:tpvmercadonabbdd\\domain\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{72DADF0D-1500-40C4-94BF-052B3C19B800}|tpvMercadonaBBDD\\tpvMercadonaBBDD.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\tpvmercadonabbdd\\tpvmercadonabbdd\\persistence\\manages\\manejoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72DADF0D-1500-40C4-94BF-052B3C19B800}|tpvMercadonaBBDD\\tpvMercadonaBBDD.csproj|solutionrelative:tpvmercadonabbdd\\persistence\\manages\\manejoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72DADF0D-1500-40C4-94BF-052B3C19B800}|tpvMercadonaBBDD\\tpvMercadonaBBDD.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\tpvmercadonabbdd\\tpvmercadonabbdd\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72DADF0D-1500-40C4-94BF-052B3C19B800}|tpvMercadonaBBDD\\tpvMercadonaBBDD.csproj|solutionrelative:tpvmercadonabbdd\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72DADF0D-1500-40C4-94BF-052B3C19B800}|tpvMercadonaBBDD\\tpvMercadonaBBDD.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\tpvmercadonabbdd\\tpvmercadonabbdd\\domain\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72DADF0D-1500-40C4-94BF-052B3C19B800}|tpvMercadonaBBDD\\tpvMercadonaBBDD.csproj|solutionrelative:tpvmercadonabbdd\\domain\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72DADF0D-1500-40C4-94BF-052B3C19B800}|tpvMercadonaBBDD\\tpvMercadonaBBDD.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\tpvmercadonabbdd\\tpvmercadonabbdd\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,45 +39,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DBBroker.cs",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\tpvMercadonaBBDD\\tpvMercadonaBBDD\\persistence\\DBBroker.cs",
-              "RelativeDocumentMoniker": "tpvMercadonaBBDD\\persistence\\DBBroker.cs",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\tpvMercadonaBBDD\\tpvMercadonaBBDD\\persistence\\DBBroker.cs",
-              "RelativeToolTip": "tpvMercadonaBBDD\\persistence\\DBBroker.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAADwvzAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T15:27:02.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ManejoProducto.cs",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\tpvMercadonaBBDD\\tpvMercadonaBBDD\\persistence\\manages\\ManejoProducto.cs",
-              "RelativeDocumentMoniker": "tpvMercadonaBBDD\\persistence\\manages\\ManejoProducto.cs",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\tpvMercadonaBBDD\\tpvMercadonaBBDD\\persistence\\manages\\ManejoProducto.cs",
-              "RelativeToolTip": "tpvMercadonaBBDD\\persistence\\manages\\ManejoProducto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T15:24:21.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\tpvMercadonaBBDD\\tpvMercadonaBBDD\\domain\\Producto.cs",
-              "RelativeDocumentMoniker": "tpvMercadonaBBDD\\domain\\Producto.cs",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\tpvMercadonaBBDD\\tpvMercadonaBBDD\\domain\\Producto.cs",
-              "RelativeToolTip": "tpvMercadonaBBDD\\domain\\Producto.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAYwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T15:20:34.843Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -99,9 +60,48 @@
               "RelativeDocumentMoniker": "tpvMercadonaBBDD\\view\\MainWindow.xaml.cs",
               "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\tpvMercadonaBBDD\\tpvMercadonaBBDD\\view\\MainWindow.xaml.cs",
               "RelativeToolTip": "tpvMercadonaBBDD\\view\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T15:10:59.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\tpvMercadonaBBDD\\tpvMercadonaBBDD\\domain\\Producto.cs",
+              "RelativeDocumentMoniker": "tpvMercadonaBBDD\\domain\\Producto.cs",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\tpvMercadonaBBDD\\tpvMercadonaBBDD\\domain\\Producto.cs",
+              "RelativeToolTip": "tpvMercadonaBBDD\\domain\\Producto.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwCwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:20:34.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ManejoProducto.cs",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\tpvMercadonaBBDD\\tpvMercadonaBBDD\\persistence\\manages\\ManejoProducto.cs",
+              "RelativeDocumentMoniker": "tpvMercadonaBBDD\\persistence\\manages\\ManejoProducto.cs",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\tpvMercadonaBBDD\\tpvMercadonaBBDD\\persistence\\manages\\ManejoProducto.cs*",
+              "RelativeToolTip": "tpvMercadonaBBDD\\persistence\\manages\\ManejoProducto.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAawB4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:24:21.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DBBroker.cs",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\tpvMercadonaBBDD\\tpvMercadonaBBDD\\persistence\\DBBroker.cs",
+              "RelativeDocumentMoniker": "tpvMercadonaBBDD\\persistence\\DBBroker.cs",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\tpvMercadonaBBDD\\tpvMercadonaBBDD\\persistence\\DBBroker.cs",
+              "RelativeToolTip": "tpvMercadonaBBDD\\persistence\\DBBroker.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAywDkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:48:11.659Z",
               "EditorCaption": ""
             }
           ]

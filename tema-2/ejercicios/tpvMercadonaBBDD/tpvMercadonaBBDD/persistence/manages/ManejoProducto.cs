@@ -16,12 +16,14 @@ namespace tpvMercadonaBBDD.persistence.manages
         public ManejoProducto()
         {
             dbbroker = DBBroker.obtenerAgente();
+
+            listaProductos = new List<Producto>();
         }
 
 
         public List<Producto> leerProductos()
         {
-            List<Object> listaAux = dbbroker.leer("SELECT * FROM bbddTPV.Producto;");
+            List<Object> listaAux = dbbroker.leer("SELECT * FROM bbddtpvmercadona.producto;");
 
 
             foreach (List<Object> obj in listaAux)
