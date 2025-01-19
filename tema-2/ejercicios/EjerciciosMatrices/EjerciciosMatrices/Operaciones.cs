@@ -306,15 +306,16 @@ namespace EjerciciosMatrices
             //Sumo las filas
             for (int i=0; i<matriz.GetLength(0); i++)
             {
-                for(int j=0; j<matriz.GetLength(1); j++){
+                for(int j=0; j<=matriz.GetLength(1); j++){
 
                     if (j == (matriz.GetLength(0)))
                     {
-                        sumaFila += matriz[i, j];
+                        matrizFilasColumnasSumadas[i,j] = sumaFila;
                     }
                     else
                     {
-                        matrizFilasColumnasSumadas[i, j] = sumaFila;
+                        sumaFila += matriz[i, j];
+                        matrizFilasColumnasSumadas[i, j] = matriz[i, j];
                     }
                 }
                 sumaFila = 0;
@@ -324,16 +325,18 @@ namespace EjerciciosMatrices
             //Sumo las columnas
             for( int j=0; j < matriz.GetLength(1); j++)
             {
-                for (int i = 0; i < matriz.GetLength(0); i++)
+                for (int i = 0; i <= matriz.GetLength(0); i++)
                 {
                     if (i == (matriz.GetLength(0)))
                     {
-                        matrizFilasColumnasSumadas[i, j] = sumaFila;
+                        matrizFilasColumnasSumadas[i, j] = sumaColumnas;
 
                     }
                     else
                     {
-                        sumaFila += matriz[i, j];
+                        sumaColumnas += matriz[i, j];
+                        matrizFilasColumnasSumadas[i, j] = matriz[i, j];
+
                     }
                 }
                 sumaColumnas = 0;
@@ -345,11 +348,106 @@ namespace EjerciciosMatrices
             {
                 for ( int j = 0; j < matrizFilasColumnasSumadas.GetLength(1); j++)
                 {
-                    Console.Write(matrizFilasColumnasSumadas[i, j] + " ");
+                    if(j == 2 && i == 2)
+                    {
+                        Console.Write(" ");
+
+                    }
+                    else
+                    {
+                        Console.Write(matrizFilasColumnasSumadas[i, j] + "  ");
+                    }
                 }
                 Console.WriteLine();
             }
             Console.ReadKey();
         }
+
+        public static void comprobarDosMatices()
+        {
+            Console.WriteLine("*****EJERCICIO 8*****");
+
+            //Console.WriteLine("Que tamaño quieres que tenga la matriz cuadrada?: ");
+            //int sizeMatriz = Int32.Parse(Console.ReadLine());
+
+            int[,] matriz1 = new int[2, 2];
+            matriz1[0,0] = 0;
+            matriz1[0,1] = 1;
+            matriz1[1,0] = 2;
+            matriz1[1,1] = 3;
+
+
+            int[,] matriz2 = new int[2, 2];
+            matriz2[0, 0] = 0;
+            matriz2[0, 1] = 1;
+            matriz2[1, 0] = 2;
+            matriz2[1, 1] = 3;
+
+
+            //Compruebo que sean iguales
+            bool iguales = false;
+            for(int i = 0; i < matriz1.GetLength(0); i++)
+            {
+                for(int j=0; j< matriz1.GetLength(1); j++)
+                {
+                    if (matriz1[i,j] == matriz2[i, j])
+                    {
+                        iguales = true;
+                    } else
+                    {
+                        iguales = false;
+                        break;
+                    }
+                }
+            }
+            Console.WriteLine("Las matrices son iguales?: " +iguales);
+            Console.ReadKey();
+        }
+
+        public static void identityMatrix()
+        {
+            int[,] matriz = new int[2, 2];
+            matriz[0, 0] = 1;
+            matriz[0, 1] = 0;
+            matriz[1, 0] = 0;
+            matriz[1, 1] = 1;
+
+
+            bool identidad = false;
+            for(int i = 0;i < matriz.GetLength(0); i++)
+            {
+                for(int j=0;j< matriz.GetLength(1); j++)
+                {
+                    if(j == 0)
+                    {
+                        if (matriz[0, j] == matriz[1, j])
+                        {
+                            identidad = true;
+                        }
+                        else
+                        {
+                            identidad = false;
+                            break;
+                        }
+                    }
+                    else
+                    {
+                        if (matriz[0, j] == matriz[1, j])
+                        {
+                            identidad = true;
+                        }
+                        else
+                        {
+                            identidad = false;
+                            break;
+                        }
+                    }
+                    
+                }
+            }
+            Console.WriteLine("Las matrices son de identidad iguales?: " + identidad);
+            Console.ReadKey();
+        }
+
     }
 }

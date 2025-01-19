@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectoPersonasBBDD\\proyectoPersonas\\proyectoPersonas.csproj": {}
+    "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectoPersonasBBdd\\proyectoPersonas\\proyectoPersonas.csproj": {}
   },
   "projects": {
-    "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectoPersonasBBDD\\proyectoPersonas\\proyectoPersonas.csproj": {
+    "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectoPersonasBBdd\\proyectoPersonas\\proyectoPersonas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectoPersonasBBDD\\proyectoPersonas\\proyectoPersonas.csproj",
+        "projectUniqueName": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectoPersonasBBdd\\proyectoPersonas\\proyectoPersonas.csproj",
         "projectName": "proyectoPersonas",
-        "projectPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectoPersonasBBDD\\proyectoPersonas\\proyectoPersonas.csproj",
+        "projectPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectoPersonasBBdd\\proyectoPersonas\\proyectoPersonas.csproj",
         "packagesPath": "C:\\Users\\JORGE\\.nuget\\packages\\",
         "outputPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\proyectoPersonasBBDD\\proyectoPersonas\\obj\\",
         "projectStyle": "PackageReference",

@@ -35,11 +35,19 @@ namespace EjerciciosMatrices
             Console.WriteLine("-------------------------------------------------------------");
             Console.WriteLine("-------------------------------------------------------------");
 
-            Operaciones.sumaFilasColumnas();
+            //Operaciones.sumaFilasColumnas();
             Console.WriteLine("-------------------------------------------------------------");
             Console.WriteLine("-------------------------------------------------------------");
 
 
+            //Operaciones.comprobarDosMatices();
+            Console.WriteLine("-------------------------------------------------------------");
+            Console.WriteLine("-------------------------------------------------------------");
+
+
+            Operaciones.identityMatrix();
+            Console.WriteLine("-------------------------------------------------------------");
+            Console.WriteLine("-------------------------------------------------------------");
 
         }
     }

@@ -54,10 +54,11 @@ namespace tpvCamisetasFutbol
             producto5.insertar();
             producto6.insertar();
             producto7.insertar();
-            */
+            
 
             Producto producto8 = new Producto(9, 200.00, "Edicion Limitada España", 1);
-            producto8.insertar();            
+            producto8.insertar();   
+            */
         }
 
         /// <summary>
