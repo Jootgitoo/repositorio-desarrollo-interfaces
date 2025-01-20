@@ -50,11 +50,21 @@ namespace AgendaContactosBBDD.domain
 //------------------------------------------------------------------------------------------
         //MÉTODOS
 
+        /// <summary>
+        ///     Insertas un contacto nuevo
+        /// </summary>
         public void insertarNuevoContacto()
         {
             mc.insetarNuevoContacto(this);
         }
 
+        
+        /// <summary>
+        ///     Genera una lista de Contactos ya existentes en la bbdd
+        /// </summary>
+        /// <returns>
+        ///     Lista de Contactos que estén el la bbdd
+        /// </returns>
         public List<Contacto> genListaContactos()
         {
             
@@ -69,6 +79,10 @@ namespace AgendaContactosBBDD.domain
 
         }
 
+
+        /// <summary>
+        ///     Eliminas un contacto de la bbdd
+        /// </summary>
         public void eliminar()
         {
             mc.eliminarContacto(this);
@@ -76,13 +90,19 @@ namespace AgendaContactosBBDD.domain
             ResetIdCounter();
         }
 
-        // metodo | ResetIdCounter | resetea el contadort de id ==>
+        
+        /// <summary>
+        ///     Como el id es autoincremental para q al eliminar un contacto el id se ponga 1 y haga una carga nueva del último id
+        /// </summary>
         public static void ResetIdCounter()
         {
             nextId = 1;
         }
 
 
+        /// <summary>
+        ///     Modificas un contacto de la bbdd
+        /// </summary>
         public void modificarContacto()
         {
             mc.modificarContacto(this);

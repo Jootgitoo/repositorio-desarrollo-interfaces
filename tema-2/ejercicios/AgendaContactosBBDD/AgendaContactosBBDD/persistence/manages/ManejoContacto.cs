@@ -27,6 +27,13 @@ namespace AgendaContactosBBDD.persistence.manages
 //---------------------------------------------------------------------------------------------
         //MÉTODOS
 
+        /// <summary>
+        ///     Obtienes el ultimo id de la bbdd y le añades 1
+        /// </summary>
+        /// <param name="contacto"></param>
+        /// <returns>
+        ///     Ultimo id de la bbdd + 1
+        /// </returns>
         public int getLastId(Contacto contacto)
         {
             List<Object> listaAux;
@@ -39,11 +46,25 @@ namespace AgendaContactosBBDD.persistence.manages
             return lastId;
         }
 
+
+        /// <summary>
+        ///     Insertas un nuevo contacto
+        /// </summary>
+        /// <param name="contacto">
+        ///     Contacto que vas a insertar en la bbdd
+        /// </param>
         public void insetarNuevoContacto(Contacto contacto)
         {
             dbbroker.modificar("INSERT INTO bbddAgendaContactos.Contactos (id, nombre, telefono) VALUES ( "+contacto.Id+", '"+contacto.Nombre+"', "+contacto.Telefono+")");
         }
 
+
+        /// <summary>
+        ///     Lees todos los contactos de la bbdd
+        /// </summary>
+        /// <returns>
+        ///     Lista rellena de todos los contactos de la bbdd
+        /// </returns>
         public List<Contacto> leerContactos()
         {
             List<Object> listaAux = DBBroker.obtenerAgente().leer("SELECT * FROM bbddAgendaContactos.Contactos");
@@ -57,11 +78,25 @@ namespace AgendaContactosBBDD.persistence.manages
             return listaContacto;
         }
 
+
+        /// <summary>
+        ///     Elimina un contacto de la bbdd
+        /// </summary>
+        /// <param name="contacto">
+        ///     Contacto que vas a eliminar de la bbdd
+        /// </param>
         public void eliminarContacto(Contacto contacto)
         {
             DBBroker.obtenerAgente().modificar("DELETE FROM bbddAgendaContactos.Contactos WHERE id = " + contacto.Id + ";");
         }
 
+
+        /// <summary>
+        ///     Modificas un contacto de la bbdd
+        /// </summary>
+        /// <param name="contacto">
+        ///     Contacto que vas a modificar de la bbdd
+        /// </param>
         public void modificarContacto(Contacto contacto)
         {
             DBBroker.obtenerAgente().modificar("UPDATE bbddAgendaContactos.Contactos SET nombre = '" + contacto.Nombre + "', telefono = " + contacto.Telefono + ";");

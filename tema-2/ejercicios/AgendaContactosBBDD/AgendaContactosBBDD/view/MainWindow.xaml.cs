@@ -27,11 +27,19 @@ namespace AgendaContactosBBDD
             listaContactos = new List<Contacto>();
             contacto = new Contacto();
 
+            //Meto en listaContactos los contactos existentes en la bbdd cuando se ejecuta
             listaContactos = contacto.genListaContactos();
             
+            //Le digo al dataGrid que muestre la lista de contactos
             dgContactos.ItemsSource = listaContactos;
         }
 
+
+        /// <summary>
+        ///     Agrega un nuevo contacto en la bbdd
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnAgregar_Click(object sender, RoutedEventArgs e)
         {
             Contacto contacto = new Contacto(tbNombreContacto.Text, int.Parse(tbTelefonoContacto.Text) );
@@ -45,6 +53,13 @@ namespace AgendaContactosBBDD
             limpiarCampos();
         }
 
+
+
+        /// <summary>
+        ///     Borra un contacto de la bbdd
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnBorrar_Click(object sender, RoutedEventArgs e)
         {
             Contacto c = (Contacto) dgContactos.SelectedItem;
@@ -53,8 +68,16 @@ namespace AgendaContactosBBDD
             newList.Remove(c);
             dgContactos.Items.Refresh();
             dgContactos.ItemsSource = newList;
+
+            limpiarCampos();
         }
 
+
+        /// <summary>
+        ///     Modifica un contacto de la bbdd
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnModificar_Click(object sender, RoutedEventArgs e)
         {
             Contacto c = (Contacto) dgContactos.SelectedItem;
@@ -70,8 +93,14 @@ namespace AgendaContactosBBDD
             dgContactos.Items.Refresh();
             dgContactos.ItemsSource = newList;
 
+            limpiarCampos();
+
         }
 
+
+        /// <summary>
+        ///     Limpia los textbox cuando terminas de realizar una operacion
+        /// </summary>
         private void limpiarCampos()
         {
             tbNombreContacto.Text = "";
