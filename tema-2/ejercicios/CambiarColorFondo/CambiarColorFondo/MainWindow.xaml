@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid x:Name="gridPrincipal">
-        <TextBlock HorizontalAlignment="Left" Margin="234,55,0,0" TextWrapping="Wrap" Text="Esto es un programa que cambia el color del fondo según el botón que pulses" VerticalAlignment="Top" Height="32" Width="284" TextAlignment="Center"/>
+        <TextBlock x:Name="tblocktxtInfo" HorizontalAlignment="Left" Margin="234,55,0,0" TextWrapping="Wrap" Text="Esto es un programa que cambia el color del fondo según el botón que pulses" VerticalAlignment="Top" Height="32" Width="284" TextAlignment="Center"/>
         
         <Button x:Name="btnAmarillo" Content="Button" HorizontalAlignment="Left" Margin="100,354,0,0" VerticalAlignment="Top" Height="46" Width="121" Background="Yellow" Click="btnAmarillo_Click"/>
         <Button x:Name="btnVerde" Content="Button" HorizontalAlignment="Left" Margin="316,354,0,0" VerticalAlignment="Top" Height="46" Width="120" Background="Green" Click="btnVerde_Click"/>

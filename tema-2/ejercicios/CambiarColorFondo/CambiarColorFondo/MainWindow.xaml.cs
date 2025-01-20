@@ -24,17 +24,19 @@ namespace CambiarColorFondo
         private void btnAmarillo_Click(object sender, RoutedEventArgs e)
         {
             gridPrincipal.Background = new SolidColorBrush(Colors.Yellow);
+            tblocktxtInfo.Foreground = new SolidColorBrush(Colors.Black);
         }
 
         private void btnVerde_Click(object sender, RoutedEventArgs e)
         {
             gridPrincipal.Background = new SolidColorBrush(Colors.Green);
-
+            tblocktxtInfo.Foreground = new SolidColorBrush(Colors.White);
         }
 
         private void btnVeige_Click(object sender, RoutedEventArgs e)
         {
             gridPrincipal.Background = new SolidColorBrush(Colors.Beige);
+            tblocktxtInfo.Foreground = new SolidColorBrush(Colors.Black);
         }
     }
 }
