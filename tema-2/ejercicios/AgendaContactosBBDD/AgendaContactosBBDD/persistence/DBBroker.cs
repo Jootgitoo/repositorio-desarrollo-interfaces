@@ -12,7 +12,7 @@ namespace AgendaContactosBBDD.persistence
 
         private static DBBroker _instancia;
         private static MySql.Data.MySqlClient.MySqlConnection conexion;
-        private const String cadenaConexion = "server=localhost;database=bbddTPV;uid=root;pwd=mysql";
+        private const String cadenaConexion = "server=localhost;database=bbddAgendaContactos;uid=root;pwd=toor";
 
         //-------------------------------------------------------------------------------------------------------------
         //CONSTRUCTOR

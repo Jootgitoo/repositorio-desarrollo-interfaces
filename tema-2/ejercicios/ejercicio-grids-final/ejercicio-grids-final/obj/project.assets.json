@@ -8,19 +8,24 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\JORGE\\.nuget\\packages\\": {}
+    "C:\\Users\\b15-18m\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-grids-final\\ejercicio-grids-final\\ejercicio-grids-final.csproj",
+      "projectUniqueName": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-grids-final\\ejercicio-grids-final\\ejercicio-grids-final.csproj",
       "projectName": "ejercicio-grids-final",
-      "projectPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-grids-final\\ejercicio-grids-final\\ejercicio-grids-final.csproj",
-      "packagesPath": "C:\\Users\\JORGE\\.nuget\\packages\\",
-      "outputPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-grids-final\\ejercicio-grids-final\\obj\\",
+      "projectPath": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-grids-final\\ejercicio-grids-final\\ejercicio-grids-final.csproj",
+      "packagesPath": "C:\\Users\\b15-18m\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-grids-final\\ejercicio-grids-final\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\JORGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\b15-18m\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -45,7 +50,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -69,7 +75,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

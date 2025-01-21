@@ -1,25 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\AgendaContactosBBDD\\",
+  "WorkspaceRootPath": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\AgendaContactosBBDD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42A76C34-9BBB-49DC-A289-8FEDC68832BA}|AgendaContactosBBDD\\AgendaContactosBBDD.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\agendacontactosbbdd\\agendacontactosbbdd\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A76C34-9BBB-49DC-A289-8FEDC68832BA}|AgendaContactosBBDD\\AgendaContactosBBDD.csproj|solutionrelative:agendacontactosbbdd\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42A76C34-9BBB-49DC-A289-8FEDC68832BA}|AgendaContactosBBDD\\AgendaContactosBBDD.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\agendacontactosbbdd\\agendacontactosbbdd\\domain\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A76C34-9BBB-49DC-A289-8FEDC68832BA}|AgendaContactosBBDD\\AgendaContactosBBDD.csproj|solutionrelative:agendacontactosbbdd\\domain\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42A76C34-9BBB-49DC-A289-8FEDC68832BA}|AgendaContactosBBDD\\AgendaContactosBBDD.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\agendacontactosbbdd\\agendacontactosbbdd\\persistence\\manages\\manejocontacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42A76C34-9BBB-49DC-A289-8FEDC68832BA}|AgendaContactosBBDD\\AgendaContactosBBDD.csproj|c:\\users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\agendacontactosbbdd\\agendacontactosbbdd\\persistence\\manages\\manejocontacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42A76C34-9BBB-49DC-A289-8FEDC68832BA}|AgendaContactosBBDD\\AgendaContactosBBDD.csproj|solutionrelative:agendacontactosbbdd\\persistence\\manages\\manejocontacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A76C34-9BBB-49DC-A289-8FEDC68832BA}|AgendaContactosBBDD\\AgendaContactosBBDD.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\agendacontactosbbdd\\agendacontactosbbdd\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{42A76C34-9BBB-49DC-A289-8FEDC68832BA}|AgendaContactosBBDD\\AgendaContactosBBDD.csproj|solutionrelative:agendacontactosbbdd\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42A76C34-9BBB-49DC-A289-8FEDC68832BA}|AgendaContactosBBDD\\AgendaContactosBBDD.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\agendacontactosbbdd\\agendacontactosbbdd\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42A76C34-9BBB-49DC-A289-8FEDC68832BA}|AgendaContactosBBDD\\AgendaContactosBBDD.csproj|c:\\users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\agendacontactosbbdd\\agendacontactosbbdd\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42A76C34-9BBB-49DC-A289-8FEDC68832BA}|AgendaContactosBBDD\\AgendaContactosBBDD.csproj|solutionrelative:agendacontactosbbdd\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,66 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\AgendaContactosBBDD\\AgendaContactosBBDD\\view\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "AgendaContactosBBDD\\view\\MainWindow.xaml",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\AgendaContactosBBDD\\AgendaContactosBBDD\\view\\MainWindow.xaml",
-              "RelativeToolTip": "AgendaContactosBBDD\\view\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-19T10:35:00.41Z",
+              "DocumentIndex": 1,
+              "Title": "DBBroker.cs",
+              "DocumentMoniker": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\AgendaContactosBBDD\\AgendaContactosBBDD\\persistence\\DBBroker.cs",
+              "RelativeDocumentMoniker": "AgendaContactosBBDD\\persistence\\DBBroker.cs",
+              "ToolTip": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\AgendaContactosBBDD\\AgendaContactosBBDD\\persistence\\DBBroker.cs",
+              "RelativeToolTip": "AgendaContactosBBDD\\persistence\\DBBroker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T08:16:01.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\AgendaContactosBBDD\\AgendaContactosBBDD\\view\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "AgendaContactosBBDD\\view\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\AgendaContactosBBDD\\AgendaContactosBBDD\\view\\MainWindow.xaml.cs",
-              "RelativeToolTip": "AgendaContactosBBDD\\view\\MainWindow.xaml.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAtwD8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T10:37:40.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Contacto.cs",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\AgendaContactosBBDD\\AgendaContactosBBDD\\domain\\Contacto.cs",
-              "RelativeDocumentMoniker": "AgendaContactosBBDD\\domain\\Contacto.cs",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\AgendaContactosBBDD\\AgendaContactosBBDD\\domain\\Contacto.cs",
-              "RelativeToolTip": "AgendaContactosBBDD\\domain\\Contacto.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAvwCMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T10:38:13.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "ManejoContacto.cs",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\AgendaContactosBBDD\\AgendaContactosBBDD\\persistence\\manages\\ManejoContacto.cs",
+              "DocumentMoniker": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\AgendaContactosBBDD\\AgendaContactosBBDD\\persistence\\manages\\ManejoContacto.cs",
               "RelativeDocumentMoniker": "AgendaContactosBBDD\\persistence\\manages\\ManejoContacto.cs",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\AgendaContactosBBDD\\AgendaContactosBBDD\\persistence\\manages\\ManejoContacto.cs",
+              "ToolTip": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\AgendaContactosBBDD\\AgendaContactosBBDD\\persistence\\manages\\ManejoContacto.cs",
               "RelativeToolTip": "AgendaContactosBBDD\\persistence\\manages\\ManejoContacto.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAywDoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowCQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T10:47:05.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DBBroker.cs",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\AgendaContactosBBDD\\AgendaContactosBBDD\\persistence\\DBBroker.cs",
-              "RelativeDocumentMoniker": "AgendaContactosBBDD\\persistence\\DBBroker.cs",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\AgendaContactosBBDD\\AgendaContactosBBDD\\persistence\\DBBroker.cs",
-              "RelativeToolTip": "AgendaContactosBBDD\\persistence\\DBBroker.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAhwFoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T10:48:38.984Z",
+              "WhenOpened": "2025-01-21T08:15:34.345Z",
               "EditorCaption": ""
             }
           ]
