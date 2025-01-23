@@ -12,11 +12,11 @@ namespace AprsPrueba.Domain
         //ATRIBUTOS
         private string id;
         private string name;
-        private Dictionary<string, object> data;
+        private Dictionary<string, string> data;
 
 //--------------------------------------------------------------------------------------------
         //CONSTRUCTOR
-        public ApiObject(string id, string name, Dictionary<string, object> data)
+        public ApiObject(string id, string name, Dictionary<string, string> data)
         {
             this.id = id;
             this.name = name;

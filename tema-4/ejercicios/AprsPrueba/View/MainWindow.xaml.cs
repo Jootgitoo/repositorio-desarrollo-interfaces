@@ -56,12 +56,12 @@ namespace AprsPrueba
             // Crear un nuevo objeto
             var nuevoObjeto = new ApiObject
             {
-                Id = Guid.NewGuid().ToString(), // Generar un ID único (opcional si la API lo genera automáticamente)
-                Name = "Nuevo Objeto",
+                Id = Guid.NewGuid().ToString(), //Genero un id
+                Name = "Iphone 20",
                 Data = new Dictionary<string, string>
                 {
-                    { "Propiedad1", "Valor1" },
-                    { "Propiedad2", "Valor2" }
+                    { "Color", "Azul" },
+                    { "Memoria", "100Gb" }
                 }
             };
 
@@ -69,8 +69,8 @@ namespace AprsPrueba
             {
                 var objetoCreado = await manejoApi.agregarObjeto(nuevoObjeto);
 
-                // Mostrar confirmación en la interfaz
-                ResultListBox.Items.Add($"Objeto añadido: ID={objetoCreado.Id}, Name={objetoCreado.Name}");
+                // Muestro el objeto añadido en el ResultListBox
+                ResultListBox.Items.Add($"ID={objetoCreado.Id}, Name={objetoCreado.Name}");
             }
             catch (Exception ex)
             {
