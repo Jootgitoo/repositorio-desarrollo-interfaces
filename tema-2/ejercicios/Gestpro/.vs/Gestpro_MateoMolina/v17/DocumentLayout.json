@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b15-14m\\Desktop\\DAM 2\\DesarrolloInterfaces\\Gestpro_MateoMolina\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1039F77-1D49-4D79-A9D2-1A6DE5015731}|Gestpro_MateoMolina.csproj|C:\\Users\\b15-14m\\Desktop\\DAM 2\\DesarrolloInterfaces\\Gestpro_MateoMolina\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1039F77-1D49-4D79-A9D2-1A6DE5015731}|Gestpro_MateoMolina.csproj|solutionrelative:view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1039F77-1D49-4D79-A9D2-1A6DE5015731}|Gestpro_MateoMolina.csproj|c:\\users\\b15-14m\\desktop\\dam 2\\desarrollointerfaces\\gestpro_mateomolina\\persistence\\proyectopersistence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1039F77-1D49-4D79-A9D2-1A6DE5015731}|Gestpro_MateoMolina.csproj|solutionrelative:persistence\\proyectopersistence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1039F77-1D49-4D79-A9D2-1A6DE5015731}|Gestpro_MateoMolina.csproj|C:\\Users\\b15-14m\\Desktop\\DAM 2\\DesarrolloInterfaces\\Gestpro_MateoMolina\\domain\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1039F77-1D49-4D79-A9D2-1A6DE5015731}|Gestpro_MateoMolina.csproj|solutionrelative:domain\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1039F77-1D49-4D79-A9D2-1A6DE5015731}|Gestpro_MateoMolina.csproj|C:\\Users\\b15-14m\\Desktop\\DAM 2\\DesarrolloInterfaces\\Gestpro_MateoMolina\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1039F77-1D49-4D79-A9D2-1A6DE5015731}|Gestpro_MateoMolina.csproj|solutionrelative:view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1039F77-1D49-4D79-A9D2-1A6DE5015731}|Gestpro_MateoMolina.csproj|C:\\Users\\b15-14m\\Desktop\\DAM 2\\DesarrolloInterfaces\\Gestpro_MateoMolina\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1039F77-1D49-4D79-A9D2-1A6DE5015731}|Gestpro_MateoMolina.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1039F77-1D49-4D79-A9D2-1A6DE5015731}|Gestpro_MateoMolina.csproj|C:\\Users\\b15-14m\\Desktop\\DAM 2\\DesarrolloInterfaces\\Gestpro_MateoMolina\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1039F77-1D49-4D79-A9D2-1A6DE5015731}|Gestpro_MateoMolina.csproj|solutionrelative:persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "proyectoPersistence.cs",
+              "DocumentMoniker": "C:\\Users\\b15-14m\\Desktop\\DAM 2\\DesarrolloInterfaces\\Gestpro_MateoMolina\\persistence\\proyectoPersistence.cs",
+              "RelativeDocumentMoniker": "persistence\\proyectoPersistence.cs",
+              "ToolTip": "C:\\Users\\b15-14m\\Desktop\\DAM 2\\DesarrolloInterfaces\\Gestpro_MateoMolina\\persistence\\proyectoPersistence.cs",
+              "RelativeToolTip": "persistence\\proyectoPersistence.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAwDEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T16:21:03.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-14m\\Desktop\\DAM 2\\DesarrolloInterfaces\\Gestpro_MateoMolina\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\b15-14m\\Desktop\\DAM 2\\DesarrolloInterfaces\\Gestpro_MateoMolina\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-26T12:10:22.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-14m\\Desktop\\DAM 2\\DesarrolloInterfaces\\Gestpro_MateoMolina\\view\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "view\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-14m\\Desktop\\DAM 2\\DesarrolloInterfaces\\Gestpro_MateoMolina\\view\\MainWindow.xaml",
+              "RelativeToolTip": "view\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-05T12:39:54.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-14m\\Desktop\\DAM 2\\DesarrolloInterfaces\\Gestpro_MateoMolina\\view\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "view\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-14m\\Desktop\\DAM 2\\DesarrolloInterfaces\\Gestpro_MateoMolina\\view\\MainWindow.xaml.cs",
+              "RelativeToolTip": "view\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAApwE4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T11:05:48.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DBBroker.cs",
+              "DocumentMoniker": "C:\\Users\\b15-14m\\Desktop\\DAM 2\\DesarrolloInterfaces\\Gestpro_MateoMolina\\persistence\\DBBroker.cs",
+              "RelativeDocumentMoniker": "persistence\\DBBroker.cs",
+              "ToolTip": "C:\\Users\\b15-14m\\Desktop\\DAM 2\\DesarrolloInterfaces\\Gestpro_MateoMolina\\persistence\\DBBroker.cs",
+              "RelativeToolTip": "persistence\\DBBroker.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwFcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T11:05:56.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Proyecto.cs",
+              "DocumentMoniker": "C:\\Users\\b15-14m\\Desktop\\DAM 2\\DesarrolloInterfaces\\Gestpro_MateoMolina\\domain\\Proyecto.cs",
+              "RelativeDocumentMoniker": "domain\\Proyecto.cs",
+              "ToolTip": "C:\\Users\\b15-14m\\Desktop\\DAM 2\\DesarrolloInterfaces\\Gestpro_MateoMolina\\domain\\Proyecto.cs",
+              "RelativeToolTip": "domain\\Proyecto.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAA0wEMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T12:30:56.19Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
