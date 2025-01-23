@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|solutionrelative:tpvcamisetasfutbol\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|c:\\users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvcamisetasfutbol\\tpvcamisetasfutbol\\domain\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvcamisetasfutbol\\domain\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{845D9C07-BBA4-4092-86E6-F24F143A724F}|tpvCamisetasFutbol\\tpvCamisetasFutbol.csproj|solutionrelative:tpvcamisetasfutbol\\domain\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,21 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\domain\\Ticket.cs",
-              "RelativeDocumentMoniker": "tpvCamisetasFutbol\\domain\\Ticket.cs",
-              "ToolTip": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\domain\\Ticket.cs",
-              "RelativeToolTip": "tpvCamisetasFutbol\\domain\\Ticket.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T13:12:42.683Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -59,6 +46,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\domain\\Ticket.cs",
+              "RelativeDocumentMoniker": "tpvCamisetasFutbol\\domain\\Ticket.cs",
+              "ToolTip": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\domain\\Ticket.cs",
+              "RelativeToolTip": "tpvCamisetasFutbol\\domain\\Ticket.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T13:12:42.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\view\\MainWindow.xaml",
@@ -66,8 +66,7 @@
               "ToolTip": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\ejercicio-tpv\\tpvCamisetasFutbol\\tpvCamisetasFutbol\\view\\MainWindow.xaml",
               "RelativeToolTip": "tpvCamisetasFutbol\\view\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-19T10:22:30.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-19T10:22:30.386Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "tpvCamisetasFutbol\\view\\MainWindow.xaml.cs",
               "ViewState": "AgIAAA0BAAAAAAAAAAAewB8BAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T09:48:43.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T09:48:43.683Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "RelativeToolTip": "tpvCamisetasFutbol\\domain\\Producto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T17:28:17.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T17:28:17.576Z"
             },
             {
               "$type": "Document",
