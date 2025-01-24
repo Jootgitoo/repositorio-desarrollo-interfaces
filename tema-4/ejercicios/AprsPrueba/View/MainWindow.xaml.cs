@@ -56,12 +56,14 @@ namespace AprsPrueba
             // Crear un nuevo objeto
             var nuevoObjeto = new ApiObject
             {
-                Id = Guid.NewGuid().ToString(), //Genero un id
+                //Id = Guid.NewGuid().ToString(), //Genero un id
                 Name = "Iphone 20",
                 Data = new Dictionary<string, string>
                 {
-                    { "Color", "Azul" },
-                    { "Memoria", "100Gb" }
+                    { "year", "2026" },
+                    { "price", "100Gb" },
+                    { "CPU model", "A75"},
+                    { "Hard disk size", "1 TB"}
                 }
             };
 

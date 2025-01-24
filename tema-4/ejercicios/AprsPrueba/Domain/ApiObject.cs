@@ -9,25 +9,25 @@ namespace AprsPrueba.Domain
     internal class ApiObject
     {
 
-        //ATRIBUTOS
-        private string id;
-        private string name;
-        private Dictionary<string, string> data;
+//        //ATRIBUTOS
+//        private string id;
+//        private string Name;
+//        private Dictionary<string, string> data;
 
-//--------------------------------------------------------------------------------------------
-        //CONSTRUCTOR
-        public ApiObject(string id, string name, Dictionary<string, string> data)
-        {
-            this.id = id;
-            this.name = name;
-            this.data = data;
+////--------------------------------------------------------------------------------------------
+//        //CONSTRUCTOR
+//        public ApiObject(string id, string name, Dictionary<string, string> data)
+//        {
+//            this.id = id;
+//            this.Name = name;
+//            this.data = data;
             
-        }
+//        }
 
-        public ApiObject()
-        {
+//        public ApiObject()
+//        {
 
-        }
+//        }
 
 //-------------------------------------------------------------------------------------------------
         //GETTERS Y SETTERS
