@@ -33,6 +33,6 @@ namespace AprsPrueba.Domain
         //GETTERS Y SETTERS
         public string Id { get; set; }
         public string Name { get; set; }
-        public Dictionary<string, String> Data { get; set; }
+        public Dictionary<string, string> Data { get; set; }
     }
 }

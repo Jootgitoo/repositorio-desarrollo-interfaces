@@ -56,12 +56,13 @@ namespace AprsPrueba.Modelo
                 StringContent contenido = new StringContent(jsonObjeto, Encoding.UTF8, "application/json");
 
                 // Enviar la solicitud POST
-                HttpResponseMessage response = await client.PostAsync(apiUrl, contenido);
+                HttpResponseMessage response = await client.PostAsync(apiUrl, contenido);                
 
                 if (response.IsSuccessStatusCode)
                 {
                     // Leer la respuesta de la API
                     string jsonResponse = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine(jsonResponse);
 
                     // Deserializar el objeto resultante
                     var objetoCreado = Newtonsoft.Json.JsonConvert.DeserializeObject<ApiObject>(jsonResponse);

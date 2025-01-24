@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NdxkaYZzfSA=",
+  "dgSpecHash": "vEzeLd6/3d8=",
   "success": true,
-  "projectFilePath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\AprsPrueba\\AprsPrueba.csproj",
+  "projectFilePath": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\AprsPrueba\\AprsPrueba.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\JORGE\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Usuario\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
