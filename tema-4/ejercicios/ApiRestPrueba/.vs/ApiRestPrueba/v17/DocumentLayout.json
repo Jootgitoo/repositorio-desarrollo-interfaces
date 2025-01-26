@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ApiRestPrueba\\",
+  "WorkspaceRootPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\ApiRestPrueba\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4449463E-A54A-4E39-984D-10972C5A436C}|ApiRestPrueba\\ApiRestPrueba.csproj|D:\\ApiRestPrueba\\apirestprueba\\persistence\\manages\\apimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4449463E-A54A-4E39-984D-10972C5A436C}|ApiRestPrueba\\ApiRestPrueba.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\apirestprueba\\apirestprueba\\persistence\\manages\\apimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4449463E-A54A-4E39-984D-10972C5A436C}|ApiRestPrueba\\ApiRestPrueba.csproj|solutionrelative:apirestprueba\\persistence\\manages\\apimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4449463E-A54A-4E39-984D-10972C5A436C}|ApiRestPrueba\\ApiRestPrueba.csproj|d:\\apirestprueba\\apirestprueba\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4449463E-A54A-4E39-984D-10972C5A436C}|ApiRestPrueba\\ApiRestPrueba.csproj|solutionrelative:apirestprueba\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4449463E-A54A-4E39-984D-10972C5A436C}|ApiRestPrueba\\ApiRestPrueba.csproj|D:\\ApiRestPrueba\\apirestprueba\\domain\\apirestobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4449463E-A54A-4E39-984D-10972C5A436C}|ApiRestPrueba\\ApiRestPrueba.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\ApiRestPrueba\\apirestprueba\\domain\\apirestobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4449463E-A54A-4E39-984D-10972C5A436C}|ApiRestPrueba\\ApiRestPrueba.csproj|solutionrelative:apirestprueba\\domain\\apirestobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4449463E-A54A-4E39-984D-10972C5A436C}|ApiRestPrueba\\ApiRestPrueba.csproj|D:\\ApiRestPrueba\\apirestprueba\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4449463E-A54A-4E39-984D-10972C5A436C}|ApiRestPrueba\\ApiRestPrueba.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\ApiRestPrueba\\apirestprueba\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4449463E-A54A-4E39-984D-10972C5A436C}|ApiRestPrueba\\ApiRestPrueba.csproj|solutionrelative:apirestprueba\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4449463E-A54A-4E39-984D-10972C5A436C}|ApiRestPrueba\\ApiRestPrueba.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\ApiRestPrueba\\apirestprueba\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4449463E-A54A-4E39-984D-10972C5A436C}|ApiRestPrueba\\ApiRestPrueba.csproj|solutionrelative:apirestprueba\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,51 +38,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApiManager.cs",
-              "DocumentMoniker": "D:\\ApiRestPrueba\\ApiRestPrueba\\persistence\\manages\\ApiManager.cs",
-              "RelativeDocumentMoniker": "ApiRestPrueba\\persistence\\manages\\ApiManager.cs",
-              "ToolTip": "D:\\ApiRestPrueba\\ApiRestPrueba\\persistence\\manages\\ApiManager.cs",
-              "RelativeToolTip": "ApiRestPrueba\\persistence\\manages\\ApiManager.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAowCQAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T12:55:09.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ApiRestObject.cs",
-              "DocumentMoniker": "D:\\ApiRestPrueba\\ApiRestPrueba\\domain\\ApiRestObject.cs",
-              "RelativeDocumentMoniker": "ApiRestPrueba\\domain\\ApiRestObject.cs",
-              "ToolTip": "D:\\ApiRestPrueba\\ApiRestPrueba\\domain\\ApiRestObject.cs",
-              "RelativeToolTip": "ApiRestPrueba\\domain\\ApiRestObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T12:53:22.842Z"
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\ApiRestPrueba\\ApiRestPrueba\\view\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ApiRestPrueba\\view\\MainWindow.xaml",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\ApiRestPrueba\\ApiRestPrueba\\view\\MainWindow.xaml",
+              "RelativeToolTip": "ApiRestPrueba\\view\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-14T12:47:28.423Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\ApiRestPrueba\\ApiRestPrueba\\view\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\ApiRestPrueba\\ApiRestPrueba\\view\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ApiRestPrueba\\view\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\ApiRestPrueba\\ApiRestPrueba\\view\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\ApiRestPrueba\\ApiRestPrueba\\view\\MainWindow.xaml.cs",
               "RelativeToolTip": "ApiRestPrueba\\view\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAJIAAAAAAAAAAAAQwJsAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAmwIwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T12:47:31.086Z"
+              "WhenOpened": "2025-01-14T12:47:31.086Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\ApiRestPrueba\\ApiRestPrueba\\view\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "ApiRestPrueba\\view\\MainWindow.xaml",
-              "ToolTip": "D:\\ApiRestPrueba\\ApiRestPrueba\\view\\MainWindow.xaml",
-              "RelativeToolTip": "ApiRestPrueba\\view\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-14T12:47:28.423Z",
+              "Title": "ApiRestObject.cs",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\ApiRestPrueba\\ApiRestPrueba\\domain\\ApiRestObject.cs",
+              "RelativeDocumentMoniker": "ApiRestPrueba\\domain\\ApiRestObject.cs",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\ApiRestPrueba\\ApiRestPrueba\\domain\\ApiRestObject.cs",
+              "RelativeToolTip": "ApiRestPrueba\\domain\\ApiRestObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:53:22.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiManager.cs",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\ApiRestPrueba\\ApiRestPrueba\\persistence\\manages\\ApiManager.cs",
+              "RelativeDocumentMoniker": "ApiRestPrueba\\persistence\\manages\\ApiManager.cs",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\ApiRestPrueba\\ApiRestPrueba\\persistence\\manages\\ApiManager.cs",
+              "RelativeToolTip": "ApiRestPrueba\\persistence\\manages\\ApiManager.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAywJ4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:55:09.565Z",
               "EditorCaption": ""
             }
           ]

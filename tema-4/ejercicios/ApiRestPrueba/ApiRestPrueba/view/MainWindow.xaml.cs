@@ -30,80 +30,62 @@ namespace ApiRestPrueba
             apiManager = new ApiManager();
         }
 
+        //async HACE QUE SE PUEDAN REALIZAR OPERACIONES ASÍNCRONAS CON await DENTRO DEL MÉTODO
+
+        /// <summary>
+        ///     Hacemos una llamada a una API y obtenemos datos de ella
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void LoadDataButton_Click(object sender, RoutedEventArgs e)
         {
-            
-            //    //URL de la API
-            //    string apiUrl = "https://api.restful-api.dev/objects";
-            //try
-            //{
-
-            //    ResultsListBox.Items.Clear();
-            //    ResultsListBox.Items.Add("Cargando datos...");
-
-            //    //Realizar la solicitud HTTP
-            //    HttpClient client = new HttpClient();
-            //    HttpResponseMessage response = await client.GetAsync(apiUrl);
-
-            //    if (response.IsSuccessStatusCode)
-            //    {
-            //        //Leer y deserializar los datos JSON
-            //        string jsonResponse = await response.Content.ReadAsStringAsync();
-            //        var objects = Newtonsoft.Json.JsonConvert.DeserializeObject<List<ApiObject>>(jsonResponse);
-
-            //        //Limpiar y cargar datos en el Listbox
-            //        ResultsListBox.Items.Clear();
-            //        foreach (var obj in objects)
-            //        {
-            //            ResultsListBox.Items.Add($"ID: {obj.Id}, Name: {obj.Name}");
-            //        }
-            //    }
-            //    else
-            //    {
-            //        ResultsListBox.Items.Clear();
-            //        ResultsListBox.Items.Add($"Error: {response.StatusCode} = {response.ReasonPhrase}");
-            //    }
-            //}
-            //catch (Exception ex)
-            //{
-            //    ResultsListBox.Items.Clear();
-            //    ResultsListBox.Items.Add($"Error al obtener datos {ex.Message}");
-            //}
-
+            //Limpiamos el ResultsListBox
             ResultsListBox.Items.Clear();
+
+            //Mostramos al usuario un mensaje de q estamos cargando (es temporal)
             ResultsListBox.Items.Add("Cargando datos...");
 
             try {
+                //Llamamos al método getListaObjetos para realizar una solicitud a una API REST obteniendo una lista de objetos
                 List<ApiRestObject> objetos = await apiManager.getListaObjetos();
 
+                //Limpiamos el ResultsListBox para esscribir en el los datos obtenidos de la consulta
                 ResultsListBox.Items.Clear();
+
+                //Por cada objeto que haya en objetos(lista de valores extraidos de la api)
                 foreach (var obj in objetos)
                 {
+                    //Escribimos el id y el nombre
                     ResultsListBox.Items.Add($"ID: {obj.Id}, Name: {obj.Name}");
                 }
+
             }catch (Exception ex){ 
                 ResultsListBox.Items.Clear();
                 ResultsListBox.Items.Add($"Error al obtener datos: {ex.Message}");
             }
 
-
         }
 
-        //public class ApiObject
-        //{ 
-        //    public int Id { get; set; }
-        //    public string Name { get; set; }
-        //    public Dictionary<string, string> Data { get; set; }
-        //}
 
-        private async void Button_Click(object sender, RoutedEventArgs e)
+        /// <summary>
+        ///     Creamos un objeto a la api con la llamada a .addNuevo
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private async void Button_Click_CrearObjeto(object sender, RoutedEventArgs e)
         {
             try
             {
-                string creado =  await apiManager.addNuevo(); // Llamar al método que agrega un nuevo objeto
+                //Hacemos una llamada a la API para crear un objeto nuevo
+                string creado =  await apiManager.addNuevo();
+
+                //Mostramos un mensaje al usuario
                 MessageBox.Show("Objeto añadido con éxito.");
 
+                //Llamamos al método de carga de datos para que te muestre el nuevo objeto creado
                 LoadDataButton_Click(null, null);
+
+                //Añadimoa a RecogerID el texto del objecto creado
                 RecogerID.Text = creado;
 
             }
@@ -113,30 +95,41 @@ namespace ApiRestPrueba
             }
         }
 
+
+        /// <summary>
+        ///     Eliminas un objeto de la API con su id
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void Button_Click_Borrar(object sender, RoutedEventArgs e)
         {
+            //Cogemos el elemento seleccionado
             if (ResultsListBox.SelectedItem == null){
-                MessageBox.Show("Seleccione un objeto para borra");
+                MessageBox.Show("Seleccione un objeto para borra"); //Si no ha seleccionado ninguno mostramos un mensaje
                 return;
             }
 
-            // Obtener el ID del objeto seleccionado
+            //Obtener el ID del objeto seleccionado
             string selectedItem = ResultsListBox.SelectedItem.ToString();
             string id;
             try
             {
+                //Cogemos el id dividiendo la cadena por ,
                 id = selectedItem.Split(',')[0].Split(':')[1].Trim();
             }
             catch
             {
-                MessageBox.Show("No se pudo obtener el ID del objeto seleccionado");
+                MessageBox.Show("No se pudo obtener el ID del objeto seleccionado"); //Error de que el id es incorrecto
                 return;
             }
 
             try
             {
+                //Llamamos al método delete para que borre el objeto con id = valor id (el valor lo hemos conseguido antes)
                 await apiManager.DeleteObjetoAsync(id);
                 MessageBox.Show("Objeto borrado con éxito.");
+                
+                //Recargamso los datos 
                 LoadDataButton_Click(null, null); 
             }
             catch (Exception ex)
@@ -145,23 +138,39 @@ namespace ApiRestPrueba
             }
         }
 
+
+        /// <summary>
+        ///     Busca un objeto de la API a través de su id
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void Button_Click_Buscar(object sender, RoutedEventArgs e)
         {
+            //Limpas y pones un mensjae de traza en ResultsListBox
             ResultsListBox.Items.Clear();
             ResultsListBox.Items.Add("Cargando datos...");
+
+            //Recoges el id escrito por el usuario
             string id = EscribirId.Text;
 
             try
             {
-                if (id != null)
+                if (id != null) //Si el id no es null..
                 {
+
+                    //Hacemos una solicitud a la api pidiendo el objeto con ese id 
                     ApiRestObject objeto = await apiManager.GetbyID(id);
+
+                    //Limpiamos el ResultsListBox
                     ResultsListBox.Items.Clear();
+
+                    //Y solo escribimos el objeto extraido
                     ResultsListBox.Items.Add($"ID: {objeto.Id}, Name: {objeto.Name}");
 
                 }
                 else {
-                    MessageBox.Show("Introduce un ID primero");
+                    //Si el id es null...
+                    MessageBox.Show("Introduce un ID primero"); 
                 }
             }
             catch (Exception ex)
@@ -170,5 +179,6 @@ namespace ApiRestPrueba
                 ResultsListBox.Items.Add($"Error al obtener datos: {ex.Message}");
             }
         }
+
     }
 }

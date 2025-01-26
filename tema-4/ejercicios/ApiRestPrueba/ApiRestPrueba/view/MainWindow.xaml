@@ -9,7 +9,7 @@
     <Grid>
         <Button Content="Cargar datos" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,20,0,0" Width="100" Click="LoadDataButton_Click"/>
         <Button Content="Borrar objeto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="400,20,0,0" Width="100" Click="Button_Click_Borrar"/>
-        <Button Content="Crear objeto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="210,20,0,0" Width="100" Click="Button_Click"/>
+        <Button Content="Crear objeto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="210,20,0,0" Width="100" Click="Button_Click_CrearObjeto"/>
         <TextBox Name="RecogerID" Margin="20,344,166,38"/>
         <Label Content="Introduce la ID buscada" HorizontalAlignment="Left" Margin="520,100,0,0" VerticalAlignment="Top" Width="200"/>
         <TextBox Name="EscribirId" HorizontalAlignment="Left" Margin="520,130,0,0" VerticalAlignment="Top" Width="200"/>
