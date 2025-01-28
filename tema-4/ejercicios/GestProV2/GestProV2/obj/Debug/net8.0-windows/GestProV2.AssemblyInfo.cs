@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GestProV2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a3d444e01d51e58081ffc813942b1d3093b227e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e850e71e4e583d3670b6537f9ba42a6b793d31b")]
 [assembly: System.Reflection.AssemblyProductAttribute("GestProV2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GestProV2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
