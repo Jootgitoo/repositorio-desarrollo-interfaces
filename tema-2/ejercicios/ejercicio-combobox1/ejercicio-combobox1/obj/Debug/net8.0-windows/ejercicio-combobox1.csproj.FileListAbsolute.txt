@@ -20,3 +20,10 @@ C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejerc
 C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-combobox1\ejercicio-combobox1\obj\Debug\net8.0-windows\ejercicio-combobox1.genruntimeconfig.cache
 C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-combobox1\ejercicio-combobox1\obj\Debug\net8.0-windows\ref\ejercicio-combobox1.dll
 C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-combobox1\ejercicio-combobox1\obj\Debug\net8.0-windows\view\App.g.cs
+C:\Users\b15-18m\dam2\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-combobox1\ejercicio-combobox1\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\b15-18m\dam2\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-combobox1\ejercicio-combobox1\obj\Debug\net8.0-windows\view\App.g.cs
+C:\Users\b15-18m\dam2\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-combobox1\ejercicio-combobox1\obj\Debug\net8.0-windows\ejercicio-combobox1_MarkupCompile.cache
+C:\Users\b15-18m\dam2\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-combobox1\ejercicio-combobox1\obj\Debug\net8.0-windows\ejercicio-combobox1_MarkupCompile.lref
+C:\Users\b15-18m\dam2\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-combobox1\ejercicio-combobox1\obj\Debug\net8.0-windows\ejercicio-combobox1.dll
+C:\Users\b15-18m\dam2\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-combobox1\ejercicio-combobox1\obj\Debug\net8.0-windows\refint\ejercicio-combobox1.dll
+C:\Users\b15-18m\dam2\repositorio-desarrollo-interfaces\tema-2\ejercicios\ejercicio-combobox1\ejercicio-combobox1\obj\Debug\net8.0-windows\ejercicio-combobox1.pdb

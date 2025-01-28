@@ -182,14 +182,153 @@
             </TabItem>
 
 
+            <TabItem Header="USUARIOS" IsEnabled="True" Background="#FFFFA5D7" FontFamily="Global Monospace">
+                <Grid Background="#FFFDFDFD">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
 
-            <TabItem Header="EMPLEADOS" IsEnabled="False" Background="#FFFFA5D7" FontFamily="Global Monospace"></TabItem>
-            <TabItem Header="G.ECONÓMICA" IsEnabled="False" Background="#FFFFA5D7" FontFamily="Global Monospace"></TabItem>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="1.3*"/>
+                    </Grid.ColumnDefinitions>
+
+
+                    <DataGrid Name="dgUsuarios" Grid.ColumnSpan="3" Margin="0,0,161,0" Grid.RowSpan="3" AutoGenerateColumns="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Id" Binding="{Binding Id}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Nombre" Binding="{Binding Name}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Contraseña" Binding="{Binding Password}"></DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Nombre usuario" VerticalAlignment="Top" Width="161" Grid.Column="3"/>
+                    <TextBox Name="tbNombreUsuario"  HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="210" Grid.Column="3"/>
+
+                    <TextBlock Grid.Column="3" HorizontalAlignment="Center" Margin="0,63,0,0" TextWrapping="Wrap" Text="Contraseña" VerticalAlignment="Top" Grid.RowSpan="2" Width="210"/>
+                    <TextBox Name="tbPasswordUsuario" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="210"/>
+                    <Button x:Name="AddUsuario" Content="Añadir usuario" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="4" VerticalAlignment="Center" Width="151" Height="53" Click="AddUsuario_Click"/>
+                    <Button x:Name="eliminarUsuario" Content="Eliminar usuario" HorizontalAlignment="Left" Margin="91,0,0,0" Grid.Row="4" VerticalAlignment="Center" Width="151" Height="53" Grid.Column="1" Grid.ColumnSpan="2" Click="eliminarUsuario_Click"/>
+                    <Button x:Name="modificarUsuario" Content="Modificar contraseña" HorizontalAlignment="Left" Margin="10,63,0,0" Grid.Row="3" VerticalAlignment="Top" Width="151" Height="53" Grid.Column="3" Grid.RowSpan="2" Click="modificarUsuario_Click"/>
+
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="EMPLEADOS" Background="#FFFFA5D7" FontFamily="Global Monospace">
+                <Grid Background="#FFFDFDFD">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="1.3*"/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid x:Name="dgEmpleados" AutoGenerateColumns="False" Grid.ColumnSpan="4" Margin="0,0,210,0" Grid.RowSpan="3">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Nombre" Binding="{Binding NombreEmpleado}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Apellido" Binding="{Binding NomApellidoEmpleado}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Csr" Binding="{Binding CsrEmpleado}"></DataGridTextColumn>
+                        </DataGrid.Columns>
+
+                    </DataGrid>
+
+                    <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="40,0,0,0" TextWrapping="Wrap" Text="Nombre empleado" VerticalAlignment="Top" Width="170"/>
+                    <TextBox Name="tbNombreEmpleado" Grid.Column="3" HorizontalAlignment="Left" Margin="40,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="170"/>
+
+                    <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="40,63,0,0" TextWrapping="Wrap" Text="Primer apellido" VerticalAlignment="Top" Grid.RowSpan="2" Width="170"/>
+                    <TextBox Name="tbApellido" Grid.Column="3" HorizontalAlignment="Left" Margin="40,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="170"/>
+
+                    <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="40,63,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Rol" VerticalAlignment="Top" Width="170" Grid.RowSpan="2"/>
+
+                    <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="40,63,0,0" Grid.Row="2" TextWrapping="Wrap" Text="CSR" VerticalAlignment="Top" Width="170" Grid.RowSpan="2"/>
+                    <TextBox Name="tbCsr" Grid.Column="3" HorizontalAlignment="Left" Margin="40,0,0,0" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="170"/>
+
+
+                    <Button x:Name="AddEmpleado" Content="Añadir empleado" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="4" VerticalAlignment="Center" Width="151" Height="53" Click="AddEmpleado_Click"/>
+                    <Button x:Name="eliminarEmpleado" Content="Eliminar empleado" HorizontalAlignment="Left" Margin="91,0,0,0" Grid.Row="4" VerticalAlignment="Center" Width="151" Height="53" Grid.Column="1" Grid.ColumnSpan="2" Click="eliminarEmpleado_Click"/>
+                    <Button x:Name="modificarEmpleado" Content="Modificar empleado" HorizontalAlignment="Left" Margin="10,63,0,0" Grid.Row="3" VerticalAlignment="Top" Width="151" Height="53" Grid.Column="3" Grid.RowSpan="2" Click="modificarEmpleado_Click"/>
+                    <ComboBox Name="cbRol" Grid.Column="3" HorizontalAlignment="Left" Margin="40,19,0,0" Grid.Row="2" VerticalAlignment="Top" Width="160">
+                        <ComboBoxItem Name="Junior" Content="Junior"></ComboBoxItem>
+                        <ComboBoxItem Name="Medio" Content="Medio"></ComboBoxItem>
+                        <ComboBoxItem Name="Senior" Content="Senior"></ComboBoxItem>
+                    </ComboBox>
+
+                    <TextBlock HorizontalAlignment="Left" Margin="10,7,0,0" Grid.Row="3" TextWrapping="Wrap" Text="Id (visita pestaña usuarios)" VerticalAlignment="Top" Width="270" Grid.ColumnSpan="2" Grid.Column="1"/>
+                    <TextBox Name="tbIdUsuario" Grid.Column="1" HorizontalAlignment="Left" Margin="10,32,0,0" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
+
+
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="G.ECONÓMICA" Background="#FFFFA5D7" FontFamily="Global Monospace">
+                <Grid Background="#FFFDFDFD">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="1.3*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="btnImputarHoras" Content="Imputar horas" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Height="33" Width="116" Grid.Column="1"/>
+                    <Button Name="btnModificarhoras" Grid.Column="2" Content="Modificar horas" HorizontalAlignment="Left" Margin="24,0,0,0" Grid.Row="5" VerticalAlignment="Center" Height="33" Width="117"/>
+                    <Button Name="btnEliminarHoras" Grid.Column="3" Content="Button" HorizontalAlignment="Center" Margin="0,13,0,0" Grid.Row="5" VerticalAlignment="Top" Height="35" Width="117"/>
+                    
+                    <DataGrid AutoGenerateColumns="False" Grid.ColumnSpan="4" Margin="0,0,210,0" Grid.RowSpan="3">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Proyecto"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Nombre"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Empleado"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Horas"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Coste"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Fecha"></DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                    <TextBlock Grid.Column="3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Proyecto" VerticalAlignment="Top" Width="150"/>
+                    <ComboBox Name="cbProyectos" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="150"/>
+
+                    <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="30,63,0,0" TextWrapping="Wrap" Text="Empleado" VerticalAlignment="Top" Width="180" Grid.RowSpan="2"/>
+                    <ComboBox Name="cbEmpleados" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Width="150"/>
+
+                    <TextBlock Grid.Column="3" HorizontalAlignment="Center" Margin="0,63,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Fecha" VerticalAlignment="Top" Grid.RowSpan="2" Width="150"/>
+
+                    <DatePicker Name="dpDiaAImputar" Text=" " Background="#FFE2CDE2" Height="25" Margin="30,19,30,19" FontFamily="Cascadia Code Light" Grid.Column="3" Grid.Row="2"/>
+
+                    <TextBlock Grid.Column="3" HorizontalAlignment="Center" Margin="0,10,0,0" Grid.Row="3" TextWrapping="Wrap" Text="Horas" VerticalAlignment="Top" Width="150"/>
+                    <TextBox Name="tbHoras" Grid.Column="3" HorizontalAlignment="Center" Margin="0,32,0,0" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150"/>
+
+                </Grid>
+            </TabItem>
             <TabItem Header="ESTADÍSTICAS" IsEnabled="False" Background="#FFFFA5D7" FontFamily="Global Monospace"></TabItem>
-            <TabItem Header="USUARIOS" IsEnabled="False" Background="#FFFFA5D7" FontFamily="Global Monospace"></TabItem>
+
 
 
         </TabControl>
+
+
 
     </Grid>
 

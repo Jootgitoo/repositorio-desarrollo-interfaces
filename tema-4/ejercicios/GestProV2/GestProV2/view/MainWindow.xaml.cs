@@ -1,4 +1,5 @@
 ﻿using GestProV2.domain;
+using Mysqlx.Crud;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -12,6 +13,11 @@ using System.Windows.Shapes;
 
 namespace GestProV2
 {
+    //ROLES INSERTADOS A MANO
+    //INSERT INTO gestpro.rol(IdRol, NombreRol, DescripcionRol) VALUES(1, 'Junior', 'Programador junior');
+    //INSERT INTO gestpro.rol(IdRol, NombreRol, DescripcionRol) VALUES(2, 'Medio', 'Programador nivel medio');
+    //INSERT INTO gestpro.rol(IdRol, NombreRol, DescripcionRol) VALUES(3, 'Senior', 'Programador senior');
+
     /// <summary>
     /// Lógica de interacción para MainWindow.xaml
     /// </summary>
@@ -20,6 +26,9 @@ namespace GestProV2
 
         private List<Proyecto> lstProyectos;
         private List<String> empresas;
+        private List<Empleado> listaEmpleados;
+        private Usuario usuario;
+        private List<Usuario> listaUsuario;
         Random r = new Random();
         int contador = 0;
 
@@ -30,6 +39,9 @@ namespace GestProV2
 
             Proyecto proyecto = new Proyecto();
             proyecto.readProyectos();
+
+            Empleado empleado = new Empleado();
+            //empleado.readEmpleados();
 
             dgDatos.ItemsSource = proyecto.getListaProyectos();
 
@@ -42,6 +54,15 @@ namespace GestProV2
             empresas.Add("Naturgy");
             empresas.Add("Santander");
             empresas.Add("MutuaMadrileña");
+
+            listaUsuario = new List<Usuario>();
+            usuario = new Usuario();
+
+            listaUsuario = usuario.genListaUsuarios();
+            dgUsuarios.ItemsSource = listaUsuario;
+
+            listaEmpleados = empleado.genListaEmpleados();
+            dgEmpleados.ItemsSource = listaUsuario;
         }
 
         private void btnProyectos_Click(object sender, RoutedEventArgs e)
@@ -236,6 +257,94 @@ namespace GestProV2
 
         }
 
+        private void AddUsuario_Click(object sender, RoutedEventArgs e)
+        {
+            Usuario usuario = new Usuario(tbNombreUsuario.Text, tbPasswordUsuario.Text);
 
+            usuario.insertarUsuario();
+
+            listaUsuario.Add(usuario);
+            dgUsuarios.Items.Refresh();
+
+        }
+
+
+        private void AddEmpleado_Click(object sender, RoutedEventArgs e)
+        {
+            Empleado empleado = new Empleado();
+
+            empleado.NombreEmpleado = tbNombreEmpleado.Text;
+            empleado.ApellidoEmpleado = tbApellido.Text;
+            empleado.CsrEmpleado = float.Parse(tbCsr.Text);
+
+            if (cbRol.SelectedItem.Equals("Junior"))
+            {
+                empleado.IdRol = 1;
+
+            } else if (cbRol.SelectedItem.Equals("Medio"))
+            {
+                empleado.IdRol = 2;
+
+            } else if (cbRol.SelectedItem.Equals("Senior"))
+            {
+                empleado.IdRol = 3;
+            }
+
+            empleado.IdUsuario = Int32.Parse(tbIdUsuario.Text);
+
+            empleado.insertarEmpleado();
+
+            listaEmpleados.Add(empleado);
+            dgEmpleados.Items.Refresh();
+
+
+        }
+
+        private void eliminarUsuario_Click(object sender, RoutedEventArgs e)
+        {
+            Usuario usuario = (Usuario) dgUsuarios.SelectedItem;
+            usuario.eliminar();
+            List<Usuario> newList = (List<Usuario>)dgUsuarios.ItemsSource;
+            newList.Remove(usuario);
+            dgDatos.Items.Refresh();
+            dgDatos.ItemsSource = newList;
+        }
+
+        private void eliminarEmpleado_Click(object sender, RoutedEventArgs e)
+        {
+            Empleado empleado = (Empleado)dgEmpleados.SelectedItem;
+            empleado.eliminarEmpleado();
+
+            List<Empleado> newList = (List<Empleado>)dgEmpleados.ItemsSource;
+            newList.Remove(empleado);
+            dgEmpleados.Items.Refresh();
+            dgEmpleados.ItemsSource = newList;
+        }
+
+
+        //NO FUNCIONA
+        private void modificarUsuario_Click(object sender, RoutedEventArgs e)
+        {
+
+            Usuario usuario = (Usuario)dgUsuarios.SelectedItem;
+            List<Usuario> newList = (List<Usuario>)dgUsuarios.ItemsSource;
+            newList.Remove(usuario);
+
+            Usuario u = new Usuario(tbNombreUsuario.Text, tbPasswordUsuario.Text);
+            u.Id = usuario.Id;
+
+            newList.Add(u);
+            u.modificarUsuario();
+
+            dgDatos.Items.Refresh();
+            dgDatos.ItemsSource = newList;
+        }
+
+        
+
+        private void modificarEmpleado_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
