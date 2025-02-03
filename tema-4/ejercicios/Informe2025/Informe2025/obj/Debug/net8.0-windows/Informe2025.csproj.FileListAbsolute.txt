@@ -1,0 +1,4 @@
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-4\ejercicios\Informe2025\Informe2025\obj\Debug\net8.0-windows\view\MainWindow.g.cs
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-4\ejercicios\Informe2025\Informe2025\obj\Debug\net8.0-windows\App.g.cs
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-4\ejercicios\Informe2025\Informe2025\obj\Debug\net8.0-windows\Informe2025_MarkupCompile.cache
+C:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-4\ejercicios\Informe2025\Informe2025\obj\Debug\net8.0-windows\Informe2025_MarkupCompile.lref
