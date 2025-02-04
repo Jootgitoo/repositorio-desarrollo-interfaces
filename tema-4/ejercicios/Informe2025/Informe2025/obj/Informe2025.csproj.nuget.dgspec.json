@@ -48,6 +48,18 @@
             "CrystalDecisions.CrystalReports.Engine": {
               "target": "Package",
               "version": "[1.0.0, )"
+            },
+            "CrystalDecisions.ReportSource": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "CrystalReports.Shared": {
+              "target": "Package",
+              "version": "[13.0.4003, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[9.0.1, )"
             }
           },
           "imports": [
