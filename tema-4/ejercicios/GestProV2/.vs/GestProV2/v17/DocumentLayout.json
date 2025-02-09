@@ -1,30 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\",
+  "WorkspaceRootPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|c:\\users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\gestprov2\\gestprov2\\domain\\apirest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|solutionrelative:gestprov2\\domain\\apirest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|c:\\users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\gestprov2\\gestprov2\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|solutionrelative:gestprov2\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|c:\\users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\gestprov2\\gestprov2\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\gestprov2\\gestprov2\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|solutionrelative:gestprov2\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|c:\\users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\gestprov2\\gestprov2\\persistence\\manages\\manageempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|solutionrelative:gestprov2\\persistence\\manages\\manageempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|c:\\users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\gestprov2\\gestprov2\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\gestprov2\\gestprov2\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|solutionrelative:gestprov2\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|c:\\users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\gestprov2\\gestprov2\\domain\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\gestprov2\\gestprov2\\persistence\\manages\\manageempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|solutionrelative:gestprov2\\persistence\\manages\\manageempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\gestprov2\\gestprov2\\domain\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|solutionrelative:gestprov2\\domain\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\gestprov2\\gestprov2\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|solutionrelative:gestprov2\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,7 +29,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 220,
+          "DockedWidth": 408,
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -47,74 +43,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApiRest.cs",
-              "DocumentMoniker": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\domain\\ApiRest.cs",
-              "RelativeDocumentMoniker": "GestProV2\\domain\\ApiRest.cs",
-              "ToolTip": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\domain\\ApiRest.cs",
-              "RelativeToolTip": "GestProV2\\domain\\ApiRest.cs",
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\view\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "GestProV2\\view\\MainWindow.xaml",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\view\\MainWindow.xaml",
+              "RelativeToolTip": "GestProV2\\view\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-28T11:29:24.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\view\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GestProV2\\view\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\view\\MainWindow.xaml.cs",
+              "RelativeToolTip": "GestProV2\\view\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAYwDwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T08:47:20.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\domain\\Empleado.cs",
+              "RelativeDocumentMoniker": "GestProV2\\domain\\Empleado.cs",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\domain\\Empleado.cs",
+              "RelativeToolTip": "GestProV2\\domain\\Empleado.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T13:37:38.174Z",
+              "WhenOpened": "2025-02-09T16:53:52.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\view\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "GestProV2\\view\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\view\\MainWindow.xaml",
-              "RelativeToolTip": "GestProV2\\view\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-28T11:29:24.662Z"
+              "Title": "ManageEmpleado.cs",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\persistence\\manages\\ManageEmpleado.cs",
+              "RelativeDocumentMoniker": "GestProV2\\persistence\\manages\\ManageEmpleado.cs",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\persistence\\manages\\ManageEmpleado.cs",
+              "RelativeToolTip": "GestProV2\\persistence\\manages\\ManageEmpleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T16:53:53.413Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\view\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "GestProV2\\view\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\view\\MainWindow.xaml.cs",
-              "RelativeToolTip": "GestProV2\\view\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADcBAAAAAAAAAAAuwEABAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T08:47:20.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ManageEmpleado.cs",
-              "DocumentMoniker": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\persistence\\manages\\ManageEmpleado.cs",
-              "RelativeDocumentMoniker": "GestProV2\\persistence\\manages\\ManageEmpleado.cs",
-              "ToolTip": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\persistence\\manages\\ManageEmpleado.cs",
-              "RelativeToolTip": "GestProV2\\persistence\\manages\\ManageEmpleado.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwDEAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T11:48:41.69Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "DBBroker.cs",
-              "DocumentMoniker": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\persistence\\DBBroker.cs",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\persistence\\DBBroker.cs",
               "RelativeDocumentMoniker": "GestProV2\\persistence\\DBBroker.cs",
-              "ToolTip": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\persistence\\DBBroker.cs",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\persistence\\DBBroker.cs",
               "RelativeToolTip": "GestProV2\\persistence\\DBBroker.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwFIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T08:24:35.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Empleado.cs",
-              "DocumentMoniker": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\domain\\Empleado.cs",
-              "RelativeDocumentMoniker": "GestProV2\\domain\\Empleado.cs",
-              "ToolTip": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\domain\\Empleado.cs",
-              "RelativeToolTip": "GestProV2\\domain\\Empleado.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAwDsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T12:04:45.783Z"
+              "WhenOpened": "2025-02-09T16:53:59.448Z",
+              "EditorCaption": ""
             }
           ]
         }

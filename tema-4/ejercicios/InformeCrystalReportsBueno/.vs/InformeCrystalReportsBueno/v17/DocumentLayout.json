@@ -3,15 +3,12 @@
   "WorkspaceRootPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\InformeCrystalReportsBueno\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|InformeCrystalReportsBueno||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{5E49E7FF-8C72-4CA7-BEAC-C415D9AF81BE}|InformeCrystalReportsBueno.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\informecrystalreportsbueno\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E49E7FF-8C72-4CA7-BEAC-C415D9AF81BE}|InformeCrystalReportsBueno.csproj|solutionrelative:view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E49E7FF-8C72-4CA7-BEAC-C415D9AF81BE}|InformeCrystalReportsBueno.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\InformeCrystalReportsBueno\\crystalreport1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E49E7FF-8C72-4CA7-BEAC-C415D9AF81BE}|InformeCrystalReportsBueno.csproj|solutionrelative:crystalreport1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E49E7FF-8C72-4CA7-BEAC-C415D9AF81BE}|InformeCrystalReportsBueno.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\InformeCrystalReportsBueno\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E49E7FF-8C72-4CA7-BEAC-C415D9AF81BE}|InformeCrystalReportsBueno.csproj|solutionrelative:view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E49E7FF-8C72-4CA7-BEAC-C415D9AF81BE}|InformeCrystalReportsBueno.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\InformeCrystalReportsBueno\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -28,9 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5E49E7FF-8C72-4CA7-BEAC-C415D9AF81BE}|InformeCrystalReportsBueno.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\InformeCrystalReportsBueno\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5E49E7FF-8C72-4CA7-BEAC-C415D9AF81BE}|InformeCrystalReportsBueno.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E49E7FF-8C72-4CA7-BEAC-C415D9AF81BE}|InformeCrystalReportsBueno.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\informecrystalreportsbueno\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -52,31 +46,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InformeCrystalReportsBueno",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\InformeCrystalReportsBueno\\InformeCrystalReportsBueno.csproj",
-              "RelativeDocumentMoniker": "InformeCrystalReportsBueno.csproj",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\InformeCrystalReportsBueno\\InformeCrystalReportsBueno.csproj",
-              "RelativeToolTip": "InformeCrystalReportsBueno.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-06T09:12:20.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "CrystalReport1.cs",
               "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\InformeCrystalReportsBueno\\CrystalReport1.cs",
               "RelativeDocumentMoniker": "CrystalReport1.cs",
               "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\InformeCrystalReportsBueno\\CrystalReport1.cs",
               "RelativeToolTip": "CrystalReport1.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T08:14:39.387Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\InformeCrystalReportsBueno\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -87,7 +69,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "DataSet1.Designer.cs",
               "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\InformeCrystalReportsBueno\\DataSet1.Designer.cs",
               "RelativeDocumentMoniker": "DataSet1.Designer.cs",
@@ -99,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "CrystalReport1.rpt",
               "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\InformeCrystalReportsBueno\\CrystalReport1.rpt",
               "RelativeDocumentMoniker": "CrystalReport1.rpt",
@@ -110,26 +92,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\InformeCrystalReportsBueno\\view\\MainWindow.xaml",
               "RelativeDocumentMoniker": "view\\MainWindow.xaml",
               "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\InformeCrystalReportsBueno\\view\\MainWindow.xaml",
               "RelativeToolTip": "view\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-04T13:28:21.785Z"
+              "WhenOpened": "2025-02-04T13:28:21.785Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\InformeCrystalReportsBueno\\view\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "view\\MainWindow.xaml.cs",
               "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\InformeCrystalReportsBueno\\view\\MainWindow.xaml.cs",
               "RelativeToolTip": "view\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAmwDoAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAWwDEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T13:28:21.22Z"
+              "WhenOpened": "2025-02-04T13:28:21.22Z",
+              "EditorCaption": ""
             }
           ]
         }

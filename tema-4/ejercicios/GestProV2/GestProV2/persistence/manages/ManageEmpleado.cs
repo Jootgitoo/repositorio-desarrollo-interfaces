@@ -34,7 +34,7 @@ namespace GestProV2.persistence.manages
         
         public List<Empleado> leerEmpleados()
         {
-            List<Object> listaAux = DBBroker.obtenerAgente().leer("SELECT * FROM gestpro.empleado");
+            List<Object> listaAux = DBBroker.obtenerAgente().leer("select * from gestpro.empleado;");
 
             foreach (List<Object> aux in listaAux)
             {

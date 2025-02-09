@@ -44,10 +44,10 @@ namespace InformeCrystalReportsBueno
             {
                 //creamos una fila de datos de la tabla creada
                 DataRow row = tabla1.NewRow();
-                row["Name"] = "Mateo";
+                row["Name"] = "Jorge";
                 row["Age"] = RandomNumber(10, 100);
                 row["Address"] = "direccion";
-                row["Phone"] = "612345678";
+                row["Phone"] = "123456789";
 
                 tabla1.Rows.Add(row);
             }

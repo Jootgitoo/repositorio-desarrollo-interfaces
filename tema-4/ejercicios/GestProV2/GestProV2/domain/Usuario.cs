@@ -24,8 +24,6 @@ namespace GestProV2.domain
         public Usuario()
         {
             mu = new ManageUsuario();
-            
-
         }
 
         public Usuario(string name, string password)

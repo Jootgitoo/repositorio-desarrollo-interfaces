@@ -43,7 +43,7 @@ namespace GestProV2.persistence.manages
 
         public void modificarUsuario(Usuario usuario)
         {
-            dbbroker.modifier("UPDATE gestpro.usuario SET PassUsu = " + usuario.Password + " WHERE IdUsuario = " + usuario.Id + ";");
+            dbbroker.modifier("UPDATE gestpro.usuario SET PassUsu = '" + usuario.Password + "' WHERE IdUsuario = " + usuario.Id + ";");
         }
 
         public List<Usuario> leerUsuarios()

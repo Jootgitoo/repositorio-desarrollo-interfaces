@@ -277,15 +277,15 @@ namespace GestProV2
             empleado.ApellidoEmpleado = tbApellido.Text;
             empleado.CsrEmpleado = float.Parse(tbCsr.Text);
 
-            if (cbRol.SelectedItem.Equals("Junior"))
+            if (((ComboBoxItem)cbRol.SelectedItem).Content.ToString() == "Junior")
             {
                 empleado.IdRol = 1;
-
-            } else if (cbRol.SelectedItem.Equals("Medio"))
+            }
+            else if (((ComboBoxItem)cbRol.SelectedItem).Content.ToString() == "Medio")
             {
                 empleado.IdRol = 2;
-
-            } else if (cbRol.SelectedItem.Equals("Senior"))
+            }
+            else if (((ComboBoxItem)cbRol.SelectedItem).Content.ToString() == "Senior")
             {
                 empleado.IdRol = 3;
             }
