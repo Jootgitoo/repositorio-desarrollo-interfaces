@@ -1,0 +1,1 @@
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-4\ejercicios\GestProV2\GestProV2\obj\Debug\net8.0-windows8.0\GestProV2.csproj.AssemblyReference.cache

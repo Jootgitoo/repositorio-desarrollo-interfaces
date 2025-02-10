@@ -1,4 +1,5 @@
 ﻿<Window x:Class="GestProV2.MainWindow"
+        xmlns:cr="clr-namespace:SAPBusinessObjects.WPF.Viewer;assembly=SAPBusinessObjects.WPF.Viewer"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -323,7 +324,11 @@
 
                 </Grid>
             </TabItem>
-            <TabItem Header="ESTADÍSTICAS" IsEnabled="False" Background="#FFFFA5D7" FontFamily="Global Monospace"></TabItem>
+            <TabItem Header="ESTADÍSTICAS" Background="#FFFFA5D7" FontFamily="Global Monospace">
+
+                <cr:CrystalReportsViewer x:Name="reportViewer"/>
+
+            </TabItem>
 
 
 
