@@ -41,9 +41,11 @@ namespace GestProV2.persistence.manages
 
                 p.Id = Convert.ToInt32(lproyectosAux[0]);
                 p.Codigo = lproyectosAux[1].ToString();
-                p.Nombre = lproyectosAux[2].ToString();
+                p.NombreProyecto = lproyectosAux[2].ToString();
                 p.FecInicio = Convert.ToDateTime(lproyectosAux[3]);
                 p.FecFin = Convert.ToDateTime(lproyectosAux[4]);
+
+                proyectoList.Add(p);
 
             }
 
@@ -61,7 +63,7 @@ namespace GestProV2.persistence.manages
             DBBroker broker = DBBroker.obtenerAgente();
 
             broker.modifier("INSERT INTO gestpro.proyecto (CodigoProyecto, NombreProyecto, FechaInicio, FechaFin) values" +
-                "('" + p.Codigo + "', '" + p.Nombre + "','" + p.FecInicio.ToString("yyyy-MM-dd") + "','" + p.FecFin.ToString("yyyy-MM-dd") + "')");
+                "('" + p.Codigo + "', '" + p.NombreProyecto + "','" + p.FecInicio.ToString("yyyy-MM-dd") + "','" + p.FecFin.ToString("yyyy-MM-dd") + "')");
         }
 
 
@@ -92,7 +94,7 @@ namespace GestProV2.persistence.manages
 
             DBBroker broker = DBBroker.obtenerAgente();
 
-            broker.modifier("UPDATE gestpro.proyecto SET IdProyecto = "+p.Id+", CodigoProyecto = " + p.Codigo + ", NombreProyecto = " + p.Nombre + ", FechaInicio = " + p.FecInicio.ToString("yyyy-MM-dd")
+            broker.modifier("UPDATE gestpro.proyecto SET IdProyecto = "+p.Id+", CodigoProyecto = " + p.Codigo + ", NombreProyecto = " + p.NombreProyecto + ", FechaInicio = " + p.FecInicio.ToString("yyyy-MM-dd")
                 + ", FechaFin = " + p.FecFin.ToString("yyyy-MM-dd") + " WHERE IdProyecto = " + p.Id);
 
         }

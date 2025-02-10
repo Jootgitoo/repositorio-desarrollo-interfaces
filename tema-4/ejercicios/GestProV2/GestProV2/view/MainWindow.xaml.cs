@@ -40,6 +40,7 @@ namespace GestProV2
             Proyecto proyecto = new Proyecto();
             proyecto.readProyectos();
             dgDatos.ItemsSource = proyecto.getListaProyectos();
+            //lstProyectos = proyecto.getListaProyectos();
 
 
             Empleado empleado = new Empleado();
@@ -55,17 +56,25 @@ namespace GestProV2
             empresas.Add("Santander");
             empresas.Add("MutuaMadrileña");
 
+            lstProyectos = new List<Proyecto>();
             listaUsuario = new List<Usuario>();
+            listaEmpleados = new List<Empleado>();
             usuario = new Usuario();
+
+            lstProyectos = proyecto.getListaProyectos();
+            dgProyecto.ItemsSource = lstProyectos;
 
             listaUsuario = usuario.genListaUsuarios();
             dgUsuarios.ItemsSource = listaUsuario;
 
             listaEmpleados = empleado.genListaEmpleados();
-            dgEmpleados.ItemsSource = listaUsuario;
+            dgEmpleados.ItemsSource = listaEmpleados;
+
+            cbProyectos.ItemsSource = lstProyectos;
+            cbProyectos.DisplayMemberPath = "NombreProyecto";
 
             cbEmpleados.ItemsSource = listaEmpleados;
-            cbEmpleados.DisplayMemberPath = "Nombre";
+            cbEmpleados.DisplayMemberPath = "NombreEmpleado";
         }
 
         private void btnProyectos_Click(object sender, RoutedEventArgs e)
@@ -92,7 +101,7 @@ namespace GestProV2
 
                 Proyecto proyecto = (Proyecto)dgDatos.SelectedItems[0];
                 txtCodigoProyecto.Text = proyecto.Codigo;
-                txtNombre.Text = proyecto.Nombre;
+                txtNombre.Text = proyecto.NombreProyecto;
                 dateInicio.SelectedDate = proyecto.fecIncio;
                 dateFin.SelectedDate = proyecto.fecFin;
 
@@ -124,13 +133,13 @@ namespace GestProV2
                 List<Proyecto> listProyecto = (List<Proyecto>)dgDatos.ItemsSource;
 
                 listProyecto[dgDatos.SelectedIndex].codigo = txtCodigoProyecto.Text;
-                listProyecto[dgDatos.SelectedIndex].nombre = txtNombre.Text;
+                listProyecto[dgDatos.SelectedIndex].nombreProyecto = txtNombre.Text;
                 listProyecto[dgDatos.SelectedIndex].fecIncio = dateInicio.SelectedDate.Value;
                 listProyecto[dgDatos.SelectedIndex].fecFin = dateFin.SelectedDate.Value;
 
                 int idP = pro.id;
                 String codPro = pro.codigo;
-                String nombre = pro.nombre;
+                String nombre = pro.nombreProyecto;
                 DateTime fecIni = pro.fecIncio;
                 DateTime fecFin = pro.fecFin;
 
@@ -152,7 +161,7 @@ namespace GestProV2
             Proyecto proyectoModificar = (Proyecto)dgDatos.SelectedItem;
 
             txtCodigoProyecto.Text = proyectoModificar.Codigo.ToString();
-            txtNombre.Text = proyectoModificar.Nombre.ToString();
+            txtNombre.Text = proyectoModificar.NombreProyecto.ToString();
             dateInicio.SelectedDate = proyectoModificar.FecInicio;
             dateFin.SelectedDate = proyectoModificar.FecFin;
 
@@ -212,7 +221,7 @@ namespace GestProV2
                 var filteredList = lstProyectos.Where(proyecto =>
                     proyecto != null && (
                     proyecto.Codigo.ToString().ToLower().Contains(searchText) ||
-                    (proyecto.Nombre != null && proyecto.Nombre.ToLower().Contains(searchText))
+                    (proyecto.NombreProyecto != null && proyecto.NombreProyecto.ToLower().Contains(searchText))
                     )
                 ).ToList();
 
@@ -238,7 +247,7 @@ namespace GestProV2
 
                 //p.codigo = "MTR" + contador + empresas[empresa] + DateTime.Now.Year.ToString();
                 p.codigo = "MTR" + contador;
-                p.nombre = empresas[empresa];
+                p.nombreProyecto = empresas[empresa];
                 p.fecIncio = DateTime.Now;
                 p.fecFin = DateTime.Now;
 

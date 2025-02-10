@@ -97,7 +97,7 @@
 
                         <DataGrid.Columns>
                             <DataGridTextColumn Header="CODIGO" Binding="{Binding Codigo}"/>
-                            <DataGridTextColumn Header="NOMBRE" Binding="{Binding Nombre}"/>
+                            <DataGridTextColumn Header="NOMBRE" Binding="{Binding NombreProyecto}"/>
                             <DataGridTextColumn Header="FECHA INCIO" Binding="{Binding fecIncio}"/>
                             <DataGridTextColumn Header="FECHA FIN" Binding="{Binding fecFin}"/>
                         </DataGrid.Columns>
@@ -297,7 +297,7 @@
                     <Button Name="btnModificarhoras" Grid.Column="2" Content="Modificar horas" HorizontalAlignment="Left" Margin="24,0,0,0" Grid.Row="5" VerticalAlignment="Center" Height="33" Width="117"/>
                     <Button Name="btnEliminarHoras" Grid.Column="3" Content="Button" HorizontalAlignment="Center" Margin="0,13,0,0" Grid.Row="5" VerticalAlignment="Top" Height="35" Width="117"/>
                     
-                    <DataGrid AutoGenerateColumns="False" Grid.ColumnSpan="4" Margin="0,0,210,0" Grid.RowSpan="3">
+                    <DataGrid Name="dgProyecto" AutoGenerateColumns="False" Grid.ColumnSpan="4" Margin="0,0,210,0" Grid.RowSpan="3">
                         <DataGrid.Columns>
                             <DataGridTextColumn Header="Proyecto"></DataGridTextColumn>
                             <DataGridTextColumn Header="Nombre"></DataGridTextColumn>

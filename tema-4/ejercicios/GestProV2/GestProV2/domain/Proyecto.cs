@@ -13,7 +13,7 @@ namespace GestProV2.domain
 
         public int id;
         public String codigo;
-        public String nombre;
+        public String nombreProyecto;
         public DateTime fecIncio;
         public DateTime fecFin;
         public ProyectoPersistence pm;
@@ -28,7 +28,7 @@ namespace GestProV2.domain
 
             this.id = pm.lastId(this);
             this.codigo = codigo;
-            this.nombre = nombre;
+            this.nombreProyecto = nombre;
             this.fecIncio = fecIncio;
             this.fecFin = fecFin;
 
@@ -40,7 +40,7 @@ namespace GestProV2.domain
 
             this.id = id;
             this.codigo = codigo;
-            this.nombre = nombre;
+            this.nombreProyecto = nombre;
             this.fecIncio = fecIni;
             this.fecFin = fecFin;
 
@@ -91,14 +91,14 @@ namespace GestProV2.domain
 
         public int Id { get => id; set => id = value; }
         public String Codigo { get => codigo; set => codigo = value; }
-        public String Nombre { get => nombre; set => nombre = value; }
+        public String NombreProyecto { get => nombreProyecto; set => nombreProyecto = value; }
         public DateTime FecInicio { get => fecIncio; set => fecIncio = value; }
         public DateTime FecFin { get => fecFin; set => fecFin = value; }
         public ProyectoPersistence PM { get => pm; set => pm = value; }
 
         public override string ToString()
         {
-            return nombre;
+            return nombreProyecto;
         }
 
     }
