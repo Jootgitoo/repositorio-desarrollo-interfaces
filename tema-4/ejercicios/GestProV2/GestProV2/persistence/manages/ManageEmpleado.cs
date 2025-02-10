@@ -60,7 +60,7 @@ namespace GestProV2.persistence.manages
 
         public void modificarEmpleado(Empleado empleado)
         {
-            dbbroker.modifier("UPDATE gestpro.empleado SET NombreEmp = " + empleado.NombreEmpleado + ", ApellidoEmp = "+empleado.ApellidoEmpleado+", CSR = "+empleado.CsrEmpleado+", IdRol = "+empleado.IdRol+", IdUsuario = "+empleado.IdUsuario+" WHERE IdEmpleado = " + empleado.IdEmpleado + ";");
+            dbbroker.modifier("UPDATE gestpro.empleado SET NombreEmp = '" + empleado.NombreEmpleado + "', ApellidoEmp = '"+empleado.ApellidoEmpleado+"', CSR = "+empleado.CsrEmpleado+" WHERE IdEmpleado = " + empleado.IdEmpleado + ";");
         }
 
     }

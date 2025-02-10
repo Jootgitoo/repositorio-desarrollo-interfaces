@@ -54,6 +54,17 @@ namespace GestProV2.domain
             this.idUsuario = idUsuario;
         }
 
+
+
+        public Empleado(string nombre, string primerApellido, float csr)
+        {
+            me = new ManageEmpleado();
+
+            this.nombreEmpleado = nombre;
+            this.apellidoEmpleado = primerApellido;
+            this.csrEmpleado = csr;
+        }
+
         public List<Empleado> genListaEmpleados()
         {
 

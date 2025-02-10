@@ -252,12 +252,12 @@
                     <TextBox Name="tbNombreEmpleado" Grid.Column="3" HorizontalAlignment="Left" Margin="40,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="170"/>
 
                     <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="40,63,0,0" TextWrapping="Wrap" Text="Primer apellido" VerticalAlignment="Top" Grid.RowSpan="2" Width="170"/>
-                    <TextBox Name="tbApellido" Grid.Column="3" HorizontalAlignment="Left" Margin="40,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="170"/>
+                    <TextBox Name="tbApellidoEmpleado" Grid.Column="3" HorizontalAlignment="Left" Margin="40,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="170"/>
 
                     <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="40,63,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Rol" VerticalAlignment="Top" Width="170" Grid.RowSpan="2"/>
 
                     <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="40,63,0,0" Grid.Row="2" TextWrapping="Wrap" Text="CSR" VerticalAlignment="Top" Width="170" Grid.RowSpan="2"/>
-                    <TextBox Name="tbCsr" Grid.Column="3" HorizontalAlignment="Left" Margin="40,0,0,0" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="170"/>
+                    <TextBox Name="tbCsrEmpleado" Grid.Column="3" HorizontalAlignment="Left" Margin="40,0,0,0" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="170"/>
 
 
                     <Button x:Name="AddEmpleado" Content="Añadir empleado" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="4" VerticalAlignment="Center" Width="151" Height="53" Click="AddEmpleado_Click"/>

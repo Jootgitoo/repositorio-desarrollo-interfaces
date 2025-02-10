@@ -153,24 +153,6 @@ namespace GestProV2
 
 
         }
-
-        
-        private void btnModificar_Click(object sender, RoutedEventArgs e)
-        {
-
-            Proyecto proyectoModificar = (Proyecto)dgDatos.SelectedItem;
-
-            txtCodigoProyecto.Text = proyectoModificar.Codigo.ToString();
-            txtNombre.Text = proyectoModificar.NombreProyecto.ToString();
-            dateInicio.SelectedDate = proyectoModificar.FecInicio;
-            dateFin.SelectedDate = proyectoModificar.FecFin;
-
-            btnModificar.IsEnabled = false;
-            btnEliminar.IsEnabled = false;
-
-            btnAgregar.Content = "Actualizar";
-
-        }
         
         private void btnEliminar_Click(object sender, RoutedEventArgs e)
         {
@@ -286,8 +268,8 @@ namespace GestProV2
             Empleado empleado = new Empleado();
 
             empleado.NombreEmpleado = tbNombreEmpleado.Text;
-            empleado.ApellidoEmpleado = tbApellido.Text;
-            empleado.CsrEmpleado = float.Parse(tbCsr.Text);
+            empleado.ApellidoEmpleado = tbApellidoEmpleado.Text;
+            empleado.CsrEmpleado = float.Parse(tbCsrEmpleado.Text);
 
             if (((ComboBoxItem)cbRol.SelectedItem).Content.ToString() == "Junior")
             {
@@ -322,6 +304,8 @@ namespace GestProV2
             newList.Remove(usuario);
             dgDatos.Items.Refresh();
             dgDatos.ItemsSource = newList;
+
+            MessageBox.Show("Usuario eliminado con exito", "Aviso", MessageBoxButton.OK);
         }
 
         private void eliminarEmpleado_Click(object sender, RoutedEventArgs e)
@@ -333,31 +317,70 @@ namespace GestProV2
             newList.Remove(empleado);
             dgEmpleados.Items.Refresh();
             dgEmpleados.ItemsSource = newList;
+
+            MessageBox.Show("Empleado eliminado con éxito", "Aviso", MessageBoxButton.OK);
         }
 
 
-        //NO FUNCIONA
+        private void btnModificar_Click(object sender, RoutedEventArgs e)
+        {
+
+            Proyecto proyectoModificar = (Proyecto)dgDatos.SelectedItem;
+
+            txtCodigoProyecto.Text = proyectoModificar.Codigo.ToString();
+            txtNombre.Text = proyectoModificar.NombreProyecto.ToString();
+            dateInicio.SelectedDate = proyectoModificar.FecInicio;
+            dateFin.SelectedDate = proyectoModificar.FecFin;
+
+            btnModificar.IsEnabled = false;
+            btnEliminar.IsEnabled = false;
+
+            btnAgregar.Content = "Actualizar";
+
+        }
+
+
         private void modificarUsuario_Click(object sender, RoutedEventArgs e)
         {
 
-            Usuario usuario = (Usuario)dgUsuarios.SelectedItem;
+            Usuario u = (Usuario)dgUsuarios.SelectedItem;
+
+
             List<Usuario> newList = (List<Usuario>)dgUsuarios.ItemsSource;
-            newList.Remove(usuario);
+            newList.Remove(u);
 
-            Usuario u = new Usuario(tbNombreUsuario.Text, tbPasswordUsuario.Text);
-            u.Id = usuario.Id;
 
-            newList.Add(u);
-            u.modificarUsuario();
+            Usuario usuario = new Usuario(tbNombreUsuario.Text, tbPasswordUsuario.Text);
+            usuario.Id = u.Id;
+
+            newList.Add(usuario);
+            usuario.modificarUsuario();
 
             dgDatos.Items.Refresh();
             dgDatos.ItemsSource = newList;
+
+            MessageBox.Show("Usuario modificado con éxito", "Aviso", MessageBoxButton.OK);
+
         }
 
-        
 
         private void modificarEmpleado_Click(object sender, RoutedEventArgs e)
         {
+            Empleado em = (Empleado)dgEmpleados.SelectedItem;
+
+            List<Empleado> newList = (List<Empleado>) dgEmpleados.ItemsSource;
+            newList.Remove(em);
+
+            Empleado empleado = new Empleado(tbNombreEmpleado.Text, tbApellidoEmpleado.Text, float.Parse(tbCsrEmpleado.Text) );
+            empleado.IdEmpleado = em.IdEmpleado;
+
+            newList.Add(empleado);
+            empleado.modificarEmpleado();
+
+            dgEmpleados.Items.Refresh();
+            dgEmpleados.ItemsSource = newList;
+
+            MessageBox.Show("Empleado modificado con exito", "Aviso", MessageBoxButton.OK);
 
         }
 
