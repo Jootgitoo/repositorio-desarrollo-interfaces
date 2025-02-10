@@ -8,5 +8,9 @@ namespace GestProV2.domain
 {
     internal class ApiRest
     {
+
+
+
+        //public string Id { get => id; set => id = value; }
     }
 }

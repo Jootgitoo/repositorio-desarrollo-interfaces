@@ -85,8 +85,8 @@ namespace GestProV2.domain
         }
 
         public int IdEmpleado { get => idEmpleado; set => idEmpleado = value; }
-        public string NombreEmpleado { get => nombreEmpleado; set => nombreEmpleado = value; }
-        public string ApellidoEmpleado { get => apellidoEmpleado; set=> apellidoEmpleado = value; }
+        public String NombreEmpleado { get => nombreEmpleado; set => nombreEmpleado = value; }
+        public String ApellidoEmpleado { get => apellidoEmpleado; set=> apellidoEmpleado = value; }
         public float CsrEmpleado { get => csrEmpleado; set => csrEmpleado = value; }
         public int IdRol { get => idRol; set => idRol = value; }
         public int IdUsuario { get => idUsuario; set => idUsuario = value; }

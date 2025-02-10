@@ -39,11 +39,11 @@ namespace GestProV2
 
             Proyecto proyecto = new Proyecto();
             proyecto.readProyectos();
+            dgDatos.ItemsSource = proyecto.getListaProyectos();
+
 
             Empleado empleado = new Empleado();
             //empleado.readEmpleados();
-
-            dgDatos.ItemsSource = proyecto.getListaProyectos();
 
             //creo la lista de empresas y la relleno
             empresas = new List<String>();
@@ -63,6 +63,9 @@ namespace GestProV2
 
             listaEmpleados = empleado.genListaEmpleados();
             dgEmpleados.ItemsSource = listaUsuario;
+
+            cbEmpleados.ItemsSource = listaEmpleados;
+            cbEmpleados.DisplayMemberPath = "Nombre";
         }
 
         private void btnProyectos_Click(object sender, RoutedEventArgs e)
@@ -298,6 +301,8 @@ namespace GestProV2
             dgEmpleados.Items.Refresh();
 
 
+            MessageBox.Show("Empleado añadido con éxito", "Aviso", MessageBoxButton.OK);
+
         }
 
         private void eliminarUsuario_Click(object sender, RoutedEventArgs e)
@@ -343,6 +348,11 @@ namespace GestProV2
         
 
         private void modificarEmpleado_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void cbProyectos_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }

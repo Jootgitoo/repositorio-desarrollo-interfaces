@@ -309,7 +309,7 @@
                     </DataGrid>
 
                     <TextBlock Grid.Column="3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Proyecto" VerticalAlignment="Top" Width="150"/>
-                    <ComboBox Name="cbProyectos" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="150"/>
+                    <ComboBox Name="cbProyectos" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="150" SelectionChanged="cbProyectos_SelectionChanged"/>
 
                     <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="30,63,0,0" TextWrapping="Wrap" Text="Empleado" VerticalAlignment="Top" Width="180" Grid.RowSpan="2"/>
                     <ComboBox Name="cbEmpleados" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Width="150"/>
