@@ -31,7 +31,7 @@ namespace InformeCrystalReportsBueno
         public MainWindow()
         {
             InitializeComponent();
-            tabla1 = new DataTable("DataTable1");//el nombre de la tabla del dataset entre comillsa
+            tabla1 = new DataTable("DataTable1");//el nombre de la tabla del dataset entre comillas 
 
             //creaoms lsa columnas con los mismos nombres
             tabla1.Columns.Add("Name");

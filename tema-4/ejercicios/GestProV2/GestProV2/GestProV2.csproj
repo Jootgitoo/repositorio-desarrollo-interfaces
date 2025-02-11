@@ -8,12 +8,62 @@
     <UseWPF>true</UseWPF>
 	  <PlatformTarget>AnyCPU</PlatformTarget>
 	  <LangVersion>latest</LangVersion>
+	  <ReferencePath>C:\Program Files (x86)\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win64_x64\dotnet\</ReferencePath>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="view\informe_coste_proyectos.rpt" />
+    <None Remove="view\informe_empleados_por_proyecto.rpt" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="CrystalReports.WPF.Viewer" Version="13.0.4003" />
     <PackageReference Include="MySql.Data" Version="9.2.0" />
     <PackageReference Include="System.Windows.Forms" Version="4.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="view\informe_coste_proyectos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>informe_coste_proyectos.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\informe_empleados_por_proyecto.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>informe_empleados_por_proyecto.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{c0c07587-41a7-46c8-8fbd-3f9c8ebe2ddc}" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="DataSet1.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="view\informe_coste_proyectos.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>informe_coste_proyectos.rpt</DependentUpon>
+    </Compile>
+    <Compile Update="view\informe_empleados_por_proyecto.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>informe_empleados_por_proyecto.rpt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
 
 </Project>

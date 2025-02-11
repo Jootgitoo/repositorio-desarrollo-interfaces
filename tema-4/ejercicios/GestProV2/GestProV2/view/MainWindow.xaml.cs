@@ -1,10 +1,13 @@
 ﻿using GestProV2.domain;
+using GestProV2.view;
 using Mysqlx.Crud;
+using System.Data;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
+using System.Windows.Forms;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
@@ -12,6 +15,8 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace GestProV2
+
+
 {
     //ROLES INSERTADOS A MANO
     //INSERT INTO gestpro.rol(IdRol, NombreRol, DescripcionRol) VALUES(1, 'Junior', 'Programador junior');
@@ -31,6 +36,7 @@ namespace GestProV2
         private List<Usuario> listaUsuario;
         Random r = new Random();
         int contador = 0;
+        DataTable tabla1;
 
 
         public MainWindow()
@@ -75,6 +81,33 @@ namespace GestProV2
 
             cbEmpleados.ItemsSource = listaEmpleados;
             cbEmpleados.DisplayMemberPath = "NombreEmpleado";
+
+            //--------------------------------------------------------------------------------------------------------------
+            //CrystalReport
+
+            tabla1 = new DataTable("DataTable1");
+
+            tabla1.Columns.Add("NombreProyecto");
+            tabla1.Columns.Add("FechaProyecto");
+            tabla1.Columns.Add("CsrProyecto");
+
+
+            //AÑADIMOS LAS FILAS
+            for (int i = 1; i <= 100; i++)
+            {
+                //creamos una fila de datos de la tabla creada
+                DataRow row = tabla1.NewRow();
+                row["NombreProyecto"] = "Jorge";
+                row["FechaProyecto"] = "01/01/2000";
+                row["CsrProyecto"] = "400";
+
+                tabla1.Rows.Add(row);
+            }
+
+            informe_coste_proyectos report = new informe_coste_proyectos();
+            report.Database.Tables["DataTable1"].SetDataSource(tabla1);
+
+            reportViewer1.ViewerCore.ReportSource = report;
         }
 
         private void btnProyectos_Click(object sender, RoutedEventArgs e)
@@ -114,7 +147,7 @@ namespace GestProV2
             if (!btnModificar.Content.Equals("Actualizar"))
             {
 
-                if (MessageBox.Show("Do you want to add this proyect?", "Confirmtion", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+                if (System.Windows.MessageBox.Show("Do you want to add this proyect?", "Confirmtion", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
                 {
                     Proyecto p = new Proyecto(txtCodigoProyecto.Text, txtNombre.Text, dateInicio.SelectedDate.Value, dateFin.SelectedDate.Value);
                     p.insert();
@@ -157,7 +190,7 @@ namespace GestProV2
         private void btnEliminar_Click(object sender, RoutedEventArgs e)
         {
 
-            if (MessageBox.Show("Do you wat to remove this project?", "Confirmation", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+            if (System.Windows.MessageBox.Show("Do you wat to remove this project?", "Confirmation", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
                 Proyecto proyecto = (Proyecto)dgDatos.SelectedItem;
 
@@ -171,7 +204,7 @@ namespace GestProV2
 
         }
 
-        private void tboxBusqueda_KeyDown(object sender, KeyEventArgs e)
+        private void tboxBusqueda_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
         {
             if (e.Key == Key.Enter)
             {
@@ -292,7 +325,7 @@ namespace GestProV2
             dgEmpleados.Items.Refresh();
 
 
-            MessageBox.Show("Empleado añadido con éxito", "Aviso", MessageBoxButton.OK);
+            System.Windows.MessageBox.Show("Empleado añadido con éxito", "Aviso", MessageBoxButton.OK);
 
         }
 
@@ -305,7 +338,7 @@ namespace GestProV2
             dgDatos.Items.Refresh();
             dgDatos.ItemsSource = newList;
 
-            MessageBox.Show("Usuario eliminado con exito", "Aviso", MessageBoxButton.OK);
+            System.Windows.MessageBox.Show("Usuario eliminado con exito", "Aviso", MessageBoxButton.OK);
         }
 
         private void eliminarEmpleado_Click(object sender, RoutedEventArgs e)
@@ -318,7 +351,7 @@ namespace GestProV2
             dgEmpleados.Items.Refresh();
             dgEmpleados.ItemsSource = newList;
 
-            MessageBox.Show("Empleado eliminado con éxito", "Aviso", MessageBoxButton.OK);
+            System.Windows.MessageBox.Show("Empleado eliminado con éxito", "Aviso", MessageBoxButton.OK);
         }
 
 
@@ -359,7 +392,7 @@ namespace GestProV2
             dgDatos.Items.Refresh();
             dgDatos.ItemsSource = newList;
 
-            MessageBox.Show("Usuario modificado con éxito", "Aviso", MessageBoxButton.OK);
+            System.Windows.MessageBox.Show("Usuario modificado con éxito", "Aviso", MessageBoxButton.OK);
 
         }
 
@@ -380,7 +413,7 @@ namespace GestProV2
             dgEmpleados.Items.Refresh();
             dgEmpleados.ItemsSource = newList;
 
-            MessageBox.Show("Empleado modificado con exito", "Aviso", MessageBoxButton.OK);
+            System.Windows.MessageBox.Show("Empleado modificado con exito", "Aviso", MessageBoxButton.OK);
 
         }
 

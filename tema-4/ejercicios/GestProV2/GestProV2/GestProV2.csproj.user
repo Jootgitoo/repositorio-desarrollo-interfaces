@@ -7,6 +7,19 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="view\informe_coste_proyectos.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="view\informe_empleados_por_proyecto.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="DataSet1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="view\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>

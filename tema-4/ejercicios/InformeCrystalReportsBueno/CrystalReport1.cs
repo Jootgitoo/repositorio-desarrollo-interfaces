@@ -14,25 +14,13 @@ namespace InformeCrystalReportsBueno {
     using CrystalDecisions.Shared;
     using CrystalDecisions.ReportSource;
     using CrystalDecisions.CrystalReports.Engine;
-
-
-    /// <summary>
-    /// Class CrystalReport1.
-    /// Implements the <see cref="ReportClass" />
-    /// </summary>
-    /// <seealso cref="ReportClass" />
+    
+    
     public class CrystalReport1 : ReportClass {
-
-        /// <summary>
-        /// Initializes a new instance of the <see cref="CrystalReport1"/> class.
-        /// </summary>
+        
         public CrystalReport1() {
         }
-
-        /// <summary>
-        /// Gets or sets the name of the resource.
-        /// </summary>
-        /// <value>The name of the resource.</value>
+        
         public override string ResourceName {
             get {
                 return "CrystalReport1.rpt";
@@ -41,11 +29,7 @@ namespace InformeCrystalReportsBueno {
                 // Do nothing
             }
         }
-
-        /// <summary>
-        /// Creates new generator.
-        /// </summary>
-        /// <value><c>true</c> if [new generator]; otherwise, <c>false</c>.</value>
+        
         public override bool NewGenerator {
             get {
                 return true;
@@ -54,11 +38,7 @@ namespace InformeCrystalReportsBueno {
                 // Do nothing
             }
         }
-
-        /// <summary>
-        /// Gets or sets the full name of the resource.
-        /// </summary>
-        /// <value>The full name of the resource.</value>
+        
         public override string FullResourceName {
             get {
                 return "InformeCrystalReportsBueno.CrystalReport1.rpt";
@@ -67,11 +47,7 @@ namespace InformeCrystalReportsBueno {
                 // Do nothing
             }
         }
-
-        /// <summary>
-        /// Gets the section1.
-        /// </summary>
-        /// <value>The section1.</value>
+        
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public CrystalDecisions.CrystalReports.Engine.Section Section1 {
@@ -79,11 +55,7 @@ namespace InformeCrystalReportsBueno {
                 return this.ReportDefinition.Sections[0];
             }
         }
-
-        /// <summary>
-        /// Gets the section2.
-        /// </summary>
-        /// <value>The section2.</value>
+        
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public CrystalDecisions.CrystalReports.Engine.Section Section2 {
@@ -91,11 +63,7 @@ namespace InformeCrystalReportsBueno {
                 return this.ReportDefinition.Sections[1];
             }
         }
-
-        /// <summary>
-        /// Gets the section3.
-        /// </summary>
-        /// <value>The section3.</value>
+        
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public CrystalDecisions.CrystalReports.Engine.Section Section3 {
@@ -103,11 +71,7 @@ namespace InformeCrystalReportsBueno {
                 return this.ReportDefinition.Sections[2];
             }
         }
-
-        /// <summary>
-        /// Gets the section4.
-        /// </summary>
-        /// <value>The section4.</value>
+        
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public CrystalDecisions.CrystalReports.Engine.Section Section4 {
@@ -115,11 +79,7 @@ namespace InformeCrystalReportsBueno {
                 return this.ReportDefinition.Sections[3];
             }
         }
-
-        /// <summary>
-        /// Gets the section5.
-        /// </summary>
-        /// <value>The section5.</value>
+        
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public CrystalDecisions.CrystalReports.Engine.Section Section5 {
@@ -128,27 +88,13 @@ namespace InformeCrystalReportsBueno {
             }
         }
     }
-
-    /// <summary>
-    /// Class CachedCrystalReport1.
-    /// Implements the <see cref="Component" />
-    /// Implements the <see cref="ICachedReport" />
-    /// </summary>
-    /// <seealso cref="Component" />
-    /// <seealso cref="ICachedReport" />
+    
     [System.Drawing.ToolboxBitmapAttribute(typeof(CrystalDecisions.Shared.ExportOptions), "report.bmp")]
     public class CachedCrystalReport1 : Component, ICachedReport {
-
-        /// <summary>
-        /// Initializes a new instance of the <see cref="CachedCrystalReport1"/> class.
-        /// </summary>
+        
         public CachedCrystalReport1() {
         }
-
-        /// <summary>
-        /// Gets or sets a value indicating whether this instance is cacheable.
-        /// </summary>
-        /// <value><c>true</c> if this instance is cacheable; otherwise, <c>false</c>.</value>
+        
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public virtual bool IsCacheable {
@@ -159,11 +105,7 @@ namespace InformeCrystalReportsBueno {
                 // 
             }
         }
-
-        /// <summary>
-        /// Gets or sets a value indicating whether [share database logon information].
-        /// </summary>
-        /// <value><c>true</c> if [share database logon information]; otherwise, <c>false</c>.</value>
+        
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public virtual bool ShareDBLogonInfo {
@@ -174,11 +116,7 @@ namespace InformeCrystalReportsBueno {
                 // 
             }
         }
-
-        /// <summary>
-        /// Gets or sets the cache time out.
-        /// </summary>
-        /// <value>The cache time out.</value>
+        
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public virtual System.TimeSpan CacheTimeOut {
@@ -189,22 +127,13 @@ namespace InformeCrystalReportsBueno {
                 // 
             }
         }
-
-        /// <summary>
-        /// Creates the report.
-        /// </summary>
-        /// <returns>CrystalDecisions.CrystalReports.Engine.ReportDocument.</returns>
+        
         public virtual CrystalDecisions.CrystalReports.Engine.ReportDocument CreateReport() {
             CrystalReport1 rpt = new CrystalReport1();
             rpt.Site = this.Site;
             return rpt;
         }
-
-        /// <summary>
-        /// Gets the customized cache key.
-        /// </summary>
-        /// <param name="request">The request.</param>
-        /// <returns>System.String.</returns>
+        
         public virtual string GetCustomizedCacheKey(RequestContext request) {
             String key = null;
             // // The following is the code used to generate the default
