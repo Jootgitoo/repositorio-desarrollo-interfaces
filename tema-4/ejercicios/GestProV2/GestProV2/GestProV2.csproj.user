@@ -7,10 +7,7 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="view\informe_coste_proyectos.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="view\informe_empleados_por_proyecto.cs">
+    <Compile Update="view\InformeEmpleados.cs">
       <SubType>Component</SubType>
     </Compile>
   </ItemGroup>

@@ -70,3 +70,7 @@ D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-4\ejerc
 D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-4\ejercicios\ApiRestPrueba\ApiRestPrueba\obj\Debug\ApiRestP.2BF0516F.Up2Date
 D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-4\ejercicios\ApiRestPrueba\ApiRestPrueba\obj\Debug\ApiRestPrueba.exe
 D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-4\ejercicios\ApiRestPrueba\ApiRestPrueba\obj\Debug\ApiRestPrueba.pdb
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-4\ejercicios\ApiRestPrueba\ApiRestPrueba\bin\Debug\ApiRestPrueba.exe.manifest
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-4\ejercicios\ApiRestPrueba\ApiRestPrueba\bin\Debug\ApiRestPrueba.application
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-4\ejercicios\ApiRestPrueba\ApiRestPrueba\obj\Debug\ApiRestPrueba.exe.manifest
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-4\ejercicios\ApiRestPrueba\ApiRestPrueba\obj\Debug\ApiRestPrueba.application

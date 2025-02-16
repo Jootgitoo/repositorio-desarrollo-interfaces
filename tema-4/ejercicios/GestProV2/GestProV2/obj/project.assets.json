@@ -15,6 +15,42 @@
           }
         }
       },
+      "CrystalDecisions.CrystalReports.Engine/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/CrystalDecisions.CrystalReports.Engine.dll": {}
+        },
+        "runtime": {
+          "lib/CrystalDecisions.CrystalReports.Engine.dll": {}
+        }
+      },
+      "CrystalDecisions.ReportSource/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/CrystalDecisions.ReportSource.dll": {}
+        },
+        "runtime": {
+          "lib/CrystalDecisions.ReportSource.dll": {}
+        }
+      },
+      "CrystalDecisions.Shared/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/CrystalDecisions.Shared.dll": {}
+        },
+        "runtime": {
+          "lib/CrystalDecisions.Shared.dll": {}
+        }
+      },
+      "CrystalDecisions.Windows.Forms/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/CrystalDecisions.Windows.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/CrystalDecisions.Windows.Forms.dll": {}
+        }
+      },
       "CrystalReports.AxShockwaveFlashObjects/13.0.4003": {
         "type": "package",
         "dependencies": {
@@ -957,6 +993,54 @@
         "packageIcon.png"
       ]
     },
+    "CrystalDecisions.CrystalReports.Engine/1.0.0": {
+      "sha512": "qr+XgfiEvAWXModuJy4IamWlkarFNL6c2ueA9PcZkLUkoz17L0rptDNzLzJkFaSP8hh+nAwfD2t3wvRLdbjFQw==",
+      "type": "package",
+      "path": "crystaldecisions.crystalreports.engine/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "crystaldecisions.crystalreports.engine.1.0.0.nupkg.sha512",
+        "crystaldecisions.crystalreports.engine.nuspec",
+        "lib/CrystalDecisions.CrystalReports.Engine.dll"
+      ]
+    },
+    "CrystalDecisions.ReportSource/1.0.0": {
+      "sha512": "YO0Ap65qeD1WO66Bcu9ZCb2cN4Zuq/sii8+0/jX6jTEzaO1tPbizDtSSJC0tp+nOnQqeGJNM+4sN5K+tTWDGJQ==",
+      "type": "package",
+      "path": "crystaldecisions.reportsource/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "crystaldecisions.reportsource.1.0.0.nupkg.sha512",
+        "crystaldecisions.reportsource.nuspec",
+        "lib/CrystalDecisions.ReportSource.dll"
+      ]
+    },
+    "CrystalDecisions.Shared/1.0.0": {
+      "sha512": "M3T2xrJ/oTrPUu3j0ODVhP981QTPdoHSly47IfrIWy7UUROpfF1p8jRTYzBoy2toQ2B5PKtnnkpAimp2mtnrdg==",
+      "type": "package",
+      "path": "crystaldecisions.shared/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "crystaldecisions.shared.1.0.0.nupkg.sha512",
+        "crystaldecisions.shared.nuspec",
+        "lib/CrystalDecisions.Shared.dll"
+      ]
+    },
+    "CrystalDecisions.Windows.Forms/1.0.0": {
+      "sha512": "Ot7NKSvtCpQYtJcIqrTADfqMQlRimmLA5tAiL/gHvyblDXl3S2xK97QphpI42lJ6BAWOvD2giV7HIJLJjnCDoA==",
+      "type": "package",
+      "path": "crystaldecisions.windows.forms/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "crystaldecisions.windows.forms.1.0.0.nupkg.sha512",
+        "crystaldecisions.windows.forms.nuspec",
+        "lib/CrystalDecisions.Windows.Forms.dll"
+      ]
+    },
     "CrystalReports.AxShockwaveFlashObjects/13.0.4003": {
       "sha512": "PKWhlhWop4IVpCV/xrkzLPtwxPmx1VjxMT/f/AbOHSQNJrrAtd1PXETi+WnqvOtOMzqIsR14cpmEoUzk6EGvUQ==",
       "type": "package",
@@ -1821,29 +1905,51 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
+      "CrystalDecisions.CrystalReports.Engine >= 1.0.0",
+      "CrystalDecisions.ReportSource >= 1.0.0",
+      "CrystalDecisions.Shared >= 1.0.0",
+      "CrystalDecisions.Windows.Forms >= 1.0.0",
+      "CrystalReports.AxShockwaveFlashObjects >= 13.0.4003",
+      "CrystalReports.Engine >= 13.0.4003",
+      "CrystalReports.ReportAppServer.ClientDoc >= 13.0.4003",
+      "CrystalReports.ReportAppServer.CommLayer >= 13.0.4003",
+      "CrystalReports.ReportAppServer.CommonControls >= 13.0.4003",
+      "CrystalReports.ReportAppServer.CommonObjectModel >= 13.0.4003",
+      "CrystalReports.ReportAppServer.Controllers >= 13.0.4003",
+      "CrystalReports.ReportAppServer.CubeDefModel >= 13.0.4003",
+      "CrystalReports.ReportAppServer.DataDefModel >= 13.0.4003",
+      "CrystalReports.ReportAppServer.DataSetConversion >= 13.0.4003",
+      "CrystalReports.ReportAppServer.ObjectFactory >= 13.0.4003",
+      "CrystalReports.ReportAppServer.Prompting >= 13.0.4003",
+      "CrystalReports.ReportAppServer.ReportDefModel >= 13.0.4003",
+      "CrystalReports.ReportAppServer.XmlSerialize >= 13.0.4003",
+      "CrystalReports.ReportSource >= 13.0.4003",
+      "CrystalReports.Shared >= 13.0.4003",
+      "CrystalReports.ShockwaveFlashObjects >= 13.0.4003",
       "CrystalReports.WPF.Viewer >= 13.0.4003",
+      "CrystalReports.WPF.ViewerShared >= 13.0.4003",
       "MySql.Data >= 9.2.0",
       "System.Windows.Forms >= 4.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\b15-18m\\.nuget\\packages\\": {},
+    "C:\\Users\\JORGE\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\GestProV2.csproj",
+      "projectUniqueName": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\GestProV2.csproj",
       "projectName": "GestProV2",
-      "projectPath": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\GestProV2.csproj",
-      "packagesPath": "C:\\Users\\b15-18m\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\obj\\",
+      "projectPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\GestProV2.csproj",
+      "packagesPath": "C:\\Users\\JORGE\\.nuget\\packages\\",
+      "outputPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\b15-18m\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JORGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1870,13 +1976,101 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net48": {
         "targetAlias": "net48-windows8.0",
         "dependencies": {
+          "CrystalDecisions.CrystalReports.Engine": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "CrystalDecisions.ReportSource": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "CrystalDecisions.Shared": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "CrystalDecisions.Windows.Forms": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "CrystalReports.AxShockwaveFlashObjects": {
+            "target": "Package",
+            "version": "[13.0.4003, )"
+          },
+          "CrystalReports.Engine": {
+            "target": "Package",
+            "version": "[13.0.4003, )"
+          },
+          "CrystalReports.ReportAppServer.ClientDoc": {
+            "target": "Package",
+            "version": "[13.0.4003, )"
+          },
+          "CrystalReports.ReportAppServer.CommLayer": {
+            "target": "Package",
+            "version": "[13.0.4003, )"
+          },
+          "CrystalReports.ReportAppServer.CommonControls": {
+            "target": "Package",
+            "version": "[13.0.4003, )"
+          },
+          "CrystalReports.ReportAppServer.CommonObjectModel": {
+            "target": "Package",
+            "version": "[13.0.4003, )"
+          },
+          "CrystalReports.ReportAppServer.Controllers": {
+            "target": "Package",
+            "version": "[13.0.4003, )"
+          },
+          "CrystalReports.ReportAppServer.CubeDefModel": {
+            "target": "Package",
+            "version": "[13.0.4003, )"
+          },
+          "CrystalReports.ReportAppServer.DataDefModel": {
+            "target": "Package",
+            "version": "[13.0.4003, )"
+          },
+          "CrystalReports.ReportAppServer.DataSetConversion": {
+            "target": "Package",
+            "version": "[13.0.4003, )"
+          },
+          "CrystalReports.ReportAppServer.ObjectFactory": {
+            "target": "Package",
+            "version": "[13.0.4003, )"
+          },
+          "CrystalReports.ReportAppServer.Prompting": {
+            "target": "Package",
+            "version": "[13.0.4003, )"
+          },
+          "CrystalReports.ReportAppServer.ReportDefModel": {
+            "target": "Package",
+            "version": "[13.0.4003, )"
+          },
+          "CrystalReports.ReportAppServer.XmlSerialize": {
+            "target": "Package",
+            "version": "[13.0.4003, )"
+          },
+          "CrystalReports.ReportSource": {
+            "target": "Package",
+            "version": "[13.0.4003, )"
+          },
+          "CrystalReports.Shared": {
+            "target": "Package",
+            "version": "[13.0.4003, )"
+          },
+          "CrystalReports.ShockwaveFlashObjects": {
+            "target": "Package",
+            "version": "[13.0.4003, )"
+          },
           "CrystalReports.WPF.Viewer": {
+            "target": "Package",
+            "version": "[13.0.4003, )"
+          },
+          "CrystalReports.WPF.ViewerShared": {
             "target": "Package",
             "version": "[13.0.4003, )"
           },
@@ -1889,7 +2083,7 @@
             "version": "[4.0.0, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

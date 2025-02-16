@@ -1,22 +1,14 @@
 ﻿using GestProV2.domain;
 using GestProV2.view;
-using Mysqlx.Crud;
 using System.Data;
-using System.Text;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Forms;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using System.Windows.Markup;
+
 
 namespace GestProV2
-
-
 {
     //ROLES INSERTADOS A MANO
     //INSERT INTO gestpro.rol(IdRol, NombreRol, DescripcionRol) VALUES(1, 'Junior', 'Programador junior');
@@ -26,6 +18,8 @@ namespace GestProV2
     /// <summary>
     /// Lógica de interacción para MainWindow.xaml
     /// </summary>
+    /// 
+
     public partial class MainWindow : Window
     {
 
@@ -36,7 +30,6 @@ namespace GestProV2
         private List<Usuario> listaUsuario;
         Random r = new Random();
         int contador = 0;
-        DataTable tabla1;
 
 
         public MainWindow()
@@ -82,32 +75,43 @@ namespace GestProV2
             cbEmpleados.ItemsSource = listaEmpleados;
             cbEmpleados.DisplayMemberPath = "NombreEmpleado";
 
-            //--------------------------------------------------------------------------------------------------------------
-            //CrystalReport
 
-            tabla1 = new DataTable("DataTable1");
-
-            tabla1.Columns.Add("NombreProyecto");
-            tabla1.Columns.Add("FechaProyecto");
-            tabla1.Columns.Add("CsrProyecto");
+            //---------------------------------------------------------------------------------------------------
+            //CRYSTALREPORT
+            inicializarCrystalReport();
 
 
-            //AÑADIMOS LAS FILAS
-            for (int i = 1; i <= 100; i++)
-            {
-                //creamos una fila de datos de la tabla creada
-                DataRow row = tabla1.NewRow();
-                row["NombreProyecto"] = "Jorge";
-                row["FechaProyecto"] = "01/01/2000";
-                row["CsrProyecto"] = "400";
+        }
 
-                tabla1.Rows.Add(row);
+        private void inicializarCrystalReport()
+        {
+            DataTable tablaEmpleados = new DataTable("EMPLEADO");
+
+
+            //Creamos las columnas
+            tablaEmpleados.Columns.Add("NombreEmp");
+            tablaEmpleados.Columns.Add("ApellidoEmp");
+            tablaEmpleados.Columns.Add("Csr");
+
+
+            foreach (Empleado e in listaEmpleados)
+            { //Por cada empleado que haya en la lista de empleados
+
+                //Creo una fila nueva
+                DataRow fila = tablaEmpleados.NewRow();
+
+                fila["NombreEmp"] = e.NombreEmpleado;
+                fila["ApellidoEmp"] = e.ApellidoEmpleado;
+                fila["Csr"] = e.CsrEmpleado;
+
+                tablaEmpleados.Rows.Add(fila);
             }
 
-            informe_coste_proyectos report = new informe_coste_proyectos();
-            report.Database.Tables["DataTable1"].SetDataSource(tabla1);
+            //Creamos la instancia del CrystalReport
+            InformeEmpleados informe1 = new InformeEmpleados();
+            informe1.Database.Tables["EMPLEADO"].SetDataSource(tablaEmpleados);
 
-            reportViewer1.ViewerCore.ReportSource = report;
+            reporteEmpleados.ViewerCore.ReportSource = informe1;
         }
 
         private void btnProyectos_Click(object sender, RoutedEventArgs e)
@@ -210,6 +214,7 @@ namespace GestProV2
             {
                 RealizarBusqueda();
             }
+
         }
 
         private void txtBusqueda_TextChanged(object sender, TextChangedEventArgs e)

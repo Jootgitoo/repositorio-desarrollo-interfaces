@@ -12,29 +12,54 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="view\informe_coste_proyectos.rpt" />
-    <None Remove="view\informe_empleados_por_proyecto.rpt" />
+    <None Remove="InformeEmpleados.rpt" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="view\InformeEmpleados.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InformeEmpleados.cs</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CrystalDecisions.CrystalReports.Engine" Version="1.0.0" />
+    <PackageReference Include="CrystalDecisions.ReportSource" Version="1.0.0" />
+    <PackageReference Include="CrystalDecisions.Shared" Version="1.0.0" />
+    <PackageReference Include="CrystalDecisions.Windows.Forms" Version="1.0.0" />
+    <PackageReference Include="CrystalReports.AxShockwaveFlashObjects" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.Engine" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.ClientDoc" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.CommLayer" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.CommonControls" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.CommonObjectModel" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.Controllers" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.CubeDefModel" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.DataDefModel" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.DataSetConversion" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.ObjectFactory" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.Prompting" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.ReportDefModel" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportAppServer.XmlSerialize" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ReportSource" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.Shared" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.ShockwaveFlashObjects" Version="13.0.4003" />
     <PackageReference Include="CrystalReports.WPF.Viewer" Version="13.0.4003" />
+    <PackageReference Include="CrystalReports.WPF.ViewerShared" Version="13.0.4003" />
     <PackageReference Include="MySql.Data" Version="9.2.0" />
     <PackageReference Include="System.Windows.Forms" Version="4.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="view\informe_coste_proyectos.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>informe_coste_proyectos.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="view\informe_empleados_por_proyecto.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>informe_empleados_por_proyecto.cs</LastGenOutput>
-    </EmbeddedResource>
+    <Reference Include="System.Data.DataSetExtensions" />
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="System.Data.DataSetExtensions" />
+    <None Update="DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
@@ -47,23 +72,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
-    <Compile Update="view\informe_coste_proyectos.cs">
+    <Compile Update="view\InformeEmpleados.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>informe_coste_proyectos.rpt</DependentUpon>
+      <DependentUpon>InformeEmpleados.rpt</DependentUpon>
     </Compile>
-    <Compile Update="view\informe_empleados_por_proyecto.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>informe_empleados_por_proyecto.rpt</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="DataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
-    </None>
   </ItemGroup>
 
 </Project>

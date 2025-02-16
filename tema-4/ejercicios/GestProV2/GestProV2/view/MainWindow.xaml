@@ -326,7 +326,8 @@
             </TabItem>
             <TabItem Header="ESTADÍSTICAS" Background="#FFFFA5D7" FontFamily="Global Monospace">
 
-                <cr:CrystalReportsViewer x:Name="reportViewer1"/>
+                <cr:CrystalReportsViewer x:Name="reporteEmpleados"/>
+
 
             </TabItem>
 
