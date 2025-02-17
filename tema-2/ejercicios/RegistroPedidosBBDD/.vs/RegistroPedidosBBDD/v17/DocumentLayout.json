@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\RegistroPedidosBBDD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34F87383-4A26-4854-A880-024D5257625A}|RegistroPedidosBBDD\\RegistroPedidosBBDD.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\registropedidosbbdd\\registropedidosbbdd\\persistence\\manajes\\manejopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34F87383-4A26-4854-A880-024D5257625A}|RegistroPedidosBBDD\\RegistroPedidosBBDD.csproj|solutionrelative:registropedidosbbdd\\persistence\\manajes\\manejopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F87383-4A26-4854-A880-024D5257625A}|RegistroPedidosBBDD\\RegistroPedidosBBDD.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\registropedidosbbdd\\registropedidosbbdd\\domain\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34F87383-4A26-4854-A880-024D5257625A}|RegistroPedidosBBDD\\RegistroPedidosBBDD.csproj|solutionrelative:registropedidosbbdd\\domain\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F87383-4A26-4854-A880-024D5257625A}|RegistroPedidosBBDD\\RegistroPedidosBBDD.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\registropedidosbbdd\\registropedidosbbdd\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34F87383-4A26-4854-A880-024D5257625A}|RegistroPedidosBBDD\\RegistroPedidosBBDD.csproj|solutionrelative:registropedidosbbdd\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{34F87383-4A26-4854-A880-024D5257625A}|RegistroPedidosBBDD\\RegistroPedidosBBDD.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\registropedidosbbdd\\registropedidosbbdd\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34F87383-4A26-4854-A880-024D5257625A}|RegistroPedidosBBDD\\RegistroPedidosBBDD.csproj|solutionrelative:registropedidosbbdd\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34F87383-4A26-4854-A880-024D5257625A}|RegistroPedidosBBDD\\RegistroPedidosBBDD.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\registropedidosbbdd\\registropedidosbbdd\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{34F87383-4A26-4854-A880-024D5257625A}|RegistroPedidosBBDD\\RegistroPedidosBBDD.csproj|solutionrelative:registropedidosbbdd\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34F87383-4A26-4854-A880-024D5257625A}|RegistroPedidosBBDD\\RegistroPedidosBBDD.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\registropedidosbbdd\\registropedidosbbdd\\domain\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34F87383-4A26-4854-A880-024D5257625A}|RegistroPedidosBBDD\\RegistroPedidosBBDD.csproj|solutionrelative:registropedidosbbdd\\domain\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34F87383-4A26-4854-A880-024D5257625A}|RegistroPedidosBBDD\\RegistroPedidosBBDD.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\registropedidosbbdd\\registropedidosbbdd\\persistence\\manajes\\manejopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34F87383-4A26-4854-A880-024D5257625A}|RegistroPedidosBBDD\\RegistroPedidosBBDD.csproj|solutionrelative:registropedidosbbdd\\persistence\\manajes\\manejopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34F87383-4A26-4854-A880-024D5257625A}|RegistroPedidosBBDD\\RegistroPedidosBBDD.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\registropedidosbbdd\\registropedidosbbdd\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34F87383-4A26-4854-A880-024D5257625A}|RegistroPedidosBBDD\\RegistroPedidosBBDD.csproj|solutionrelative:registropedidosbbdd\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\RegistroPedidosBBDD\\RegistroPedidosBBDD\\View\\MainWindow.xaml",
               "RelativeDocumentMoniker": "RegistroPedidosBBDD\\View\\MainWindow.xaml",
@@ -54,33 +54,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\RegistroPedidosBBDD\\RegistroPedidosBBDD\\View\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "RegistroPedidosBBDD\\View\\MainWindow.xaml.cs",
               "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\RegistroPedidosBBDD\\RegistroPedidosBBDD\\View\\MainWindow.xaml.cs",
               "RelativeToolTip": "RegistroPedidosBBDD\\View\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACwAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswCwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T16:49:14.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Pedido.cs",
               "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\RegistroPedidosBBDD\\RegistroPedidosBBDD\\Domain\\Pedido.cs",
               "RelativeDocumentMoniker": "RegistroPedidosBBDD\\Domain\\Pedido.cs",
               "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\RegistroPedidosBBDD\\RegistroPedidosBBDD\\Domain\\Pedido.cs",
               "RelativeToolTip": "RegistroPedidosBBDD\\Domain\\Pedido.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAYwCYAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T16:50:28.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ManejoPedido.cs",
               "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\RegistroPedidosBBDD\\RegistroPedidosBBDD\\Persistence\\Manajes\\ManejoPedido.cs",
               "RelativeDocumentMoniker": "RegistroPedidosBBDD\\Persistence\\Manajes\\ManejoPedido.cs",
@@ -93,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "DBBroker.cs",
               "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-2\\ejercicios\\RegistroPedidosBBDD\\RegistroPedidosBBDD\\Persistence\\DBBroker.cs",
               "RelativeDocumentMoniker": "RegistroPedidosBBDD\\Persistence\\DBBroker.cs",
@@ -101,8 +101,7 @@
               "RelativeToolTip": "RegistroPedidosBBDD\\Persistence\\DBBroker.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAApwFgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T16:51:28.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T16:51:28.11Z"
             }
           ]
         }

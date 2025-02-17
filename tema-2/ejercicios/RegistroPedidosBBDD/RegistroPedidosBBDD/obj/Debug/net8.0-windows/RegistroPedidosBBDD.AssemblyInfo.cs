@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RegistroPedidosBBDD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30476381af6d14eab1ff48e1ff116365540abba6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb796674eb8cf46f1e2b14f0d9046f26e46042e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("RegistroPedidosBBDD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RegistroPedidosBBDD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

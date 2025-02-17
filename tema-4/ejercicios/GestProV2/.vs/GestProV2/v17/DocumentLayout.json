@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\gestprov2\\gestprov2\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|solutionrelative:gestprov2\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\gestprov2\\gestprov2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|solutionrelative:gestprov2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\gestprov2\\gestprov2\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|solutionrelative:gestprov2\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -19,8 +11,12 @@
       "RelativeMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|solutionrelative:gestprov2\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\gestprov2\\gestprov2\\dataset1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|solutionrelative:gestprov2\\dataset1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\gestprov2\\gestprov2\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|solutionrelative:gestprov2\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\gestprov2\\gestprov2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E0E48129-86E5-4B3A-90B7-5F0D0D342A81}|GestProV2\\GestProV2.csproj|solutionrelative:gestprov2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JORGE\\AppData\\Local\\Temp\\.vsdbgsrc\\4770e56a002c228d433dc1c9f1e8058a389ca45f079e736915295aff96a975c2\\ReportAlbum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -37,11 +33,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 879,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\App.xaml.cs",
               "RelativeDocumentMoniker": "GestProV2\\App.xaml.cs",
@@ -53,16 +57,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\App.xaml",
               "RelativeDocumentMoniker": "GestProV2\\App.xaml",
@@ -75,19 +71,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DataSet1.cs",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\DataSet1.cs",
-              "RelativeDocumentMoniker": "GestProV2\\DataSet1.cs",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\DataSet1.cs",
-              "RelativeToolTip": "GestProV2\\DataSet1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T21:45:19.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "ReportAlbum.cs",
               "DocumentMoniker": "C:\\Users\\JORGE\\AppData\\Local\\Temp\\.vsdbgsrc\\4770e56a002c228d433dc1c9f1e8058a389ca45f079e736915295aff96a975c2\\ReportAlbum.cs",
               "ToolTip": "C:\\Users\\JORGE\\AppData\\Local\\Temp\\.vsdbgsrc\\4770e56a002c228d433dc1c9f1e8058a389ca45f079e736915295aff96a975c2\\ReportAlbum.cs",
@@ -98,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\view\\MainWindow.xaml",
               "RelativeDocumentMoniker": "GestProV2\\view\\MainWindow.xaml",
@@ -110,20 +93,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\view\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "GestProV2\\view\\MainWindow.xaml.cs",
               "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\view\\MainWindow.xaml.cs",
               "RelativeToolTip": "GestProV2\\view\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAEwJ0AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvygAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T21:21:41.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "InformeEmpleados.rpt",
               "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\GestProV2\\GestProV2\\view\\InformeEmpleados.rpt",
               "RelativeDocumentMoniker": "GestProV2\\view\\InformeEmpleados.rpt",

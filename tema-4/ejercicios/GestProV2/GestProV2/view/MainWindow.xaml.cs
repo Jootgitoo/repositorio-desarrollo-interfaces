@@ -78,7 +78,7 @@ namespace GestProV2
 
             //---------------------------------------------------------------------------------------------------
             //CRYSTALREPORT
-            inicializarCrystalReport();
+            //inicializarCrystalReport();
 
 
         }
@@ -425,6 +425,11 @@ namespace GestProV2
         private void cbProyectos_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
+        }
+
+        private void cargarReporte_Click(object sender, RoutedEventArgs e)
+        {
+            inicializarCrystalReport();
         }
     }
 }
