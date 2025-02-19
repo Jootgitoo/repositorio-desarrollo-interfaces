@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet2" targetNamespace="http://tempuri.org/DataSet2.xsd" xmlns:mstns="http://tempuri.org/DataSet2.xsd" xmlns="http://tempuri.org/DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DataSet2" msprop:Generator_DataSetName="DataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Loan" msprop:Generator_RowEvHandlerName="LoanRowChangeEventHandler" msprop:Generator_RowDeletedName="LoanRowDeleted" msprop:Generator_RowDeletingName="LoanRowDeleting" msprop:Generator_RowEvArgName="LoanRowChangeEvent" msprop:Generator_TablePropName="Loan" msprop:Generator_RowChangedName="LoanRowChanged" msprop:Generator_RowChangingName="LoanRowChanging" msprop:Generator_TableClassName="LoanDataTable" msprop:Generator_RowClassName="LoanRow" msprop:Generator_TableVarName="tableLoan" msprop:Generator_UserTableName="Loan">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="loanDate" msprop:Generator_ColumnPropNameInRow="loanDate" msprop:Generator_ColumnPropNameInTable="loanDateColumn" msprop:Generator_ColumnVarNameInTable="columnloanDate" msprop:Generator_UserColumnName="loanDate" type="xs:string" minOccurs="0" />
+              <xs:element name="returnDate" msprop:Generator_ColumnPropNameInRow="returnDate" msprop:Generator_ColumnPropNameInTable="returnDateColumn" msprop:Generator_ColumnVarNameInTable="columnreturnDate" msprop:Generator_UserColumnName="returnDate" type="xs:string" minOccurs="0" />
+              <xs:element name="idBook" msprop:Generator_ColumnPropNameInRow="idBook" msprop:Generator_ColumnPropNameInTable="idBookColumn" msprop:Generator_ColumnVarNameInTable="columnidBook" msprop:Generator_UserColumnName="idBook" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

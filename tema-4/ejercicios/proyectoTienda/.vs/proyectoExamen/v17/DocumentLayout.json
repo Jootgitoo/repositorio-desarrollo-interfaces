@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\",
+  "WorkspaceRootPath": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA1A6D56-142A-49EF-BE18-D64339DB86E7}|proyectoExamen\\proyectoExamen.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectotienda\\proyectoexamen\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA1A6D56-142A-49EF-BE18-D64339DB86E7}|proyectoExamen\\proyectoExamen.csproj|c:\\users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectotienda\\proyectoexamen\\reports\\reporteclientes.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
+      "RelativeMoniker": "D:0:0:{CA1A6D56-142A-49EF-BE18-D64339DB86E7}|proyectoExamen\\proyectoExamen.csproj|solutionrelative:proyectoexamen\\reports\\reporteclientes.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1A6D56-142A-49EF-BE18-D64339DB86E7}|proyectoExamen\\proyectoExamen.csproj|c:\\users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectotienda\\proyectoexamen\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA1A6D56-142A-49EF-BE18-D64339DB86E7}|proyectoExamen\\proyectoExamen.csproj|solutionrelative:proyectoexamen\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA1A6D56-142A-49EF-BE18-D64339DB86E7}|proyectoExamen\\proyectoExamen.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoexamen\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{CA1A6D56-142A-49EF-BE18-D64339DB86E7}|proyectoExamen\\proyectoExamen.csproj|c:\\users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectotienda\\proyectoexamen\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CA1A6D56-142A-49EF-BE18-D64339DB86E7}|proyectoExamen\\proyectoExamen.csproj|solutionrelative:proyectoexamen\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA1A6D56-142A-49EF-BE18-D64339DB86E7}|proyectoExamen\\proyectoExamen.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectotienda\\proyectoexamen\\persistence\\manages\\manejopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA1A6D56-142A-49EF-BE18-D64339DB86E7}|proyectoExamen\\proyectoExamen.csproj|C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoexamen\\persistence\\manages\\manejopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA1A6D56-142A-49EF-BE18-D64339DB86E7}|proyectoExamen\\proyectoExamen.csproj|solutionrelative:proyectoexamen\\persistence\\manages\\manejopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA1A6D56-142A-49EF-BE18-D64339DB86E7}|proyectoExamen\\proyectoExamen.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectotienda\\proyectoexamen\\domain\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA1A6D56-142A-49EF-BE18-D64339DB86E7}|proyectoExamen\\proyectoExamen.csproj|C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoexamen\\domain\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA1A6D56-142A-49EF-BE18-D64339DB86E7}|proyectoExamen\\proyectoExamen.csproj|solutionrelative:proyectoexamen\\domain\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1A6D56-142A-49EF-BE18-D64339DB86E7}|proyectoExamen\\proyectoExamen.csproj|c:\\users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectotienda\\proyectoexamen\\persistence\\dbbrocker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1A6D56-142A-49EF-BE18-D64339DB86E7}|proyectoExamen\\proyectoExamen.csproj|solutionrelative:proyectoexamen\\persistence\\dbbrocker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 234,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,53 +46,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoExamen\\view\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "proyectoExamen\\view\\MainWindow.xaml",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoExamen\\view\\MainWindow.xaml",
-              "RelativeToolTip": "proyectoExamen\\view\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-17T21:05:42.689Z",
+              "DocumentIndex": 0,
+              "Title": "ReporteClientes.rpt",
+              "DocumentMoniker": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoExamen\\reports\\ReporteClientes.rpt",
+              "RelativeDocumentMoniker": "proyectoExamen\\reports\\ReporteClientes.rpt",
+              "ToolTip": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoExamen\\reports\\ReporteClientes.rpt",
+              "RelativeToolTip": "proyectoExamen\\reports\\ReporteClientes.rpt",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIdSURBVDhPpZJNaBNBFMf/M7ub2NhajSDiwS96CbY2BykojaD0oF5s0YPgQYReLHgpeNCLYv0AexNRb1VUAkJcPXgQEUG89BIaxI9gqzGxH6QmXTef3Wx2nJkmNev25g8ebx7z3n/ezBv8F4wx0lhK7j6fYo3lmowMhl35HoRA3XGk/YvYW\u002BsA2vCrUEIwu1hEJltwmeDc8V5Plx4BAaXEY4J7LxLSt4q4BBS6Eiq8oGm3nXHZ1VCkS9pgfxc62/0yT\u002BASaNRLIWE6ieHB3H1EZsMyVhUKTXU37Yo0RZFeVQiuL14D1tnooBtQcEwcSO9d7aoVdefw5yFC2GG\u002BDsa/OTj228LYwmXejYrkzxkUsqZMNG0TfZkexA99lHETUqlYJ0rV5YEPqfKOG7Glo3MGRSTkx2T4JNp2\u002BzGfmMf3JzNAHijHarJIfz\u002BN0wMh2QoduRrVL9x6NqrWzUt3hjfjYMiHV1NVWNHHCJAOoMof3OBOt10T8XD24kOiv0uynFFkp8ZTrPv8NNs3\u002BpXtifawUmWZWbU6q9l16Z\u002B\u002BTXrHOHHzDPP7ND6iNvSHAtjYrkLTNDzqfQleBIU/rDhdeI1Po4l7JpyqDSTSDoKdPmwLqqhaNdh2vbHrxXWhidcZ9mXBj3yJYr3Pwf7tBnL5HLZu2YRA4O/nERzp2yVrXQJiIhWrdsUwy92/lorZyURqLP4p/YZv/eBXLK9ktQL8AbhJ7xVosbKmAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-02-18T12:30:50.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoExamen\\view\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "proyectoExamen\\view\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoExamen\\view\\MainWindow.xaml",
+              "RelativeToolTip": "proyectoExamen\\view\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-18T09:56:25.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoExamen\\view\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoExamen\\view\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "proyectoExamen\\view\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoExamen\\view\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoExamen\\view\\MainWindow.xaml.cs",
               "RelativeToolTip": "proyectoExamen\\view\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAUwLYAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAYwJ8AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T21:06:20.909Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Pedido.cs",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoExamen\\domain\\Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoExamen\\domain\\Pedido.cs",
               "RelativeDocumentMoniker": "proyectoExamen\\domain\\Pedido.cs",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoExamen\\domain\\Pedido.cs",
+              "ToolTip": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoExamen\\domain\\Pedido.cs",
               "RelativeToolTip": "proyectoExamen\\domain\\Pedido.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAywEkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAD4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T21:41:08.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ManejoPedido.cs",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoExamen\\persistence\\manages\\ManejoPedido.cs",
+              "DocumentMoniker": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoExamen\\persistence\\manages\\ManejoPedido.cs",
               "RelativeDocumentMoniker": "proyectoExamen\\persistence\\manages\\ManejoPedido.cs",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoExamen\\persistence\\manages\\ManejoPedido.cs",
+              "ToolTip": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoExamen\\persistence\\manages\\ManejoPedido.cs",
               "RelativeToolTip": "proyectoExamen\\persistence\\manages\\ManejoPedido.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAywDwAAAC/AAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAADIAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T21:41:28.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DBBrocker.cs",
+              "DocumentMoniker": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoExamen\\persistence\\DBBrocker.cs",
+              "RelativeDocumentMoniker": "proyectoExamen\\persistence\\DBBrocker.cs",
+              "ToolTip": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoTienda\\proyectoExamen\\persistence\\DBBrocker.cs",
+              "RelativeToolTip": "proyectoExamen\\persistence\\DBBrocker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T10:06:33.793Z",
               "EditorCaption": ""
             }
           ]

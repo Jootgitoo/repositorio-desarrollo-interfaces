@@ -1,0 +1,84 @@
+-- MySQL Workbench Forward Engineering
+
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
+
+-- -----------------------------------------------------
+-- Schema bbddClubLectura
+-- -----------------------------------------------------
+
+-- -----------------------------------------------------
+-- Schema bbddClubLectura
+-- -----------------------------------------------------
+CREATE SCHEMA IF NOT EXISTS `bbddClubLectura` DEFAULT CHARACTER SET utf8 ;
+USE `bbddClubLectura` ;
+
+-- -----------------------------------------------------
+-- Table `bbddClubLectura`.`Member`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `bbddClubLectura`.`Member` (
+  `idMember` INT NOT NULL AUTO_INCREMENT,
+  `nameMember` VARCHAR(100) NOT NULL,
+  `birthMember` DATE NOT NULL,
+  `emailMember` VARCHAR(200) NOT NULL,
+  `telephoneMember` INT(10) NULL,
+  PRIMARY KEY (`idMember`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `bbddClubLectura`.`Gender`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `bbddClubLectura`.`Gender` (
+  `idGender` INT NOT NULL AUTO_INCREMENT,
+  `NameGender` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`idGender`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `bbddClubLectura`.`Book`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `bbddClubLectura`.`Book` (
+  `idBook` INT NOT NULL AUTO_INCREMENT,
+  `titleBook` VARCHAR(45) NOT NULL,
+  `authorBook` VARCHAR(45) NOT NULL,
+  `PublicationYearBook` DATE NULL,
+  `idGender` INT NOT NULL,
+  PRIMARY KEY (`idBook`),
+  INDEX `fk_Book_Gender1_idx` (`idGender` ASC) VISIBLE,
+  CONSTRAINT `fk_Book_Gender1`
+    FOREIGN KEY (`idGender`)
+    REFERENCES `bbddClubLectura`.`Gender` (`idGender`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `bbddClubLectura`.`Loan`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `bbddClubLectura`.`Loan` (
+  `loanDate` DATE NOT NULL,
+  `returnDate` DATE NULL,
+  `idMember` INT NOT NULL,
+  `idBook` INT NOT NULL,
+  INDEX `fk_Loan_Member_idx` (`idMember` ASC) VISIBLE,
+  INDEX `fk_Loan_Book1_idx` (`idBook` ASC) VISIBLE,
+  CONSTRAINT `fk_Loan_Member`
+    FOREIGN KEY (`idMember`)
+    REFERENCES `bbddClubLectura`.`Member` (`idMember`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_Loan_Book1`
+    FOREIGN KEY (`idBook`)
+    REFERENCES `bbddClubLectura`.`Book` (`idBook`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
