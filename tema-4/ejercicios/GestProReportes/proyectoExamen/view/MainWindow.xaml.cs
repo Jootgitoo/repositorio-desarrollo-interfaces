@@ -112,7 +112,7 @@ namespace proyectoExamen
 
             //---------------------------------------------------------------------------------------------------
             //CRYSTALREPORT
-            inicializarCrystalReport();
+            //inicializarCrystalReport();
 
 
         }
