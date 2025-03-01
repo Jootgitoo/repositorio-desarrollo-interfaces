@@ -490,6 +490,7 @@ namespace proyectoExamen
                         itemEmpleados.IsEnabled = true;
                         itemGestionEconomica.IsEnabled = true;
                         itemEstadisticas.IsEnabled = true;
+                        itemProyectosEmpleados.IsEnabled = true;
 
                     }
                     else
@@ -582,6 +583,30 @@ namespace proyectoExamen
             dgProyecto.Items.Refresh();
         }
 
-        
+        private void btnReporte2_Click(object sender, RoutedEventArgs e)
+        {
+            DataTable tblEmpleadosEnProyecto = new DataTable("EmpleadosEnProyecto");
+
+            //Creamos las columnas
+            tblEmpleadosEnProyecto.Columns.Add("nombreEmpleado");
+            tblEmpleadosEnProyecto.Columns.Add("nombreProyecto");
+
+            foreach (ProyectoEmpleado pe in listaProyectoEmpleados)
+            { //Por cada empleado que haya en la lista de empleados
+
+                //Creo una fila nueva
+                DataRow fila = tblEmpleadosEnProyecto.NewRow();
+
+                fila["nombreEmpleado"] = pe.NombreEmp;
+                fila["nombreProyecto"] = pe.NombrePro;
+
+                tblEmpleadosEnProyecto.Rows.Add(fila);
+            }
+
+            EmpleadosEnProyecto reporte = new EmpleadosEnProyecto();
+            reporte.Database.Tables["EmpleadosEnProyecto"].SetDataSource(tblEmpleadosEnProyecto);
+
+            visorEmpleadosEnProyecto.ViewerCore.ReportSource = reporte;
+        }
     }
 }

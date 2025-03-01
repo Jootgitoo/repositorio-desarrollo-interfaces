@@ -337,7 +337,7 @@
                     <ComboBox Name="cbProyectos" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="150" SelectionChanged="cbProyectos_SelectionChanged"/>
 
                     <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="30,63,0,0" TextWrapping="Wrap" Text="Empleado" VerticalAlignment="Top" Width="180" Grid.RowSpan="2"/>
-                    <ComboBox Name="cbEmpleados" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Width="150"/>
+                    <ComboBox Name="cbEmpleados" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Width="150" />
 
                     <TextBlock Grid.Column="3" HorizontalAlignment="Center" Margin="0,63,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Fecha" VerticalAlignment="Top" Grid.RowSpan="2" Width="150"/>
 
@@ -371,6 +371,35 @@
                     <Button Name="cargarReporte" Content="Cargar reporte" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Height="32" Width="162" Click="cargarReporte_Click"/>
 
                     <Viewer:CrystalReportsViewer x:Name="visorReporteProyEmple" Grid.ColumnSpan="4" Margin="10,63,0,0" Grid.RowSpan="6"/>
+
+                </Grid>
+
+
+
+            </TabItem>
+
+            <TabItem  Name="itemProyectosEmpleados" Header="EMPLEADOS PROYECTOS" Background="#FFFFA5D7" FontFamily="Global Monospace" IsEnabled="False">
+
+                <Grid Background="#FFFDFDFD">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="1.3*"/>
+                    </Grid.ColumnDefinitions>
+
+
+                    <Viewer:CrystalReportsViewer x:Name="visorEmpleadosEnProyecto" Grid.ColumnSpan="4" Margin="10,63,0,0" Grid.RowSpan="6"/>
+                    <Button Name="btnReporteEmpleadosEnProyecto" Grid.Column="1" Content="Cargar reporte 2" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="3" Height="32" Width="289" Click="btnReporte2_Click"/>
 
                 </Grid>
 
