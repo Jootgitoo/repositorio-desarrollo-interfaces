@@ -1,0 +1,237 @@
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\GestPro_CarlosCalzado.exe.config
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\GestPro_CarlosCalzado.exe
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\GestPro_CarlosCalzado.pdb
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.csproj.AssemblyReference.cache
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\App.g.cs
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado_MarkupCompile.cache
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado_MarkupCompile.lref
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.g.resources
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.Properties.Resources.resources
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.csproj.GenerateResource.cache
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.csproj.CoreCompileInputs.cache
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.exe
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.pdb
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\view\MainWindow.g.cs
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\view\MainWindow.baml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\Google.Protobuf.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\K4os.Compression.LZ4.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\K4os.Hash.xxHash.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\MySql.Data.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Buffers.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.IO.Pipelines.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Memory.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Numerics.Vectors.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\ZstdSharp.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\Google.Protobuf.pdb
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\Google.Protobuf.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\K4os.Compression.LZ4.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\K4os.Hash.xxHash.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\MySql.Data.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Buffers.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.IO.Pipelines.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Memory.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Numerics.Vectors.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-2\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\GestPro_.0634456E.Up2Date
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\GestPro_CarlosCalzado.exe.config
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\GestPro_CarlosCalzado.exe
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\GestPro_CarlosCalzado.pdb
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\Google.Protobuf.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\K4os.Compression.LZ4.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\K4os.Hash.xxHash.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\MySql.Data.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Buffers.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.IO.Pipelines.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Memory.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Numerics.Vectors.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\ZstdSharp.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\Google.Protobuf.pdb
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\Google.Protobuf.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\K4os.Compression.LZ4.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\K4os.Hash.xxHash.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\MySql.Data.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Buffers.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.IO.Pipelines.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Memory.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Numerics.Vectors.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.csproj.AssemblyReference.cache
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\view\MainWindow.g.cs
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\App.g.cs
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado_MarkupCompile.cache
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado_MarkupCompile.lref
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\view\MainWindow.baml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.g.resources
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.Properties.Resources.resources
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.csproj.GenerateResource.cache
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.csproj.CoreCompileInputs.cache
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\GestPro_.0634456E.Up2Date
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.exe
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.pdb
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\Newtonsoft.Json.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado\GestPro_CarlosCalzado\bin\Debug\Newtonsoft.Json.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\GestPro_CarlosCalzado.exe.config
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\GestPro_CarlosCalzado.exe
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\GestPro_CarlosCalzado.pdb
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\Google.Protobuf.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\K4os.Compression.LZ4.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\K4os.Hash.xxHash.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\MySql.Data.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\Newtonsoft.Json.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Buffers.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.IO.Pipelines.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Memory.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Numerics.Vectors.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\ZstdSharp.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\Google.Protobuf.pdb
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\Google.Protobuf.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\K4os.Compression.LZ4.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\K4os.Hash.xxHash.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\MySql.Data.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\Newtonsoft.Json.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Buffers.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.IO.Pipelines.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Memory.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Numerics.Vectors.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.csproj.AssemblyReference.cache
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\view\MainWindow.g.cs
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\App.g.cs
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado_MarkupCompile.cache
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado_MarkupCompile.lref
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\view\MainWindow.baml
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.g.resources
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.Properties.Resources.resources
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.csproj.GenerateResource.cache
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.csproj.CoreCompileInputs.cache
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\GestPro_.0634456E.Up2Date
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.exe
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.pdb
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.Shared.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\view\VentanaInformeIngresosProyectos.g.cs
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\sapbusinessobjects.wpf.viewer.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+D:\Cole\DAM2\Desarrollo de Interfaces\prog-vs-interfaces\Tema-5\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\view\VentanaInformeIngresosProyectos.baml
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\GestPro_CarlosCalzado.exe.config
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\GestPro_CarlosCalzado.exe
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\GestPro_CarlosCalzado.pdb
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\BouncyCastle.Cryptography.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.Shared.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\Google.Protobuf.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\K4os.Compression.LZ4.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\K4os.Hash.xxHash.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\MySql.Data.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\Newtonsoft.Json.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\sapbusinessobjects.wpf.viewer.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Buffers.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.IO.Pipelines.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Memory.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Numerics.Vectors.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\ZstdSharp.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\stdole.dll
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\BouncyCastle.Cryptography.xml
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\Google.Protobuf.pdb
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\Google.Protobuf.xml
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\K4os.Compression.LZ4.xml
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\K4os.Hash.xxHash.xml
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\MySql.Data.xml
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\Newtonsoft.Json.xml
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Buffers.xml
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.IO.Pipelines.xml
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Memory.xml
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Numerics.Vectors.xml
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.csproj.AssemblyReference.cache
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\view\MainWindow.g.cs
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\view\VentanaInformeIngresosProyectos.g.cs
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\App.g.cs
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado_MarkupCompile.cache
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado_MarkupCompile.lref
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\view\MainWindow.baml
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\view\VentanaInformeIngresosProyectos.baml
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.g.resources
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.Properties.Resources.resources
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.csproj.GenerateResource.cache
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.csproj.CoreCompileInputs.cache
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\GestPro_.0634456E.Up2Date
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.exe
+D:\dam-2\desarrollo-de-interfaces\repositorio-desarrollo-interfaces\tema-test\GestPro_CarlosCalzado_Informes\GestPro_CarlosCalzado\obj\Debug\GestPro_CarlosCalzado.pdb

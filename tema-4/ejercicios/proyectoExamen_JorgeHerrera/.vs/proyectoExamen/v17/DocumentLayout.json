@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoExamen_JorgeHerrera\\",
+  "WorkspaceRootPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoExamen_JorgeHerrera\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA1A6D56-142A-49EF-BE18-D64339DB86E7}|proyectoExamen\\proyectoExamen.csproj|c:\\users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoexamen_jorgeherrera\\proyectoexamen\\persistence\\dbbrocker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA1A6D56-142A-49EF-BE18-D64339DB86E7}|proyectoExamen\\proyectoExamen.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoexamen_jorgeherrera\\proyectoexamen\\persistence\\dbbrocker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA1A6D56-142A-49EF-BE18-D64339DB86E7}|proyectoExamen\\proyectoExamen.csproj|solutionrelative:proyectoexamen\\persistence\\dbbrocker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA1A6D56-142A-49EF-BE18-D64339DB86E7}|proyectoExamen\\proyectoExamen.csproj|C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoExamen_JorgeHerrera\\proyectoexamen\\persistence\\manages\\managesmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA1A6D56-142A-49EF-BE18-D64339DB86E7}|proyectoExamen\\proyectoExamen.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoExamen_JorgeHerrera\\proyectoexamen\\persistence\\manages\\managesmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA1A6D56-142A-49EF-BE18-D64339DB86E7}|proyectoExamen\\proyectoExamen.csproj|solutionrelative:proyectoexamen\\persistence\\manages\\managesmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,11 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "DBBrocker.cs",
-              "DocumentMoniker": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoExamen_JorgeHerrera\\proyectoExamen\\persistence\\DBBrocker.cs",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoExamen_JorgeHerrera\\proyectoExamen\\persistence\\DBBrocker.cs",
               "RelativeDocumentMoniker": "proyectoExamen\\persistence\\DBBrocker.cs",
-              "ToolTip": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoExamen_JorgeHerrera\\proyectoExamen\\persistence\\DBBrocker.cs",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoExamen_JorgeHerrera\\proyectoExamen\\persistence\\DBBrocker.cs",
               "RelativeToolTip": "proyectoExamen\\persistence\\DBBrocker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAawGUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T13:29:59.413Z",
               "EditorCaption": ""
@@ -45,9 +45,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ManagesMember.cs",
-              "DocumentMoniker": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoExamen_JorgeHerrera\\proyectoExamen\\persistence\\manages\\ManagesMember.cs",
+              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoExamen_JorgeHerrera\\proyectoExamen\\persistence\\manages\\ManagesMember.cs",
               "RelativeDocumentMoniker": "proyectoExamen\\persistence\\manages\\ManagesMember.cs",
-              "ToolTip": "C:\\Users\\b15-18m\\dam2\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoExamen_JorgeHerrera\\proyectoExamen\\persistence\\manages\\ManagesMember.cs",
+              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-4\\ejercicios\\proyectoExamen_JorgeHerrera\\proyectoExamen\\persistence\\manages\\ManagesMember.cs",
               "RelativeToolTip": "proyectoExamen\\persistence\\manages\\ManagesMember.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
