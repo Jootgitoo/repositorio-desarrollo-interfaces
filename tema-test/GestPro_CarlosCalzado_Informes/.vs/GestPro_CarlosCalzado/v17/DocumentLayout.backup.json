@@ -84,7 +84,7 @@
               "RelativeDocumentMoniker": "GestPro_CarlosCalzado\\view\\MainWindow.xaml.cs",
               "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\view\\MainWindow.xaml.cs",
               "RelativeToolTip": "GestPro_CarlosCalzado\\view\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAwwFsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAcwPkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T12:19:19.126Z",
               "IsPinned": true,
@@ -155,8 +155,7 @@
               "RelativeToolTip": "GestPro_CarlosCalzado\\persistence\\DBBroker.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAcwDkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T11:26:13.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T11:26:13.206Z"
             },
             {
               "$type": "Document",
