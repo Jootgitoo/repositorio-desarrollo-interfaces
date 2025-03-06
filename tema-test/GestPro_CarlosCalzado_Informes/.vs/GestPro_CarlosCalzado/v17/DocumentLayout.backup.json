@@ -1,57 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\",
+  "WorkspaceRootPath": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|d:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\gestpro_carloscalzado_informes\\gestpro_carloscalzado\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|c:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\gestpro_carloscalzado_informes\\gestpro_carloscalzado\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|solutionrelative:gestpro_carloscalzado\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|solutionrelative:gestpro_carloscalzado\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\domain\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|solutionrelative:gestpro_carloscalzado\\domain\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\view\\ventanainformeingresosproyectos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|solutionrelative:gestpro_carloscalzado\\view\\ventanainformeingresosproyectos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|solutionrelative:gestpro_carloscalzado\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\persistence\\manage\\proyectoempleadomanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|solutionrelative:gestpro_carloscalzado\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\domain\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|solutionrelative:gestpro_carloscalzado\\domain\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\view\\ventanainformeingresosproyectos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|solutionrelative:gestpro_carloscalzado\\view\\ventanainformeingresosproyectos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\persistence\\manage\\proyectoempleadomanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|solutionrelative:gestpro_carloscalzado\\persistence\\manage\\proyectoempleadomanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\persistence\\manage\\proyectosmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\persistence\\manage\\proyectosmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|solutionrelative:gestpro_carloscalzado\\persistence\\manage\\proyectosmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\persistence\\dataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\persistence\\dataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
       "RelativeMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|solutionrelative:gestpro_carloscalzado\\persistence\\dataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\view\\ventanainformeingresosproyectos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\view\\ventanainformeingresosproyectos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|solutionrelative:gestpro_carloscalzado\\view\\ventanainformeingresosproyectos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\persistence\\manage\\usuariosmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\persistence\\manage\\usuariosmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|solutionrelative:gestpro_carloscalzado\\persistence\\manage\\usuariosmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\domain\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\domain\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|solutionrelative:gestpro_carloscalzado\\domain\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\persistence\\manage\\empleadosmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\persistence\\manage\\empleadosmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|solutionrelative:gestpro_carloscalzado\\persistence\\manage\\empleadosmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\domain\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\gestpro_carloscalzado\\domain\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47BFD5AD-0C2A-41F7-9B54-15F54D7BBF86}|GestPro_CarlosCalzado\\GestPro_CarlosCalzado.csproj|solutionrelative:gestpro_carloscalzado\\domain\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -66,26 +66,25 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\view\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\view\\MainWindow.xaml",
               "RelativeDocumentMoniker": "GestPro_CarlosCalzado\\view\\MainWindow.xaml",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\view\\MainWindow.xaml",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\view\\MainWindow.xaml",
               "RelativeToolTip": "GestPro_CarlosCalzado\\view\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-01-28T08:01:03.617Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\view\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\view\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "GestPro_CarlosCalzado\\view\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\view\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\view\\MainWindow.xaml.cs",
               "RelativeToolTip": "GestPro_CarlosCalzado\\view\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAIAywEwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAwwFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T12:19:19.126Z",
               "IsPinned": true,
@@ -101,24 +100,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Empleado.cs",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\domain\\Empleado.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\domain\\Empleado.cs",
               "RelativeDocumentMoniker": "GestPro_CarlosCalzado\\domain\\Empleado.cs",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\domain\\Empleado.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\domain\\Empleado.cs",
               "RelativeToolTip": "GestPro_CarlosCalzado\\domain\\Empleado.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAArwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T12:04:50.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T12:04:50.822Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "ProyectosManage.cs",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\manage\\ProyectosManage.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\manage\\ProyectosManage.cs",
               "RelativeDocumentMoniker": "GestPro_CarlosCalzado\\persistence\\manage\\ProyectosManage.cs",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\manage\\ProyectosManage.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\manage\\ProyectosManage.cs",
               "RelativeToolTip": "GestPro_CarlosCalzado\\persistence\\manage\\ProyectosManage.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAADgvxcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -128,9 +126,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "DataSet1.xsd",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\DataSet1.xsd",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\DataSet1.xsd",
               "RelativeDocumentMoniker": "GestPro_CarlosCalzado\\persistence\\DataSet1.xsd",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\DataSet1.xsd",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\DataSet1.xsd",
               "RelativeToolTip": "GestPro_CarlosCalzado\\persistence\\DataSet1.xsd",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
               "WhenOpened": "2025-02-11T11:32:49.369Z"
@@ -139,9 +137,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "UsuariosManage.cs",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\manage\\UsuariosManage.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\manage\\UsuariosManage.cs",
               "RelativeDocumentMoniker": "GestPro_CarlosCalzado\\persistence\\manage\\UsuariosManage.cs",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\manage\\UsuariosManage.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\manage\\UsuariosManage.cs",
               "RelativeToolTip": "GestPro_CarlosCalzado\\persistence\\manage\\UsuariosManage.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAawCoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -149,37 +147,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "DBBroker.cs",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\DBBroker.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\DBBroker.cs",
               "RelativeDocumentMoniker": "GestPro_CarlosCalzado\\persistence\\DBBroker.cs",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\DBBroker.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\DBBroker.cs",
               "RelativeToolTip": "GestPro_CarlosCalzado\\persistence\\DBBroker.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAApwDkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAcwDkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T11:26:13.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "VentanaInformeIngresosProyectos.xaml.cs",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\view\\VentanaInformeIngresosProyectos.xaml.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\view\\VentanaInformeIngresosProyectos.xaml.cs",
               "RelativeDocumentMoniker": "GestPro_CarlosCalzado\\view\\VentanaInformeIngresosProyectos.xaml.cs",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\view\\VentanaInformeIngresosProyectos.xaml.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\view\\VentanaInformeIngresosProyectos.xaml.cs",
               "RelativeToolTip": "GestPro_CarlosCalzado\\view\\VentanaInformeIngresosProyectos.xaml.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAIAywB4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T13:15:44.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T13:15:44.047Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "ProyectoEmpleadoManage.cs",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\manage\\ProyectoEmpleadoManage.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\manage\\ProyectoEmpleadoManage.cs",
               "RelativeDocumentMoniker": "GestPro_CarlosCalzado\\persistence\\manage\\ProyectoEmpleadoManage.cs",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\manage\\ProyectoEmpleadoManage.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\manage\\ProyectoEmpleadoManage.cs",
               "RelativeToolTip": "GestPro_CarlosCalzado\\persistence\\manage\\ProyectoEmpleadoManage.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAowCAAAAC+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -189,9 +186,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Usuario.cs",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\domain\\Usuario.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\domain\\Usuario.cs",
               "RelativeDocumentMoniker": "GestPro_CarlosCalzado\\domain\\Usuario.cs",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\domain\\Usuario.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\domain\\Usuario.cs",
               "RelativeToolTip": "GestPro_CarlosCalzado\\domain\\Usuario.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAEwCoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -201,9 +198,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "VentanaInformeIngresosProyectos.xaml",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\view\\VentanaInformeIngresosProyectos.xaml",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\view\\VentanaInformeIngresosProyectos.xaml",
               "RelativeDocumentMoniker": "GestPro_CarlosCalzado\\view\\VentanaInformeIngresosProyectos.xaml",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\view\\VentanaInformeIngresosProyectos.xaml",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\view\\VentanaInformeIngresosProyectos.xaml",
               "RelativeToolTip": "GestPro_CarlosCalzado\\view\\VentanaInformeIngresosProyectos.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-11T13:07:39.393Z"
@@ -212,9 +209,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "EmpleadosManage.cs",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\manage\\EmpleadosManage.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\manage\\EmpleadosManage.cs",
               "RelativeDocumentMoniker": "GestPro_CarlosCalzado\\persistence\\manage\\EmpleadosManage.cs",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\manage\\EmpleadosManage.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\persistence\\manage\\EmpleadosManage.cs",
               "RelativeToolTip": "GestPro_CarlosCalzado\\persistence\\manage\\EmpleadosManage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -224,9 +221,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Proyecto.cs",
-              "DocumentMoniker": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\domain\\Proyecto.cs",
+              "DocumentMoniker": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\domain\\Proyecto.cs",
               "RelativeDocumentMoniker": "GestPro_CarlosCalzado\\domain\\Proyecto.cs",
-              "ToolTip": "D:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\domain\\Proyecto.cs",
+              "ToolTip": "C:\\dam-2\\desarrollo-de-interfaces\\repositorio-desarrollo-interfaces\\tema-test\\GestPro_CarlosCalzado_Informes\\GestPro_CarlosCalzado\\domain\\Proyecto.cs",
               "RelativeToolTip": "GestPro_CarlosCalzado\\domain\\Proyecto.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAowEIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
